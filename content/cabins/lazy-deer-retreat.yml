@@ -28,42 +28,42 @@ aboutMore: |-
 
   The kitchen and living room share an open layout, with an induction stovetop and both Keurig and drip coffee. Starlink Wi-Fi is fast, and there's an EV charger on site.
 bookingWidget: ''
-heroImage: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-001.jpg
-heroAlt: Lazy Deer Retreat with its pool and deck
+heroImage: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-002.jpg
+heroAlt: Pool and deck at Lazy Deer Retreat with shade sails and lounge chairs
 keyShots:
-  - image: /images/cabins/lazy-deer-retreat/sauna/lazy-deer-retreat-sauna-002.jpg
-    alt: Private sauna at Lazy Deer Retreat
-  - image: /images/cabins/lazy-deer-retreat/living-room/lazy-deer-retreat-living-room-002.jpg
-    alt: Living room at Lazy Deer Retreat
-  - image: /images/cabins/lazy-deer-retreat/sport-court/lazy-deer-retreat-sport-court-002.jpg
-    alt: Sport court at Lazy Deer Retreat
-  - image: /images/cabins/lazy-deer-retreat/game-room/lazy-deer-retreat-game-room-001.jpg
-    alt: Game room at Lazy Deer Retreat
+  - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-011.jpg
+    alt: Bar seating under blue umbrellas by the pool at Lazy Deer Retreat
+  - image: /images/cabins/lazy-deer-retreat/exterior/lazy-deer-retreat-exterior-005.jpg
+    alt: Fire pit with blue Adirondack chairs at Lazy Deer Retreat
+  - image: /images/cabins/lazy-deer-retreat/sport-court/lazy-deer-retreat-sport-court-001.jpg
+    alt: Sport court at Lazy Deer Retreat with the cabin behind
+  - image: /images/cabins/lazy-deer-retreat/game-room/lazy-deer-retreat-game-room-005.jpg
+    alt: Shuffleboard table under the TV in the game room at Lazy Deer Retreat
 highlights:
   - title: The pool
     text: A big deck, plenty of seats and shade. Open May 15 to October 15.
     image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-002.jpg
-    alt: The pool at Lazy Deer Retreat
+    alt: Pool and deck at Lazy Deer Retreat with shade sails and lounge chairs
   - title: Private sauna
     text: A 2-person sauna, right in the primary suite.
     image: /images/cabins/lazy-deer-retreat/sauna/lazy-deer-retreat-sauna-004.jpg
-    alt: Private sauna at Lazy Deer Retreat
+    alt: Sauna heater and stones at Lazy Deer Retreat
   - title: Sport court
     text: Pickleball and basketball, steps from the door.
     image: /images/cabins/lazy-deer-retreat/sport-court/lazy-deer-retreat-sport-court-001.jpg
-    alt: Sport court at Lazy Deer Retreat
+    alt: Sport court at Lazy Deer Retreat with the cabin behind
   - title: Game room
     text: Shuffleboard, arcade games, chess and a 75-inch TV.
     image: /images/cabins/lazy-deer-retreat/game-room/lazy-deer-retreat-game-room-004.jpg
-    alt: Game room at Lazy Deer Retreat
+    alt: Arcade machine and wall game in the game room at Lazy Deer Retreat
   - title: Hot tub
     text: Seats 5 to 6. Made for after the trails.
     image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-008.jpg
-    alt: Hot tub at Lazy Deer Retreat
+    alt: Hot tub on the deck at Lazy Deer Retreat
   - title: Fire pit
     text: Adirondack chairs, a grill and a sky full of stars.
     image: /images/cabins/lazy-deer-retreat/exterior/lazy-deer-retreat-exterior-004.jpg
-    alt: Fire pit at Lazy Deer Retreat
+    alt: Fire pit and pool deck behind Lazy Deer Retreat
 rooms:
   - name: Primary suite
     floor: Upstairs
@@ -71,21 +71,21 @@ rooms:
     sleeps: 2
     note: Ensuite bath and a private 2-person sauna
     image: /images/cabins/lazy-deer-retreat/bedrooms/lazy-deer-retreat-bedroom-1-001.jpg
-    alt: Primary suite at Lazy Deer Retreat
+    alt: King bed in the upstairs primary suite at Lazy Deer Retreat
   - name: Bedroom 2
     floor: First floor
     beds: Queen bed
     sleeps: 2
     note: Shares a full bath across the hall
     image: /images/cabins/lazy-deer-retreat/bedrooms/lazy-deer-retreat-bedroom-2-002.jpg
-    alt: Bedroom 2 at Lazy Deer Retreat
+    alt: Queen bed in Bedroom 2 at Lazy Deer Retreat
   - name: Bunk room
     floor: First floor
     beds: 2 bunk beds
     sleeps: 4
     note: TV with streaming
     image: /images/cabins/lazy-deer-retreat/bedrooms/lazy-deer-retreat-bedroom-3-001.jpg
-    alt: Bunk room at Lazy Deer Retreat
+    alt: Bunk room at Lazy Deer Retreat with 2 bunk beds
 amenities:
   - group: Outdoors
     items:
@@ -245,227 +245,227 @@ gallery:
     images:
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-001.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Lazy Deer Retreat with its pool, deck and blue umbrellas
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-002.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Pool and deck at Lazy Deer Retreat with shade sails and lounge chairs
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-003.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Aerial view of the pool, hot tub and deck at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-004.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Top-down view of the pool, hot tub and shaded deck at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-005.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Outdoor sofa and fire table under a shade sail at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-006.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Pool at Lazy Deer Retreat with umbrellas and a view of the trees
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-007.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Lounge chairs on the pool deck at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-008.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Hot tub on the deck at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-009.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Pool, hot tub and deck behind Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-010.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Propane grill on the deck at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-011.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Bar seating under blue umbrellas by the pool at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-012.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Outdoor dining table under an umbrella at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-013.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Hot tub with a privacy screen at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-014.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Aerial view of the pool deck and hot tub at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-015.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Aerial view of Lazy Deer Retreat with its pool deck and fire pit
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-016.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Aerial view of the pool, deck and sport court at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-017.jpg
         caption: Pool
-        alt: Pool at Lazy Deer Retreat
+        alt: Pool and hot tub deck at Lazy Deer Retreat from above
   - name: Exterior
     images:
       - image: /images/cabins/lazy-deer-retreat/exterior/lazy-deer-retreat-exterior-001.jpg
         caption: Exterior
-        alt: Exterior at Lazy Deer Retreat
+        alt: Front of Lazy Deer Retreat with its covered porch and lawn
       - image: /images/cabins/lazy-deer-retreat/exterior/lazy-deer-retreat-exterior-002.jpg
         caption: Exterior
-        alt: Exterior at Lazy Deer Retreat
+        alt: Covered front porch at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/exterior/lazy-deer-retreat-exterior-003.jpg
         caption: Exterior
-        alt: Exterior at Lazy Deer Retreat
+        alt: EV charger on the side of Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/exterior/lazy-deer-retreat-exterior-004.jpg
         caption: Exterior
-        alt: Exterior at Lazy Deer Retreat
+        alt: Fire pit and pool deck behind Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/exterior/lazy-deer-retreat-exterior-005.jpg
         caption: Exterior
-        alt: Exterior at Lazy Deer Retreat
+        alt: Fire pit with blue Adirondack chairs at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/exterior/lazy-deer-retreat-exterior-006.jpg
         caption: Exterior
-        alt: Exterior at Lazy Deer Retreat
+        alt: Fire pit and Adirondack chairs at Lazy Deer Retreat from above
       - image: /images/cabins/lazy-deer-retreat/exterior/lazy-deer-retreat-exterior-007.jpg
         caption: Exterior
-        alt: Exterior at Lazy Deer Retreat
+        alt: Aerial view of Lazy Deer Retreat and the surrounding woods
   - name: Bedrooms
     images:
       - image: /images/cabins/lazy-deer-retreat/bedrooms/lazy-deer-retreat-bedroom-1-001.jpg
         caption: Bedroom 1 · King
-        alt: Bedroom 1 at Lazy Deer Retreat, king bed
+        alt: King bed in the upstairs primary suite at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/bedrooms/lazy-deer-retreat-bedroom-1-002.jpg
         caption: Bedroom 1 · King
-        alt: Bedroom 1 at Lazy Deer Retreat, king bed
+        alt: Primary suite at Lazy Deer Retreat with a king bed under a wood ceiling
       - image: /images/cabins/lazy-deer-retreat/bedrooms/lazy-deer-retreat-bedroom-1-003.jpg
         caption: Bedroom 1 · King
-        alt: Bedroom 1 at Lazy Deer Retreat, king bed
+        alt: King bed and dresser in the primary suite at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/bedrooms/lazy-deer-retreat-bedroom-2-001.jpg
         caption: Bedroom 2 · Queen
-        alt: Bedroom 2 at Lazy Deer Retreat, queen bed
+        alt: Hallway and closet outside Bedroom 2 at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/bedrooms/lazy-deer-retreat-bedroom-2-002.jpg
         caption: Bedroom 2 · Queen
-        alt: Bedroom 2 at Lazy Deer Retreat, queen bed
+        alt: Queen bed in Bedroom 2 at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/bedrooms/lazy-deer-retreat-bedroom-2-003.jpg
         caption: Bedroom 2 · Queen
-        alt: Bedroom 2 at Lazy Deer Retreat, queen bed
+        alt: Bedroom 2 at Lazy Deer Retreat with a queen bed and dresser
       - image: /images/cabins/lazy-deer-retreat/bedrooms/lazy-deer-retreat-bedroom-3-001.jpg
         caption: Bedroom 3 · 2 bunk beds
-        alt: Bedroom 3 at Lazy Deer Retreat, 2 bunk beds
+        alt: Bunk room at Lazy Deer Retreat with 2 bunk beds
       - image: /images/cabins/lazy-deer-retreat/bedrooms/lazy-deer-retreat-bedroom-3-002.jpg
         caption: Bedroom 3 · 2 bunk beds
-        alt: Bedroom 3 at Lazy Deer Retreat, 2 bunk beds
+        alt: Entry to the bunk room at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/bedrooms/lazy-deer-retreat-bedroom-3-003.jpg
         caption: Bedroom 3 · 2 bunk beds
-        alt: Bedroom 3 at Lazy Deer Retreat, 2 bunk beds
+        alt: Bunk beds, a dresser and a TV in the bunk room at Lazy Deer Retreat
   - name: Bathrooms and laundry
     images:
       - image: /images/cabins/lazy-deer-retreat/bathrooms-laundry/lazy-deer-retreat-bathroom-1-001.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at Lazy Deer Retreat
+        alt: Vanity in Bathroom 1 at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/bathrooms-laundry/lazy-deer-retreat-bathroom-1-002.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at Lazy Deer Retreat
+        alt: Double vanity and walk-in shower in Bathroom 1 at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/bathrooms-laundry/lazy-deer-retreat-bathroom-1-003.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at Lazy Deer Retreat
+        alt: Walk-in shower in Bathroom 1 at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/bathrooms-laundry/lazy-deer-retreat-bathroom-1-004.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at Lazy Deer Retreat
+        alt: Shower and toilet in Bathroom 1 at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/bathrooms-laundry/lazy-deer-retreat-bathroom-2-001.jpg
         caption: Bathroom 2
-        alt: Bathroom 2 at Lazy Deer Retreat
+        alt: Bathroom 2 at Lazy Deer Retreat with a glass-door shower
       - image: /images/cabins/lazy-deer-retreat/bathrooms-laundry/lazy-deer-retreat-bathroom-2-002.jpg
         caption: Bathroom 2
-        alt: Bathroom 2 at Lazy Deer Retreat
+        alt: Vanity and shower in Bathroom 2 at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/bathrooms-laundry/lazy-deer-retreat-bathroom-2-003.jpg
         caption: Bathroom 2
-        alt: Bathroom 2 at Lazy Deer Retreat
+        alt: Vanity and mirror in Bathroom 2 at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/bathrooms-laundry/lazy-deer-retreat-laundry-001.jpg
         caption: Laundry
-        alt: Laundry at Lazy Deer Retreat
+        alt: Washer and dryer at Lazy Deer Retreat
   - name: Living room
     images:
       - image: /images/cabins/lazy-deer-retreat/living-room/lazy-deer-retreat-living-room-001.jpg
         caption: Living room
-        alt: Living room at Lazy Deer Retreat
+        alt: Living room at Lazy Deer Retreat seen from the loft
       - image: /images/cabins/lazy-deer-retreat/living-room/lazy-deer-retreat-living-room-002.jpg
         caption: Living room
-        alt: Living room at Lazy Deer Retreat
+        alt: Living room at Lazy Deer Retreat with a TV, fireplace and open kitchen
       - image: /images/cabins/lazy-deer-retreat/living-room/lazy-deer-retreat-living-room-003.jpg
         caption: Living room
-        alt: Living room at Lazy Deer Retreat
+        alt: Open living room and kitchen at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/living-room/lazy-deer-retreat-living-room-004.jpg
         caption: Living room
-        alt: Living room at Lazy Deer Retreat
+        alt: Living room at Lazy Deer Retreat with a sofa and stairs to the loft
       - image: /images/cabins/lazy-deer-retreat/living-room/lazy-deer-retreat-living-room-005.jpg
         caption: Living room
-        alt: Living room at Lazy Deer Retreat
+        alt: Sofa, TV and fireplace in the living room at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/living-room/lazy-deer-retreat-living-room-006.jpg
         caption: Living room
-        alt: Living room at Lazy Deer Retreat
+        alt: Loft lounge at Lazy Deer Retreat with a sectional sofa
       - image: /images/cabins/lazy-deer-retreat/living-room/lazy-deer-retreat-living-room-007.jpg
         caption: Living room
-        alt: Living room at Lazy Deer Retreat
+        alt: Loft seating at Lazy Deer Retreat overlooking the living room
       - image: /images/cabins/lazy-deer-retreat/living-room/lazy-deer-retreat-living-room-008.jpg
         caption: Living room
-        alt: Living room at Lazy Deer Retreat
+        alt: Loft at Lazy Deer Retreat with a sectional and a wood ceiling
   - name: Kitchen
     images:
       - image: /images/cabins/lazy-deer-retreat/kitchen/lazy-deer-retreat-kitchen-001.jpg
         caption: Kitchen
-        alt: Kitchen at Lazy Deer Retreat
+        alt: Kitchen at Lazy Deer Retreat with an island and bar stools
       - image: /images/cabins/lazy-deer-retreat/kitchen/lazy-deer-retreat-kitchen-002.jpg
         caption: Kitchen
-        alt: Kitchen at Lazy Deer Retreat
+        alt: Kitchen island with bar stools at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/kitchen/lazy-deer-retreat-kitchen-003.jpg
         caption: Kitchen
-        alt: Kitchen at Lazy Deer Retreat
+        alt: Kitchen island looking toward the living room at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/kitchen/lazy-deer-retreat-kitchen-004.jpg
         caption: Kitchen
-        alt: Kitchen at Lazy Deer Retreat
+        alt: Kitchen and dining area at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/kitchen/lazy-deer-retreat-kitchen-005.jpg
         caption: Kitchen
-        alt: Kitchen at Lazy Deer Retreat
+        alt: Stove, microwave and coffee station in the Lazy Deer Retreat kitchen
       - image: /images/cabins/lazy-deer-retreat/kitchen/lazy-deer-retreat-kitchen-006.jpg
         caption: Kitchen
-        alt: Kitchen at Lazy Deer Retreat
+        alt: Kitchen counters at Lazy Deer Retreat with the dining table beyond
       - image: /images/cabins/lazy-deer-retreat/kitchen/lazy-deer-retreat-kitchen-007.jpg
         caption: Kitchen
-        alt: Kitchen at Lazy Deer Retreat
+        alt: Dining table by the deck door at Lazy Deer Retreat
   - name: Sport court
     images:
       - image: /images/cabins/lazy-deer-retreat/sport-court/lazy-deer-retreat-sport-court-001.jpg
         caption: Sport court
-        alt: Sport court at Lazy Deer Retreat
+        alt: Sport court at Lazy Deer Retreat with the cabin behind
       - image: /images/cabins/lazy-deer-retreat/sport-court/lazy-deer-retreat-sport-court-002.jpg
         caption: Sport court
-        alt: Sport court at Lazy Deer Retreat
+        alt: Sport court with a net at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/sport-court/lazy-deer-retreat-sport-court-003.jpg
         caption: Sport court
-        alt: Sport court at Lazy Deer Retreat
+        alt: Sport court at Lazy Deer Retreat from above
       - image: /images/cabins/lazy-deer-retreat/sport-court/lazy-deer-retreat-sport-court-004.jpg
         caption: Sport court
-        alt: Sport court at Lazy Deer Retreat
+        alt: Aerial view of the sport court and pool deck at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/sport-court/lazy-deer-retreat-sport-court-005.jpg
         caption: Sport court
-        alt: Sport court at Lazy Deer Retreat
+        alt: Swing set in the yard at Lazy Deer Retreat
   - name: Sauna
     images:
       - image: /images/cabins/lazy-deer-retreat/sauna/lazy-deer-retreat-sauna-001.jpg
         caption: Sauna
-        alt: Sauna at Lazy Deer Retreat
+        alt: Door to the private sauna at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/sauna/lazy-deer-retreat-sauna-002.jpg
         caption: Sauna
-        alt: Sauna at Lazy Deer Retreat
+        alt: Inside the private sauna at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/sauna/lazy-deer-retreat-sauna-003.jpg
         caption: Sauna
-        alt: Sauna at Lazy Deer Retreat
+        alt: Cedar benches in the private sauna at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/sauna/lazy-deer-retreat-sauna-004.jpg
         caption: Sauna
-        alt: Sauna at Lazy Deer Retreat
+        alt: Sauna heater and stones at Lazy Deer Retreat
   - name: Game room
     images:
       - image: /images/cabins/lazy-deer-retreat/game-room/lazy-deer-retreat-game-room-001.jpg
         caption: Game room
-        alt: Game room at Lazy Deer Retreat
+        alt: Game room at Lazy Deer Retreat with a sofa and a large TV
       - image: /images/cabins/lazy-deer-retreat/game-room/lazy-deer-retreat-game-room-002.jpg
         caption: Game room
-        alt: Game room at Lazy Deer Retreat
+        alt: Game room at Lazy Deer Retreat with a waterfall mural and a wall game board
       - image: /images/cabins/lazy-deer-retreat/game-room/lazy-deer-retreat-game-room-003.jpg
         caption: Game room
-        alt: Game room at Lazy Deer Retreat
+        alt: Game room seating at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/game-room/lazy-deer-retreat-game-room-004.jpg
         caption: Game room
-        alt: Game room at Lazy Deer Retreat
+        alt: Arcade machine and wall game in the game room at Lazy Deer Retreat
       - image: /images/cabins/lazy-deer-retreat/game-room/lazy-deer-retreat-game-room-005.jpg
         caption: Game room
-        alt: Game room at Lazy Deer Retreat
+        alt: Shuffleboard table under the TV in the game room at Lazy Deer Retreat

@@ -28,42 +28,42 @@ aboutMore: |-
 
   The kitchen is fully equipped, with coffee provided. Starlink Wi-Fi keeps up with streaming and video calls. Kids love the bunk room, with its secret loft for reading and naps.
 bookingWidget: ''
-heroImage: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-009.jpg
-heroAlt: Aerial view of Rickenbacker Ridge, its heated pool and the surrounding woods
+heroImage: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-002.jpg
+heroAlt: Rickenbacker Ridge and its heated pool seen from above the patio
 keyShots:
-  - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-002.jpg
-    alt: Fire pit at Rickenbacker Ridge
-  - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-007.jpg
-    alt: Hot tub at Rickenbacker Ridge
-  - image: /images/cabins/rickenbacker-ridge/living-room/rickenbacker-ridge-living-room-003.jpg
-    alt: Living room at Rickenbacker Ridge
-  - image: /images/cabins/rickenbacker-ridge/basement-game-room/rickenbacker-ridge-basement-game-room-001.jpg
-    alt: Basement game room at Rickenbacker Ridge
+  - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-010.jpg
+    alt: Bench swing and seating on the covered porch at Rickenbacker Ridge
+  - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-004.jpg
+    alt: S'mores at the fire pit at Rickenbacker Ridge
+  - image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-003.jpg
+    alt: Heated pool and loungers behind Rickenbacker Ridge
+  - image: /images/cabins/rickenbacker-ridge/basement-game-room/rickenbacker-ridge-basement-game-room-003.jpg
+    alt: Card game on the poker table at Rickenbacker Ridge
 highlights:
   - title: Heated pool
     text: About 80°F, open May 15 to October 15.
     image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-003.jpg
-    alt: Heated pool at Rickenbacker Ridge
+    alt: Heated pool and loungers behind Rickenbacker Ridge
   - title: Hot tub
     text: Room for 6, open all year.
     image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-007.jpg
-    alt: Hot tub at Rickenbacker Ridge
+    alt: Hot tub at Rickenbacker Ridge with the cover open
   - title: Fire pit
     text: Firewood's on us. S'mores are on you.
     image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-003.jpg
-    alt: Fire pit at Rickenbacker Ridge
+    alt: Fire pit patio in the woods at Rickenbacker Ridge
   - title: 20 private acres
     text: Woods on every side and no neighbors in sight.
     image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-014.jpg
-    alt: 20 private acres at Rickenbacker Ridge
+    alt: Rickenbacker Ridge and its fire pit patio from the yard
   - title: Game room
     text: Foosball, air hockey and board games in the finished basement.
     image: /images/cabins/rickenbacker-ridge/basement-game-room/rickenbacker-ridge-basement-game-room-006.jpg
-    alt: Game room at Rickenbacker Ridge
+    alt: Close-up of the foosball table at Rickenbacker Ridge
   - title: Bench swing
     text: The best seat for doing nothing at all.
     image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-001.jpg
-    alt: Bench swing at Rickenbacker Ridge
+    alt: Bench swing on the covered porch at Rickenbacker Ridge
 rooms:
   - name: Primary suite
     floor: First floor
@@ -71,28 +71,28 @@ rooms:
     sleeps: 2
     note: Ensuite bath with a walk-in shower, and a TV
     image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-1-001.jpg
-    alt: Primary suite at Rickenbacker Ridge
+    alt: King bed in the first-floor primary suite at Rickenbacker Ridge
   - name: Bedroom 2
     floor: Second floor
     beds: King bed and twin bed
     sleeps: 3
     note: TV. Shares a full bath with the bunk room
     image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-2-001.jpg
-    alt: Bedroom 2 at Rickenbacker Ridge
+    alt: King bed under a wood ceiling in Bedroom 2 at Rickenbacker Ridge
   - name: Bunk room
     floor: Second floor
     beds: 2 twin-over-queen bunk beds
     sleeps: 6
     note: With a ladder-up loft for reading and naps
     image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-3-001.jpg
-    alt: Bunk room at Rickenbacker Ridge
+    alt: Twin-over-queen bunk beds in the bunk room at Rickenbacker Ridge
   - name: Bedroom 4
     floor: Main floor
     beds: Sofa bed
     sleeps: 2
     note: Pocket door for privacy, close to the hot tub
     image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-4-002.jpg
-    alt: Bedroom 4 at Rickenbacker Ridge
+    alt: Sofa bed opened up in Bedroom 4 at Rickenbacker Ridge
 amenities:
   - group: Outdoors
     items:
@@ -254,219 +254,219 @@ gallery:
     images:
       - image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-001.jpg
         caption: Pool
-        alt: Pool at Rickenbacker Ridge
+        alt: Pool deck at Rickenbacker Ridge with loungers, a dining table and the woods beyond
       - image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-002.jpg
         caption: Pool
-        alt: Pool at Rickenbacker Ridge
+        alt: Rickenbacker Ridge and its heated pool seen from above the patio
       - image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-003.jpg
         caption: Pool
-        alt: Pool at Rickenbacker Ridge
+        alt: Heated pool and loungers behind Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-004.jpg
         caption: Pool
-        alt: Pool at Rickenbacker Ridge
+        alt: Heated pool at Rickenbacker Ridge with the covered porch above
       - image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-005.jpg
         caption: Pool
-        alt: Pool at Rickenbacker Ridge
+        alt: Lounge chairs beside the heated pool at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-006.jpg
         caption: Pool
-        alt: Pool at Rickenbacker Ridge
+        alt: Heated pool at Rickenbacker Ridge surrounded by woods
       - image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-007.jpg
         caption: Pool
-        alt: Pool at Rickenbacker Ridge
+        alt: Aerial view of the house, pool and patio at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-008.jpg
         caption: Pool
-        alt: Pool at Rickenbacker Ridge
+        alt: Top-down view of the heated pool and patio at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-009.jpg
         caption: Pool
-        alt: Pool at Rickenbacker Ridge
+        alt: Aerial view of the pool, hot tub and loungers at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-010.jpg
         caption: Pool
-        alt: Pool at Rickenbacker Ridge
+        alt: Rickenbacker Ridge from above, with the pool and hot tub behind the house
   - name: Exterior
     images:
       - image: /images/cabins/rickenbacker-ridge/exterior/rickenbacker-ridge-exterior-001.jpg
         caption: Exterior
-        alt: Exterior at Rickenbacker Ridge
+        alt: Front of Rickenbacker Ridge with its gravel drive and surrounding trees
       - image: /images/cabins/rickenbacker-ridge/exterior/rickenbacker-ridge-exterior-002.jpg
         caption: Exterior
-        alt: Exterior at Rickenbacker Ridge
+        alt: Gravel driveway through the meadow at Rickenbacker Ridge
   - name: Bedrooms
     images:
       - image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-1-001.jpg
         caption: Bedroom 1 · King
-        alt: Bedroom 1 at Rickenbacker Ridge, king bed
+        alt: King bed in the first-floor primary suite at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-1-002.jpg
         caption: Bedroom 1 · King
-        alt: Bedroom 1 at Rickenbacker Ridge, king bed
+        alt: Primary suite at Rickenbacker Ridge with a king bed and windows onto the woods
       - image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-1-003.jpg
         caption: Bedroom 1 · King
-        alt: Bedroom 1 at Rickenbacker Ridge, king bed
+        alt: King bed and wall-mounted TV in the primary suite at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-2-001.jpg
         caption: Bedroom 2 · King and twin
-        alt: Bedroom 2 at Rickenbacker Ridge, king bed and twin bed
+        alt: King bed under a wood ceiling in Bedroom 2 at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-2-002.jpg
         caption: Bedroom 2 · King and twin
-        alt: Bedroom 2 at Rickenbacker Ridge, king bed and twin bed
+        alt: Bedroom 2 at Rickenbacker Ridge with a king bed and TV
       - image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-2-003.jpg
         caption: Bedroom 2 · King and twin
-        alt: Bedroom 2 at Rickenbacker Ridge, king bed and twin bed
+        alt: Twin bed in Bedroom 2 at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-3-001.jpg
         caption: Bedroom 3 · 2 twin-over-queen bunks
-        alt: Bedroom 3 at Rickenbacker Ridge, 2 twin-over-queen bunk beds
+        alt: Twin-over-queen bunk beds in the bunk room at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-3-002.jpg
         caption: Bedroom 3 · 2 twin-over-queen bunks
-        alt: Bedroom 3 at Rickenbacker Ridge, 2 twin-over-queen bunk beds
+        alt: Bunk beds and the ladder to the loft in the bunk room at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-3-003.jpg
         caption: Bedroom 3 · 2 twin-over-queen bunks
-        alt: Bedroom 3 at Rickenbacker Ridge, 2 twin-over-queen bunk beds
+        alt: Reading loft with floor cushions above the bunk room at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-4-001.jpg
         caption: Bedroom 4 · Sofa bed
-        alt: Bedroom 4 at Rickenbacker Ridge, sofa bed
+        alt: Bedroom 4 at Rickenbacker Ridge set up as a sitting room with a sofa
       - image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-4-002.jpg
         caption: Bedroom 4 · Sofa bed
-        alt: Bedroom 4 at Rickenbacker Ridge, sofa bed
+        alt: Sofa bed opened up in Bedroom 4 at Rickenbacker Ridge
   - name: Bathrooms and laundry
     images:
       - image: /images/cabins/rickenbacker-ridge/bathrooms-laundry/rickenbacker-ridge-bathroom-1-001.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at Rickenbacker Ridge
+        alt: Double vanity in Bathroom 1 at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bathrooms-laundry/rickenbacker-ridge-bathroom-1-002.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at Rickenbacker Ridge
+        alt: Walk-in shower in Bathroom 1 at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bathrooms-laundry/rickenbacker-ridge-bathroom-1-003.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at Rickenbacker Ridge
+        alt: Vanity and sink in Bathroom 1 at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bathrooms-laundry/rickenbacker-ridge-bathroom-2-001.jpg
         caption: Bathroom 2
-        alt: Bathroom 2 at Rickenbacker Ridge
+        alt: Bathroom 2 at Rickenbacker Ridge with a vanity and bathtub
       - image: /images/cabins/rickenbacker-ridge/bathrooms-laundry/rickenbacker-ridge-bathroom-2-002.jpg
         caption: Bathroom 2
-        alt: Bathroom 2 at Rickenbacker Ridge
+        alt: Bathroom 2 at Rickenbacker Ridge seen from the hall
       - image: /images/cabins/rickenbacker-ridge/bathrooms-laundry/rickenbacker-ridge-bathrooms-001.jpg
         caption: Bathroom
-        alt: Bathroom at Rickenbacker Ridge
+        alt: Vanity and bathtub with a glass door in the upstairs bathroom at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bathrooms-laundry/rickenbacker-ridge-half-bath-001.jpg
         caption: Half bath
-        alt: Half bath at Rickenbacker Ridge
+        alt: Hallway to the half bath at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bathrooms-laundry/rickenbacker-ridge-half-bath-002.jpg
         caption: Half bath
-        alt: Half bath at Rickenbacker Ridge
+        alt: Half bath at Rickenbacker Ridge with a wood vanity
       - image: /images/cabins/rickenbacker-ridge/bathrooms-laundry/rickenbacker-ridge-half-bath-003.jpg
         caption: Half bath
-        alt: Half bath at Rickenbacker Ridge
+        alt: Wood vanity and toilet in the half bath at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bathrooms-laundry/rickenbacker-ridge-laundry-001.jpg
         caption: Laundry
-        alt: Laundry at Rickenbacker Ridge
+        alt: Washer and dryer in the basement at Rickenbacker Ridge
   - name: Living room
     images:
       - image: /images/cabins/rickenbacker-ridge/living-room/rickenbacker-ridge-living-room-001.jpg
         caption: Living room
-        alt: Living room at Rickenbacker Ridge
+        alt: Living room at Rickenbacker Ridge with a brick fireplace and big windows
       - image: /images/cabins/rickenbacker-ridge/living-room/rickenbacker-ridge-living-room-002.jpg
         caption: Living room
-        alt: Living room at Rickenbacker Ridge
+        alt: Sofas around a stone coffee table in the living room at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/living-room/rickenbacker-ridge-living-room-003.jpg
         caption: Living room
-        alt: Living room at Rickenbacker Ridge
+        alt: Living room at Rickenbacker Ridge with a TV over the brick fireplace
   - name: Kitchen and dining
     images:
       - image: /images/cabins/rickenbacker-ridge/kitchen-dining/rickenbacker-ridge-kitchen-001.jpg
         caption: Kitchen
-        alt: Kitchen at Rickenbacker Ridge
+        alt: Kitchen island set with snacks at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/kitchen-dining/rickenbacker-ridge-kitchen-002.jpg
         caption: Kitchen
-        alt: Kitchen at Rickenbacker Ridge
+        alt: White kitchen at Rickenbacker Ridge with an island and pendant lights
       - image: /images/cabins/rickenbacker-ridge/kitchen-dining/rickenbacker-ridge-kitchen-003.jpg
         caption: Kitchen
-        alt: Kitchen at Rickenbacker Ridge
+        alt: Breakfast spread on the kitchen island at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/kitchen-dining/rickenbacker-ridge-kitchen-004.jpg
         caption: Kitchen
-        alt: Kitchen at Rickenbacker Ridge
+        alt: Kitchen at Rickenbacker Ridge looking toward the sitting area
       - image: /images/cabins/rickenbacker-ridge/kitchen-dining/rickenbacker-ridge-kitchen-005.jpg
         caption: Kitchen
-        alt: Kitchen at Rickenbacker Ridge
+        alt: Sitting area with a wood stove beside the kitchen at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/kitchen-dining/rickenbacker-ridge-kitchen-006.jpg
         caption: Kitchen
-        alt: Kitchen at Rickenbacker Ridge
+        alt: Coffee bar and beverage fridge at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/kitchen-dining/rickenbacker-ridge-kitchen-007.jpg
         caption: Kitchen
-        alt: Kitchen at Rickenbacker Ridge
+        alt: Coffee bar by the back door at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/kitchen-dining/rickenbacker-ridge-kitchen-008.jpg
         caption: Kitchen
-        alt: Kitchen at Rickenbacker Ridge
+        alt: Wet bar with open shelves at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/kitchen-dining/rickenbacker-ridge-kitchen-009.jpg
         caption: Kitchen
-        alt: Kitchen at Rickenbacker Ridge
+        alt: Coffee mugs and syrups at the Rickenbacker Ridge coffee bar
       - image: /images/cabins/rickenbacker-ridge/kitchen-dining/rickenbacker-ridge-kitchen-010.jpg
         caption: Kitchen
-        alt: Kitchen at Rickenbacker Ridge
+        alt: Coffee, pastries and flowers on the counter at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/kitchen-dining/rickenbacker-ridge-kitchen-011.jpg
         caption: Kitchen
-        alt: Kitchen at Rickenbacker Ridge
+        alt: Round dining table set for a meal at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/kitchen-dining/rickenbacker-ridge-kitchen-012.jpg
         caption: Kitchen
-        alt: Kitchen at Rickenbacker Ridge
+        alt: Dining table by the windows at Rickenbacker Ridge
   - name: Backyard and fire pit
     images:
       - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-001.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at Rickenbacker Ridge
+        alt: Bench swing on the covered porch at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-002.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at Rickenbacker Ridge
+        alt: Stone fire pit with Adirondack chairs at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-003.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at Rickenbacker Ridge
+        alt: Fire pit patio in the woods at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-004.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at Rickenbacker Ridge
+        alt: S'mores at the fire pit at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-005.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at Rickenbacker Ridge
+        alt: S'mores tray at the fire pit at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-006.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at Rickenbacker Ridge
+        alt: Hot tub on the patio beside the house at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-007.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at Rickenbacker Ridge
+        alt: Hot tub at Rickenbacker Ridge with the cover open
       - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-008.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at Rickenbacker Ridge
+        alt: Hot tub at Rickenbacker Ridge with the fire pit in the background
       - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-009.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at Rickenbacker Ridge
+        alt: Covered porch at Rickenbacker Ridge with seating and a view of the woods
       - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-010.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at Rickenbacker Ridge
+        alt: Bench swing and seating on the covered porch at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-011.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at Rickenbacker Ridge
+        alt: Outdoor dining table set for a meal on the deck at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-012.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at Rickenbacker Ridge
+        alt: Propane grill on the deck at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-013.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at Rickenbacker Ridge
+        alt: Cornhole board on the patio at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-014.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at Rickenbacker Ridge
+        alt: Rickenbacker Ridge and its fire pit patio from the yard
   - name: Basement game room
     images:
       - image: /images/cabins/rickenbacker-ridge/basement-game-room/rickenbacker-ridge-basement-game-room-001.jpg
         caption: Basement game room
-        alt: Basement game room at Rickenbacker Ridge
+        alt: Basement game room at Rickenbacker Ridge with a card table
       - image: /images/cabins/rickenbacker-ridge/basement-game-room/rickenbacker-ridge-basement-game-room-002.jpg
         caption: Basement game room
-        alt: Basement game room at Rickenbacker Ridge
+        alt: Foosball table in the basement game room at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/basement-game-room/rickenbacker-ridge-basement-game-room-003.jpg
         caption: Basement game room
-        alt: Basement game room at Rickenbacker Ridge
+        alt: Card game on the poker table at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/basement-game-room/rickenbacker-ridge-basement-game-room-004.jpg
         caption: Basement game room
-        alt: Basement game room at Rickenbacker Ridge
+        alt: Sectional sofa in the basement lounge at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/basement-game-room/rickenbacker-ridge-basement-game-room-005.jpg
         caption: Basement game room
-        alt: Basement game room at Rickenbacker Ridge
+        alt: TV and air hockey table in the basement at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/basement-game-room/rickenbacker-ridge-basement-game-room-006.jpg
         caption: Basement game room
-        alt: Basement game room at Rickenbacker Ridge
+        alt: Close-up of the foosball table at Rickenbacker Ridge

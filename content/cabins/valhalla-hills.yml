@@ -28,42 +28,42 @@ aboutMore: |-
 
   8 bedrooms have king beds. A bunk room sleeps 6, a loft has 4 twin beds and a hallway bunk sleeps 2. There's parking for 10 to 14 cars, so everyone can drive in.
 bookingWidget: ''
-heroImage: /images/cabins/valhalla-hills/pool/valhalla-hills-pool-002.jpg
-heroAlt: Aerial view of Valhalla Hills and its saltwater pool
+heroImage: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-003.jpg
+heroAlt: Back of Valhalla Hills with the wraparound deck and patio table
 keyShots:
-  - image: /images/cabins/valhalla-hills/living-room-1/valhalla-hills-living-room-1-003.jpg
-    alt: Great room with a stone fireplace at Valhalla Hills
-  - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-008.jpg
-    alt: Hot tub at Valhalla Hills
+  - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-010.jpg
+    alt: Stone walls and terraced steps at Valhalla Hills
   - image: /images/cabins/valhalla-hills/entertainment-room-sauna/valhalla-hills-entertainment-room-sauna-008.jpg
-    alt: Sauna at Valhalla Hills
-  - image: /images/cabins/valhalla-hills/pool-table-room/valhalla-hills-pool-table-room-004.jpg
-    alt: Pool table room at Valhalla Hills
+    alt: Benches and bucket inside the sauna at Valhalla Hills
+  - image: /images/cabins/valhalla-hills/pool/valhalla-hills-pool-002.jpg
+    alt: Aerial view of the pool beside the stone lower level at Valhalla Hills
+  - image: /images/cabins/valhalla-hills/living-room-1/valhalla-hills-living-room-1-001.jpg
+    alt: Sunroom with green velvet chairs and a wall of windows at Valhalla Hills
 highlights:
   - title: Saltwater pool
     text: Open May 15 to October 15, with a huge patio deck for everyone who'd rather watch.
     image: /images/cabins/valhalla-hills/pool/valhalla-hills-pool-003.jpg
-    alt: Saltwater pool at Valhalla Hills
+    alt: Private pool with lounge chairs along the stone wall at Valhalla Hills
   - title: Hot tub for 8
     text: Big enough for the whole back row. Open all year.
     image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-009.jpg
-    alt: Hot tub for 8 at Valhalla Hills
+    alt: Hot tub with a view of the trees at Valhalla Hills
   - title: 3-person sauna
     text: Warm up after a winter hike or a late swim.
     image: /images/cabins/valhalla-hills/entertainment-room-sauna/valhalla-hills-entertainment-room-sauna-008.jpg
-    alt: 3-person sauna at Valhalla Hills
+    alt: Benches and bucket inside the sauna at Valhalla Hills
   - title: The great room
     text: A stone fireplace, a wall of windows and seats for a crowd.
     image: /images/cabins/valhalla-hills/living-room-1/valhalla-hills-living-room-1-004.jpg
-    alt: The great room at Valhalla Hills
+    alt: Great room at Valhalla Hills with a stone fireplace and log beams
   - title: Pool table and ping pong
     text: Tournament brackets are encouraged.
     image: /images/cabins/valhalla-hills/pool-table-room/valhalla-hills-pool-table-room-005.jpg
-    alt: Pool table and ping pong at Valhalla Hills
+    alt: Pool table by the windows at Valhalla Hills
   - title: 2 full kitchens
     text: 3 ovens and 2 dishwashers, so cooking for 29 actually works.
     image: /images/cabins/valhalla-hills/kitchen-1/valhalla-hills-kitchen-1-002.jpg
-    alt: 2 full kitchens at Valhalla Hills
+    alt: Kitchen 1 at Valhalla Hills with a breakfast table
 rooms:
   - name: Bedroom 1, primary suite
     floor: Main floor
@@ -293,355 +293,355 @@ gallery:
     images:
       - image: /images/cabins/valhalla-hills/pool/valhalla-hills-pool-001.jpg
         caption: Pool
-        alt: Pool at Valhalla Hills
+        alt: Aerial view of Valhalla Hills and its private pool
       - image: /images/cabins/valhalla-hills/pool/valhalla-hills-pool-002.jpg
         caption: Pool
-        alt: Pool at Valhalla Hills
+        alt: Aerial view of the pool beside the stone lower level at Valhalla Hills
       - image: /images/cabins/valhalla-hills/pool/valhalla-hills-pool-003.jpg
         caption: Pool
-        alt: Pool at Valhalla Hills
+        alt: Private pool with lounge chairs along the stone wall at Valhalla Hills
       - image: /images/cabins/valhalla-hills/pool/valhalla-hills-pool-004.jpg
         caption: Pool
-        alt: Pool at Valhalla Hills
+        alt: Fenced pool at Valhalla Hills
       - image: /images/cabins/valhalla-hills/pool/valhalla-hills-pool-005.jpg
         caption: Pool
-        alt: Pool at Valhalla Hills
+        alt: Hot tub overlooking the pool at Valhalla Hills
       - image: /images/cabins/valhalla-hills/pool/valhalla-hills-pool-006.jpg
         caption: Pool
-        alt: Pool at Valhalla Hills
+        alt: Aerial view of the back of Valhalla Hills, with its wall of windows and the pool
   - name: Exterior
     images:
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-001.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Front of the log home at Valhalla Hills
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-002.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Front of Valhalla Hills with the garages and drive
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-003.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Back of Valhalla Hills with the wraparound deck and patio table
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-004.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Patio seating below the wall of windows at Valhalla Hills
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-005.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: 2-story wall of windows at Valhalla Hills, from outside
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-006.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Wraparound deck in the trees at Valhalla Hills
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-007.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Hot tub on the stone patio below the deck at Valhalla Hills
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-008.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Hot tub looking out at the woods at Valhalla Hills
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-009.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Hot tub with a view of the trees at Valhalla Hills
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-010.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Stone walls and terraced steps at Valhalla Hills
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-011.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Valhalla Hills seen through the trees
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-012.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Fire table and chairs on the patio at Valhalla Hills
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-013.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Outdoor sofas on the patio at Valhalla Hills
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-014.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Log gable and wall of windows at Valhalla Hills
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-015.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Gravel drive through the woods to Valhalla Hills
       - image: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-016.jpg
         caption: Exterior
-        alt: Exterior at Valhalla Hills
+        alt: Top-down aerial view of Valhalla Hills and the pool
   - name: Bedrooms
     images:
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-1-001.jpg
         caption: Bedroom 1 · King
-        alt: Bedroom 1 at Valhalla Hills, king bed
+        alt: King bed and stone fireplace in the primary suite at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-1-002.jpg
         caption: Bedroom 1 · King
-        alt: Bedroom 1 at Valhalla Hills, king bed
+        alt: Primary suite at Valhalla Hills with a king bed and log walls
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-1-003.jpg
         caption: Bedroom 1 · King
-        alt: Bedroom 1 at Valhalla Hills, king bed
+        alt: King bed facing the fireplace and TV in Bedroom 1 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-10-001.jpg
         caption: Bedroom 10 · King and daybed
-        alt: Bedroom 10 at Valhalla Hills, king bed and twin daybed
+        alt: Hallway with built-in shelves outside Bedroom 10 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-10-002.jpg
         caption: Bedroom 10 · King and daybed
-        alt: Bedroom 10 at Valhalla Hills, king bed and twin daybed
+        alt: King bed and daybed in Bedroom 10 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-10-003.jpg
         caption: Bedroom 10 · King and daybed
-        alt: Bedroom 10 at Valhalla Hills, king bed and twin daybed
+        alt: Bedroom 10 at Valhalla Hills with a king bed and window daybed
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-10-004.jpg
         caption: Bedroom 10 · King and daybed
-        alt: Bedroom 10 at Valhalla Hills, king bed and twin daybed
+        alt: Twin daybed by the windows in Bedroom 10 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-10-005.jpg
         caption: Bedroom 10 · King and daybed
-        alt: Bedroom 10 at Valhalla Hills, king bed and twin daybed
+        alt: King bed and desk in Bedroom 10 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-11-001.jpg
         caption: Bedroom 11 · King
-        alt: Bedroom 11 at Valhalla Hills, king bed
+        alt: Stairs up to the tower bedroom at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-11-002.jpg
         caption: Bedroom 11 · King
-        alt: Bedroom 11 at Valhalla Hills, king bed
+        alt: Landing outside Bedroom 11, the tower room, at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-11-003.jpg
         caption: Bedroom 11 · King
-        alt: Bedroom 11 at Valhalla Hills, king bed
+        alt: King bed under a sloped ceiling in the tower bedroom at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-11-004.jpg
         caption: Bedroom 11 · King
-        alt: Bedroom 11 at Valhalla Hills, king bed
+        alt: Bedroom 11 at Valhalla Hills with a king bed
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-2-001.jpg
         caption: Bedroom 2 · King
-        alt: Bedroom 2 at Valhalla Hills, king bed
+        alt: King bed and log walls in Bedroom 2 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-3-001.jpg
         caption: Bedroom 3 · 4 twins
-        alt: Bedroom 3 at Valhalla Hills, 4 twin beds
+        alt: 4 twin beds under the timber roof in the Bedroom 3 loft at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-3-002.jpg
         caption: Bedroom 3 · 4 twins
-        alt: Bedroom 3 at Valhalla Hills, 4 twin beds
+        alt: Twin beds in the loft bedroom at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-3-003.jpg
         caption: Bedroom 3 · 4 twins
-        alt: Bedroom 3 at Valhalla Hills, 4 twin beds
+        alt: Loft bedroom at Valhalla Hills with 4 twin beds
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-3-004.jpg
         caption: Bedroom 3 · 4 twins
-        alt: Bedroom 3 at Valhalla Hills, 4 twin beds
+        alt: View from the loft down to the great room at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-4-001.jpg
         caption: Bedroom 4 · King
-        alt: Bedroom 4 at Valhalla Hills, king bed
+        alt: Doorway into Bedroom 4 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-4-002.jpg
         caption: Bedroom 4 · King
-        alt: Bedroom 4 at Valhalla Hills, king bed
+        alt: King bed in Bedroom 4 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-4-003.jpg
         caption: Bedroom 4 · King
-        alt: Bedroom 4 at Valhalla Hills, king bed
+        alt: Bedroom 4 at Valhalla Hills with a king bed and blue-gray walls
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-5-001.jpg
         caption: Bedroom 5 · Bunk bed
-        alt: Bedroom 5 at Valhalla Hills, bunk bed
+        alt: Bunk bed in the Bedroom 5 nook at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-5-002.jpg
         caption: Bedroom 5 · Bunk bed
-        alt: Bedroom 5 at Valhalla Hills, bunk bed
+        alt: Hallway bunk nook at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-6-001.jpg
         caption: Bedroom 6 · King
-        alt: Bedroom 6 at Valhalla Hills, king bed
+        alt: King bed and ensuite bath in Bedroom 6 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-6-002.jpg
         caption: Bedroom 6 · King
-        alt: Bedroom 6 at Valhalla Hills, king bed
+        alt: Bedroom 6 at Valhalla Hills with a king bed
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-6-003.jpg
         caption: Bedroom 6 · King
-        alt: Bedroom 6 at Valhalla Hills, king bed
+        alt: King bed and desk in Bedroom 6 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-7-001.jpg
         caption: Bedroom 7 · 3 bunk beds
-        alt: Bedroom 7 at Valhalla Hills, 3 bunk beds
+        alt: 3 bunk beds in the kids bunk room at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-7-002.jpg
         caption: Bedroom 7 · 3 bunk beds
-        alt: Bedroom 7 at Valhalla Hills, 3 bunk beds
+        alt: Bunk bed in Bedroom 7 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-7-003.jpg
         caption: Bedroom 7 · 3 bunk beds
-        alt: Bedroom 7 at Valhalla Hills, 3 bunk beds
+        alt: Bunk beds and closet in Bedroom 7 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-8-001.jpg
         caption: Bedroom 8 · King
-        alt: Bedroom 8 at Valhalla Hills, king bed
+        alt: King bed in Bedroom 8 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-8-002.jpg
         caption: Bedroom 8 · King
-        alt: Bedroom 8 at Valhalla Hills, king bed
+        alt: King bed and nightstand in Bedroom 8 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-8-003.jpg
         caption: Bedroom 8 · King
-        alt: Bedroom 8 at Valhalla Hills, king bed
+        alt: Bedroom 8 at Valhalla Hills with a king bed, looking toward the hall
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-8-1-001.jpg
         caption: Bedroom 8 · King
-        alt: Bedroom 8 at Valhalla Hills, king bed
+        alt: Brick fireplace in the sitting area outside Bedroom 8 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-9-001.jpg
         caption: Bedroom 9 · King
-        alt: Bedroom 9 at Valhalla Hills, king bed
+        alt: King bed and desk in Bedroom 9 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bedrooms/valhalla-hills-bedroom-9-002.jpg
         caption: Bedroom 9 · King
-        alt: Bedroom 9 at Valhalla Hills, king bed
+        alt: Desk and reading lamp in Bedroom 9 at Valhalla Hills
   - name: Bathrooms and laundry
     images:
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-1-001.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at Valhalla Hills
+        alt: Archway to the corner tub in Bathroom 1 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-1-002.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at Valhalla Hills
+        alt: Walk-in shower and corner tub in Bathroom 1 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-1-003.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at Valhalla Hills
+        alt: Double vanity in Bathroom 1 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-1-004.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at Valhalla Hills
+        alt: Walk-in shower with white subway tile in Bathroom 1 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-1-005.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at Valhalla Hills
+        alt: Corner tub in a bay window in Bathroom 1 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-2-001.jpg
         caption: Bathroom 2
-        alt: Bathroom 2 at Valhalla Hills
+        alt: Pedestal sink in Bathroom 2 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-2-002.jpg
         caption: Bathroom 2
-        alt: Bathroom 2 at Valhalla Hills
+        alt: Tub shower in Bathroom 2 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-3-001.jpg
         caption: Bathroom 3
-        alt: Bathroom 3 at Valhalla Hills
+        alt: Shower and vanity with a round mirror in Bathroom 3 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-3-002.jpg
         caption: Bathroom 3
-        alt: Bathroom 3 at Valhalla Hills
+        alt: Doorway into Bathroom 3 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-4-001.jpg
         caption: Bathroom 4
-        alt: Bathroom 4 at Valhalla Hills
+        alt: Vanity and tub shower in Bathroom 4 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-4-002.jpg
         caption: Bathroom 4
-        alt: Bathroom 4 at Valhalla Hills
+        alt: Bathroom 4 at Valhalla Hills, off Bedroom 6
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-5-001.jpg
         caption: Bathroom 5
-        alt: Bathroom 5 at Valhalla Hills
+        alt: Walk-in shower in Bathroom 5 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-5-002.jpg
         caption: Bathroom 5
-        alt: Bathroom 5 at Valhalla Hills
+        alt: Vessel sink on a wood vanity in Bathroom 5 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-6-001.jpg
         caption: Bathroom 6
-        alt: Bathroom 6 at Valhalla Hills
+        alt: Hall with a brick fireplace outside Bathroom 6 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-6-002.jpg
         caption: Bathroom 6
-        alt: Bathroom 6 at Valhalla Hills
+        alt: Shower in Bathroom 6 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-6-003.jpg
         caption: Bathroom 6
-        alt: Bathroom 6 at Valhalla Hills
+        alt: Vessel sink and antique mirror in Bathroom 6 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-6-004.jpg
         caption: Bathroom 6
-        alt: Bathroom 6 at Valhalla Hills
+        alt: Clawfoot tub in Bathroom 6 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-bathroom-6-005.jpg
         caption: Bathroom 6
-        alt: Bathroom 6 at Valhalla Hills
+        alt: Tiled walk-in shower in Bathroom 6 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/bathrooms-laundry/valhalla-hills-laundry-001.jpg
         caption: Laundry
-        alt: Laundry at Valhalla Hills
+        alt: Laundry room at Valhalla Hills with a washer, dryer and utility sink
   - name: Living room 1
     images:
       - image: /images/cabins/valhalla-hills/living-room-1/valhalla-hills-living-room-1-001.jpg
         caption: Living room 1
-        alt: Living room 1 at Valhalla Hills
+        alt: Sunroom with green velvet chairs and a wall of windows at Valhalla Hills
       - image: /images/cabins/valhalla-hills/living-room-1/valhalla-hills-living-room-1-002.jpg
         caption: Living room 1
-        alt: Living room 1 at Valhalla Hills
+        alt: Great room at Valhalla Hills, looking toward the sunroom
       - image: /images/cabins/valhalla-hills/living-room-1/valhalla-hills-living-room-1-003.jpg
         caption: Living room 1
-        alt: Living room 1 at Valhalla Hills
+        alt: Stone fireplace and 2-story windows in the great room at Valhalla Hills
       - image: /images/cabins/valhalla-hills/living-room-1/valhalla-hills-living-room-1-004.jpg
         caption: Living room 1
-        alt: Living room 1 at Valhalla Hills
+        alt: Great room at Valhalla Hills with a stone fireplace and log beams
       - image: /images/cabins/valhalla-hills/living-room-1/valhalla-hills-living-room-1-005.jpg
         caption: Living room 1
-        alt: Living room 1 at Valhalla Hills
+        alt: Green velvet chairs in the sunroom at Valhalla Hills, with Kitchen 2 beyond
       - image: /images/cabins/valhalla-hills/living-room-1/valhalla-hills-living-room-1-006.jpg
         caption: Living room 1
-        alt: Living room 1 at Valhalla Hills
+        alt: Great room at Valhalla Hills under a timber ceiling
       - image: /images/cabins/valhalla-hills/living-room-1/valhalla-hills-living-room-1-007.jpg
         caption: Living room 1
-        alt: Living room 1 at Valhalla Hills
+        alt: Green velvet chairs facing the stone fireplace at Valhalla Hills
   - name: Entertainment room and sauna
     images:
       - image: /images/cabins/valhalla-hills/entertainment-room-sauna/valhalla-hills-entertainment-room-sauna-001.jpg
         caption: Entertainment room and sauna
-        alt: Entertainment room and sauna at Valhalla Hills
+        alt: French doors into the entertainment room at Valhalla Hills
       - image: /images/cabins/valhalla-hills/entertainment-room-sauna/valhalla-hills-entertainment-room-sauna-002.jpg
         caption: Entertainment room and sauna
-        alt: Entertainment room and sauna at Valhalla Hills
+        alt: Entertainment room at Valhalla Hills with a sectional and TV
       - image: /images/cabins/valhalla-hills/entertainment-room-sauna/valhalla-hills-entertainment-room-sauna-003.jpg
         caption: Entertainment room and sauna
-        alt: Entertainment room and sauna at Valhalla Hills
+        alt: Dining table in the entertainment room at Valhalla Hills
       - image: /images/cabins/valhalla-hills/entertainment-room-sauna/valhalla-hills-entertainment-room-sauna-004.jpg
         caption: Entertainment room and sauna
-        alt: Entertainment room and sauna at Valhalla Hills
+        alt: Round game table in the entertainment room at Valhalla Hills
       - image: /images/cabins/valhalla-hills/entertainment-room-sauna/valhalla-hills-entertainment-room-sauna-005.jpg
         caption: Entertainment room and sauna
-        alt: Entertainment room and sauna at Valhalla Hills
+        alt: Game table and TV in the entertainment room at Valhalla Hills
       - image: /images/cabins/valhalla-hills/entertainment-room-sauna/valhalla-hills-entertainment-room-sauna-006.jpg
         caption: Entertainment room and sauna
-        alt: Entertainment room and sauna at Valhalla Hills
+        alt: Sectional sofa and TV in the entertainment room at Valhalla Hills
       - image: /images/cabins/valhalla-hills/entertainment-room-sauna/valhalla-hills-entertainment-room-sauna-007.jpg
         caption: Entertainment room and sauna
-        alt: Entertainment room and sauna at Valhalla Hills
+        alt: Cedar sauna at Valhalla Hills
       - image: /images/cabins/valhalla-hills/entertainment-room-sauna/valhalla-hills-entertainment-room-sauna-008.jpg
         caption: Entertainment room and sauna
-        alt: Entertainment room and sauna at Valhalla Hills
+        alt: Benches and bucket inside the sauna at Valhalla Hills
   - name: Kitchen 1
     images:
       - image: /images/cabins/valhalla-hills/kitchen-1/valhalla-hills-kitchen-1-001.jpg
         caption: Kitchen 1
-        alt: Kitchen 1 at Valhalla Hills
+        alt: Kitchen 1 at Valhalla Hills with white cabinets and a wood stove
       - image: /images/cabins/valhalla-hills/kitchen-1/valhalla-hills-kitchen-1-002.jpg
         caption: Kitchen 1
-        alt: Kitchen 1 at Valhalla Hills
+        alt: Kitchen 1 at Valhalla Hills with a breakfast table
       - image: /images/cabins/valhalla-hills/kitchen-1/valhalla-hills-kitchen-1-003.jpg
         caption: Kitchen 1
-        alt: Kitchen 1 at Valhalla Hills
+        alt: White cabinets and double wall ovens in Kitchen 1 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/kitchen-1/valhalla-hills-kitchen-1-004.jpg
         caption: Kitchen 1
-        alt: Kitchen 1 at Valhalla Hills
+        alt: Farmhouse sink under the window in Kitchen 1 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/kitchen-1/valhalla-hills-kitchen-1-005.jpg
         caption: Kitchen 1
-        alt: Kitchen 1 at Valhalla Hills
+        alt: Kitchen 1 at Valhalla Hills with a built-in booth
       - image: /images/cabins/valhalla-hills/kitchen-1/valhalla-hills-kitchen-1-006.jpg
         caption: Kitchen 1
-        alt: Kitchen 1 at Valhalla Hills
+        alt: Booth table and wood stove beside Kitchen 1 at Valhalla Hills
   - name: Kitchen 2
     images:
       - image: /images/cabins/valhalla-hills/kitchen-2/valhalla-hills-kitchen-2-001.jpg
         caption: Kitchen 2
-        alt: Kitchen 2 at Valhalla Hills
+        alt: Kitchen 2 at Valhalla Hills with wood cabinets, next to the sunroom
       - image: /images/cabins/valhalla-hills/kitchen-2/valhalla-hills-kitchen-2-002.jpg
         caption: Kitchen 2
-        alt: Kitchen 2 at Valhalla Hills
+        alt: Kitchen 2 island with bar stools at Valhalla Hills
       - image: /images/cabins/valhalla-hills/kitchen-2/valhalla-hills-kitchen-2-003.jpg
         caption: Kitchen 2
-        alt: Kitchen 2 at Valhalla Hills
+        alt: Cooktop and refrigerator in Kitchen 2 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/kitchen-2/valhalla-hills-kitchen-2-004.jpg
         caption: Kitchen 2
-        alt: Kitchen 2 at Valhalla Hills
+        alt: Coffee station in Kitchen 2 at Valhalla Hills
   - name: Pool table room
     images:
       - image: /images/cabins/valhalla-hills/pool-table-room/valhalla-hills-pool-table-room-001.jpg
         caption: Pool table room
-        alt: Pool table room at Valhalla Hills
+        alt: Top of the spiral loft stair at Valhalla Hills
       - image: /images/cabins/valhalla-hills/pool-table-room/valhalla-hills-pool-table-room-002.jpg
         caption: Pool table room
-        alt: Pool table room at Valhalla Hills
+        alt: Spiral log stair at Valhalla Hills, from above
       - image: /images/cabins/valhalla-hills/pool-table-room/valhalla-hills-pool-table-room-003.jpg
         caption: Pool table room
-        alt: Pool table room at Valhalla Hills
+        alt: Spiral log stair at Valhalla Hills
       - image: /images/cabins/valhalla-hills/pool-table-room/valhalla-hills-pool-table-room-004.jpg
         caption: Pool table room
-        alt: Pool table room at Valhalla Hills
+        alt: Pool table beside the spiral stair at Valhalla Hills
       - image: /images/cabins/valhalla-hills/pool-table-room/valhalla-hills-pool-table-room-005.jpg
         caption: Pool table room
-        alt: Pool table room at Valhalla Hills
+        alt: Pool table by the windows at Valhalla Hills
       - image: /images/cabins/valhalla-hills/pool-table-room/valhalla-hills-pool-table-room-006.jpg
         caption: Pool table room
-        alt: Pool table room at Valhalla Hills
+        alt: Leather sofa, stone fireplace and spiral stair in the pool table room at Valhalla Hills
       - image: /images/cabins/valhalla-hills/pool-table-room/valhalla-hills-pool-table-room-007.jpg
         caption: Pool table room
-        alt: Pool table room at Valhalla Hills
+        alt: Pool table room at Valhalla Hills with leather seating
       - image: /images/cabins/valhalla-hills/pool-table-room/valhalla-hills-pool-table-room-008.jpg
         caption: Pool table room
-        alt: Pool table room at Valhalla Hills
+        alt: Pool table room at Valhalla Hills, wide view
       - image: /images/cabins/valhalla-hills/pool-table-room/valhalla-hills-pool-table-room-009.jpg
         caption: Pool table room
-        alt: Pool table room at Valhalla Hills
+        alt: Wet bar in the pool table room at Valhalla Hills
   - name: Space by the kitchen
     images:
       - image: /images/cabins/valhalla-hills/space-by-kitchen/valhalla-hills-space-by-kitchen-001.jpg
         caption: Space by the kitchen
-        alt: Space by the kitchen at Valhalla Hills
+        alt: Booth table and leather sofas by Kitchen 1 at Valhalla Hills
       - image: /images/cabins/valhalla-hills/space-by-kitchen/valhalla-hills-space-by-kitchen-002.jpg
         caption: Space by the kitchen
-        alt: Space by the kitchen at Valhalla Hills
+        alt: Leather sofas by the brick fireplace at Valhalla Hills
       - image: /images/cabins/valhalla-hills/space-by-kitchen/valhalla-hills-space-by-kitchen-003.jpg
         caption: Space by the kitchen
-        alt: Space by the kitchen at Valhalla Hills
+        alt: Leather chair by the brick fireplace at Valhalla Hills

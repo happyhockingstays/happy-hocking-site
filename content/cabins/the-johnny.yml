@@ -28,42 +28,42 @@ aboutMore: |-
 
   Inside, the kitchen and living room share an open layout under log beams, with an indoor gas fireplace and fast Starlink Wi-Fi. 4 bedrooms are on the first floor, and 2 open lofts sleep 8 more.
 bookingWidget: ''
-heroImage: /images/cabins/the-johnny/pond/the-johnny-pond-004.jpg
-heroAlt: The private pond at The Johnny
+heroImage: /images/cabins/the-johnny/pond/the-johnny-pond-003.jpg
+heroAlt: Dock on the private pond at The Johnny
 keyShots:
-  - image: /images/cabins/the-johnny/pool/the-johnny-pool-001.jpg
-    alt: Pool and log cabin at The Johnny
+  - image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-005.jpg
+    alt: Ring of Adirondack chairs around the fire pit at The Johnny
   - image: /images/cabins/the-johnny/pond/the-johnny-pond-002.jpg
-    alt: Kayaks beside the pond at The Johnny
-  - image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-006.jpg
-    alt: Fire pit at The Johnny
-  - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-006.jpg
-    alt: Kitchen and dining table at The Johnny
+    alt: Kayaks with life jackets beside the pond at The Johnny
+  - image: /images/cabins/the-johnny/exterior/the-johnny-exterior-001.jpg
+    alt: Johnny Cash mural on the barn at The Johnny
+  - image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-003.jpg
+    alt: Hot tub next to the log cabin and back deck at The Johnny
 highlights:
   - title: Private pond
     text: 2 acres of calm water, right off the back deck.
     image: /images/cabins/the-johnny/pond/the-johnny-pond-007.jpg
-    alt: Private pond at The Johnny
+    alt: Calm water on the private pond at The Johnny
   - title: Kayaks
     text: Provided for your stay. We'll send a quick waiver first.
     image: /images/cabins/the-johnny/pond/the-johnny-pond-002.jpg
-    alt: Kayaks at The Johnny
+    alt: Kayaks with life jackets beside the pond at The Johnny
   - title: Hot tub
     text: Seats 5 to 6, open all year.
     image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-008.jpg
-    alt: Hot tub at The Johnny
+    alt: Hot tub at The Johnny with string lights at dusk
   - title: Seasonal pool
     text: Open May 15 to October 15, with a covered spot to dry off.
     image: /images/cabins/the-johnny/pool/the-johnny-pool-002.jpg
-    alt: Seasonal pool at The Johnny
+    alt: Pool and loungers at The Johnny with the cabin behind
   - title: Fire pit
     text: Adirondack chairs in a circle. Bring the marshmallows.
     image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-006.jpg
-    alt: Fire pit at The Johnny
+    alt: Fire pit circle at The Johnny from above, with string lights in the trees
   - title: A little Johnny Cash
     text: Records on the wall and the Man in Black on the barn.
     image: /images/cabins/the-johnny/exterior/the-johnny-exterior-001.jpg
-    alt: A little Johnny Cash at The Johnny
+    alt: Johnny Cash mural on the barn at The Johnny
 rooms:
   - name: Bedroom 1, primary
     floor: First floor
@@ -255,232 +255,232 @@ gallery:
     images:
       - image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-001.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at The Johnny
+        alt: Fire pit with Adirondack chairs under the pines at The Johnny
       - image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-002.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at The Johnny
+        alt: Hot tub on the lawn beside the cabin at The Johnny
       - image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-003.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at The Johnny
+        alt: Hot tub next to the log cabin and back deck at The Johnny
       - image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-004.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at The Johnny
+        alt: Grill on the back deck at The Johnny, with the fire pit beyond
       - image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-005.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at The Johnny
+        alt: Ring of Adirondack chairs around the fire pit at The Johnny
       - image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-006.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at The Johnny
+        alt: Fire pit circle at The Johnny from above, with string lights in the trees
       - image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-007.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at The Johnny
+        alt: Hammock under the trees at The Johnny
       - image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-008.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at The Johnny
+        alt: Hot tub at The Johnny with string lights at dusk
       - image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-009.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at The Johnny
+        alt: Outdoor dining table on the patio at The Johnny
       - image: /images/cabins/the-johnny/backyard-fire-pit/the-johnny-backyard-fire-pit-010.jpg
         caption: Backyard and fire pit
-        alt: Backyard and fire pit at The Johnny
+        alt: Log cabin and back deck at The Johnny from the yard
   - name: Pool
     images:
       - image: /images/cabins/the-johnny/pool/the-johnny-pool-001.jpg
         caption: Pool
-        alt: Pool at The Johnny
+        alt: Pool in front of the log cabin at The Johnny
       - image: /images/cabins/the-johnny/pool/the-johnny-pool-002.jpg
         caption: Pool
-        alt: Pool at The Johnny
+        alt: Pool and loungers at The Johnny with the cabin behind
       - image: /images/cabins/the-johnny/pool/the-johnny-pool-003.jpg
         caption: Pool
-        alt: Pool at The Johnny
+        alt: Pool at The Johnny seen from the covered porch
       - image: /images/cabins/the-johnny/pool/the-johnny-pool-004.jpg
         caption: Pool
-        alt: Pool at The Johnny
+        alt: Loungers along the pool at The Johnny
       - image: /images/cabins/the-johnny/pool/the-johnny-pool-005.jpg
         caption: Pool
-        alt: Pool at The Johnny
+        alt: The Johnny log cabin and fenced pool from across the lawn
       - image: /images/cabins/the-johnny/pool/the-johnny-pool-006.jpg
         caption: Pool
-        alt: Pool at The Johnny
+        alt: Pool loungers at The Johnny with the cabin behind
       - image: /images/cabins/the-johnny/pool/the-johnny-pool-007.jpg
         caption: Pool
-        alt: Pool at The Johnny
+        alt: Pool at The Johnny with a view across the meadow
       - image: /images/cabins/the-johnny/pool/the-johnny-pool-008.jpg
         caption: Pool
-        alt: Pool at The Johnny
+        alt: Covered porch with a dining table beside the pool at The Johnny
       - image: /images/cabins/the-johnny/pool/the-johnny-pool-009.jpg
         caption: Pool
-        alt: Pool at The Johnny
+        alt: Covered porch and pool gate at The Johnny
       - image: /images/cabins/the-johnny/pool/the-johnny-pool-010.jpg
         caption: Pool
-        alt: Pool at The Johnny
+        alt: Pool floats at The Johnny, with the log cabin behind
       - image: /images/cabins/the-johnny/pool/the-johnny-pool-011.jpg
         caption: Pool
-        alt: Pool at The Johnny
+        alt: Aerial view of the cabin, pool and pond at The Johnny
   - name: Pond
     images:
       - image: /images/cabins/the-johnny/pond/the-johnny-pond-001.jpg
         caption: Pond
-        alt: Pond at The Johnny
+        alt: Paddleboards under the pines at The Johnny
       - image: /images/cabins/the-johnny/pond/the-johnny-pond-002.jpg
         caption: Pond
-        alt: Pond at The Johnny
+        alt: Kayaks with life jackets beside the pond at The Johnny
       - image: /images/cabins/the-johnny/pond/the-johnny-pond-003.jpg
         caption: Pond
-        alt: Pond at The Johnny
+        alt: Dock on the private pond at The Johnny
       - image: /images/cabins/the-johnny/pond/the-johnny-pond-004.jpg
         caption: Pond
-        alt: Pond at The Johnny
+        alt: Private pond and pines at The Johnny
       - image: /images/cabins/the-johnny/pond/the-johnny-pond-005.jpg
         caption: Pond
-        alt: Pond at The Johnny
+        alt: Kayaks on the bank of the pond at The Johnny
       - image: /images/cabins/the-johnny/pond/the-johnny-pond-006.jpg
         caption: Pond
-        alt: Pond at The Johnny
+        alt: Dock and private pond at The Johnny from above
       - image: /images/cabins/the-johnny/pond/the-johnny-pond-007.jpg
         caption: Pond
-        alt: Pond at The Johnny
+        alt: Calm water on the private pond at The Johnny
   - name: Living room and kitchen
     images:
       - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-001.jpg
         caption: Living room and kitchen
-        alt: Living room and kitchen at The Johnny
+        alt: Open kitchen and dining area under log beams at The Johnny
       - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-002.jpg
         caption: Living room and kitchen
-        alt: Living room and kitchen at The Johnny
+        alt: Long dining table with records on the wall at The Johnny
       - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-003.jpg
         caption: Living room and kitchen
-        alt: Living room and kitchen at The Johnny
+        alt: Living room at The Johnny with a leather sofa, stone fireplace and guitars on the wall
       - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-004.jpg
         caption: Living room and kitchen
-        alt: Living room and kitchen at The Johnny
+        alt: Living room at The Johnny with the spiral staircase to the lofts
       - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-005.jpg
         caption: Living room and kitchen
-        alt: Living room and kitchen at The Johnny
+        alt: Stone fireplace at The Johnny
       - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-006.jpg
         caption: Living room and kitchen
-        alt: Living room and kitchen at The Johnny
+        alt: Kitchen island with bar stools at The Johnny
       - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-007.jpg
         caption: Living room and kitchen
-        alt: Living room and kitchen at The Johnny
+        alt: Kitchen and island under the log beams at The Johnny
       - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-008.jpg
         caption: Living room and kitchen
-        alt: Living room and kitchen at The Johnny
+        alt: Kitchen at The Johnny with stainless appliances
       - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-009.jpg
         caption: Living room and kitchen
-        alt: Living room and kitchen at The Johnny
+        alt: Kitchen sink and stove at The Johnny
       - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-010.jpg
         caption: Living room and kitchen
-        alt: Living room and kitchen at The Johnny
+        alt: Great room at The Johnny with the spiral staircase and loft above
       - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-012.jpg
         caption: Living room and kitchen
-        alt: Living room and kitchen at The Johnny
+        alt: Great room at The Johnny looking toward the loft
       - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-013.jpg
         caption: Living room and kitchen
-        alt: Living room and kitchen at The Johnny
+        alt: Hallway with guitars on the wall at The Johnny
       - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-014.jpg
         caption: Living room and kitchen
-        alt: Living room and kitchen at The Johnny
+        alt: Vinyl records on the wall beside the dining table at The Johnny
       - image: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-015.jpg
         caption: Living room and kitchen
-        alt: Living room and kitchen at The Johnny
+        alt: Leather sofa in the living room at The Johnny
   - name: Bedrooms
     images:
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-1-001.jpg
         caption: Bedroom 1 · King
-        alt: Bedroom 1 at The Johnny, king bed
+        alt: King bed in Bedroom 1 at The Johnny
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-1-002.jpg
         caption: Bedroom 1 · King
-        alt: Bedroom 1 at The Johnny, king bed
+        alt: Bedroom 1 at The Johnny with a king bed and log walls
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-1-003.jpg
         caption: Bedroom 1 · King
-        alt: Bedroom 1 at The Johnny, king bed
+        alt: King bed and TV in Bedroom 1 at The Johnny
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-2-001.jpg
         caption: Bedroom 2 · Queen
-        alt: Bedroom 2 at The Johnny, queen bed
+        alt: Queen bed in Bedroom 2 at The Johnny
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-2-002.jpg
         caption: Bedroom 2 · Queen
-        alt: Bedroom 2 at The Johnny, queen bed
+        alt: Bedroom 2 at The Johnny with a queen bed and framed prints
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-3-001.jpg
         caption: Bedroom 3 · Queen
-        alt: Bedroom 3 at The Johnny, queen bed
+        alt: Queen bed in Bedroom 3 at The Johnny
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-3-002.jpg
         caption: Bedroom 3 · Queen
-        alt: Bedroom 3 at The Johnny, queen bed
+        alt: Bedroom 3 at The Johnny with a queen bed and tall windows
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-4-001.jpg
         caption: Bedroom 4 · Queen
-        alt: Bedroom 4 at The Johnny, queen bed
+        alt: Queen bed in Bedroom 4 at The Johnny
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-4-002.jpg
         caption: Bedroom 4 · Queen
-        alt: Bedroom 4 at The Johnny, queen bed
+        alt: Bedroom 4 at The Johnny with a queen bed and a floor mirror
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-4-003.jpg
         caption: Bedroom 4 · Queen
-        alt: Bedroom 4 at The Johnny, queen bed
+        alt: Queen bed with a tufted headboard in Bedroom 4 at The Johnny
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-5-001.jpg
         caption: Bedroom 5 · King
-        alt: Bedroom 5 at The Johnny, king bed
+        alt: King bed in the open loft at The Johnny
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-5-002.jpg
         caption: Bedroom 5 · King
-        alt: Bedroom 5 at The Johnny, king bed
+        alt: Loft bedroom with a king bed and sitting area at The Johnny
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-5-003.jpg
         caption: Bedroom 5 · King
-        alt: Bedroom 5 at The Johnny, king bed
+        alt: Open loft at The Johnny overlooking the great room
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-6-001.jpg
         caption: Bedroom 6 · 6 twins
-        alt: Bedroom 6 at The Johnny, 6 twin beds
+        alt: 6 twin beds in the open loft at The Johnny
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-6-002.jpg
         caption: Bedroom 6 · 6 twins
-        alt: Bedroom 6 at The Johnny, 6 twin beds
+        alt: Twin beds under the log rafters in the loft at The Johnny
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-6-003.jpg
         caption: Bedroom 6 · 6 twins
-        alt: Bedroom 6 at The Johnny, 6 twin beds
+        alt: Twin beds with Cash throws in the loft at The Johnny
       - image: /images/cabins/the-johnny/bedrooms/the-johnny-bedroom-6-004.jpg
         caption: Bedroom 6 · 6 twins
-        alt: Bedroom 6 at The Johnny, 6 twin beds
+        alt: View from the loft down to the living room at The Johnny
   - name: Bathrooms and laundry
     images:
       - image: /images/cabins/the-johnny/bathrooms-laundry/the-johnny-bathroom-1-001.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at The Johnny
+        alt: Bathroom 1 at The Johnny with a soaking tub and vanity
       - image: /images/cabins/the-johnny/bathrooms-laundry/the-johnny-bathroom-1-002.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at The Johnny
+        alt: Corner soaking tub in Bathroom 1 at The Johnny
       - image: /images/cabins/the-johnny/bathrooms-laundry/the-johnny-bathroom-1-003.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at The Johnny
+        alt: Soaking tub and shower in Bathroom 1 at The Johnny
       - image: /images/cabins/the-johnny/bathrooms-laundry/the-johnny-bathroom-1-004.jpg
         caption: Bathroom 1
-        alt: Bathroom 1 at The Johnny
+        alt: Vanity, shower and soaking tub in Bathroom 1 at The Johnny
       - image: /images/cabins/the-johnny/bathrooms-laundry/the-johnny-bathroom-2-001.jpg
         caption: Bathroom 2
-        alt: Bathroom 2 at The Johnny
+        alt: Bathroom 2 at The Johnny with a vanity and tub shower
       - image: /images/cabins/the-johnny/bathrooms-laundry/the-johnny-bathroom-2-002.jpg
         caption: Bathroom 2
-        alt: Bathroom 2 at The Johnny
+        alt: Tub shower and towels in Bathroom 2 at The Johnny
       - image: /images/cabins/the-johnny/bathrooms-laundry/the-johnny-bathroom-2-003.jpg
         caption: Bathroom 2
-        alt: Bathroom 2 at The Johnny
+        alt: Bathroom 2 at The Johnny from the doorway
       - image: /images/cabins/the-johnny/bathrooms-laundry/the-johnny-half-bath-001.jpg
         caption: Half bath
         alt: Half bath at The Johnny
       - image: /images/cabins/the-johnny/bathrooms-laundry/the-johnny-laundry-001.jpg
         caption: Laundry
-        alt: Laundry at The Johnny
+        alt: Stacked washers and dryers at The Johnny
   - name: Exterior
     images:
       - image: /images/cabins/the-johnny/exterior/the-johnny-exterior-001.jpg
         caption: Exterior
-        alt: Exterior at The Johnny
+        alt: Johnny Cash mural on the barn at The Johnny
       - image: /images/cabins/the-johnny/exterior/the-johnny-exterior-002.jpg
         caption: Exterior
-        alt: Exterior at The Johnny
+        alt: Private pond ringed by trees at The Johnny
       - image: /images/cabins/the-johnny/exterior/the-johnny-exterior-003.jpg
         caption: Exterior
-        alt: Exterior at The Johnny
+        alt: Adirondack chairs on the front porch at The Johnny
       - image: /images/cabins/the-johnny/exterior/the-johnny-exterior-004.jpg
         caption: Exterior
-        alt: Exterior at The Johnny
+        alt: Wide lawn in front of The Johnny
       - image: /images/cabins/the-johnny/exterior/the-johnny-exterior-005.jpg
         caption: Exterior
-        alt: Exterior at The Johnny
+        alt: Aerial view of The Johnny with its pool, pond and barn
