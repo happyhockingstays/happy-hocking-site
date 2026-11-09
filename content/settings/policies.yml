@@ -1,0 +1,26 @@
+checkIn: 4:00 pm
+checkOut: 11:00 am
+minStay: 2 nights
+minStayNote: Holiday and peak-season stays may need 3 nights.
+ageToBook: 25+
+ageNote: We kindly prefer the booking guest to be 25 or older. Discreet exceptions are made.
+houseRules:
+  - No pets
+  - No smoking
+  - No parties or events
+  - Visitors need host approval
+  - No commercial photography without written approval
+  - No hunting, guns or fireworks
+  - No ATVs
+  - Fires stay in the fire pit
+  - No glassware near the pool or hot tub
+  - Flush only toilet paper. The homes are on septic systems
+cancellation:
+  standard:
+    label: 30/60 policy
+    summary: Full refund up to 60 days before check-in. 50% refund up to 30 days before. Non-refundable after that.
+    details: You also get a full refund within 48 hours of booking, when you book at least 7 days before check-in. Payments can be split into up to 3 installments.
+  extended:
+    label: 90/60 policy
+    summary: Full refund up to 90 days before check-in. 50% refund up to 60 days before. Non-refundable after that.
+    details: You also get a full refund within 48 hours of booking, when you book at least 7 days before check-in. Payments can be split into up to 3 installments.

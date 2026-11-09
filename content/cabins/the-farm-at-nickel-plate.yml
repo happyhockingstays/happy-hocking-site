@@ -1,0 +1,637 @@
+name: The Farm at Nickel Plate
+shortName: The Farm
+order: 3
+hidden: false
+isNew: false
+tagline: A place to gather
+cardLine: Sports barn. Game room. Room for 22.
+town: Logan
+sleeps: 22
+bedrooms: 8
+beds: 11
+baths: '5.5'
+gamesAndSports: true
+chips:
+  - Sports barn
+  - Game room
+  - Pool
+  - Hot tub
+seoTitle: 'The Farm at Nickel Plate: Hocking Hills sports barn cabin'
+seoDescription: The Farm at Nickel Plate is a Hocking Hills home in Logan, Ohio that sleeps 22. Sports barn, basement game room, private pool and hot tub. Book direct.
+blurb: A hilltop home for 22 with its own sports barn. Play basketball, pickleball or soccer, cool off in the pool, then settle the score in the basement game room.
+about: |-
+  The Farm at Nickel Plate is a 6,000 square foot Hocking Hills home on a hilltop in Logan, Ohio. It sleeps 22 across 8 bedrooms, 10 minutes from downtown Logan and 20 to 30 minutes from the trails.
+
+  It's made for groups that like to stay busy. The sports barn handles basketball, pickleball and soccer in any weather, and the pool and hot tub handle the rest.
+aboutMore: |-
+  Downstairs, the game room has a pool table, air hockey, foosball, ping pong and video games. Outside there's a fire pit with long views, a swing set, a propane grill and a big yard.
+
+  The kitchen has 2 refrigerators, an induction stovetop and room for everyone to help. Families get a crib, a high chair and stair gates, so little ones are covered too.
+bookingWidget: ''
+heroImage: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-011.jpg
+heroAlt: The Farm at Nickel Plate and its private pool
+keyShots:
+  - image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-004.jpg
+    alt: Sports barn at The Farm at Nickel Plate
+  - image: /images/cabins/the-farm-at-nickel-plate/basement-game-room/the-farm-at-nickel-plate-basement-game-room-001.jpg
+    alt: Basement game room at The Farm at Nickel Plate
+  - image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-007.jpg
+    alt: Fire pit at The Farm at Nickel Plate
+  - image: /images/cabins/the-farm-at-nickel-plate/living-room/the-farm-at-nickel-plate-living-room-003.jpg
+    alt: Living room at The Farm at Nickel Plate
+highlights:
+  - title: Sports barn
+    text: Basketball, pickleball and soccer under one roof. Rain can't cancel the game.
+    image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-003.jpg
+    alt: Sports barn at The Farm at Nickel Plate
+  - title: Game room
+    text: Pool table, air hockey, foosball, ping pong and video games.
+    image: /images/cabins/the-farm-at-nickel-plate/basement-game-room/the-farm-at-nickel-plate-basement-game-room-004.jpg
+    alt: Game room at The Farm at Nickel Plate
+  - title: The pool
+    text: Open May 15 to October 15, with loungers and a shaded pavilion.
+    image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-002.jpg
+    alt: The pool at The Farm at Nickel Plate
+  - title: Hot tub
+    text: Seats 6, open all year.
+    image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-004.jpg
+    alt: Hot tub at The Farm at Nickel Plate
+  - title: Fire pit
+    text: Adirondack chairs and hilltop views.
+    image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-006.jpg
+    alt: Fire pit at The Farm at Nickel Plate
+  - title: Room for 22
+    text: 8 bedrooms, 5.5 baths and a kitchen built for a crowd.
+    image: /images/cabins/the-farm-at-nickel-plate/kitchen/the-farm-at-nickel-plate-kitchen-001.jpg
+    alt: Room for 22 at The Farm at Nickel Plate
+rooms:
+  - name: Bedroom 1, primary suite
+    floor: Main floor
+    beds: King bed
+    sleeps: 2
+    note: Ensuite bath with a soaking tub
+  - name: Bedroom 2
+    floor: Main floor
+    beds: King bed
+    sleeps: 2
+    note: Half bath across the hall
+  - name: Bedroom 3
+    floor: Upstairs
+    beds: King bed and a crib
+    sleeps: 2
+    note: Ensuite bath
+  - name: Bedroom 4
+    floor: Upstairs
+    beds: 2 queen beds
+    sleeps: 4
+    note: Shared bath
+  - name: Bedroom 5
+    floor: Upstairs
+    beds: 2 queen beds
+    sleeps: 4
+    note: Shared bath
+  - name: Bedroom 6
+    floor: Upstairs
+    beds: King bed
+    sleeps: 2
+    note: Shared bath
+  - name: Bedroom 7
+    floor: Upstairs
+    beds: 2 king beds
+    sleeps: 4
+    note: Ensuite bath
+  - name: Bedroom 8
+    floor: Basement
+    beds: King bed
+    sleeps: 2
+    note: Full bath across the hall
+amenities:
+  - group: Outdoors
+    items:
+      - icon: pool
+        label: Private pool
+      - icon: hot-tub
+        label: Hot tub for 6
+      - icon: fire-pit
+        label: Fire pit with hilltop views
+  - group: Inside
+    items:
+      - icon: wifi
+        label: Fast Wi-Fi
+      - icon: tv
+        label: Streaming TVs
+      - icon: crib
+        label: Crib, high chair and stair gates
+  - group: Kitchen
+    items:
+      - icon: kitchen
+        label: Fully equipped kitchen
+      - icon: fridge
+        label: 2 refrigerators and a mini fridge
+      - icon: coffee
+        label: Keurig and drip coffee
+  - group: Games
+    items:
+      - icon: sport-court
+        label: Sports barn
+      - icon: pool-table
+        label: Pool table and air hockey
+      - icon: arcade
+        label: Foosball, ping pong and video games
+allAmenities:
+  - group: Bathroom
+    items:
+      - Bathtub
+      - Hair dryer
+      - Shampoo
+      - Conditioner
+      - Body soap
+      - Shower gel
+      - Hot water
+      - Cleaning products
+  - group: Bedroom and laundry
+    items:
+      - Washer
+      - Dryer
+      - Essentials
+      - Hangers
+      - Bed linens
+      - Extra pillows and blankets
+      - Room-darkening shades
+      - Iron
+      - Drying rack
+      - Clothing storage
+  - group: Entertainment
+    items:
+      - TV
+      - Game console
+      - Ping pong table
+      - Pool table
+      - Arcade games
+  - group: Family
+    items:
+      - Crib
+      - Pack 'n play
+      - High chair
+      - Children's dinnerware
+      - Board games
+      - Baby safety gates
+      - Outdoor playground
+  - group: Heating and cooling
+    items:
+      - Air conditioning
+      - Heating
+      - Ceiling fan
+      - Portable fans
+      - Indoor fireplace
+  - group: Home safety
+    items:
+      - Smoke alarm
+      - Carbon monoxide alarm
+      - Fire extinguisher
+      - First aid kit
+  - group: Internet and office
+    items:
+      - Wi-Fi
+  - group: Kitchen and dining
+    items:
+      - Kitchen
+      - Refrigerator
+      - Freezer
+      - Microwave
+      - Stove
+      - Oven
+      - Dishwasher
+      - Cooking basics
+      - Dishes and silverware
+      - Coffee maker
+      - Coffee
+      - Hot water kettle
+      - Toaster
+      - Blender
+      - Mini fridge
+      - Wine glasses
+      - Baking sheet
+      - Barbecue utensils
+      - Dining table
+  - group: Outdoor
+    items:
+      - Patio or balcony
+      - Backyard
+      - Fire pit
+      - Outdoor furniture
+      - Outdoor dining area
+      - BBQ grill
+      - Sun loungers
+  - group: Parking and facilities
+    items:
+      - Free parking on the premises
+      - Private pool, open seasonally
+      - Private hot tub
+  - group: Services
+    items:
+      - Self check-in
+      - Keypad entry
+poolSeason: May 15 to October 15
+poolNote: Not heated.
+driveTimes:
+  - place: Downtown Logan
+    time: 10 min
+  - place: Hocking Hills trails
+    time: 20 to 30 min
+areaNote: A hilltop just outside Logan, with shops and restaurants 10 minutes away.
+checkOut: ''
+quietHours: ''
+cancellation: standard
+extraRules:
+  - The garage is off-limits
+goodToKnow: []
+faqs:
+  - q: What's in the sports barn?
+    a: A big indoor space for basketball, pickleball, soccer and more. It's yours for the whole stay.
+  - q: How many people does The Farm sleep?
+    a: 22 guests across 8 bedrooms, with 7 king beds, 4 queen beds and a crib. There are 5.5 baths.
+  - q: Is the pool heated?
+    a: No. The pool is open May 15 to October 15. The hot tub seats 6 and is open all year.
+  - q: How far is The Farm from the Hocking Hills trails?
+    a: About 20 to 30 minutes. Downtown Logan is 10 minutes away.
+  - q: What time are check-in and check-out?
+    a: Check-in is 4:00 pm and check-out is 11:00 am.
+  - q: Is there a minimum stay?
+    a: 2 nights. Holiday and peak-season stays may need 3.
+  - q: What is the cancellation policy?
+    a: Full refund up to 60 days before check-in and 50% up to 30 days before. After that, stays are non-refundable.
+similar:
+  - content/cabins/pickle-hill.yml
+  - content/cabins/loch-llyn.yml
+airbnbRating: '4.93'
+airbnbReviews: 46
+permit: Hocking County ID 00868
+gallery:
+  - name: Pool
+    images:
+      - image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-001.jpg
+        caption: Pool
+        alt: Pool at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-002.jpg
+        caption: Pool
+        alt: Pool at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-003.jpg
+        caption: Pool
+        alt: Pool at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-004.jpg
+        caption: Pool
+        alt: Pool at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-005.jpg
+        caption: Pool
+        alt: Pool at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-006.jpg
+        caption: Pool
+        alt: Pool at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-007.jpg
+        caption: Pool
+        alt: Pool at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-008.jpg
+        caption: Pool
+        alt: Pool at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-009.jpg
+        caption: Pool
+        alt: Pool at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-010.jpg
+        caption: Pool
+        alt: Pool at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-011.jpg
+        caption: Pool
+        alt: Pool at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-012.jpg
+        caption: Pool
+        alt: Pool at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/pool/the-farm-at-nickel-plate-pool-013.jpg
+        caption: Pool
+        alt: Pool at The Farm at Nickel Plate
+  - name: Exterior
+    images:
+      - image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-001.jpg
+        caption: Exterior
+        alt: Exterior at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-002.jpg
+        caption: Exterior
+        alt: Exterior at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-003.jpg
+        caption: Exterior
+        alt: Exterior at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-004.jpg
+        caption: Exterior
+        alt: Exterior at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-005.jpg
+        caption: Exterior
+        alt: Exterior at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-006.jpg
+        caption: Exterior
+        alt: Exterior at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-007.jpg
+        caption: Exterior
+        alt: Exterior at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-008.jpg
+        caption: Exterior
+        alt: Exterior at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-009.jpg
+        caption: Exterior
+        alt: Exterior at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-010.jpg
+        caption: Exterior
+        alt: Exterior at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-011.jpg
+        caption: Exterior
+        alt: Exterior at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-012.jpg
+        caption: Exterior
+        alt: Exterior at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-013.jpg
+        caption: Exterior
+        alt: Exterior at The Farm at Nickel Plate
+  - name: Bedrooms
+    images:
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-1-001.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at The Farm at Nickel Plate, king bed
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-1-002.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at The Farm at Nickel Plate, king bed
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-1-003.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at The Farm at Nickel Plate, king bed
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-2-001.jpg
+        caption: Bedroom 2 · King
+        alt: Bedroom 2 at The Farm at Nickel Plate, king bed
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-2-002.jpg
+        caption: Bedroom 2 · King
+        alt: Bedroom 2 at The Farm at Nickel Plate, king bed
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-3-001.jpg
+        caption: Bedroom 3 · King and crib
+        alt: Bedroom 3 at The Farm at Nickel Plate, king bed and a crib
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-3-002.jpg
+        caption: Bedroom 3 · King and crib
+        alt: Bedroom 3 at The Farm at Nickel Plate, king bed and a crib
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-3-003.jpg
+        caption: Bedroom 3 · King and crib
+        alt: Bedroom 3 at The Farm at Nickel Plate, king bed and a crib
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-3-004.jpg
+        caption: Bedroom 3 · King and crib
+        alt: Bedroom 3 at The Farm at Nickel Plate, king bed and a crib
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-4-001.jpg
+        caption: Bedroom 4 · 2 queens
+        alt: Bedroom 4 at The Farm at Nickel Plate, 2 queen beds
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-4-002.jpg
+        caption: Bedroom 4 · 2 queens
+        alt: Bedroom 4 at The Farm at Nickel Plate, 2 queen beds
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-4-003.jpg
+        caption: Bedroom 4 · 2 queens
+        alt: Bedroom 4 at The Farm at Nickel Plate, 2 queen beds
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-5-001.jpg
+        caption: Bedroom 5 · 2 queens
+        alt: Bedroom 5 at The Farm at Nickel Plate, 2 queen beds
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-5-002.jpg
+        caption: Bedroom 5 · 2 queens
+        alt: Bedroom 5 at The Farm at Nickel Plate, 2 queen beds
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-6-001.jpg
+        caption: Bedroom 6 · King
+        alt: Bedroom 6 at The Farm at Nickel Plate, king bed
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-6-002.jpg
+        caption: Bedroom 6 · King
+        alt: Bedroom 6 at The Farm at Nickel Plate, king bed
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-6-003.jpg
+        caption: Bedroom 6 · King
+        alt: Bedroom 6 at The Farm at Nickel Plate, king bed
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-7-001.jpg
+        caption: Bedroom 7 · 2 kings
+        alt: Bedroom 7 at The Farm at Nickel Plate, 2 king beds
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-7-002.jpg
+        caption: Bedroom 7 · 2 kings
+        alt: Bedroom 7 at The Farm at Nickel Plate, 2 king beds
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-8-001.jpg
+        caption: Bedroom 8 · King
+        alt: Bedroom 8 at The Farm at Nickel Plate, king bed
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-8-002.jpg
+        caption: Bedroom 8 · King
+        alt: Bedroom 8 at The Farm at Nickel Plate, king bed
+      - image: /images/cabins/the-farm-at-nickel-plate/bedrooms/the-farm-at-nickel-plate-bedroom-8-003.jpg
+        caption: Bedroom 8 · King
+        alt: Bedroom 8 at The Farm at Nickel Plate, king bed
+  - name: Bathrooms and laundry
+    images:
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-1-001.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-1-002.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-1-003.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-1-004.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-1-005.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-2-001.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-2-002.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-2-003.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-2-004.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-2-005.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-2-008.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-3-001.jpg
+        caption: Bathroom 3
+        alt: Bathroom 3 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-3-002.jpg
+        caption: Bathroom 3
+        alt: Bathroom 3 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-4-001.jpg
+        caption: Bathroom 4
+        alt: Bathroom 4 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-4-002.jpg
+        caption: Bathroom 4
+        alt: Bathroom 4 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-4-003.jpg
+        caption: Bathroom 4
+        alt: Bathroom 4 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-4-004.jpg
+        caption: Bathroom 4
+        alt: Bathroom 4 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-4-005.jpg
+        caption: Bathroom 4
+        alt: Bathroom 4 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-4-006.jpg
+        caption: Bathroom 4
+        alt: Bathroom 4 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-4-007.jpg
+        caption: Bathroom 4
+        alt: Bathroom 4 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-5-001.jpg
+        caption: Bathroom 5
+        alt: Bathroom 5 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-5-002.jpg
+        caption: Bathroom 5
+        alt: Bathroom 5 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-5-003.jpg
+        caption: Bathroom 5
+        alt: Bathroom 5 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-5-004.jpg
+        caption: Bathroom 5
+        alt: Bathroom 5 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-bathroom-5-005.jpg
+        caption: Bathroom 5
+        alt: Bathroom 5 at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-half-bath-001.jpg
+        caption: Half bath
+        alt: Half bath at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-half-bath-002.jpg
+        caption: Half bath
+        alt: Half bath at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-laundry-001.jpg
+        caption: Laundry
+        alt: Laundry at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/bathrooms-laundry/the-farm-at-nickel-plate-laundry-002.jpg
+        caption: Laundry
+        alt: Laundry at The Farm at Nickel Plate
+  - name: Living room
+    images:
+      - image: /images/cabins/the-farm-at-nickel-plate/living-room/the-farm-at-nickel-plate-living-room-001.jpg
+        caption: Living room
+        alt: Living room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/living-room/the-farm-at-nickel-plate-living-room-002.jpg
+        caption: Living room
+        alt: Living room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/living-room/the-farm-at-nickel-plate-living-room-003.jpg
+        caption: Living room
+        alt: Living room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/living-room/the-farm-at-nickel-plate-living-room-004.jpg
+        caption: Living room
+        alt: Living room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/living-room/the-farm-at-nickel-plate-living-room-005.jpg
+        caption: Living room
+        alt: Living room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/living-room/the-farm-at-nickel-plate-living-room-006.jpg
+        caption: Living room
+        alt: Living room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/living-room/the-farm-at-nickel-plate-living-room-007.jpg
+        caption: Living room
+        alt: Living room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/living-room/the-farm-at-nickel-plate-living-room-008.jpg
+        caption: Living room
+        alt: Living room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/living-room/the-farm-at-nickel-plate-living-room-009.jpg
+        caption: Living room
+        alt: Living room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/living-room/the-farm-at-nickel-plate-living-room-010.jpg
+        caption: Living room
+        alt: Living room at The Farm at Nickel Plate
+  - name: Kitchen
+    images:
+      - image: /images/cabins/the-farm-at-nickel-plate/kitchen/the-farm-at-nickel-plate-kitchen-001.jpg
+        caption: Kitchen
+        alt: Kitchen at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/kitchen/the-farm-at-nickel-plate-kitchen-002.jpg
+        caption: Kitchen
+        alt: Kitchen at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/kitchen/the-farm-at-nickel-plate-kitchen-003.jpg
+        caption: Kitchen
+        alt: Kitchen at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/kitchen/the-farm-at-nickel-plate-kitchen-004.jpg
+        caption: Kitchen
+        alt: Kitchen at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/kitchen/the-farm-at-nickel-plate-kitchen-005.jpg
+        caption: Kitchen
+        alt: Kitchen at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/kitchen/the-farm-at-nickel-plate-kitchen-006.jpg
+        caption: Kitchen
+        alt: Kitchen at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/kitchen/the-farm-at-nickel-plate-kitchen-007.jpg
+        caption: Kitchen
+        alt: Kitchen at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/kitchen/the-farm-at-nickel-plate-kitchen-008.jpg
+        caption: Kitchen
+        alt: Kitchen at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/kitchen/the-farm-at-nickel-plate-kitchen-009.jpg
+        caption: Kitchen
+        alt: Kitchen at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/kitchen/the-farm-at-nickel-plate-kitchen-010.jpg
+        caption: Kitchen
+        alt: Kitchen at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/kitchen/the-farm-at-nickel-plate-kitchen-011.jpg
+        caption: Kitchen
+        alt: Kitchen at The Farm at Nickel Plate
+  - name: Sport court
+    images:
+      - image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-001.jpg
+        caption: Sports barn
+        alt: Sports barn at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-002.jpg
+        caption: Sports barn
+        alt: Sports barn at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-003.jpg
+        caption: Sports barn
+        alt: Sports barn at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-004.jpg
+        caption: Sports barn
+        alt: Sports barn at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-005.jpg
+        caption: Sports barn
+        alt: Sports barn at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-006.jpg
+        caption: Sports barn
+        alt: Sports barn at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-007.jpg
+        caption: Sports barn
+        alt: Sports barn at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-008.jpg
+        caption: Sports barn
+        alt: Sports barn at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-009.jpg
+        caption: Sports barn
+        alt: Sports barn at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-010.jpg
+        caption: Sports barn
+        alt: Sports barn at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-011.jpg
+        caption: Sports barn
+        alt: Sports barn at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-012.jpg
+        caption: Sports barn
+        alt: Sports barn at The Farm at Nickel Plate
+  - name: Basement game room
+    images:
+      - image: /images/cabins/the-farm-at-nickel-plate/basement-game-room/the-farm-at-nickel-plate-basement-game-room-001.jpg
+        caption: Basement game room
+        alt: Basement game room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/basement-game-room/the-farm-at-nickel-plate-basement-game-room-002.jpg
+        caption: Basement game room
+        alt: Basement game room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/basement-game-room/the-farm-at-nickel-plate-basement-game-room-003.jpg
+        caption: Basement game room
+        alt: Basement game room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/basement-game-room/the-farm-at-nickel-plate-basement-game-room-004.jpg
+        caption: Basement game room
+        alt: Basement game room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/basement-game-room/the-farm-at-nickel-plate-basement-game-room-005.jpg
+        caption: Basement game room
+        alt: Basement game room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/basement-game-room/the-farm-at-nickel-plate-basement-game-room-006.jpg
+        caption: Basement game room
+        alt: Basement game room at The Farm at Nickel Plate
+      - image: /images/cabins/the-farm-at-nickel-plate/basement-game-room/the-farm-at-nickel-plate-basement-game-room-007.jpg
+        caption: Basement game room
+        alt: Basement game room at The Farm at Nickel Plate

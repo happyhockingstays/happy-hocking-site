@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /__forms.html
+Disallow: /review
+
+Sitemap: https://happyhocking.com/sitemap.xml

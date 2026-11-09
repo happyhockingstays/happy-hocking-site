@@ -1,0 +1,622 @@
+name: Loch Llyn
+shortName: Loch Llyn
+order: 2
+hidden: false
+isNew: false
+tagline: A place to retreat
+cardLine: 130 acres. Private lake. Room for everyone.
+town: Logan
+sleeps: 29
+bedrooms: 10
+beds: 21
+baths: '6'
+gamesAndSports: false
+chips:
+  - Private lake
+  - Pool
+  - Hot tub
+  - 130 acres
+seoTitle: 'Loch Llyn: Hocking Hills cabin for 29 with a private lake'
+seoDescription: Loch Llyn is a Hocking Hills estate in Logan, Ohio on 130 acres with a private 2-acre lake. Sleeps 29, with a pool, 8-person hot tub and 2 kitchens. Book direct.
+blurb: 130 acres, a private 2-acre lake and 11,000 square feet for your group of 29. Paddle out in the morning, hike your own trails, then meet at the hot tub.
+about: |-
+  Loch Llyn is one of the largest private homes in the Hocking Hills, on 130 acres in Logan, Ohio. It sleeps 29 across 10 bedrooms and sits 20 to 30 minutes from the main trails.
+
+  It's really 2 homes in 1: a log cabin side and a renovated newer side, joined by a hallway. Your group gets both, plus the lake, the trails and the pool.
+aboutMore: |-
+  The private 2-acre lake is stocked with fish, with kayaks and paddleboards ready to go. It's about 75 steps down from the house, and worth every one.
+
+  Back up top there's a new pool, an 8-person hot tub, a huge patio deck and a propane grill. Inside you'll find 3 living rooms, 2 full kitchens, a dining table that seats 20, a pool table, ping pong and an Xbox. There's parking for 12 to 15 cars.
+bookingWidget: ''
+heroImage: /images/cabins/loch-llyn/lake/loch-llyn-lake-004.jpg
+heroAlt: The private lake at Loch Llyn
+keyShots:
+  - image: /images/cabins/loch-llyn/pool/loch-llyn-pool-001.jpg
+    alt: Pool at Loch Llyn
+  - image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-002.jpg
+    alt: Hot tub overlooking the woods at Loch Llyn
+  - image: /images/cabins/loch-llyn/living-room/loch-llyn-living-room-001.jpg
+    alt: Living room on the newer side of Loch Llyn
+  - image: /images/cabins/loch-llyn/living-room-3-cabin/loch-llyn-living-room-3-cabin-001.jpg
+    alt: Log cabin living room at Loch Llyn
+highlights:
+  - title: Private lake
+    text: 2 acres, stocked with fish, about 75 steps down from the house.
+    image: /images/cabins/loch-llyn/lake/loch-llyn-lake-003.jpg
+    alt: Private lake at Loch Llyn
+  - title: 130 acres
+    text: Hiking trails of your own, right from the door.
+    image: /images/cabins/loch-llyn/lake/loch-llyn-lake-006.jpg
+    alt: 130 acres at Loch Llyn
+  - title: The pool
+    text: New, with a wide patio. Open May 15 to October 15.
+    image: /images/cabins/loch-llyn/pool/loch-llyn-pool-002.jpg
+    alt: The pool at Loch Llyn
+  - title: Hot tub for 8
+    text: Under cover, with the woods for a view. Open all year.
+    image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-002.jpg
+    alt: Hot tub for 8 at Loch Llyn
+  - title: 2 homes in 1
+    text: A log cabin side and a newer side, joined by a hallway.
+    image: /images/cabins/loch-llyn/living-room-3-cabin/loch-llyn-living-room-3-cabin-002.jpg
+    alt: 2 homes in 1 at Loch Llyn
+  - title: Dinner for 20
+    text: A table that seats 20, 2 full kitchens and 3 ovens.
+    image: /images/cabins/loch-llyn/kitchen-1/loch-llyn-kitchen-1-010.jpg
+    alt: Dinner for 20 at Loch Llyn
+rooms:
+  - name: Bedroom 1, primary suite
+    floor: Newer side, main floor
+    beds: King bed
+    sleeps: 2
+    note: Ensuite bath
+  - name: Bedroom 2
+    floor: Newer side, upstairs
+    beds: King bed
+    sleeps: 2
+    note: Shares the upstairs bath
+  - name: Bedroom 3
+    floor: Newer side, upstairs
+    beds: King bed
+    sleeps: 2
+    note: Shares the upstairs bath
+  - name: Bedroom 4, loft
+    floor: Newer side, upstairs
+    beds: Bunk bed and twin bed
+    sleeps: 3
+    note: Shares the upstairs bath
+  - name: Bedroom 5, kids bunk room
+    floor: Newer side, basement
+    beds: 5 bunk beds
+    sleeps: 10
+    note: ''
+  - name: Bedroom 6
+    floor: Newer side, basement
+    beds: King bed
+    sleeps: 2
+    note: ''
+  - name: Bedroom 7
+    floor: Cabin side
+    beds: King bed
+    sleeps: 2
+    note: Main floor
+  - name: Bedroom 8
+    floor: Cabin side
+    beds: King bed
+    sleeps: 2
+    note: Upstairs, with an ensuite bath
+  - name: Bedroom 9
+    floor: Cabin side
+    beds: King bed
+    sleeps: 2
+    note: Lower floor, near the hot tub
+  - name: Bedroom 10
+    floor: Cabin side
+    beds: King bed
+    sleeps: 2
+    note: Lower floor
+amenities:
+  - group: Outdoors
+    items:
+      - icon: lake
+        label: Private lake with kayaks and paddleboards
+      - icon: trails
+        label: Hiking trails on 130 acres
+      - icon: pool
+        label: Pool
+      - icon: hot-tub
+        label: 8-person hot tub
+  - group: Inside
+    items:
+      - icon: sofa
+        label: 3 living rooms
+      - icon: wifi
+        label: Wi-Fi and TVs
+      - icon: washer
+        label: Washer and dryer
+  - group: Kitchen
+    items:
+      - icon: kitchen
+        label: 2 full kitchens
+      - icon: fridge
+        label: 3 refrigerators and 3 ovens
+  - group: Games
+    items:
+      - icon: pool-table
+        label: Pool table
+      - icon: games
+        label: Ping pong
+      - icon: arcade
+        label: Xbox
+allAmenities:
+  - group: Scenic views
+    items:
+      - Lake view
+      - Valley view
+      - Pool view
+  - group: Bathroom
+    items:
+      - Bathtub
+      - Hair dryer
+      - Shampoo
+      - Conditioner
+      - Body soap
+      - Shower gel
+      - Hot water
+      - Cleaning products
+  - group: Bedroom and laundry
+    items:
+      - Washer
+      - Dryer
+      - Essentials
+      - Hangers
+      - Bed linens
+      - Extra pillows and blankets
+      - Iron
+      - Drying rack
+      - Clothing storage
+  - group: Entertainment
+    items:
+      - TV
+      - Xbox One
+      - Ping pong table
+      - Pool table
+  - group: Family
+    items:
+      - Pack 'n play
+      - High chair
+      - Children's dinnerware
+      - Board games
+  - group: Heating and cooling
+    items:
+      - Air conditioning
+      - Heating
+      - Ceiling fan
+      - Portable fans
+  - group: Home safety
+    items:
+      - Exterior security cameras on the property
+      - Smoke alarm
+      - Carbon monoxide alarm
+      - Fire extinguisher
+      - First aid kit
+  - group: Internet and office
+    items:
+      - Wi-Fi
+      - Dedicated workspace
+  - group: Kitchen and dining
+    items:
+      - Kitchen
+      - Refrigerator
+      - Freezer
+      - Microwave
+      - Stove
+      - Oven
+      - Dishwasher
+      - Cooking basics
+      - Dishes and silverware
+      - Coffee maker
+      - Coffee
+      - Hot water kettle
+      - Toaster
+      - Blender
+      - Wine glasses
+      - Baking sheet
+      - Barbecue utensils
+      - Dining table
+  - group: Outdoor
+    items:
+      - Patio or balcony
+      - Backyard
+      - Fire pit
+      - Outdoor furniture
+      - Outdoor dining area
+      - BBQ grill
+      - Sun loungers
+      - Kayaks
+      - Beach essentials
+      - Waterfront
+      - Lake access
+  - group: Parking and facilities
+    items:
+      - Free parking on the premises
+      - Private pool, open seasonally
+      - Private hot tub
+  - group: Services
+    items:
+      - Self check-in
+      - Keypad entry
+poolSeason: May 15 to October 15
+poolNote: Not heated.
+driveTimes:
+  - place: Hocking Hills trails
+    time: 20 to 30 min
+areaNote: 130 acres of your own, 20 to 30 minutes from the main Hocking Hills trails.
+checkOut: 10:00 am
+quietHours: ''
+cancellation: extended
+extraRules:
+  - The indoor gas fireplaces are decorative only
+goodToKnow:
+  - The lake is about 75 steps down from the house
+  - The home has a cabin side and a newer side, joined by a hallway. Message us if you want help planning who sleeps where
+  - Parking for 12 to 15 cars
+faqs:
+  - q: How many people does Loch Llyn sleep?
+    a: '29 guests across 10 bedrooms: 8 with king beds, a kids bunk room that sleeps 10 and a loft that sleeps 3. There are 5 full baths and 2 half baths.'
+  - q: Can we use the lake?
+    a: Yes. The 2-acre lake is private to your group. It's stocked with fish, and kayaks and paddleboards are provided. It's about 75 steps down from the house.
+  - q: Is the pool heated?
+    a: No. The pool is open May 15 to October 15. The 8-person hot tub is open all year.
+  - q: How far is Loch Llyn from the Hocking Hills trails?
+    a: About 20 to 30 minutes, and there are hiking trails on the property too.
+  - q: What time are check-in and check-out?
+    a: Check-in is 4:00 pm and check-out is 10:00 am.
+  - q: Is there a minimum stay?
+    a: 2 nights. Holiday and peak-season stays may need 3.
+  - q: What is the cancellation policy?
+    a: Full refund up to 90 days before check-in and 50% up to 60 days before. After that, stays are non-refundable.
+similar:
+  - content/cabins/valhalla-hills.yml
+  - content/cabins/the-farm-at-nickel-plate.yml
+airbnbRating: '4.92'
+airbnbReviews: 90
+permit: Hocking County ID 00637
+gallery:
+  - name: Pool
+    images:
+      - image: /images/cabins/loch-llyn/pool/loch-llyn-pool-001.jpg
+        caption: Pool
+        alt: Pool at Loch Llyn
+      - image: /images/cabins/loch-llyn/pool/loch-llyn-pool-002.jpg
+        caption: Pool
+        alt: Pool at Loch Llyn
+      - image: /images/cabins/loch-llyn/pool/loch-llyn-pool-003.jpg
+        caption: Pool
+        alt: Pool at Loch Llyn
+      - image: /images/cabins/loch-llyn/pool/loch-llyn-pool-004.jpg
+        caption: Pool
+        alt: Pool at Loch Llyn
+      - image: /images/cabins/loch-llyn/pool/loch-llyn-pool-005.jpg
+        caption: Pool
+        alt: Pool at Loch Llyn
+  - name: Exterior
+    images:
+      - image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-001.jpg
+        caption: Exterior
+        alt: Exterior at Loch Llyn
+      - image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-002.jpg
+        caption: Exterior
+        alt: Exterior at Loch Llyn
+      - image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-003.jpg
+        caption: Exterior
+        alt: Exterior at Loch Llyn
+      - image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-004.jpg
+        caption: Exterior
+        alt: Exterior at Loch Llyn
+      - image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-005.jpg
+        caption: Exterior
+        alt: Exterior at Loch Llyn
+      - image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-006.jpg
+        caption: Exterior
+        alt: Exterior at Loch Llyn
+      - image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-007.jpg
+        caption: Exterior
+        alt: Exterior at Loch Llyn
+      - image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-008.jpg
+        caption: Exterior
+        alt: Exterior at Loch Llyn
+      - image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-009.jpg
+        caption: Exterior
+        alt: Exterior at Loch Llyn
+      - image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-010.jpg
+        caption: Exterior
+        alt: Exterior at Loch Llyn
+      - image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-011.jpg
+        caption: Exterior
+        alt: Exterior at Loch Llyn
+      - image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-012.jpg
+        caption: Exterior
+        alt: Exterior at Loch Llyn
+  - name: Bedrooms, newer side
+    images:
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-1-001.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-1-002.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-1-003.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-1-004.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-2-001.jpg
+        caption: Bedroom 2 · King
+        alt: Bedroom 2 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-2-002.jpg
+        caption: Bedroom 2 · King
+        alt: Bedroom 2 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-2-003.jpg
+        caption: Bedroom 2 · King
+        alt: Bedroom 2 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-2-004.jpg
+        caption: Bedroom 2 · King
+        alt: Bedroom 2 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-2-005.jpg
+        caption: Bedroom 2 · King
+        alt: Bedroom 2 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-3-001.jpg
+        caption: Bedroom 3 · King
+        alt: Bedroom 3 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-3-002.jpg
+        caption: Bedroom 3 · King
+        alt: Bedroom 3 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-4-001.jpg
+        caption: Bedroom 4 · Bunk bed and twin
+        alt: Bedroom 4 at Loch Llyn, bunk bed and twin bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-4-002.jpg
+        caption: Bedroom 4 · Bunk bed and twin
+        alt: Bedroom 4 at Loch Llyn, bunk bed and twin bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-5-001.jpg
+        caption: Bedroom 5 · 5 bunk beds
+        alt: Bedroom 5 at Loch Llyn, 5 bunk beds
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-5-002.jpg
+        caption: Bedroom 5 · 5 bunk beds
+        alt: Bedroom 5 at Loch Llyn, 5 bunk beds
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-5-003.jpg
+        caption: Bedroom 5 · 5 bunk beds
+        alt: Bedroom 5 at Loch Llyn, 5 bunk beds
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-5-004.jpg
+        caption: Bedroom 5 · 5 bunk beds
+        alt: Bedroom 5 at Loch Llyn, 5 bunk beds
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-6-001.jpg
+        caption: Bedroom 6 · King
+        alt: Bedroom 6 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-6-002.jpg
+        caption: Bedroom 6 · King
+        alt: Bedroom 6 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-6-003.jpg
+        caption: Bedroom 6 · King
+        alt: Bedroom 6 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-newer-side/loch-llyn-newer-bedroom-6-004.jpg
+        caption: Bedroom 6 · King
+        alt: Bedroom 6 at Loch Llyn, king bed
+  - name: Bedrooms, cabin side
+    images:
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-bedrooms-cabin-side-001.jpg
+        caption: Bedroom, cabin side
+        alt: Bedroom, cabin side at Loch Llyn
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-cabin-bedroom-10-001.jpg
+        caption: Bedroom 10 · King
+        alt: Bedroom 10 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-cabin-bedroom-10-002.jpg
+        caption: Bedroom 10 · King
+        alt: Bedroom 10 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-cabin-bedroom-10-003.jpg
+        caption: Bedroom 10 · King
+        alt: Bedroom 10 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-cabin-bedroom-10-004.jpg
+        caption: Bedroom 10 · King
+        alt: Bedroom 10 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-cabin-bedroom-7-001.jpg
+        caption: Bedroom 7 · King
+        alt: Bedroom 7 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-cabin-bedroom-7-002.jpg
+        caption: Bedroom 7 · King
+        alt: Bedroom 7 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-cabin-bedroom-7-003.jpg
+        caption: Bedroom 7 · King
+        alt: Bedroom 7 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-cabin-bedroom-8-001.jpg
+        caption: Bedroom 8 · King
+        alt: Bedroom 8 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-cabin-bedroom-8-002.jpg
+        caption: Bedroom 8 · King
+        alt: Bedroom 8 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-cabin-bedroom-8-003.jpg
+        caption: Bedroom 8 · King
+        alt: Bedroom 8 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-cabin-bedroom-8-004.jpg
+        caption: Bedroom 8 · King
+        alt: Bedroom 8 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-cabin-bedroom-9-001.jpg
+        caption: Bedroom 9 · King
+        alt: Bedroom 9 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-cabin-bedroom-9-002.jpg
+        caption: Bedroom 9 · King
+        alt: Bedroom 9 at Loch Llyn, king bed
+      - image: /images/cabins/loch-llyn/bedrooms-cabin-side/loch-llyn-cabin-bedroom-9-003.jpg
+        caption: Bedroom 9 · King
+        alt: Bedroom 9 at Loch Llyn, king bed
+  - name: Bathrooms and laundry
+    images:
+      - image: /images/cabins/loch-llyn/bathrooms-laundry/loch-llyn-bathroom-1-001.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Loch Llyn
+      - image: /images/cabins/loch-llyn/bathrooms-laundry/loch-llyn-bathroom-1-002.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Loch Llyn
+      - image: /images/cabins/loch-llyn/bathrooms-laundry/loch-llyn-bathroom-1-003.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Loch Llyn
+      - image: /images/cabins/loch-llyn/bathrooms-laundry/loch-llyn-bathroom-2-001.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at Loch Llyn
+      - image: /images/cabins/loch-llyn/bathrooms-laundry/loch-llyn-bathroom-3-001.jpg
+        caption: Bathroom 3
+        alt: Bathroom 3 at Loch Llyn
+      - image: /images/cabins/loch-llyn/bathrooms-laundry/loch-llyn-bathroom-4-001.jpg
+        caption: Bathroom 4
+        alt: Bathroom 4 at Loch Llyn
+      - image: /images/cabins/loch-llyn/bathrooms-laundry/loch-llyn-bathroom-4-002.jpg
+        caption: Bathroom 4
+        alt: Bathroom 4 at Loch Llyn
+      - image: /images/cabins/loch-llyn/bathrooms-laundry/loch-llyn-bathroom-5-001.jpg
+        caption: Bathroom 5
+        alt: Bathroom 5 at Loch Llyn
+      - image: /images/cabins/loch-llyn/bathrooms-laundry/loch-llyn-bathroom-5-002.jpg
+        caption: Bathroom 5
+        alt: Bathroom 5 at Loch Llyn
+      - image: /images/cabins/loch-llyn/bathrooms-laundry/loch-llyn-half-bath-1-001.jpg
+        caption: Half bath 1
+        alt: Half bath 1 at Loch Llyn
+      - image: /images/cabins/loch-llyn/bathrooms-laundry/loch-llyn-half-bath-2-001.jpg
+        caption: Half bath 2
+        alt: Half bath 2 at Loch Llyn
+  - name: Living room
+    images:
+      - image: /images/cabins/loch-llyn/living-room/loch-llyn-living-room-001.jpg
+        caption: Living room
+        alt: Living room at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room/loch-llyn-living-room-002.jpg
+        caption: Living room
+        alt: Living room at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room/loch-llyn-living-room-003.jpg
+        caption: Living room
+        alt: Living room at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room/loch-llyn-living-room-004.jpg
+        caption: Living room
+        alt: Living room at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room/loch-llyn-living-room-005.jpg
+        caption: Living room
+        alt: Living room at Loch Llyn
+  - name: Kitchen 1
+    images:
+      - image: /images/cabins/loch-llyn/kitchen-1/loch-llyn-kitchen-1-001.jpg
+        caption: Kitchen 1
+        alt: Kitchen 1 at Loch Llyn
+      - image: /images/cabins/loch-llyn/kitchen-1/loch-llyn-kitchen-1-002.jpg
+        caption: Kitchen 1
+        alt: Kitchen 1 at Loch Llyn
+      - image: /images/cabins/loch-llyn/kitchen-1/loch-llyn-kitchen-1-003.jpg
+        caption: Kitchen 1
+        alt: Kitchen 1 at Loch Llyn
+      - image: /images/cabins/loch-llyn/kitchen-1/loch-llyn-kitchen-1-004.jpg
+        caption: Kitchen 1
+        alt: Kitchen 1 at Loch Llyn
+      - image: /images/cabins/loch-llyn/kitchen-1/loch-llyn-kitchen-1-005.jpg
+        caption: Kitchen 1
+        alt: Kitchen 1 at Loch Llyn
+      - image: /images/cabins/loch-llyn/kitchen-1/loch-llyn-kitchen-1-006.jpg
+        caption: Kitchen 1
+        alt: Kitchen 1 at Loch Llyn
+      - image: /images/cabins/loch-llyn/kitchen-1/loch-llyn-kitchen-1-007.jpg
+        caption: Kitchen 1
+        alt: Kitchen 1 at Loch Llyn
+      - image: /images/cabins/loch-llyn/kitchen-1/loch-llyn-kitchen-1-008.jpg
+        caption: Kitchen 1
+        alt: Kitchen 1 at Loch Llyn
+      - image: /images/cabins/loch-llyn/kitchen-1/loch-llyn-kitchen-1-009.jpg
+        caption: Kitchen 1
+        alt: Kitchen 1 at Loch Llyn
+      - image: /images/cabins/loch-llyn/kitchen-1/loch-llyn-kitchen-1-010.jpg
+        caption: Kitchen 1
+        alt: Kitchen 1 at Loch Llyn
+  - name: Kitchen 2
+    images:
+      - image: /images/cabins/loch-llyn/kitchen-2/loch-llyn-kitchen-2-001.jpg
+        caption: Kitchen 2
+        alt: Kitchen 2 at Loch Llyn
+      - image: /images/cabins/loch-llyn/kitchen-2/loch-llyn-kitchen-2-002.jpg
+        caption: Kitchen 2
+        alt: Kitchen 2 at Loch Llyn
+      - image: /images/cabins/loch-llyn/kitchen-2/loch-llyn-kitchen-2-003.jpg
+        caption: Kitchen 2
+        alt: Kitchen 2 at Loch Llyn
+      - image: /images/cabins/loch-llyn/kitchen-2/loch-llyn-kitchen-2-004.jpg
+        caption: Kitchen 2
+        alt: Kitchen 2 at Loch Llyn
+  - name: Lake
+    images:
+      - image: /images/cabins/loch-llyn/lake/loch-llyn-lake-001.jpg
+        caption: Lake
+        alt: Lake at Loch Llyn
+      - image: /images/cabins/loch-llyn/lake/loch-llyn-lake-002.jpg
+        caption: Lake
+        alt: Lake at Loch Llyn
+      - image: /images/cabins/loch-llyn/lake/loch-llyn-lake-003.jpg
+        caption: Lake
+        alt: Lake at Loch Llyn
+      - image: /images/cabins/loch-llyn/lake/loch-llyn-lake-004.jpg
+        caption: Lake
+        alt: Lake at Loch Llyn
+      - image: /images/cabins/loch-llyn/lake/loch-llyn-lake-005.jpg
+        caption: Lake
+        alt: Lake at Loch Llyn
+      - image: /images/cabins/loch-llyn/lake/loch-llyn-lake-006.jpg
+        caption: Lake
+        alt: Lake at Loch Llyn
+      - image: /images/cabins/loch-llyn/lake/loch-llyn-lake-007.jpg
+        caption: Lake
+        alt: Lake at Loch Llyn
+  - name: Living room 2
+    images:
+      - image: /images/cabins/loch-llyn/living-room-2/loch-llyn-living-room-2-001.jpg
+        caption: Living room 2
+        alt: Living room 2 at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room-2/loch-llyn-living-room-2-002.jpg
+        caption: Living room 2
+        alt: Living room 2 at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room-2/loch-llyn-living-room-2-003.jpg
+        caption: Living room 2
+        alt: Living room 2 at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room-2/loch-llyn-living-room-2-004.jpg
+        caption: Living room 2
+        alt: Living room 2 at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room-2/loch-llyn-living-room-2-005.jpg
+        caption: Living room 2
+        alt: Living room 2 at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room-2/loch-llyn-living-room-2-006.jpg
+        caption: Living room 2
+        alt: Living room 2 at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room-2/loch-llyn-living-room-2-007.jpg
+        caption: Living room 2
+        alt: Living room 2 at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room-2/loch-llyn-living-room-2-008.jpg
+        caption: Living room 2
+        alt: Living room 2 at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room-2/loch-llyn-living-room-2-009.jpg
+        caption: Living room 2
+        alt: Living room 2 at Loch Llyn
+  - name: Living room 3, cabin side
+    images:
+      - image: /images/cabins/loch-llyn/living-room-3-cabin/loch-llyn-living-room-3-cabin-001.jpg
+        caption: Living room 3, cabin side
+        alt: Living room 3, cabin side at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room-3-cabin/loch-llyn-living-room-3-cabin-002.jpg
+        caption: Living room 3, cabin side
+        alt: Living room 3, cabin side at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room-3-cabin/loch-llyn-living-room-3-cabin-003.jpg
+        caption: Living room 3, cabin side
+        alt: Living room 3, cabin side at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room-3-cabin/loch-llyn-living-room-3-cabin-004.jpg
+        caption: Living room 3, cabin side
+        alt: Living room 3, cabin side at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room-3-cabin/loch-llyn-living-room-3-cabin-005.jpg
+        caption: Living room 3, cabin side
+        alt: Living room 3, cabin side at Loch Llyn
+      - image: /images/cabins/loch-llyn/living-room-3-cabin/loch-llyn-living-room-3-cabin-006.jpg
+        caption: Living room 3, cabin side
+        alt: Living room 3, cabin side at Loch Llyn

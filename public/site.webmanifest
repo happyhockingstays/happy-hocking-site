@@ -1,0 +1,11 @@
+{
+  "name": "Happy Hocking Stays",
+  "short_name": "Happy Hocking",
+  "icons": [
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ],
+  "theme_color": "#1f3d2e",
+  "background_color": "#f9f3e7",
+  "display": "browser"
+}

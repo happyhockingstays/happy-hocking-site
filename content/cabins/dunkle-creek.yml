@@ -1,0 +1,392 @@
+name: Dunkle Creek
+shortName: Dunkle Creek
+order: 9
+hidden: false
+isNew: false
+tagline: A place to slow down
+cardLine: Cozy A-frame. Hot tub. Fire pit in the woods.
+town: McArthur
+sleeps: 6
+bedrooms: 2
+beds: 4
+baths: '2.5'
+gamesAndSports: false
+chips:
+  - A-frame
+  - Hot tub
+  - Fire pit
+  - Game room
+seoTitle: 'Dunkle Creek: Hocking Hills A-frame cabin with a hot tub'
+seoDescription: Dunkle Creek is a cozy black A-frame cabin in the Hocking Hills near McArthur, Ohio, 15 minutes from Ash Cave. Sleeps 6, with a hot tub, fire pit and pool.
+blurb: A cozy black A-frame for 6, 15 minutes from Ash Cave. Soak in the hot tub, light the fire pit and let the woods do the rest.
+about: |-
+  Dunkle Creek is a black A-frame Hocking Hills cabin in McArthur, Ohio, 15 minutes from Ash Cave and 20 to 30 minutes from the other main trails. It sleeps 6 across 2 bedrooms and 2.5 baths.
+
+  This is the one for slowing down. Soak in the hot tub on a crisp night, circle up at the fire pit in the woods and watch the hills change color in the fall.
+aboutMore: |-
+  Inside there are 2 electric fireplaces, 2 65-inch smart TVs and a basement game room with shuffleboard and board games. The kitchen is fully stocked, and Wi-Fi and a dedicated workspace make midweek stays easy.
+
+  The A-frame has several levels, with flights of stairs between them. The king bedroom is in the top-floor loft, and the pool is open May 15 to October 15.
+bookingWidget: ''
+heroImage: /images/cabins/dunkle-creek/pool/dunkle-creek-pool-001.jpg
+heroAlt: The black A-frame at Dunkle Creek with its pool deck
+keyShots:
+  - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-006.jpg
+    alt: Front of the A-frame at Dunkle Creek
+  - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-003.jpg
+    alt: Covered hot tub at Dunkle Creek
+  - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-008.jpg
+    alt: Fire pit in the woods at Dunkle Creek
+  - image: /images/cabins/dunkle-creek/living-room/dunkle-creek-living-room-002.jpg
+    alt: Living room at Dunkle Creek
+highlights:
+  - title: Hot tub
+    text: Covered, steamy and open all year.
+    image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-004.jpg
+    alt: Hot tub at Dunkle Creek
+  - title: Fire pit in the woods
+    text: Adirondack chairs under the trees.
+    image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-008.jpg
+    alt: Fire pit in the woods at Dunkle Creek
+  - title: Game room
+    text: Shuffleboard and board games in the basement.
+    image: /images/cabins/dunkle-creek/basement-game-room/dunkle-creek-basement-game-room-004.jpg
+    alt: Game room at Dunkle Creek
+  - title: The A-frame
+    text: Tall windows, exposed beams and 2 electric fireplaces.
+    image: /images/cabins/dunkle-creek/living-room/dunkle-creek-living-room-003.jpg
+    alt: The A-frame at Dunkle Creek
+  - title: Seasonal pool
+    text: Open May 15 to October 15, with a view of the hills.
+    image: /images/cabins/dunkle-creek/pool/dunkle-creek-pool-004.jpg
+    alt: Seasonal pool at Dunkle Creek
+  - title: Front-row fall color
+    text: Wooded hills in every direction.
+    image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-012.jpg
+    alt: Front-row fall color at Dunkle Creek
+rooms:
+  - name: Primary bedroom
+    floor: Top-floor loft
+    beds: King bed
+    sleeps: 2
+    note: Ensuite bath with a walk-in shower and a bathtub
+    image: /images/cabins/dunkle-creek/bedrooms/dunkle-creek-bedroom-1-001.jpg
+    alt: Primary bedroom at Dunkle Creek
+  - name: Bedroom 2
+    floor: Basement
+    beds: Queen bed and built-in bunk beds
+    sleeps: 4
+    note: Close to the hot tub and pool, with a full bath across the hall
+    image: /images/cabins/dunkle-creek/bedrooms/dunkle-creek-bedroom-2-001.jpg
+    alt: Bedroom 2 at Dunkle Creek
+amenities:
+  - group: Outdoors
+    items:
+      - icon: hot-tub
+        label: Hot tub
+      - icon: fire-pit
+        label: Fire pit with Adirondack chairs
+      - icon: pool
+        label: Seasonal pool
+      - icon: grill
+        label: Propane grill
+  - group: Inside
+    items:
+      - icon: tv
+        label: 2 65-inch smart TVs
+      - icon: sofa
+        label: 2 electric fireplaces
+      - icon: wifi
+        label: Wi-Fi
+      - icon: workspace
+        label: Dedicated workspace
+  - group: Kitchen
+    items:
+      - icon: kitchen
+        label: Fully stocked kitchen
+      - icon: coffee
+        label: Coffee maker
+  - group: Games
+    items:
+      - icon: game-room
+        label: Shuffleboard
+      - icon: games
+        label: Board games
+allAmenities:
+  - group: Bathroom
+    items:
+      - Bathtub
+      - Hair dryer
+      - Shampoo
+      - Conditioner
+      - Body soap
+      - Shower gel
+      - Hot water
+      - Cleaning products
+  - group: Bedroom and laundry
+    items:
+      - Washer
+      - Dryer
+      - Essentials
+      - Hangers
+      - Bed linens
+      - Extra pillows and blankets
+  - group: Entertainment
+    items:
+      - TV
+  - group: Family
+    items:
+      - Pack 'n play
+      - Board games
+  - group: Heating and cooling
+    items:
+      - Air conditioning
+      - Heating
+      - Ceiling fan
+      - Portable fans
+      - Indoor fireplace
+  - group: Home safety
+    items:
+      - Exterior security cameras on the property
+      - Smoke alarm
+      - Carbon monoxide alarm
+      - Fire extinguisher
+      - First aid kit
+  - group: Internet and office
+    items:
+      - Wi-Fi
+      - Dedicated workspace
+  - group: Kitchen and dining
+    items:
+      - Kitchen
+      - Refrigerator
+      - Freezer
+      - Microwave
+      - Stove
+      - Oven
+      - Dishwasher
+      - Cooking basics
+      - Dishes and silverware
+      - Coffee maker
+      - Coffee
+      - Hot water kettle
+      - Toaster
+      - Wine glasses
+      - Baking sheet
+      - Barbecue utensils
+      - Dining table
+  - group: Outdoor
+    items:
+      - Patio or balcony
+      - Fire pit
+      - Outdoor furniture
+      - Outdoor dining area
+      - BBQ grill
+      - Sun loungers
+  - group: Parking and facilities
+    items:
+      - Free parking on the premises
+      - Private pool, open seasonally
+      - Private hot tub
+  - group: Services
+    items:
+      - Self check-in
+      - Keypad entry
+poolSeason: May 15 to October 15
+poolNote: Not heated.
+driveTimes:
+  - place: Ash Cave
+    time: 15 min
+  - place: Other Hocking Hills trails
+    time: 20 to 30 min
+areaNote: In the woods near McArthur, on the quiet south side of the Hocking Hills.
+checkOut: ''
+quietHours: 10:00 pm to 8:00 am
+cancellation: standard
+extraRules: []
+goodToKnow:
+  - The A-frame has several levels, with flights of stairs between them
+  - Cell service can be spotty. Save the Wi-Fi password before you arrive and use Wi-Fi calling
+faqs:
+  - q: How many people does Dunkle Creek sleep?
+    a: '6 guests across 2 bedrooms: a king bed in the top-floor loft, and a queen bed with built-in bunk beds in the basement. There are 2.5 baths.'
+  - q: How close is Dunkle Creek to Ash Cave?
+    a: About 15 minutes. The other main Hocking Hills trails are 20 to 30 minutes away.
+  - q: Is the pool heated?
+    a: No. The pool is open May 15 to October 15. The hot tub is open all year.
+  - q: Is there cell service?
+    a: It can be spotty. The cabin has Wi-Fi, so save the password before you arrive and turn on Wi-Fi calling.
+  - q: What time are check-in and check-out?
+    a: Check-in is 4:00 pm and check-out is 11:00 am.
+  - q: Is there a minimum stay?
+    a: 2 nights. Holiday and peak-season stays may need 3.
+  - q: What is the cancellation policy?
+    a: Full refund up to 60 days before check-in and 50% up to 30 days before. After that, stays are non-refundable.
+similar:
+  - content/cabins/lazy-deer-retreat.yml
+  - content/cabins/pickle-hill.yml
+airbnbRating: '4.92'
+airbnbReviews: 75
+permit: ''
+gallery:
+  - name: Pool
+    images:
+      - image: /images/cabins/dunkle-creek/pool/dunkle-creek-pool-001.jpg
+        caption: Pool
+        alt: Pool at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/pool/dunkle-creek-pool-002.jpg
+        caption: Pool
+        alt: Pool at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/pool/dunkle-creek-pool-003.jpg
+        caption: Pool
+        alt: Pool at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/pool/dunkle-creek-pool-004.jpg
+        caption: Pool
+        alt: Pool at Dunkle Creek
+  - name: Exterior
+    images:
+      - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-001.jpg
+        caption: Exterior
+        alt: Exterior at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-002.jpg
+        caption: Exterior
+        alt: Exterior at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-003.jpg
+        caption: Exterior
+        alt: Exterior at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-004.jpg
+        caption: Exterior
+        alt: Exterior at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-005.jpg
+        caption: Exterior
+        alt: Exterior at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-006.jpg
+        caption: Exterior
+        alt: Exterior at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-007.jpg
+        caption: Exterior
+        alt: Exterior at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-008.jpg
+        caption: Exterior
+        alt: Exterior at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-009.jpg
+        caption: Exterior
+        alt: Exterior at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-010.jpg
+        caption: Exterior
+        alt: Exterior at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-011.jpg
+        caption: Exterior
+        alt: Exterior at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-012.jpg
+        caption: Exterior
+        alt: Exterior at Dunkle Creek
+  - name: Bedrooms
+    images:
+      - image: /images/cabins/dunkle-creek/bedrooms/dunkle-creek-bedroom-1-001.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Dunkle Creek, king bed
+      - image: /images/cabins/dunkle-creek/bedrooms/dunkle-creek-bedroom-1-002.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Dunkle Creek, king bed
+      - image: /images/cabins/dunkle-creek/bedrooms/dunkle-creek-bedroom-1-003.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Dunkle Creek, king bed
+      - image: /images/cabins/dunkle-creek/bedrooms/dunkle-creek-bedroom-1-004.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Dunkle Creek, king bed
+      - image: /images/cabins/dunkle-creek/bedrooms/dunkle-creek-bedroom-2-001.jpg
+        caption: Bedroom 2 · Queen and bunks
+        alt: Bedroom 2 at Dunkle Creek, queen bed and built-in bunk beds
+      - image: /images/cabins/dunkle-creek/bedrooms/dunkle-creek-bedroom-2-002.jpg
+        caption: Bedroom 2 · Queen and bunks
+        alt: Bedroom 2 at Dunkle Creek, queen bed and built-in bunk beds
+      - image: /images/cabins/dunkle-creek/bedrooms/dunkle-creek-bedroom-2-003.jpg
+        caption: Bedroom 2 · Queen and bunks
+        alt: Bedroom 2 at Dunkle Creek, queen bed and built-in bunk beds
+  - name: Bathrooms and laundry
+    images:
+      - image: /images/cabins/dunkle-creek/bathrooms-laundry/dunkle-creek-bathroom-1-001.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/bathrooms-laundry/dunkle-creek-bathroom-1-002.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/bathrooms-laundry/dunkle-creek-bathroom-1-003.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/bathrooms-laundry/dunkle-creek-bathroom-1-004.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/bathrooms-laundry/dunkle-creek-bathroom-2-001.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/bathrooms-laundry/dunkle-creek-bathroom-2-002.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/bathrooms-laundry/dunkle-creek-bathroom-2-003.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/bathrooms-laundry/dunkle-creek-half-bath-001.jpg
+        caption: Half bath
+        alt: Half bath at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/bathrooms-laundry/dunkle-creek-half-bath-002.jpg
+        caption: Half bath
+        alt: Half bath at Dunkle Creek
+  - name: Living room
+    images:
+      - image: /images/cabins/dunkle-creek/living-room/dunkle-creek-living-room-001.jpg
+        caption: Living room
+        alt: Living room at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/living-room/dunkle-creek-living-room-002.jpg
+        caption: Living room
+        alt: Living room at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/living-room/dunkle-creek-living-room-003.jpg
+        caption: Living room
+        alt: Living room at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/living-room/dunkle-creek-living-room-004.jpg
+        caption: Living room
+        alt: Living room at Dunkle Creek
+  - name: Kitchen and dining
+    images:
+      - image: /images/cabins/dunkle-creek/kitchen-dining/dunkle-creek-kitchen-dining-001.jpg
+        caption: Kitchen and dining
+        alt: Kitchen and dining at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/kitchen-dining/dunkle-creek-kitchen-dining-002.jpg
+        caption: Kitchen and dining
+        alt: Kitchen and dining at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/kitchen-dining/dunkle-creek-kitchen-dining-003.jpg
+        caption: Kitchen and dining
+        alt: Kitchen and dining at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/kitchen-dining/dunkle-creek-kitchen-dining-004.jpg
+        caption: Kitchen and dining
+        alt: Kitchen and dining at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/kitchen-dining/dunkle-creek-kitchen-dining-005.jpg
+        caption: Kitchen and dining
+        alt: Kitchen and dining at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/kitchen-dining/dunkle-creek-kitchen-dining-006.jpg
+        caption: Kitchen and dining
+        alt: Kitchen and dining at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/kitchen-dining/dunkle-creek-kitchen-dining-007.jpg
+        caption: Kitchen and dining
+        alt: Kitchen and dining at Dunkle Creek
+  - name: Basement game room
+    images:
+      - image: /images/cabins/dunkle-creek/basement-game-room/dunkle-creek-basement-game-room-001.jpg
+        caption: Basement game room
+        alt: Basement game room at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/basement-game-room/dunkle-creek-basement-game-room-002.jpg
+        caption: Basement game room
+        alt: Basement game room at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/basement-game-room/dunkle-creek-basement-game-room-003.jpg
+        caption: Basement game room
+        alt: Basement game room at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/basement-game-room/dunkle-creek-basement-game-room-004.jpg
+        caption: Basement game room
+        alt: Basement game room at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/basement-game-room/dunkle-creek-basement-game-room-005.jpg
+        caption: Basement game room
+        alt: Basement game room at Dunkle Creek
+      - image: /images/cabins/dunkle-creek/basement-game-room/dunkle-creek-basement-game-room-006.jpg
+        caption: Basement game room
+        alt: Basement game room at Dunkle Creek

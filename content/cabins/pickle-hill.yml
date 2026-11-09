@@ -1,0 +1,425 @@
+name: Pickle Hill
+shortName: Pickle Hill
+order: 7
+hidden: false
+isNew: false
+tagline: A place to play
+cardLine: Regulation court. Indoor barn. Game on.
+town: Logan
+sleeps: 10
+bedrooms: 5
+beds: 6
+baths: '2'
+gamesAndSports: true
+chips:
+  - Pickleball barn
+  - Saltwater pool
+  - Hot tub
+  - Sauna
+seoTitle: 'Pickle Hill: Hocking Hills cabin with a pickleball court'
+seoDescription: Pickle Hill is a Hocking Hills cabin in Logan, Ohio with a regulation pickleball court in its own barn. Sleeps 10, with a pool, hot tub and sauna. Book direct.
+blurb: A regulation pickleball court in its own barn, 5 minutes from downtown Logan. Play a few games, jump in the saltwater pool, then warm up in the sauna.
+about: |-
+  Pickle Hill is a Hocking Hills cabin in Logan, Ohio with one of the only regulation-size pickleball courts in the area. It sleeps 10 across 5 bedrooms, 5 minutes from downtown Logan and 20 to 30 minutes from the trails.
+
+  The court sits in its own enclosed barn on 3 acres, so the game goes on rain or shine. Paddles down, the saltwater pool and hot tub are waiting.
+aboutMore: |-
+  There's more to play: ping pong, a basketball hoop, cornhole, Spikeball and KanJam. When it's time to slow down, there's an infrared sauna, a fire pit with firewood provided and a finished basement with a TV.
+
+  The kitchen has a coffee bar with specialty syrups and to-go cups, plus an air fryer and everything you need to cook for 10. The barn is covered but not heated or cooled, so dress for the season.
+bookingWidget: ''
+heroImage: /images/cabins/pickle-hill/sport-barn/pickle-hill-sport-barn-002.jpg
+heroAlt: Friends playing pickleball on the indoor court at Pickle Hill
+keyShots:
+  - image: /images/cabins/pickle-hill/pool/pickle-hill-pool-001.jpg
+    alt: Aerial view of the saltwater pool at Pickle Hill
+  - image: /images/cabins/pickle-hill/living-room/pickle-hill-living-room-1-001.jpg
+    alt: Living room at Pickle Hill
+  - image: /images/cabins/pickle-hill/pool/pickle-hill-pool-009.jpg
+    alt: Hot tub at Pickle Hill
+  - image: /images/cabins/pickle-hill/living-room/pickle-hill-living-room-2-004.jpg
+    alt: Infrared sauna in the basement at Pickle Hill
+highlights:
+  - title: Pickleball barn
+    text: A regulation court, indoors. Game on in any weather.
+    image: /images/cabins/pickle-hill/sport-barn/pickle-hill-sport-barn-007.jpg
+    alt: Pickleball barn at Pickle Hill
+  - title: Saltwater pool
+    text: Open May 15 to October 15, with loungers all around.
+    image: /images/cabins/pickle-hill/pool/pickle-hill-pool-005.jpg
+    alt: Saltwater pool at Pickle Hill
+  - title: Hot tub
+    text: Seats 5 to 6, open all year.
+    image: /images/cabins/pickle-hill/pool/pickle-hill-pool-010.jpg
+    alt: Hot tub at Pickle Hill
+  - title: Infrared sauna
+    text: Sore legs, meet your new best friend.
+    image: /images/cabins/pickle-hill/living-room/pickle-hill-living-room-2-005.jpg
+    alt: Infrared sauna at Pickle Hill
+  - title: Yard games
+    text: Cornhole, Spikeball, KanJam and a basketball hoop.
+    image: /images/cabins/pickle-hill/sport-barn/pickle-hill-sport-barn-010.jpg
+    alt: Yard games at Pickle Hill
+  - title: Basement hangout
+    text: A big sectional, a TV and room for the whole team.
+    image: /images/cabins/pickle-hill/living-room/pickle-hill-living-room-2-001.jpg
+    alt: Basement hangout at Pickle Hill
+rooms:
+  - name: Bedroom 1
+    floor: First floor
+    beds: King bed
+    sleeps: 2
+    note: Walk-in closet
+  - name: Bedroom 2
+    floor: First floor
+    beds: Queen bed
+    sleeps: 2
+    note: Great views
+  - name: Bedroom 3
+    floor: Upstairs
+    beds: King bed
+    sleeps: 2
+    note: Large room with a desk
+  - name: Bedroom 4
+    floor: Basement
+    beds: Queen bed
+    sleeps: 2
+    note: Open area, close to the sauna
+  - name: Bedroom 5
+    floor: Basement
+    beds: 2 twin beds
+    sleeps: 2
+    note: Close to the sauna
+amenities:
+  - group: Outdoors
+    items:
+      - icon: pool
+        label: Saltwater pool
+      - icon: hot-tub
+        label: Hot tub for 5 to 6
+      - icon: fire-pit
+        label: Fire pit, firewood provided
+      - icon: grill
+        label: Natural gas grill
+  - group: Inside
+    items:
+      - icon: sauna
+        label: Infrared sauna
+      - icon: wifi
+        label: Fast Wi-Fi
+      - icon: tv
+        label: 2 65-inch streaming TVs
+  - group: Kitchen
+    items:
+      - icon: coffee
+        label: Coffee bar with syrups and to-go cups
+      - icon: cooking
+        label: Air fryer and gas stove
+  - group: Games
+    items:
+      - icon: pickleball
+        label: Regulation pickleball court
+      - icon: basketball
+        label: Basketball hoop
+      - icon: games
+        label: Ping pong, cornhole, Spikeball and KanJam
+allAmenities:
+  - group: Bathroom
+    items:
+      - Hair dryer
+      - Shampoo
+      - Conditioner
+      - Body soap
+      - Shower gel
+      - Hot water
+      - Cleaning products
+  - group: Bedroom and laundry
+    items:
+      - Washer
+      - Dryer
+      - Essentials
+      - Hangers
+      - Bed linens
+      - Extra pillows and blankets
+      - Iron
+      - Clothing storage
+  - group: Entertainment
+    items:
+      - TV
+      - Ping pong table
+  - group: Family
+    items:
+      - Board games
+  - group: Heating and cooling
+    items:
+      - Air conditioning
+      - Heating
+      - Ceiling fan
+      - Portable fans
+      - Indoor fireplace
+  - group: Home safety
+    items:
+      - Exterior security cameras on the property
+      - Smoke alarm
+      - Carbon monoxide alarm
+      - Fire extinguisher
+      - First aid kit
+  - group: Internet and office
+    items:
+      - Wi-Fi
+  - group: Kitchen and dining
+    items:
+      - Kitchen
+      - Refrigerator
+      - Freezer
+      - Microwave
+      - Stove
+      - Oven
+      - Dishwasher
+      - Cooking basics
+      - Dishes and silverware
+      - Coffee maker
+      - Coffee
+      - Toaster
+      - Blender
+      - Wine glasses
+      - Baking sheet
+      - Barbecue utensils
+      - Dining table
+  - group: Outdoor
+    items:
+      - Patio or balcony
+      - Backyard
+      - Fire pit
+      - Outdoor furniture
+      - Outdoor dining area
+      - BBQ grill
+      - Sun loungers
+  - group: Parking and facilities
+    items:
+      - Free parking on the premises
+      - Private pool, open seasonally
+      - Private hot tub
+      - Sauna
+  - group: Services
+    items:
+      - Self check-in
+      - Keypad entry
+poolSeason: May 15 to October 15
+poolNote: Saltwater, not heated.
+driveTimes:
+  - place: Downtown Logan
+    time: 5 min
+  - place: Hocking Hills trails
+    time: 20 to 30 min
+areaNote: 3 acres just outside Logan, with shops and restaurants 5 minutes away.
+checkOut: ''
+quietHours: 10:00 pm to 8:00 am
+cancellation: standard
+extraRules:
+  - The small red garage by the house is off-limits
+  - The white fence marks our neighbors' property line
+goodToKnow:
+  - The pickleball barn is covered but not heated or cooled
+faqs:
+  - q: Is the pickleball court indoors?
+    a: Yes. It's a full-size regulation court inside an enclosed barn, so you can play in any weather. The barn isn't heated or cooled.
+  - q: How many people does Pickle Hill sleep?
+    a: 10 guests across 5 bedrooms, with 2 king beds, 2 queen beds and a pair of twins. There are 2 full baths.
+  - q: Is the pool heated?
+    a: No. The saltwater pool is open May 15 to October 15. The hot tub and infrared sauna are there all year.
+  - q: How far is Pickle Hill from the Hocking Hills trails?
+    a: About 20 to 30 minutes. Downtown Logan is 5 minutes away.
+  - q: What time are check-in and check-out?
+    a: Check-in is 4:00 pm and check-out is 11:00 am.
+  - q: Is there a minimum stay?
+    a: 2 nights. Holiday and peak-season stays may need 3.
+  - q: What is the cancellation policy?
+    a: Full refund up to 60 days before check-in and 50% up to 30 days before. After that, stays are non-refundable.
+similar:
+  - content/cabins/lazy-deer-retreat.yml
+  - content/cabins/the-farm-at-nickel-plate.yml
+airbnbRating: '4.98'
+airbnbReviews: 125
+permit: Hocking County ID 00767
+gallery:
+  - name: Pool
+    images:
+      - image: /images/cabins/pickle-hill/pool/pickle-hill-pool-001.jpg
+        caption: Pool
+        alt: Pool at Pickle Hill
+      - image: /images/cabins/pickle-hill/pool/pickle-hill-pool-002.jpg
+        caption: Pool
+        alt: Pool at Pickle Hill
+      - image: /images/cabins/pickle-hill/pool/pickle-hill-pool-003.jpg
+        caption: Pool
+        alt: Pool at Pickle Hill
+      - image: /images/cabins/pickle-hill/pool/pickle-hill-pool-004.jpg
+        caption: Pool
+        alt: Pool at Pickle Hill
+      - image: /images/cabins/pickle-hill/pool/pickle-hill-pool-005.jpg
+        caption: Pool
+        alt: Pool at Pickle Hill
+      - image: /images/cabins/pickle-hill/pool/pickle-hill-pool-006.jpg
+        caption: Pool
+        alt: Pool at Pickle Hill
+      - image: /images/cabins/pickle-hill/pool/pickle-hill-pool-007.jpg
+        caption: Pool
+        alt: Pool at Pickle Hill
+      - image: /images/cabins/pickle-hill/pool/pickle-hill-pool-008.jpg
+        caption: Pool
+        alt: Pool at Pickle Hill
+      - image: /images/cabins/pickle-hill/pool/pickle-hill-pool-009.jpg
+        caption: Pool
+        alt: Pool at Pickle Hill
+      - image: /images/cabins/pickle-hill/pool/pickle-hill-pool-010.jpg
+        caption: Pool
+        alt: Pool at Pickle Hill
+      - image: /images/cabins/pickle-hill/pool/pickle-hill-pool-011.jpg
+        caption: Pool
+        alt: Pool at Pickle Hill
+      - image: /images/cabins/pickle-hill/pool/pickle-hill-pool-012.jpg
+        caption: Pool
+        alt: Pool at Pickle Hill
+  - name: Bedrooms
+    images:
+      - image: /images/cabins/pickle-hill/bedrooms/pickle-hill-bedroom-1-001.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Pickle Hill, king bed
+      - image: /images/cabins/pickle-hill/bedrooms/pickle-hill-bedroom-1-002.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Pickle Hill, king bed
+      - image: /images/cabins/pickle-hill/bedrooms/pickle-hill-bedroom-1-003.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Pickle Hill, king bed
+      - image: /images/cabins/pickle-hill/bedrooms/pickle-hill-bedroom-2-001.jpg
+        caption: Bedroom 2 · Queen
+        alt: Bedroom 2 at Pickle Hill, queen bed
+      - image: /images/cabins/pickle-hill/bedrooms/pickle-hill-bedroom-3-001.jpg
+        caption: Bedroom 3 · King
+        alt: Bedroom 3 at Pickle Hill, king bed
+      - image: /images/cabins/pickle-hill/bedrooms/pickle-hill-bedroom-3-002.jpg
+        caption: Bedroom 3 · King
+        alt: Bedroom 3 at Pickle Hill, king bed
+      - image: /images/cabins/pickle-hill/bedrooms/pickle-hill-bedroom-3-003.jpg
+        caption: Bedroom 3 · King
+        alt: Bedroom 3 at Pickle Hill, king bed
+      - image: /images/cabins/pickle-hill/bedrooms/pickle-hill-bedroom-3-004.jpg
+        caption: Bedroom 3 · King
+        alt: Bedroom 3 at Pickle Hill, king bed
+      - image: /images/cabins/pickle-hill/bedrooms/pickle-hill-bedroom-4-001.jpg
+        caption: Bedroom 4 · Queen
+        alt: Bedroom 4 at Pickle Hill, queen bed
+      - image: /images/cabins/pickle-hill/bedrooms/pickle-hill-bedroom-4-002.jpg
+        caption: Bedroom 4 · Queen
+        alt: Bedroom 4 at Pickle Hill, queen bed
+      - image: /images/cabins/pickle-hill/bedrooms/pickle-hill-bedroom-4-003.jpg
+        caption: Bedroom 4 · Queen
+        alt: Bedroom 4 at Pickle Hill, queen bed
+      - image: /images/cabins/pickle-hill/bedrooms/pickle-hill-bedroom-5-001.jpg
+        caption: Bedroom 5 · 2 twins
+        alt: Bedroom 5 at Pickle Hill, 2 twin beds
+      - image: /images/cabins/pickle-hill/bedrooms/pickle-hill-bedroom-5-002.jpg
+        caption: Bedroom 5 · 2 twins
+        alt: Bedroom 5 at Pickle Hill, 2 twin beds
+      - image: /images/cabins/pickle-hill/bedrooms/pickle-hill-bedroom-5-003.jpg
+        caption: Bedroom 5 · 2 twins
+        alt: Bedroom 5 at Pickle Hill, 2 twin beds
+  - name: Bathrooms and laundry
+    images:
+      - image: /images/cabins/pickle-hill/bathrooms-laundry/pickle-hill-bathroom-1-001.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Pickle Hill
+      - image: /images/cabins/pickle-hill/bathrooms-laundry/pickle-hill-bathroom-1-002.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Pickle Hill
+      - image: /images/cabins/pickle-hill/bathrooms-laundry/pickle-hill-bathroom-1-003.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Pickle Hill
+      - image: /images/cabins/pickle-hill/bathrooms-laundry/pickle-hill-bathroom-2-001.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at Pickle Hill
+      - image: /images/cabins/pickle-hill/bathrooms-laundry/pickle-hill-bathroom-2-002.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at Pickle Hill
+      - image: /images/cabins/pickle-hill/bathrooms-laundry/pickle-hill-bathroom-2-003.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at Pickle Hill
+  - name: Living room
+    images:
+      - image: /images/cabins/pickle-hill/living-room/pickle-hill-living-room-1-001.jpg
+        caption: Living room 1
+        alt: Living room 1 at Pickle Hill
+      - image: /images/cabins/pickle-hill/living-room/pickle-hill-living-room-1-002.jpg
+        caption: Living room 1
+        alt: Living room 1 at Pickle Hill
+      - image: /images/cabins/pickle-hill/living-room/pickle-hill-living-room-1-003.jpg
+        caption: Living room 1
+        alt: Living room 1 at Pickle Hill
+      - image: /images/cabins/pickle-hill/living-room/pickle-hill-living-room-2-001.jpg
+        caption: Living room 2
+        alt: Living room 2 at Pickle Hill
+      - image: /images/cabins/pickle-hill/living-room/pickle-hill-living-room-2-002.jpg
+        caption: Living room 2
+        alt: Living room 2 at Pickle Hill
+      - image: /images/cabins/pickle-hill/living-room/pickle-hill-living-room-2-003.jpg
+        caption: Living room 2
+        alt: Living room 2 at Pickle Hill
+      - image: /images/cabins/pickle-hill/living-room/pickle-hill-living-room-2-004.jpg
+        caption: Living room 2
+        alt: Living room 2 at Pickle Hill
+      - image: /images/cabins/pickle-hill/living-room/pickle-hill-living-room-2-005.jpg
+        caption: Living room 2
+        alt: Living room 2 at Pickle Hill
+      - image: /images/cabins/pickle-hill/living-room/pickle-hill-living-room-2-006.jpg
+        caption: Living room 2
+        alt: Living room 2 at Pickle Hill
+  - name: Kitchen
+    images:
+      - image: /images/cabins/pickle-hill/kitchen/pickle-hill-kitchen-001.jpg
+        caption: Kitchen
+        alt: Kitchen at Pickle Hill
+      - image: /images/cabins/pickle-hill/kitchen/pickle-hill-kitchen-002.jpg
+        caption: Kitchen
+        alt: Kitchen at Pickle Hill
+      - image: /images/cabins/pickle-hill/kitchen/pickle-hill-kitchen-003.jpg
+        caption: Kitchen
+        alt: Kitchen at Pickle Hill
+      - image: /images/cabins/pickle-hill/kitchen/pickle-hill-kitchen-004.jpg
+        caption: Kitchen
+        alt: Kitchen at Pickle Hill
+      - image: /images/cabins/pickle-hill/kitchen/pickle-hill-kitchen-005.jpg
+        caption: Kitchen
+        alt: Kitchen at Pickle Hill
+  - name: Pickleball barn
+    images:
+      - image: /images/cabins/pickle-hill/sport-barn/pickle-hill-sport-barn-001.jpg
+        caption: Pickleball barn
+        alt: Pickleball barn at Pickle Hill
+      - image: /images/cabins/pickle-hill/sport-barn/pickle-hill-sport-barn-002.jpg
+        caption: Pickleball barn
+        alt: Pickleball barn at Pickle Hill
+      - image: /images/cabins/pickle-hill/sport-barn/pickle-hill-sport-barn-003.jpg
+        caption: Pickleball barn
+        alt: Pickleball barn at Pickle Hill
+      - image: /images/cabins/pickle-hill/sport-barn/pickle-hill-sport-barn-004.jpg
+        caption: Pickleball barn
+        alt: Pickleball barn at Pickle Hill
+      - image: /images/cabins/pickle-hill/sport-barn/pickle-hill-sport-barn-005.jpg
+        caption: Pickleball barn
+        alt: Pickleball barn at Pickle Hill
+      - image: /images/cabins/pickle-hill/sport-barn/pickle-hill-sport-barn-006.jpg
+        caption: Pickleball barn
+        alt: Pickleball barn at Pickle Hill
+      - image: /images/cabins/pickle-hill/sport-barn/pickle-hill-sport-barn-007.jpg
+        caption: Pickleball barn
+        alt: Pickleball barn at Pickle Hill
+      - image: /images/cabins/pickle-hill/sport-barn/pickle-hill-sport-barn-008.jpg
+        caption: Pickleball barn
+        alt: Pickleball barn at Pickle Hill
+      - image: /images/cabins/pickle-hill/sport-barn/pickle-hill-sport-barn-009.jpg
+        caption: Pickleball barn
+        alt: Pickleball barn at Pickle Hill
+      - image: /images/cabins/pickle-hill/sport-barn/pickle-hill-sport-barn-010.jpg
+        caption: Pickleball barn
+        alt: Pickleball barn at Pickle Hill

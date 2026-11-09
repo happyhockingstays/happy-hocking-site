@@ -1,0 +1,320 @@
+@import "tailwindcss";
+
+/* Self-hosted fonts: no third-party request. Caprasimo has one weight; Montserrat is a variable font. */
+@import "@fontsource/caprasimo/latin-400.css";
+@import "@fontsource-variable/montserrat/wght.css";
+
+/* ---------------------------------------------------------------
+   Happy Hocking Stays design tokens, from the brand guidelines.
+   Change a color here and it changes everywhere.
+---------------------------------------------------------------- */
+@theme {
+  /* Core palette */
+  --color-forest: #1f3d2e;
+  --color-cream: #f9f3e7;
+  --color-mustard: #e0a23a;
+  --color-terracotta: #c45a3a;
+  --color-sage: #8a9d7b;
+  /* Web helpers */
+  --color-terracotta-deep: #a8452a;
+  --color-card: #fffbf2;
+  --color-mustard-tint: #f5dda4;
+  --color-sage-tint: #d8dfcb;
+  --color-terracotta-tint: #f3cdbb;
+  --color-soft-cream: #efe6d2;
+
+  --font-display: "Caprasimo", Georgia, serif;
+  --font-sans: "Montserrat Variable", "Montserrat", system-ui, sans-serif;
+
+  --ease-pop: cubic-bezier(0.2, 0.9, 0.3, 1.2);
+  --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root {
+  --outline: 2px solid var(--color-forest);
+  --radius-card: 18px;
+  --radius-input: 10px;
+  /* The offset shadow is the brand's signature: hard edge, no blur. --shadow-color is swapped per card. */
+  --shadow-color: var(--color-forest);
+  --header-h: 88px;
+}
+@media (min-width: 1024px) {
+  :root { --header-h: 112px; }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: calc(var(--header-h) + 8px);
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-forest);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem; /* 17px */
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 400; /* Caprasimo has one weight. Never fake a bold. */
+    font-synthesis: none;
+    line-height: 1.1;
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; }
+  ::selection { background: var(--color-mustard); color: var(--color-forest); }
+  :focus-visible {
+    outline: 3px solid var(--color-terracotta-deep);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  .on-forest :focus-visible { outline-color: var(--color-mustard); }
+  img, video { display: block; max-width: 100%; }
+  button { cursor: pointer; }
+}
+
+@layer components {
+  /* ---------- Layout ---------- */
+  .container-x {
+    width: 100%;
+    max-width: calc(1180px + 2.5rem);
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .container-x { max-width: calc(1180px + 3.5rem); padding-inline: 1.75rem; }
+  }
+  .section { padding-block: 3rem; }
+  @media (min-width: 768px) { .section { padding-block: 5rem; } }
+  @media (min-width: 1280px) { .section { padding-block: 6rem; } }
+
+  /* Section colors. No two cream sections should touch: rotate forest, a tint and cream. */
+  .sec-cream { background: var(--color-cream); }
+  .sec-card { background: var(--color-card); }
+  .sec-forest { background: var(--color-forest); color: var(--color-cream); }
+  .sec-mustard { background: var(--color-mustard); }
+  .sec-mustard-tint { background: var(--color-mustard-tint); }
+  .sec-sage-tint { background: var(--color-sage-tint); }
+  .sec-terracotta-tint { background: var(--color-terracotta-tint); }
+  .sec-line { border-top: var(--outline); }
+  .sec-lines { border-block: var(--outline); }
+
+  /* ---------- Type ---------- */
+  .h-display { font-size: clamp(2.5rem, 6.2vw, 4.5rem); line-height: 1.05; }
+  .h-section { font-size: clamp(1.875rem, 4vw, 3rem); line-height: 1.1; }
+  .h-card { font-size: clamp(1.375rem, 2.1vw, 1.75rem); line-height: 1.15; }
+  .h-small { font-size: 1.25rem; line-height: 1.2; }
+
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.8125rem;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-terracotta-deep);
+  }
+  /* Terracotta Deep only passes contrast on cream. Tints get forest, forest gets mustard. */
+  .on-tint .eyebrow { color: var(--color-forest); }
+  .on-forest .eyebrow { color: var(--color-mustard); }
+
+  .lead { font-size: clamp(1.1875rem, 1.6vw, 1.25rem); font-weight: 500; line-height: 1.5; }
+  .meta { font-size: 0.875rem; font-weight: 500; line-height: 1.5; }
+  .on-forest .soft { color: var(--color-soft-cream); }
+  .accent { color: var(--color-terracotta-deep); }
+  .on-forest .accent { color: var(--color-mustard); }
+  .text-link {
+    font-weight: 700;
+    color: var(--color-terracotta-deep);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+  .text-link:hover { color: var(--color-forest); }
+  .on-forest .text-link { color: var(--color-mustard); }
+  .on-forest .text-link:hover { color: var(--color-cream); }
+  .on-tint .text-link { color: var(--color-forest); }
+
+  /* ---------- Buttons: pill, 2px outline, 3px offset shadow ---------- */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 48px;
+    padding: 0.5rem 1.5rem;
+    border: var(--outline);
+    border-radius: 999px;
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1;
+    text-align: center;
+    background: var(--color-forest);
+    color: var(--color-cream);
+    box-shadow: 3px 3px 0 var(--shadow-color);
+    transition: transform 0.16s var(--ease-soft), box-shadow 0.16s var(--ease-soft), background-color 0.16s;
+    white-space: nowrap;
+  }
+  .btn:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--shadow-color); }
+  .btn:active { transform: translate(3px, 3px); box-shadow: 0 0 0 var(--shadow-color); }
+  /* The two that always stand out, and from each other */
+  .btn-book { background: var(--color-terracotta-deep); color: var(--color-card); }
+  .btn-cohost { background: var(--color-mustard-tint); color: var(--color-forest); }
+  .btn-mustard { background: var(--color-mustard); color: var(--color-forest); }
+  .btn-light { background: var(--color-card); color: var(--color-forest); }
+  .btn-forest { background: var(--color-forest); color: var(--color-cream); }
+  .btn-sm { min-height: 40px; padding: 0.375rem 1rem; font-size: 0.875rem; }
+  .btn-lg { min-height: 56px; padding: 0.75rem 2rem; font-size: 1.0625rem; }
+  .on-forest .btn { --shadow-color: var(--color-mustard); border-color: var(--color-cream); }
+  .on-forest .btn-forest { background: var(--color-cream); color: var(--color-forest); }
+
+  /* ---------- Cards: 2px outline, 18px corners, 5px offset shadow ---------- */
+  .card {
+    border: var(--outline);
+    border-radius: var(--radius-card);
+    background: var(--color-card);
+    color: var(--color-forest);
+    box-shadow: 5px 5px 0 var(--shadow-color);
+  }
+  .on-forest .card { --shadow-color: var(--color-mustard); }
+  .shadow-forest { --shadow-color: var(--color-forest); }
+  .shadow-mustard { --shadow-color: var(--color-mustard); }
+  .shadow-terracotta { --shadow-color: var(--color-terracotta); }
+  .shadow-sage { --shadow-color: var(--color-sage); }
+  /* Rotate shadow colors across a row so photo-heavy pages stay lively (Natalie's idea) */
+  .shadow-rotate > :nth-child(4n + 1) { --shadow-color: var(--color-forest); }
+  .shadow-rotate > :nth-child(4n + 2) { --shadow-color: var(--color-mustard); }
+  .shadow-rotate > :nth-child(4n + 3) { --shadow-color: var(--color-terracotta); }
+  .shadow-rotate > :nth-child(4n + 4) { --shadow-color: var(--color-sage); }
+  .on-tint.sec-sage-tint .shadow-rotate > :nth-child(4n + 4) { --shadow-color: var(--color-forest); }
+  .on-tint.sec-mustard-tint .shadow-rotate > :nth-child(4n + 2) { --shadow-color: var(--color-forest); }
+
+  /* Cards lift on hover and sink on press */
+  .card-link { display: block; transition: transform 0.2s var(--ease-soft), box-shadow 0.2s var(--ease-soft); }
+  .card-link:hover { transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--shadow-color); }
+  .card-link:active { transform: translate(5px, 5px); box-shadow: 0 0 0 var(--shadow-color); }
+
+  /* Photos in cards fill the top, with a 2px forest line underneath */
+  .card-photo { border-bottom: var(--outline); border-radius: 16px 16px 0 0; overflow: hidden; }
+  /* A framed photo on its own */
+  .frame { border: var(--outline); border-radius: var(--radius-card); overflow: hidden; box-shadow: 5px 5px 0 var(--shadow-color); }
+  .on-forest .frame { --shadow-color: var(--color-mustard); border-color: var(--color-cream); }
+
+  /* ---------- Chips ---------- */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    padding: 0.3rem 0.75rem;
+    border: var(--outline);
+    border-radius: 999px;
+    font-size: 0.8125rem;
+    font-weight: 800;
+    line-height: 1;
+    background: var(--color-card);
+    color: var(--color-forest);
+    white-space: nowrap;
+  }
+  .chip svg { width: 1rem; height: 1rem; flex: none; }
+  .chip-mustard { background: var(--color-mustard-tint); }
+  .chip-sage { background: var(--color-sage-tint); }
+  .chip-terracotta { background: var(--color-terracotta-tint); }
+  button.chip { transition: transform 0.16s var(--ease-soft), background-color 0.16s; }
+  button.chip:hover { background: var(--color-mustard-tint); }
+  button.chip[aria-pressed="true"], button.chip[aria-selected="true"] { background: var(--color-forest); color: var(--color-cream); }
+
+  /* ---------- Forms ---------- */
+  .field {
+    width: 100%;
+    min-height: 46px;
+    border: var(--outline);
+    border-radius: var(--radius-input);
+    padding: 0.5rem 0.75rem;
+    font: inherit;
+    background: var(--color-cream);
+    color: var(--color-forest);
+  }
+  textarea.field { min-height: 120px; resize: vertical; }
+  .field::placeholder { color: color-mix(in srgb, var(--color-forest) 60%, transparent); }
+  .field:focus { outline: 3px solid var(--color-mustard); outline-offset: 1px; }
+  .label { display: block; margin-bottom: 0.25rem; font-size: 0.75rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+
+  /* ---------- Icons: 2px stroke, rounded ends ---------- */
+  .icon { width: 1.5rem; height: 1.5rem; flex: none; stroke-width: 2; }
+  .icon-tile {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    flex: none;
+    border: var(--outline);
+    border-radius: 12px;
+    background: var(--color-card);
+    box-shadow: 3px 3px 0 var(--shadow-color);
+  }
+
+  /* Sparkle bullets, from the monogram's four-point star */
+  .sparkle-list { display: grid; gap: 0.5rem; }
+  .sparkle-list > li { display: flex; gap: 0.625rem; align-items: flex-start; }
+  .sparkle-list > li > svg { width: 1rem; height: 1rem; margin-top: 0.3em; flex: none; color: var(--color-terracotta-deep); }
+  .on-forest .sparkle-list > li > svg { color: var(--color-mustard); }
+  .on-tint .sparkle-list > li > svg { color: var(--color-forest); }
+
+  /* ---------- FAQ accordions ---------- */
+  details.faq { border-top: var(--outline); }
+  details.faq:last-child { border-bottom: var(--outline); }
+  details.faq > summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.125rem 0;
+    font-size: 1.125rem;
+    font-weight: 800;
+    line-height: 1.35;
+    list-style: none;
+    cursor: pointer;
+  }
+  details.faq > summary::-webkit-details-marker { display: none; }
+  details.faq > summary .faq-icon { color: var(--color-terracotta-deep); transition: transform 0.25s var(--ease-soft); }
+  details.faq[open] > summary .faq-icon { transform: rotate(45deg); }
+  details.faq > div { padding: 0 0 1.25rem; max-width: 65ch; }
+
+  .prose-site p + p { margin-top: 0.9em; }
+
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+
+  /* Placeholder block for a photo that hasn't been chosen yet. Never shown once an image is set. */
+  .photo-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    text-align: center;
+  }
+
+  /* Hospitable widgets are framed in our own card. Don't style inside the widget itself. */
+  .widget-host { min-height: 120px; }
+  .widget-host iframe { width: 100%; border: 0; }
+}
+
+/* ---------- Motion: sections fade and rise about 24px. Off for reduced-motion visitors. ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .js [data-reveal] {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.5s var(--ease-soft), transform 0.5s var(--ease-soft);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  .js [data-reveal].is-in { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .btn, .card-link { transition: none; }
+}

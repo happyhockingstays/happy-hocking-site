@@ -1,0 +1,602 @@
+# Pages CMS: what Dave and Natalie can edit at app.pagescms.org.
+# Saving in Pages CMS publishes to the live site in about 2 minutes, so double-check before saving.
+# Structure changes (new fields, new page types) are made here by Cole.
+
+media:
+  - name: photos
+    label: Photos
+    input: public/images
+    output: /images
+    extensions: [jpg, jpeg, png, webp]
+    rename: safe
+
+content:
+  # ------------------------------------------------------------------ Cabins
+  - name: cabins
+    label: Cabins
+    type: collection
+    path: content/cabins
+    format: yaml
+    filename:
+      template: "{name}.yml"
+      field: create
+    view:
+      fields: [name, tagline, sleeps, hidden]
+      primary: name
+      sort: [order, name]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: name
+        label: Cabin name
+        type: string
+        required: true
+        description: Exactly as it appears on Airbnb, VRBO and Google, so guests can find it in one search.
+      - name: shortName
+        label: Short name
+        type: string
+        description: 'Used after the first mention, for example "The Farm" or "Lazy Deer".'
+      - name: hidden
+        label: Hide this cabin from the site
+        type: boolean
+        default: false
+        description: Turn on to remove the cabin's page and cards without deleting anything. Turn off to bring it back.
+      - name: order
+        label: Display order
+        type: number
+        description: Lower numbers show first on the Cabins page.
+      - name: isNew
+        label: Show a "New" tag
+        type: boolean
+        default: false
+      - name: tagline
+        label: Tagline
+        type: string
+        required: true
+        description: '"A place to ___". Sentence case, no period. Keep it matching the Airbnb listing and the hero photo.'
+      - name: cardLine
+        label: Card line
+        type: string
+        description: 'Short line on the cabin card, for example "Regulation court. Indoor barn. Game on."'
+      - name: town
+        label: Town
+        type: string
+        required: true
+        description: Town only. Street addresses stay private and are sent with the booking confirmation.
+      - name: sleeps
+        label: Sleeps
+        type: number
+        required: true
+      - name: bedrooms
+        label: Bedrooms
+        type: number
+        required: true
+      - name: beds
+        label: Beds
+        type: number
+      - name: baths
+        label: Baths
+        type: string
+        required: true
+        description: 'For example 2 or 2.5.'
+      - name: gamesAndSports
+        label: Show under the "Games and sports" filter
+        type: boolean
+        default: false
+      - name: chips
+        label: Top amenity chips
+        type: string
+        list:
+          max: 4
+        description: Up to 4 short labels shown next to the stats, for example "Heated pool". Say "heated" only where the pool is heated.
+      - name: blurb
+        label: Short intro (about 30 words)
+        type: text
+        description: Shows under the cabin name. Lead with the feeling, prove it with a fact.
+      - name: about
+        label: About this home
+        type: text
+        description: Use the cabin name, "Hocking Hills" and the town in the first two sentences. Leave a blank line between paragraphs.
+      - name: aboutMore
+        label: About this home, the longer part behind "Read more"
+        type: text
+      - name: bookingWidget
+        label: Hospitable booking widget code
+        type: text
+        description: Paste the embed code from Hospitable exactly as given. Do not change anything inside it.
+      - name: heroImage
+        label: Hero photo
+        type: image
+        description: The big first photo. It should prove the tagline. Resize to 2400 px wide before uploading.
+        options:
+          media: photos
+          path: public/images/cabins
+      - name: heroAlt
+        label: Hero photo description
+        type: string
+        description: What the photo shows, plus the cabin name. For example "Heated saltwater pool at Clouds Reach at dusk".
+      - name: keyShots
+        label: Four key shots (beside the hero photo)
+        type: object
+        list:
+          max: 4
+          collapsible:
+            collapsed: true
+            summary: "{alt}"
+        fields:
+          - name: image
+            label: Photo
+            type: image
+            options:
+              media: photos
+              path: public/images/cabins
+          - name: alt
+            label: Photo description
+            type: string
+      - name: highlights
+        label: Why you'll love it (6 photo tiles)
+        type: object
+        list:
+          max: 6
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: text
+            label: One or two short sentences
+            type: text
+          - name: image
+            label: Photo
+            type: image
+            options:
+              media: photos
+              path: public/images/cabins
+          - name: alt
+            label: Photo description
+            type: string
+      - name: rooms
+        label: Where everyone sleeps
+        type: object
+        description: Cabins with up to 4 bedrooms show a photo card per room. Bigger cabins show a compact plan grouped by floor, so photos aren't needed here.
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name} ({beds})"
+        fields:
+          - name: name
+            label: Room name
+            type: string
+          - name: floor
+            label: Floor or side of the house
+            type: string
+            description: Rooms with the same text here are grouped together.
+          - name: beds
+            label: Beds
+            type: string
+            description: 'For example "King bed" or "2 queen beds".'
+          - name: sleeps
+            label: Sleeps
+            type: number
+          - name: note
+            label: Note
+            type: string
+          - name: image
+            label: Photo
+            type: image
+            options:
+              media: photos
+              path: public/images/cabins
+          - name: alt
+            label: Photo description
+            type: string
+      - name: amenities
+        label: Amenities (the best 12, in groups)
+        type: object
+        description: 'Four groups: Outdoors, Inside, Kitchen and Games. About 12 items in total.'
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{group}"
+        fields:
+          - name: group
+            label: Group name
+            type: string
+          - name: items
+            label: Items
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label}"
+            fields:
+              - name: icon
+                label: Icon
+                type: select
+                options:
+                  values:
+                    - { name: sparkle, label: Sparkle (default) }
+                    - { name: pool, label: Pool }
+                    - { name: heated-pool, label: Heated pool }
+                    - { name: hot-tub, label: Hot tub }
+                    - { name: sauna, label: Sauna }
+                    - { name: fire-pit, label: Fire pit }
+                    - { name: grill, label: Grill }
+                    - { name: lake, label: Lake or pond }
+                    - { name: kayak, label: Kayak }
+                    - { name: fish, label: Fishing }
+                    - { name: trails, label: Trails }
+                    - { name: woods, label: Woods or acreage }
+                    - { name: stars, label: Stargazing }
+                    - { name: deck, label: Deck or gazebo }
+                    - { name: parking, label: Parking }
+                    - { name: ev, label: EV charger }
+                    - { name: pickleball, label: Pickleball }
+                    - { name: sport-court, label: Sport court or barn }
+                    - { name: basketball, label: Basketball }
+                    - { name: bocce, label: Bocce }
+                    - { name: game-room, label: Game room }
+                    - { name: arcade, label: Arcade or video games }
+                    - { name: pool-table, label: Pool table }
+                    - { name: games, label: Board or yard games }
+                    - { name: music, label: Music }
+                    - { name: wifi, label: Wi-Fi }
+                    - { name: tv, label: TV }
+                    - { name: ac, label: Air conditioning }
+                    - { name: washer, label: Washer and dryer }
+                    - { name: sofa, label: Living space }
+                    - { name: workspace, label: Workspace }
+                    - { name: crib, label: Crib and baby gear }
+                    - { name: kitchen, label: Kitchen }
+                    - { name: cooking, label: Cooking }
+                    - { name: coffee, label: Coffee }
+                    - { name: fridge, label: Refrigerator }
+              - name: label
+                label: Label
+                type: string
+      - name: allAmenities
+        label: Full amenity list (behind "See all amenities")
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{group}"
+        fields:
+          - name: group
+            label: Group name
+            type: string
+          - name: items
+            label: Items
+            type: string
+            list: true
+      - name: poolSeason
+        label: Pool season
+        type: string
+        description: 'Always give the dates, for example "May 15 to October 15".'
+      - name: poolNote
+        label: Pool note
+        type: string
+        description: 'For example "Not heated." or "Saltwater, heated to about 85°F."'
+      - name: driveTimes
+        label: Drive times
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{place}: {time}"
+        fields:
+          - name: place
+            label: Place
+            type: string
+          - name: time
+            label: Drive time
+            type: string
+            description: 'For example "5 min" or "20 to 30 min".'
+      - name: areaNote
+        label: Area note
+        type: text
+      - name: checkOut
+        label: Check-out time
+        type: string
+        description: Leave blank to use the standard time from Policies. Fill in only if this cabin differs, for example "10:00 am".
+      - name: quietHours
+        label: Quiet hours
+        type: string
+        description: Leave blank to hide the tile.
+      - name: cancellation
+        label: Cancellation policy
+        type: select
+        options:
+          values:
+            - { name: standard, label: Standard (30/60) }
+            - { name: extended, label: Extended (90/60) }
+      - name: extraRules
+        label: Extra house rules for this cabin
+        type: string
+        list: true
+        description: Added after the shared house rules from Policies. No period at the end.
+      - name: goodToKnow
+        label: Before you arrive (arrival and access notes)
+        type: string
+        list: true
+        description: Plain and positive. This is where accessibility notes live, never next to the booking button.
+      - name: faqs
+        label: Questions about this cabin
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{q}"
+        fields:
+          - name: q
+            label: Question
+            type: string
+          - name: a
+            label: Answer
+            type: text
+      - name: similar
+        label: Similar cabins ("Not quite right? Try another")
+        type: reference
+        options:
+          collection: cabins
+          multiple: true
+          max: 2
+          value: "{path}"
+          label: "{name}"
+      - name: airbnbRating
+        label: Airbnb rating
+        type: string
+        description: 'For example 4.99. Shown with its source and review count. Refresh every quarter, or leave blank to hide.'
+      - name: airbnbReviews
+        label: Airbnb review count
+        type: number
+      - name: permit
+        label: County registration line
+        type: string
+        description: 'For example "Hocking County ID 00868".'
+      - name: seoTitle
+        label: Google title (60 characters max)
+        type: string
+        description: 'Cabin name, then its signature feature and "Hocking Hills".'
+        options:
+          maxlength: 60
+      - name: seoDescription
+        label: Google description (120 to 165 characters)
+        type: text
+        options:
+          maxlength: 165
+      - name: gallery
+        label: Photo gallery
+        type: object
+        description: Photos stay grouped by category. Drag groups or photos to reorder them. Resize photos to 2400 px wide before uploading.
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: name
+            label: Category name
+            type: string
+          - name: images
+            label: Photos
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{caption}"
+            fields:
+              - name: image
+                label: Photo
+                type: image
+                options:
+                  media: photos
+                  path: public/images/cabins
+              - name: caption
+                label: Caption
+                type: string
+                description: 'Room, number, bed. For example "Bedroom 2 · Queen" or "Bathroom 1". No period.'
+              - name: alt
+                label: Photo description
+                type: string
+                description: What the photo shows, plus the cabin name.
+
+  # ------------------------------------------------------------------ Reviews
+  - name: reviews
+    label: Reviews
+    type: collection
+    path: content/reviews
+    format: yaml
+    filename:
+      template: "{year}-{month}-{day}-{firstName}.yml"
+      field: create
+    view:
+      fields: [firstName, cabin, stayed, published]
+      primary: firstName
+    fields:
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+        description: >-
+          Post every genuine review. Only skip spam, profanity, personal info or a review from someone who didn't stay.
+          Leaving out real reviews because they are critical breaks FTC rules.
+      - name: cabin
+        label: Cabin
+        type: reference
+        required: true
+        options:
+          collection: cabins
+          value: "{path}"
+          label: "{name}"
+      - name: firstName
+        label: First name
+        type: string
+        required: true
+        description: First name only. Never post a last name, email or other personal info.
+      - name: stayed
+        label: Month and year of stay
+        type: string
+        description: 'For example "Oct 2026".'
+      - name: quote
+        label: Review text
+        type: text
+        required: true
+        description: >-
+          The guest's public comment. You can shorten a long review with an ellipsis, but never change the meaning or blend two reviews.
+          Private feedback for the hosts never goes here.
+      - name: rating
+        label: Overall rating (1 to 5)
+        type: number
+        description: Only shown on the site when "Show star ratings" is on in Site settings.
+        options:
+          min: 1
+          max: 5
+      - name: cleanliness
+        label: Cleanliness (1 to 5)
+        type: number
+        options: { min: 1, max: 5 }
+      - name: accuracy
+        label: Accuracy (1 to 5)
+        type: number
+        options: { min: 1, max: 5 }
+      - name: checkIn
+        label: Check-in (1 to 5)
+        type: number
+        options: { min: 1, max: 5 }
+      - name: communication
+        label: Communication (1 to 5)
+        type: number
+        options: { min: 1, max: 5 }
+      - name: location
+        label: Location (1 to 5)
+        type: number
+        options: { min: 1, max: 5 }
+      - name: value
+        label: Value (1 to 5)
+        type: number
+        options: { min: 1, max: 5 }
+      - name: source
+        label: Source
+        type: select
+        options:
+          values: [Direct, Airbnb]
+
+  # ------------------------------------------------------------------ Settings
+  - name: site
+    label: Site settings
+    type: file
+    path: content/settings/site.yml
+    format: yaml
+    fields:
+      - name: name
+        label: Business name
+        type: string
+      - name: legalName
+        label: Legal name (footer only)
+        type: string
+      - name: phone
+        label: Phone
+        type: string
+      - name: email
+        label: Email
+        type: string
+      - name: instagram
+        label: Instagram handle
+        type: string
+        description: Without the @.
+      - name: banner
+        label: Top banner
+        type: object
+        fields:
+          - name: show
+            label: Show the banner
+            type: boolean
+          - name: text
+            label: Banner text (one line, no period)
+            type: string
+          - name: link
+            label: Link (optional)
+            type: string
+            description: 'A page on this site, for example /cabins.'
+      - name: proof
+        label: Airbnb rating stat
+        type: object
+        description: 'Shown as "Every cabin rated 4.9+ on Airbnb" with the review count. Round the count down so it stays true, and refresh it every quarter.'
+        fields:
+          - name: rating
+            label: Rating
+            type: string
+          - name: reviewCount
+            label: Review count
+            type: string
+      - name: showStarRatings
+        label: Show star ratings
+        type: boolean
+        default: false
+        description: >-
+          Off: reviews show as comments only. On: each cabin name gets a badge with its average rating, stars and review count.
+          The average uses only published reviews that have an overall rating.
+      - name: searchWidget
+        label: Hospitable search widget code
+        type: text
+        description: Paste the embed code from Hospitable exactly as given. Do not change anything inside it.
+      - name: mailchimpAction
+        label: Mailchimp signup form address
+        type: string
+        description: The form "action" web address from the Mailchimp embed code. Until this is filled in, signups are saved in Netlify Forms.
+      - name: gtmId
+        label: Google Tag Manager ID
+        type: string
+        description: 'For example GTM-XXXXXXX.'
+
+  - name: policies
+    label: Policies (shared by every cabin)
+    type: file
+    path: content/settings/policies.yml
+    format: yaml
+    fields:
+      - name: checkIn
+        label: Check-in time
+        type: string
+      - name: checkOut
+        label: Standard check-out time
+        type: string
+        description: A cabin can override this on its own page.
+      - name: minStay
+        label: Minimum stay
+        type: string
+      - name: minStayNote
+        label: Minimum stay note
+        type: string
+      - name: ageToBook
+        label: Age to book
+        type: string
+      - name: ageNote
+        label: Age note
+        type: string
+      - name: houseRules
+        label: House rules for every cabin
+        type: string
+        list: true
+        description: No period at the end of a rule.
+      - name: cancellation
+        label: Cancellation policies
+        type: object
+        fields:
+          - name: standard
+            label: Standard (30/60)
+            type: object
+            fields:
+              - { name: label, label: Name, type: string }
+              - { name: summary, label: Summary, type: text }
+              - { name: details, label: Details, type: text }
+          - name: extended
+            label: Extended (90/60)
+            type: object
+            fields:
+              - { name: label, label: Name, type: string }
+              - { name: summary, label: Summary, type: text }
+              - { name: details, label: Details, type: text }

@@ -1,0 +1,33 @@
+[build]
+  command = "npm run build"
+  publish = "dist/client"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # Photos are served through Netlify's Image CDN (resized and converted on demand).
+  # Without this the site falls back to the original files, which is what local previews use.
+  VITE_IMAGE_CDN = "netlify"
+
+# Short link for social bios and printed cards
+[[redirects]]
+  from = "/book"
+  to = "/cabins"
+  status = 301
+
+# Hashed build files never change
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Photos keep their names when replaced in Pages CMS, so cache for a day
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

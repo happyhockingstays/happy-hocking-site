@@ -1,0 +1,551 @@
+name: Clouds Reach
+shortName: Clouds Reach
+order: 4
+hidden: false
+isNew: false
+tagline: A place to relax
+cardLine: Heated pool. Fire pit. Big stargazing skies.
+town: Logan
+sleeps: 16
+bedrooms: 4
+beds: 12
+baths: '4'
+gamesAndSports: false
+chips:
+  - Heated pool
+  - Hot tub
+  - Bocce court
+  - Fire pit
+seoTitle: 'Clouds Reach: Hocking Hills cabin with a heated pool'
+seoDescription: Clouds Reach is a Hocking Hills cabin in Logan, Ohio that sleeps 16. Heated saltwater pool open April 15 to November 30, hot tub, bocce and fire pit. Book direct.
+blurb: A hillside home for 16 on 3.5 acres. The saltwater pool is heated to 85°F and open April 15 to November 30, and the stars come out big after dark.
+about: |-
+  Clouds Reach is a Hocking Hills cabin on 3.5 hillside acres in Logan, Ohio. It sleeps 16 across 4 bedrooms and 4 full baths, 15 minutes from downtown Logan and 20 to 30 minutes from the trails.
+
+  The pool is the headline: saltwater, heated to about 85°F and open April 15 to November 30, the longest season of any of our cabins.
+aboutMore: |-
+  Around it you'll find a hot tub, a bocce court, a covered gazebo and a fire pit with room for everyone. A three-seasons room and a deck with Adirondack chairs look out over the property.
+
+  Inside, the kitchen and living room share an open layout. The first-floor primary suite has a king bed, a soaking tub and a walk-in closet, and the basement bunk room sleeps 8.
+bookingWidget: ''
+heroImage: /images/cabins/clouds-reach/pool/clouds-reach-pool-001.jpg
+heroAlt: Clouds Reach and its heated saltwater pool
+keyShots:
+  - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-008.jpg
+    alt: Hot tub at Clouds Reach
+  - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-008.jpg
+    alt: Bocce court at Clouds Reach
+  - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-009.jpg
+    alt: Covered gazebo at Clouds Reach
+  - image: /images/cabins/clouds-reach/sunroom/clouds-reach-sunroom-001.jpg
+    alt: Three-seasons room at Clouds Reach
+highlights:
+  - title: Heated saltwater pool
+    text: About 85°F, open April 15 to November 30.
+    image: /images/cabins/clouds-reach/pool/clouds-reach-pool-004.jpg
+    alt: Heated saltwater pool at Clouds Reach
+  - title: Hot tub
+    text: Seats 4 to 5, steps from the pool.
+    image: /images/cabins/clouds-reach/pool/clouds-reach-pool-008.jpg
+    alt: Hot tub at Clouds Reach
+  - title: Bocce court
+    text: A proper court, with a covered gazebo for the gallery.
+    image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-010.jpg
+    alt: Bocce court at Clouds Reach
+  - title: Fire pit
+    text: Pull up a chair. There are plenty.
+    image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-012.jpg
+    alt: Fire pit at Clouds Reach
+  - title: Stargazing skies
+    text: Big dark skies, and a three-seasons room to watch them from.
+    image: /images/cabins/clouds-reach/sunroom/clouds-reach-sunroom-005.jpg
+    alt: Stargazing skies at Clouds Reach
+  - title: Covered gazebo
+    text: Shade, sofas and a view of the hills.
+    image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-009.jpg
+    alt: Covered gazebo at Clouds Reach
+rooms:
+  - name: Primary suite
+    floor: First floor
+    beds: King bed
+    sleeps: 2
+    note: Ensuite bath with a shower, soaking tub and bidet
+    image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-1-001.jpg
+    alt: Primary suite at Clouds Reach
+  - name: Bedroom 2
+    floor: Second floor
+    beds: King bed
+    sleeps: 2
+    note: Great views. Shares a full bath with Bedroom 3
+    image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-2-001.jpg
+    alt: Bedroom 2 at Clouds Reach
+  - name: Bedroom 3
+    floor: Second floor
+    beds: 2 king beds
+    sleeps: 4
+    note: Shares a full bath with Bedroom 2
+    image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-3-001.jpg
+    alt: Bedroom 3 at Clouds Reach
+  - name: Bunk room
+    floor: Basement
+    beds: 4 bunk beds
+    sleeps: 8
+    note: TV, with a full bath across the hall
+    image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-4-002.jpg
+    alt: Bunk room at Clouds Reach
+amenities:
+  - group: Outdoors
+    items:
+      - icon: heated-pool
+        label: Heated saltwater pool
+      - icon: hot-tub
+        label: Hot tub
+      - icon: fire-pit
+        label: Fire pit
+      - icon: deck
+        label: Covered gazebo and deck
+  - group: Inside
+    items:
+      - icon: sofa
+        label: Three-seasons room
+      - icon: wifi
+        label: Wi-Fi and TVs
+      - icon: washer
+        label: Washer and dryer, detergent provided
+  - group: Kitchen
+    items:
+      - icon: kitchen
+        label: Open kitchen with a gas stove
+      - icon: grill
+        label: Blackstone propane grill
+      - icon: coffee
+        label: Drip coffee maker
+  - group: Games
+    items:
+      - icon: bocce
+        label: Bocce court
+      - icon: games
+        label: Big grassy field for yard games
+allAmenities:
+  - group: Bathroom
+    items:
+      - Bathtub
+      - Hair dryer
+      - Shampoo
+      - Conditioner
+      - Body soap
+      - Shower gel
+      - Hot water
+      - Cleaning products
+  - group: Bedroom and laundry
+    items:
+      - Washer
+      - Dryer
+      - Essentials
+      - Hangers
+      - Bed linens
+      - Extra pillows and blankets
+      - Clothing storage
+  - group: Entertainment
+    items:
+      - TV
+  - group: Heating and cooling
+    items:
+      - Air conditioning
+      - Heating
+      - Ceiling fan
+      - Portable fans
+      - Indoor fireplace
+  - group: Home safety
+    items:
+      - Exterior security cameras on the property
+      - Smoke alarm
+      - Carbon monoxide alarm
+      - Fire extinguisher
+      - First aid kit
+  - group: Internet and office
+    items:
+      - Wi-Fi
+      - Dedicated workspace
+  - group: Kitchen and dining
+    items:
+      - Kitchen
+      - Refrigerator
+      - Freezer
+      - Microwave
+      - Stove
+      - Oven
+      - Dishwasher
+      - Cooking basics
+      - Dishes and silverware
+      - Coffee maker
+      - Coffee
+      - Hot water kettle
+      - Toaster
+      - Blender
+      - Wine glasses
+      - Baking sheet
+      - Barbecue utensils
+      - Dining table
+  - group: Outdoor
+    items:
+      - Patio or balcony
+      - Backyard
+      - Fire pit
+      - Outdoor furniture
+      - Outdoor dining area
+      - BBQ grill
+      - Sun loungers
+  - group: Parking and facilities
+    items:
+      - Free parking on the premises
+      - Private pool, open seasonally
+      - Private hot tub
+  - group: Services
+    items:
+      - Self check-in
+      - Keypad entry
+poolSeason: April 15 to November 30
+poolNote: Saltwater, heated to about 85°F.
+driveTimes:
+  - place: Downtown Logan
+    time: 15 min
+  - place: Hocking Hills trails
+    time: 20 to 30 min
+areaNote: A quiet hillside, with downtown Logan's shops and restaurants 15 minutes away.
+checkOut: ''
+quietHours: 10:00 pm to 9:00 am
+cancellation: standard
+extraRules:
+  - The barn, pond and meadow next door belong to our neighbors. Please stay on our side of the driveway
+goodToKnow: []
+faqs:
+  - q: Is the pool heated?
+    a: Yes. The saltwater pool is heated to about 85°F and open April 15 to November 30, the longest pool season of our cabins.
+  - q: How many people does Clouds Reach sleep?
+    a: '16 guests across 4 bedrooms: 3 bedrooms with king beds and a basement bunk room that sleeps 8. There are 4 full baths.'
+  - q: Is the hot tub open all year?
+    a: Yes. It seats 4 to 5 and is open all year.
+  - q: How far is Clouds Reach from the Hocking Hills trails?
+    a: About 20 to 30 minutes. Downtown Logan is 15 minutes away.
+  - q: What time are check-in and check-out?
+    a: Check-in is 4:00 pm and check-out is 11:00 am.
+  - q: Is there a minimum stay?
+    a: 2 nights. Holiday and peak-season stays may need 3.
+  - q: What is the cancellation policy?
+    a: Full refund up to 60 days before check-in and 50% up to 30 days before. After that, stays are non-refundable.
+similar:
+  - content/cabins/rickenbacker-ridge.yml
+  - content/cabins/the-johnny.yml
+airbnbRating: '4.99'
+airbnbReviews: 107
+permit: Hocking County ID 00825
+gallery:
+  - name: Pool
+    images:
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-001.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-002.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-003.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-004.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-005.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-006.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-007.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-008.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-009.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-010.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-011.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-014.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-016.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-017.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-019.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-021.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-022.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+      - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-023.jpg
+        caption: Pool
+        alt: Pool at Clouds Reach
+  - name: Exterior
+    images:
+      - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-001.jpg
+        caption: Exterior
+        alt: Exterior at Clouds Reach
+      - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-002.jpg
+        caption: Exterior
+        alt: Exterior at Clouds Reach
+      - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-003.jpg
+        caption: Exterior
+        alt: Exterior at Clouds Reach
+      - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-004.jpg
+        caption: Exterior
+        alt: Exterior at Clouds Reach
+      - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-005.jpg
+        caption: Exterior
+        alt: Exterior at Clouds Reach
+      - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-006.jpg
+        caption: Exterior
+        alt: Exterior at Clouds Reach
+      - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-007.jpg
+        caption: Exterior
+        alt: Exterior at Clouds Reach
+      - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-008.jpg
+        caption: Exterior
+        alt: Exterior at Clouds Reach
+      - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-009.jpg
+        caption: Exterior
+        alt: Exterior at Clouds Reach
+      - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-010.jpg
+        caption: Exterior
+        alt: Exterior at Clouds Reach
+      - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-011.jpg
+        caption: Exterior
+        alt: Exterior at Clouds Reach
+      - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-012.jpg
+        caption: Exterior
+        alt: Exterior at Clouds Reach
+      - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-013.jpg
+        caption: Exterior
+        alt: Exterior at Clouds Reach
+  - name: Bedrooms
+    images:
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-1-001.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Clouds Reach, king bed
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-1-002.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Clouds Reach, king bed
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-1-003.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Clouds Reach, king bed
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-1-004.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Clouds Reach, king bed
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-1-005.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Clouds Reach, king bed
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-1-006.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Clouds Reach, king bed
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-1-007.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Clouds Reach, king bed
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-1-008.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Clouds Reach, king bed
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-1-009.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Clouds Reach, king bed
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-1-010.jpg
+        caption: Bedroom 1 · King
+        alt: Bedroom 1 at Clouds Reach, king bed
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-2-001.jpg
+        caption: Bedroom 2 · King
+        alt: Bedroom 2 at Clouds Reach, king bed
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-2-002.jpg
+        caption: Bedroom 2 · King
+        alt: Bedroom 2 at Clouds Reach, king bed
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-2-003.jpg
+        caption: Bedroom 2 · King
+        alt: Bedroom 2 at Clouds Reach, king bed
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-2-004.jpg
+        caption: Bedroom 2 · King
+        alt: Bedroom 2 at Clouds Reach, king bed
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-3-001.jpg
+        caption: Bedroom 3 · 2 kings
+        alt: Bedroom 3 at Clouds Reach, 2 king beds
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-3-002.jpg
+        caption: Bedroom 3 · 2 kings
+        alt: Bedroom 3 at Clouds Reach, 2 king beds
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-3-003.jpg
+        caption: Bedroom 3 · 2 kings
+        alt: Bedroom 3 at Clouds Reach, 2 king beds
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-4-001.jpg
+        caption: Bedroom 4 · 4 bunk beds
+        alt: Bedroom 4 at Clouds Reach, 4 bunk beds
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-4-002.jpg
+        caption: Bedroom 4 · 4 bunk beds
+        alt: Bedroom 4 at Clouds Reach, 4 bunk beds
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedroom-4-003.jpg
+        caption: Bedroom 4 · 4 bunk beds
+        alt: Bedroom 4 at Clouds Reach, 4 bunk beds
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedrooms-014.jpg
+        caption: Bedroom
+        alt: Bedroom at Clouds Reach
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedrooms-015.jpg
+        caption: Bedroom
+        alt: Bedroom at Clouds Reach
+      - image: /images/cabins/clouds-reach/bedrooms/clouds-reach-bedrooms-016.jpg
+        caption: Bedroom
+        alt: Bedroom at Clouds Reach
+  - name: Bathrooms and laundry
+    images:
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-bathroom-1-001.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Clouds Reach
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-bathroom-1-002.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Clouds Reach
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-bathroom-1-003.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Clouds Reach
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-bathroom-1-004.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Clouds Reach
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-bathroom-1-005.jpg
+        caption: Bathroom 1
+        alt: Bathroom 1 at Clouds Reach
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-bathroom-2-001.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at Clouds Reach
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-bathroom-2-002.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at Clouds Reach
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-bathroom-2-003.jpg
+        caption: Bathroom 2
+        alt: Bathroom 2 at Clouds Reach
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-bathroom-3-001.jpg
+        caption: Bathroom 3
+        alt: Bathroom 3 at Clouds Reach
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-bathroom-3-002.jpg
+        caption: Bathroom 3
+        alt: Bathroom 3 at Clouds Reach
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-bathroom-3-003.jpg
+        caption: Bathroom 3
+        alt: Bathroom 3 at Clouds Reach
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-bathroom-3-004.jpg
+        caption: Bathroom 3
+        alt: Bathroom 3 at Clouds Reach
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-bathroom-4-001.jpg
+        caption: Bathroom 4
+        alt: Bathroom 4 at Clouds Reach
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-bathroom-4-002.jpg
+        caption: Bathroom 4
+        alt: Bathroom 4 at Clouds Reach
+      - image: /images/cabins/clouds-reach/bathrooms-laundry/clouds-reach-laundry-001.jpg
+        caption: Laundry
+        alt: Laundry at Clouds Reach
+  - name: Living room
+    images:
+      - image: /images/cabins/clouds-reach/living-room/clouds-reach-living-room-001.jpg
+        caption: Living room
+        alt: Living room at Clouds Reach
+      - image: /images/cabins/clouds-reach/living-room/clouds-reach-living-room-002.jpg
+        caption: Living room
+        alt: Living room at Clouds Reach
+      - image: /images/cabins/clouds-reach/living-room/clouds-reach-living-room-003.jpg
+        caption: Living room
+        alt: Living room at Clouds Reach
+      - image: /images/cabins/clouds-reach/living-room/clouds-reach-living-room-004.jpg
+        caption: Living room
+        alt: Living room at Clouds Reach
+      - image: /images/cabins/clouds-reach/living-room/clouds-reach-living-room-005.jpg
+        caption: Living room
+        alt: Living room at Clouds Reach
+      - image: /images/cabins/clouds-reach/living-room/clouds-reach-living-room-006.jpg
+        caption: Living room
+        alt: Living room at Clouds Reach
+      - image: /images/cabins/clouds-reach/living-room/clouds-reach-living-room-007.jpg
+        caption: Living room
+        alt: Living room at Clouds Reach
+      - image: /images/cabins/clouds-reach/living-room/clouds-reach-living-room-008.jpg
+        caption: Living room
+        alt: Living room at Clouds Reach
+  - name: Kitchen
+    images:
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-001.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-002.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-003.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-004.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-005.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-006.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-007.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-008.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-009.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-010.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-011.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-012.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-013.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-014.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+      - image: /images/cabins/clouds-reach/kitchen/clouds-reach-kitchen-015.jpg
+        caption: Kitchen
+        alt: Kitchen at Clouds Reach
+  - name: Sunroom
+    images:
+      - image: /images/cabins/clouds-reach/sunroom/clouds-reach-sunroom-001.jpg
+        caption: Sunroom
+        alt: Sunroom at Clouds Reach
+      - image: /images/cabins/clouds-reach/sunroom/clouds-reach-sunroom-002.jpg
+        caption: Sunroom
+        alt: Sunroom at Clouds Reach
+      - image: /images/cabins/clouds-reach/sunroom/clouds-reach-sunroom-003.jpg
+        caption: Sunroom
+        alt: Sunroom at Clouds Reach
+      - image: /images/cabins/clouds-reach/sunroom/clouds-reach-sunroom-004.jpg
+        caption: Sunroom
+        alt: Sunroom at Clouds Reach
+      - image: /images/cabins/clouds-reach/sunroom/clouds-reach-sunroom-005.jpg
+        caption: Sunroom
+        alt: Sunroom at Clouds Reach
+      - image: /images/cabins/clouds-reach/sunroom/clouds-reach-sunroom-006.jpg
+        caption: Sunroom
+        alt: Sunroom at Clouds Reach
