@@ -26,6 +26,12 @@
   [headers.values]
     Cache-Control = "public, max-age=86400"
 
+# The hero video keeps its file name when replaced, so cache for a day
+[[headers]]
+  for = "/video/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
 [[headers]]
   for = "/*"
   [headers.values]

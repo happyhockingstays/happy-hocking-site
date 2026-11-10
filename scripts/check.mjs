@@ -100,6 +100,7 @@ for (const f of fs.readdirSync(pagesDir).filter((f) => f.endsWith('.yml'))) {
   walkPage(w, page)
   for (const x of page.cohost?.points || []) noPeriod(`${w}.cohost.points`, x)
   if (page.hero?.lead && f === 'home.yml') noPeriod(`${w}.hero.lead`, page.hero.lead)
+  for (const v of [page.hero?.video, page.hero?.videoPhone]) if (v && !fs.existsSync(path.join('public', v))) flag(w, `video not found: ${v}`)
   for (const key of ['hero', 'story', 'cohost', 'area']) {
     const i = page[key]?.image
     if (i && !fs.existsSync(path.join('public', i))) flag(w, `photo not found: ${i}`)

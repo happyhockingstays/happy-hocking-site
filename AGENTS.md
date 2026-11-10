@@ -76,7 +76,9 @@ The first two come straight from Natalie and are not up for debate.
 | Other page templates | `src/pages/HomePage.tsx`, `CabinsPage.tsx`, `CoHostingPage.tsx`, `AboutPage.tsx`, `FaqsPage.tsx`, `ContactPage.tsx`, `ReviewPage.tsx`, `BlogPages.tsx` |
 | Forms (guest contact, owner inquiry, insider list) | `src/components/ContactForms.tsx`, `Forms.tsx`, `public/__forms.html` |
 | Redirects from the old Wix site | `docs/redirects.csv` (the build writes `_redirects` from it) |
+| Homepage hero video (made from cabin photos, a one-off tool, not part of the build) | `public/video/`, `scripts/make-hero-video.py`, `src/components/HeroVideo.tsx` |
 | Header, footer, mobile bar | `src/components/Header.tsx`, `Footer.tsx`, `MobileBar.tsx` |
+| Everything still to do, by owner | The punch list in `README.md`. Keep it current |
 | Colors, type, buttons, cards, motion | `src/styles.css` |
 | Icons | `src/components/Icon.tsx` |
 | Page titles, descriptions, schema | `src/routes/*.tsx`, `src/lib/seo.ts` |

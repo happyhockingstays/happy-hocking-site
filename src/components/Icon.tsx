@@ -36,7 +36,9 @@ import {
   Moon,
   Mountain,
   Music,
+  Pause,
   Phone,
+  Play,
   Plus,
   PlugZap,
   Refrigerator,
@@ -199,6 +201,8 @@ const icons = {
   wrench: Wrench,
   camera: Camera,
   chart: ChartColumn,
+  play: Play,
+  pause: Pause,
 } satisfies Record<string, LucideIcon | ((p: SvgProps) => ReactNode)>
 
 export type IconName = keyof typeof icons

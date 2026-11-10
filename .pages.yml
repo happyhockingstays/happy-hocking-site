@@ -511,11 +511,11 @@ content:
           - name: video
             label: Hero video for computers (optional)
             type: string
-            description: 'Web path to a wide (16:9) MP4 of about 5 MB, for example /images/uploads/hero.mp4. Cole adds the file. Leave blank to show the photo.'
+            description: 'Web path to a wide (16:9) MP4 of about 5 MB with no sound. The current one is made from cabin photos. Cole swaps the file. Clear this to show the photo only.'
           - name: videoPhone
             label: Hero video for phones (optional)
             type: string
-            description: A tall (9:16) cut of the same clip.
+            description: A tall (9:16) cut of the same clip, about 3 MB.
       - name: cabins
         label: Cabin row
         type: object

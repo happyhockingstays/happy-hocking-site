@@ -16,7 +16,7 @@ The old URLs came from the live Wix sitemap on Nov 9, 2026: 16 pages, 13 blog po
 
 ## Open questions
 
-1. **Phoenix Landing** has a page on the old site and isn't on the new one. It points to `/cabins` for now. Confirm it's gone for good.
+1. **Phoenix Landing** has a page on the old site and isn't on the new one. It points to `/cabins`. Cole OK'd this on Nov 9.
 2. **The 13 blog posts haven't been moved over yet.** Until a post exists on the new site, its old address goes to the blog page as a temporary redirect. The day the post is added with the same name, the build switches it to a permanent one. Move the posts before launch.
 3. **2 winter guides overlap** (both "2026" guides). Consider merging them in the SEO pass and pointing both old addresses at the one that stays.
 4. **hockinghills-hosting.com**, the old co-hosting site, isn't in the map. If it's being retired too, point it at `/co-hosting` the same way.

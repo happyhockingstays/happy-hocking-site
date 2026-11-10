@@ -3,11 +3,11 @@ import { CabinRow } from '@/components/CabinRow'
 import { ClosingBand } from '@/components/ClosingBand'
 import { Drift } from '@/components/Drift'
 import { FaqList } from '@/components/Faq'
+import { HeroVideo } from '@/components/HeroVideo'
 import { Icon, Sparkle, type IconName } from '@/components/Icon'
 import { Photo } from '@/components/Photo'
 import { ReviewCarousel } from '@/components/Reviews'
 import { SiteLink } from '@/components/SiteLink'
-import { asset } from '@/lib/asset'
 import { cabins, homeFaqs, pages, reviews, settings } from '@/lib/content'
 
 /**
@@ -24,16 +24,11 @@ export function HomePage() {
   ]
   return (
     <>
-      {/* 1. Hero: full-bleed photo (or video, once the clients send a clip) with the date and guest search */}
+      {/* 1. Hero: full-bleed video over its still photo, with the date and guest search */}
       <section className="on-forest relative -mt-[var(--header-h)] flex min-h-[92svh] items-center overflow-hidden bg-forest text-cream">
         <Photo src={p.hero.image} alt={p.hero.alt} className="absolute inset-0 h-full w-full" priority sizes="100vw" emptyText="Hero photo or video" />
-        {p.hero.video ? (
-          <video className="hero-video absolute inset-0 h-full w-full object-cover" autoPlay muted loop playsInline preload="metadata" poster={asset(p.hero.image)} aria-hidden="true">
-            {p.hero.videoPhone ? <source src={asset(p.hero.videoPhone)} media="(max-width: 767px)" /> : null}
-            <source src={asset(p.hero.video)} />
-          </video>
-        ) : null}
-        <div className="absolute inset-0 bg-gradient-to-b from-forest/75 via-forest/40 to-forest/80" aria-hidden="true" />
+        {p.hero.video ? <HeroVideo wide={p.hero.video} tall={p.hero.videoPhone} /> : null}
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-forest/75 via-forest/40 to-forest/80" aria-hidden="true" />
         <div className="container-x relative z-10 pb-14 pt-[calc(var(--header-h)+2rem)] text-center md:pb-20">
           {p.hero.eyebrow ? <p className="eyebrow">{p.hero.eyebrow}</p> : null}
           <h1 className="h-display mx-auto mt-4 max-w-4xl">

@@ -335,8 +335,6 @@
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  /* The hero falls back to its still photo */
-  .hero-video { display: none; }
   .btn, .card-link { transition: none; }
 }
 
