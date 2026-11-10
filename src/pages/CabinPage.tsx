@@ -1,11 +1,12 @@
 import { cabinBySlug, policies, settings } from '@/lib/content'
-import type { Cabin, Review, Room } from '@/lib/types'
+import type { Cabin, Room } from '@/lib/types'
 import { BookingCard } from '@/components/Booking'
 import { CabinCard } from '@/components/CabinCard'
 import { FaqList } from '@/components/Faq'
 import { Gallery } from '@/components/Gallery'
 import { Icon, Sparkle, type IconName } from '@/components/Icon'
 import { Photo } from '@/components/Photo'
+import { ReviewCard, Stars } from '@/components/Reviews'
 import { SiteLink } from '@/components/SiteLink'
 
 /**
@@ -482,28 +483,5 @@ function SleepingPlan({ rooms }: { rooms: Room[] }) {
         </div>
       ))}
     </div>
-  )
-}
-
-function Stars({ value }: { value: number }) {
-  return (
-    <span className="inline-flex text-terracotta-deep" role="img" aria-label={`${value.toFixed(1)} out of 5 stars`}>
-      {[1, 2, 3, 4, 5].map((n) => (
-        <svg key={n} viewBox="0 0 24 24" className="h-5 w-5" fill={value >= n - 0.25 ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth={2} strokeLinejoin="round" aria-hidden="true">
-          <path d="M12 2.5l2.9 6.1 6.6.9-4.8 4.6 1.2 6.6L12 17.5l-5.9 3.2 1.2-6.6L2.5 9.5l6.6-.9z" />
-        </svg>
-      ))}
-    </span>
-  )
-}
-
-/** Comments only at launch. Stars show when "Show star ratings" is on in Site settings. */
-export function ReviewCard({ review: r, cabin, stars }: { review: Review; cabin: string; stars: boolean }) {
-  return (
-    <figure className="card flex h-full flex-col p-6">
-      {stars && r.rating ? <Stars value={r.rating} /> : <Sparkle className="h-6 w-6 text-mustard" />}
-      <blockquote className="mt-3 flex-1 text-lg font-medium leading-snug">“{r.quote}”</blockquote>
-      <figcaption className="meta mt-4 font-extrabold">{[r.firstName, cabin, r.stayed].filter(Boolean).join(' · ')}</figcaption>
-    </figure>
   )
 }

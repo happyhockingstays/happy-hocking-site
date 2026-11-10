@@ -121,3 +121,67 @@ export interface Cabin extends CabinSummary {
   gallery: GalleryGroup[]
   reviews: Review[]
 }
+
+/* ---------- Page copy (content/pages/*.yml) ---------- */
+export interface PhotoRef {
+  image: string
+  alt: string
+}
+export interface TitledItem {
+  icon: string
+  title: string
+  text: string
+}
+export interface Qa {
+  q: string
+  a: string
+}
+
+export interface Pages {
+  home: {
+    hero: PhotoRef & { eyebrow: string; lead: string; video: string; videoPhone: string }
+    cabins: { eyebrow: string; intro: string }
+    story: PhotoRef & { eyebrow: string; heading: string; text: string; linkLabel: string }
+    reviews: { intro: string }
+    cohost: PhotoRef & { eyebrow: string; heading: string; text: string; points: string[] }
+    area: PhotoRef & { eyebrow: string; heading: string; text: string; linkLabel: string }
+    faqs: { eyebrow: string; heading: string }
+    closing: { heading: string; text: string }
+  }
+  cohosting: {
+    hero: PhotoRef & { eyebrow: string; lead: string }
+    threeThings: { heading: string; items: TitledItem[] }
+    services: { eyebrow: string; heading: string; intro: string; items: TitledItem[] }
+    ownership: { heading: string; points: TitledItem[] }
+    proof: { eyebrow: string; heading: string; intro: string; replyTime: string }
+    steps: { eyebrow: string; heading: string; intro: string; items: TitledItem[] }
+    testimonials: { quote: string; name: string; home: string }[]
+    form: { eyebrow: string; heading: string; text: string }
+    faqs: Qa[]
+  }
+  about: {
+    hero: PhotoRef & { eyebrow: string; heading: string; intro: string }
+    story: PhotoRef & { heading: string; text: string }
+    team: { eyebrow: string; heading: string; members: { name: string; role: string; bio: string; photo: string }[] }
+    promises: { heading: string; items: TitledItem[] }
+  }
+  faqs: {
+    intro: string
+    groups: { title: string; items: (Qa & { home: boolean })[] }[]
+  }
+}
+
+/* ---------- Blog (content/blog/*.md) ---------- */
+export interface PostMeta {
+  slug: string
+  title: string
+  seoTitle: string
+  description: string
+  date: string
+  updated: string
+  category: string
+  cover: string
+  coverAlt: string
+  draft: boolean
+  readingMinutes: number
+}

@@ -43,6 +43,49 @@ Full-size photos slow the site down, so shrink them to 2400 pixels wide first.
 
 Paste it in exactly as given. Never change anything inside it. Each cabin has **Hospitable booking widget code**, and **Site settings** has the search widget.
 
+## Change words or photos on the main pages
+
+The Homepage, Co-hosting, About and FAQs each have their own screen: **Page: Homepage** and so on.
+
+1. Open the page's screen.
+2. Open the section you want, for example **Story band**.
+3. Edit the words or swap the photo, then click **Save**.
+
+A few sections hide themselves when they're empty: the homepage story band, the owner testimonials, and anything to do with reviews. Fill them in and they appear.
+
+The big headlines that are brand lines ("A place for everyone in the Hocking Hills", "Find your happy place", "Happy to help") are fixed, so they can't be changed by accident.
+
+## Add or edit an FAQ
+
+1. Open **Page: FAQs**, then the group, for example **Your stay**.
+2. Click **Add an entry**, or open a question to edit it.
+3. Turn on **Show on the homepage** for the few that should also show there. About 6 is plenty.
+4. Click **Save**.
+
+Questions about one cabin go on that cabin instead: **Cabins**, the cabin, **Questions about this cabin**.
+
+## Write a blog post
+
+1. Open **Blog posts** and click **Add an entry**.
+2. Type the title. The web address is made from it the first time you save, and stays the same after that.
+3. Add the summary, date, category and a cover photo (resized to 2400 pixels wide), with its description.
+4. Write the post. Use the toolbar for headings, lists, links and photos. Link each cabin's name to its page the first time it comes up.
+5. Leave **Draft** on while you work. Turn it off and save to publish.
+
+A draft shows only on the preview site. Once happyhocking.com is live, drafts stay hidden until you publish them.
+
+## Add an owner testimonial
+
+Open **Page: Co-hosting**, then **Owner testimonials**, and click **Add an entry**. The section appears on the page once that first testimonial is in. Only post what the owner has agreed to share.
+
 ## Reviews and the star-rating switch
 
-Coming with the reviews step of the build. The short version: when a guest's review arrives by email, add it under **Reviews**. Post every genuine review. Only skip spam, profanity, personal info or a review from someone who didn't stay. Stars stay hidden until **Show star ratings** is turned on in **Site settings**.
+When a guest's review arrives by email:
+
+1. Open **Reviews** and click **Add an entry**.
+2. Pick the cabin. Type the first name only, the month and year ("Oct 2026"), and the review.
+3. Copy the ratings from the email. Set **Source** to Direct and save.
+
+Post every genuine review. Only skip spam, profanity, personal info or a review from someone who didn't stay. Never copy the guest's private note into Pages CMS.
+
+Stars stay hidden until **Show star ratings** is turned on in **Site settings**. The full walkthrough, the review links for each cabin and the Hospitable message are in `docs/reviews.md`.

@@ -1,0 +1,61 @@
+intro: Quick answers about booking, the cabins and your stay. Can't find yours? Send us a note.
+groups:
+  - title: Booking direct
+    items:
+      - q: How do I book direct?
+        a: Pick your dates on any cabin's page and book instantly. Payment and your rental agreement are handled online.
+        home: true
+      - q: Is it really cheaper to book direct?
+        a: You skip the booking-site service fees. Same cabins, same team. Your reservation goes straight to us.
+        home: true
+      - q: How do payments work?
+        a: Most major credit cards are accepted. You can pay in up to 3 installments that line up with the cancellation policy.
+        home: false
+      - q: Do I sign a rental agreement?
+        a: Yes. Every direct booking comes with a rental agreement, and you sign it online.
+        home: false
+      - q: How far ahead can I book?
+        a: Calendars are usually open about a year out. It can vary by cabin.
+        home: false
+  - title: Choosing a cabin
+    items:
+      - q: Which cabin is right for my group?
+        a: Our cabins sleep 6 to 29. Dunkle Creek, Lazy Deer Retreat and Pickle Hill suit couples and small groups. For bigger gatherings, look at Rickenbacker Ridge, Clouds Reach, The Johnny, The Farm at Nickel Plate, Loch Llyn and Valhalla Hills.
+        home: true
+      - q: Do all the cabins have a pool and hot tub?
+        a: Yes. Every cabin has a private pool and hot tub. Hot tubs are open all year. Pools are seasonal. Most are open May 15 to October 15, and Clouds Reach is open April 15 to November 30. The pools at Clouds Reach and Rickenbacker Ridge are heated.
+        home: true
+      - q: How close are the cabins to the caves and trails?
+        a: Most are 20 to 30 minutes from the main Hocking Hills trails, and Lazy Deer Retreat is about 5 minutes from Old Man's Cave. Each cabin's page lists drive times.
+        home: true
+      - q: Which cabins are best for games and sports?
+        a: Pickle Hill has a regulation pickleball court in its own barn. The Farm at Nickel Plate has a sports barn for basketball, pickleball and soccer. Lazy Deer Retreat has a sport court for pickleball and basketball.
+        home: false
+  - title: Your stay
+    items:
+      - q: What time are check-in and check-out?
+        a: Check-in is 4:00 pm. Check-out is 11:00 am, or 10:00 am at Valhalla Hills and Loch Llyn.
+        home: false
+      - q: Is there a minimum stay?
+        a: 2 nights at every cabin. Holidays and peak season may need 3.
+        home: false
+      - q: When do I get the address and check-in details?
+        a: The exact address comes with your booking confirmation, and check-in details land in your inbox before you do.
+        home: false
+      - q: How old do I need to be to book?
+        a: We kindly prefer the booking guest to be 25 or older. Discreet exceptions are made for younger guests.
+        home: false
+      - q: Are pets allowed?
+        a: No. Pets aren't allowed at any of our cabins.
+        home: false
+  - title: Policies
+    items:
+      - q: What is your cancellation policy?
+        a: Most cabins offer a full refund up to 60 days before check-in and 50% up to 30 days before. Valhalla Hills and Loch Llyn use 90 and 60 days. Full details are on each cabin's page.
+        home: true
+      - q: What are the house rules?
+        a: A few apply to every stay. No pets, no smoking and no parties or events. Each cabin also has a maximum guest count. The full list is on each cabin's page.
+        home: false
+      - q: Are there quiet hours?
+        a: Yes, at most cabins. They usually start at 10:00 pm. At Valhalla Hills, outdoor quiet hours run 9:00 pm to 9:00 am, with no outdoor speakers. Each cabin's page has its own.
+        home: false

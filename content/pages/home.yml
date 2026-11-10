@@ -1,0 +1,42 @@
+hero:
+  eyebrow: Hocking Hills, Ohio
+  lead: Private cabins with pools, hot tubs and room for your whole crew
+  image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-013.jpg
+  alt: Aerial view of The Farm at Nickel Plate and the surrounding hills
+  video: ''
+  videoPhone: ''
+cabins:
+  eyebrow: Our cabins
+  intro: From a cozy A-frame for 6 to a lake estate for 29, each with a private pool and hot tub. Pick the one that fits your crew.
+story:
+  eyebrow: Who we are
+  heading: The crew behind your stay
+  text: We're a local team that looks after every cabin ourselves. Expect a spotless home, quick answers and a real person on the other end of every message.
+  linkLabel: Meet the team
+  image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-004.jpg
+  alt: S'mores at the fire pit at Rickenbacker Ridge
+reviews:
+  intro: Hosts who answer fast, homes that are spotless and guests who come back.
+cohost:
+  eyebrow: Co-hosting for homeowners
+  heading: Looking for a co-host?
+  text: We list, price, clean and care for your Hocking Hills vacation home, so it earns without taking over your life.
+  points:
+    - Your listing stays in your name
+    - Booking payments go straight to you
+    - A clear statement every month
+  image: /images/cabins/loch-llyn/living-room/loch-llyn-living-room-001.jpg
+  alt: Living room at Loch Llyn with a 2-story stone fireplace
+area:
+  eyebrow: The Hocking Hills
+  heading: Trails by day, hot tub by night
+  text: Most of our cabins are 20 to 30 minutes from Old Man's Cave, Ash Cave and Cedar Falls. Lazy Deer Retreat is about 5 minutes from Old Man's Cave.
+  linkLabel: Read the area guides
+  image: /images/cabins/loch-llyn/lake/loch-llyn-lake-004.jpg
+  alt: Trees reflected in the private lake at Loch Llyn
+faqs:
+  eyebrow: FAQs
+  heading: Good to know
+closing:
+  heading: Find your happy place
+  text: Check dates, pick your cabin and book direct with the crew that runs them.

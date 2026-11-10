@@ -10,7 +10,7 @@ export function Footer() {
   return (
     <footer className="on-forest sec-forest pb-24 lg:pb-0">
       {/* Insider list */}
-      <div className="border-b-2 border-cream/15">
+      <div id="insider-list" className="scroll-mt-28 border-b-2 border-cream/15">
         <div className="container-x grid items-center gap-8 py-12 md:py-16 lg:grid-cols-2">
           <div>
             <p className="eyebrow">The insider list</p>

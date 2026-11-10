@@ -6,10 +6,55 @@
     <title>Forms</title>
   </head>
   <body>
-    <!-- Netlify detects these at deploy time. The live forms are rendered by React and POST here. -->
+    <!--
+      Netlify detects these at deploy time. The live forms are rendered by React and POST here.
+      Every field a live form sends must be listed in its copy below, or Netlify drops it.
+    -->
     <form name="insider-list" data-netlify="true" netlify-honeypot="bot-field" hidden>
       <input name="bot-field" />
       <input name="email" />
+    </form>
+
+    <!-- Guest questions (Contact page, topic: a stay) -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input name="bot-field" />
+      <input name="subject" />
+      <input name="name" />
+      <input name="email" />
+      <input name="phone" />
+      <input name="cabin" />
+      <input name="dates" />
+      <textarea name="message"></textarea>
+    </form>
+
+    <!-- Owner inquiries (Co-hosting page, and Contact page topic: co-hosting) -->
+    <form name="owner-inquiry" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input name="bot-field" />
+      <input name="subject" />
+      <input name="name" />
+      <input name="email" />
+      <input name="phone" />
+      <input name="location" />
+      <textarea name="message"></textarea>
+    </form>
+
+    <!-- Guest reviews (/review). Emailed to the hosts; published by hand in Pages CMS. -->
+    <form name="review" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input name="bot-field" />
+      <input name="subject" />
+      <input name="cabin" />
+      <input name="stayed" />
+      <input name="rating" />
+      <input name="cleanliness" />
+      <input name="accuracy" />
+      <input name="check-in" />
+      <input name="communication" />
+      <input name="location" />
+      <input name="value" />
+      <textarea name="comment"></textarea>
+      <input name="first-name" />
+      <input name="email" />
+      <textarea name="private-feedback"></textarea>
     </form>
   </body>
 </html>

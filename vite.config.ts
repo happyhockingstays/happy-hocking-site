@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 import tsConfigPaths from 'vite-tsconfig-paths'
 import netlify from '@netlify/vite-plugin-tanstack-start'
 import content from './content/vite-plugin.mjs'
-import { loadCabins } from './content/lib.mjs'
+import { loadCabins, loadPosts } from './content/lib.mjs'
 
 // One page per visible cabin. Listed here so each is prerendered even if nothing links to it yet.
 const cabins = loadCabins()
@@ -13,6 +13,9 @@ const cabins = loadCabins()
 // Search engines stay out until the site is on its real domain. Netlify sets URL to the site's
 // primary address, so this turns itself off the day happyhocking.com becomes the primary domain.
 const live = (process.env.URL || '').includes('happyhocking.com')
+
+// Blog posts, and the private review form, which nothing links to. Drafts are built only before launch.
+const posts = loadPosts({ includeDrafts: !live })
 
 export default defineConfig({
   server: { port: 3000 },
@@ -33,7 +36,7 @@ export default defineConfig({
         // Index routes are registered with a trailing slash but linked and canonical without one.
         filter: (page) => page.path === '/' || !page.path.endsWith('/'),
       },
-      pages: cabins.map((c) => ({ path: `/cabins/${c.slug}` })),
+      pages: [...cabins.map((c) => ({ path: `/cabins/${c.slug}` })), ...posts.map((p) => ({ path: `/blog/${p.slug}` })), { path: '/review' }],
       sitemap: {
         enabled: true,
         host: 'https://happyhocking.com',

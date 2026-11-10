@@ -6,7 +6,9 @@ import {
   Bath,
   BedDouble,
   CalendarDays,
+  Camera,
   Car,
+  ChartColumn,
   Check,
   ChevronLeft,
   ChevronRight,
@@ -30,6 +32,7 @@ import {
   Mail,
   MapPin,
   Menu,
+  MessageCircle,
   Moon,
   Mountain,
   Music,
@@ -54,6 +57,7 @@ import {
   Waves,
   WavesLadder,
   Wifi,
+  Wrench,
   X,
   type LucideIcon,
 } from 'lucide-react'
@@ -190,6 +194,11 @@ const icons = {
   'arrow-right': ArrowRight,
   'chevron-left': ChevronLeft,
   'chevron-right': ChevronRight,
+
+  message: MessageCircle,
+  wrench: Wrench,
+  camera: Camera,
+  chart: ChartColumn,
 } satisfies Record<string, LucideIcon | ((p: SvgProps) => ReactNode)>
 
 export type IconName = keyof typeof icons

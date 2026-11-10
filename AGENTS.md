@@ -67,10 +67,15 @@ The first two come straight from Natalie and are not up for debate.
 | A cabin's words, facts, photos, FAQs and widget code | `content/cabins/<slug>.yml` |
 | Phone, email, Instagram, banner, star-rating toggle, search widget, Mailchimp, GTM | `content/settings/site.yml` |
 | Check-in, minimum stay, age, shared house rules, cancellation policies | `content/settings/policies.yml` |
+| Homepage, Co-hosting, About and FAQs words and photos | `content/pages/*.yml` |
+| Blog posts (markdown; the file name is the URL; `draft: true` shows only before launch) | `content/blog/*.md` |
 | Published reviews | `content/reviews/*.yml` |
 | What the clients can edit, and how each field is labeled | `.pages.yml` |
 | Content loading and defaults | `content/lib.mjs`, `content/vite-plugin.mjs` |
 | The one cabin page template | `src/pages/CabinPage.tsx` |
+| Other page templates | `src/pages/HomePage.tsx`, `CabinsPage.tsx`, `CoHostingPage.tsx`, `AboutPage.tsx`, `FaqsPage.tsx`, `ContactPage.tsx`, `ReviewPage.tsx`, `BlogPages.tsx` |
+| Forms (guest contact, owner inquiry, insider list) | `src/components/ContactForms.tsx`, `Forms.tsx`, `public/__forms.html` |
+| Redirects from the old Wix site | `docs/redirects.csv` (the build writes `_redirects` from it) |
 | Header, footer, mobile bar | `src/components/Header.tsx`, `Footer.tsx`, `MobileBar.tsx` |
 | Colors, type, buttons, cards, motion | `src/styles.css` |
 | Icons | `src/components/Icon.tsx` |
@@ -99,7 +104,9 @@ Tokens are in `src/styles.css`, straight from the brand guide.
 - TanStack Start with every route prerendered (`vite.config.ts`). Keep new pages static so they prerender.
 - New pages are `src/routes/<slug>.tsx` with a `head: () => seo({...})` call. Cabin pages are `/cabins/<slug>`.
 - Use `<Photo src alt />` for photos and `<SiteLink to>` for internal links.
-- Forms post to Netlify Forms through `/__forms.html`. A new form needs a matching hidden definition in `public/__forms.html`. No serverless functions.
-- The private review form lives at `/review`: noindex, out of the sitemap (`scripts/postbuild.mjs`) and never linked in the nav.
+- Forms post to Netlify Forms through `/__forms.html`. A new form, or a new field on a form, needs a matching entry in `public/__forms.html`, or Netlify drops it. No serverless functions. Guest questions (`contact`) and owner inquiries (`owner-inquiry`) stay separate forms.
+- The private review form lives at `/review`: noindex, out of the sitemap (`scripts/postbuild.mjs`) and never linked in the nav. Nothing publishes from it: a host adds each approved review in Pages CMS. See `docs/reviews.md`.
+- Approved brand headlines (the homepage H1, "Find your happy place", "Happy to help", the co-hosting H1) are fixed in the page code on purpose. Everything else on those pages is in `content/pages`.
+- Sections with nothing to show hide themselves: reviews, owner testimonials, the homepage story band. Don't add empty-state filler.
 - Search engines are blocked until happyhocking.com is the primary domain in Netlify (`VITE_NOINDEX` in `vite.config.ts`). Don't remove that check; it turns itself off.
 - Git: commit to `main`. Never force-push, rebase or amend pushed commits. The clients publish through Pages CMS, which commits to `main` too, so pull before you push.

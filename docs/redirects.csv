@@ -1,0 +1,35 @@
+Old path,New path,Kind,Note
+/,/,page,Old homepage
+/properties,/cabins,page,Old Properties overview
+/copy-of-properties,/cabins,page,Leftover duplicate of the overview in Wix
+/valhalla-hills,/cabins/valhalla-hills,cabin,
+/loch-llyn,/cabins/loch-llyn,cabin,
+/the-farm-at-nickel-plate,/cabins/the-farm-at-nickel-plate,cabin,
+/cloudsreach,/cabins/clouds-reach,cabin,
+/the-johnny,/cabins/the-johnny,cabin,
+/rickenbacker-ridge,/cabins/rickenbacker-ridge,cabin,
+/pickle-hill,/cabins/pickle-hill,cabin,
+/new-dunkle-creek,/cabins/dunkle-creek,cabin,
+/phoenix-landing,/cabins,cabin,Phoenix Landing is not on the new site. Confirm with the clients that it is gone for good
+/faqs,/faqs,page,
+/contact-us,/contact,page,
+/sign-up-insider-list,/#insider-list,page,Goes to the insider list signup in the footer
+/blog,/blog,blog,Blog index ("Area Insights")
+/blog/categories/seasonal-guide,/blog,blog,Category pages are not carried over
+/blog/categories/cabin-guides,/blog,blog,
+/blog/categories/activities,/blog,blog,
+/blog/categories/tips-and-tricks,/blog,blog,
+/blog/categories/why-book-with-us,/blog,blog,
+/post/the-ultimate-hocking-hills-winter-experience-guide-2026,/blog/the-ultimate-hocking-hills-winter-experience-guide-2026,post,Overlaps with the other 2026 winter guide. Consider merging the 2 in the SEO pass
+/post/the-ultimate-hocking-hills-winter-guide-2026-your-complete-planning-resource,/blog/the-ultimate-hocking-hills-winter-guide-2026-your-complete-planning-resource,post,Overlaps with the other 2026 winter guide
+/post/a-cozy-winter-weekend-in-hocking-hills,/blog/a-cozy-winter-weekend-in-hocking-hills,post,
+/post/hocking-hills-fall-foliage-when-to-go,/blog/hocking-hills-fall-foliage-when-to-go,post,
+/post/the-best-fall-weekends-in-hocking-hills-and-what-to-do-on-them,/blog/the-best-fall-weekends-in-hocking-hills-and-what-to-do-on-them,post,
+/post/your-ultimate-spring-summer-escape-to-hocking-hills,/blog/your-ultimate-spring-summer-escape-to-hocking-hills,post,
+/post/why-hocking-hills-is-the-perfect-getaway-destination,/blog/why-hocking-hills-is-the-perfect-getaway-destination,post,
+/post/how-to-plan-a-successful-family-gathering-in-hocking-hills,/blog/how-to-plan-a-successful-family-gathering-in-hocking-hills,post,
+/post/best-hocking-hills-cabins-for-active-families,/blog/best-hocking-hills-cabins-for-active-families,post,
+/post/why-book-your-hocking-hills-cabin-direct,/blog/why-book-your-hocking-hills-cabin-direct,post,
+/post/explore-hocking-hills-outdoor-adventures-hidden-gems-and-must-do-activities,/blog/explore-hocking-hills-outdoor-adventures-hidden-gems-and-must-do-activities,post,
+/post/things-to-do-in-hocking-hills-insiders-guide,/blog/things-to-do-in-hocking-hills-insiders-guide,post,
+/post/how-to-choose-the-right-hocking-hills-cabin-for-your-group,/blog/how-to-choose-the-right-hocking-hills-cabin-for-your-group,post,

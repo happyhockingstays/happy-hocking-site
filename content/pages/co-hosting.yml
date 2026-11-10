@@ -1,0 +1,78 @@
+hero:
+  eyebrow: Hocking Hills co-hosting
+  lead: You own the home. We handle everything else, from the first booking to the last clean.
+  image: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-backyard-fire-pit-010.jpg
+  alt: Bench swing and seating on the covered porch at Rickenbacker Ridge
+threeThings:
+  heading: 3 things we do really well
+  items:
+    - title: Keep it booked
+      text: Smart pricing, a managed calendar and listings that sell. Guests can also book your home direct, right here.
+    - title: Keep it spotless
+      text: A thorough clean after every stay, with the pool, hot tub and repairs looked after between guests.
+    - title: Keep it off your plate
+      text: We answer guests, typically within an hour. You get a clear statement every month.
+services:
+  eyebrow: What we handle
+  heading: Let us maximize your property's potential
+  intro: Sit back and let us handle the rest. Your home stays booked, spotless and well looked after.
+  items:
+    - icon: message
+      title: Guest booking
+      text: Inquiries, reservations and guest questions, handled by a team that answers fast.
+    - icon: sparkle
+      title: Professional housekeeping
+      text: Every stay ends in a thorough clean, so every guest arrives to a spotless home.
+    - icon: calendar
+      title: Reservation management
+      text: Dynamic pricing and calendar management to keep your nights booked at the right rate.
+    - icon: wrench
+      title: Maintenance
+      text: Pool, hot tub, repairs and seasonal upkeep, scheduled and followed through.
+    - icon: camera
+      title: Marketing, design and photography
+      text: Polished listings, professional photos and a direct-booking site that sells your home.
+    - icon: chart
+      title: Monthly owner statements
+      text: A clear report every month, so you always know how your home is performing.
+ownership:
+  heading: It stays your home
+  points:
+    - title: Your listing stays in your name
+      text: The listing and its reviews stay yours.
+    - title: Booking payments go straight to you
+      text: Guests pay you directly. We bill you from there.
+    - title: A statement every month
+      text: So you always know how your home is performing.
+proof:
+  eyebrow: Proof
+  heading: Happy guests, happy homes
+  intro: These are the homes we host today. Every one is rated 4.9 or higher on Airbnb.
+  replyTime: Within an hour
+steps:
+  eyebrow: How we get started
+  heading: 3 steps to hands-off
+  intro: No big commitment to find out if we're a fit. Start with a conversation.
+  items:
+    - title: Intro call
+      text: Tell us about your home and what you want from it.
+    - title: Walkthrough and plan
+      text: If it looks like a fit, we tour the home and map out pricing, setup and launch.
+    - title: We take it from here
+      text: Guests, cleaning and upkeep become our job. You get a statement every month.
+testimonials: []
+form:
+  eyebrow: Get in touch
+  heading: Let's talk about your home
+  text: Tell us a little about the home and we'll set up an intro call.
+faqs:
+  - q: What does co-hosting include?
+    a: Guest booking and messaging, professional housekeeping, reservation and pricing management, maintenance, plus marketing, design and photography.
+  - q: How much does it cost?
+    a: Every home is different, so we go over fees on your intro call and build a plan that fits yours. Your listing stays in your name and booking payments go straight to you. We bill you from there.
+  - q: Which areas do you cover?
+    a: The Hocking Hills area, including Logan, Lancaster, Laurelville, Sugar Grove and McArthur. Have a home somewhere else nearby? Reach out and we'll tell you if we can help.
+  - q: Do I need to live nearby?
+    a: No. We handle everything on site, and you get a statement every month so you always know how your home is doing.
+  - q: How do I get started?
+    a: Send us a note with the form on this page. We'll set up an intro call, then a walkthrough of your home.

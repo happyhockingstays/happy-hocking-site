@@ -1,8 +1,14 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { StubPage } from '@/pages/StubPage'
-import { seo } from '@/lib/seo'
+import { AboutPage } from '@/pages/AboutPage'
+import { breadcrumbJsonLd, seo } from '@/lib/seo'
 
 export const Route = createFileRoute('/about')({
-  head: () => seo({ title: 'About us | Happy Hocking Stays', description: 'Happy Hocking Stays is a locally run vacation rental company in the Hocking Hills of Ohio. Meet the team behind the cabins.', path: '/about' }),
-  component: () => <StubPage eyebrow="About" title="A place for everyone in the Hocking Hills" note="Our story and the team section are step 6 of the first pass. Waiting on the story and headshots." />,
+  head: () =>
+    seo({
+      title: 'About Happy Hocking Stays | Hocking Hills cabin hosts',
+      description: 'Meet the local team behind Happy Hocking Stays: private Hocking Hills cabins with pools and hot tubs, and co-hosting for vacation homeowners.',
+      path: '/about',
+      jsonLd: breadcrumbJsonLd([{ name: 'About', path: '/about' }]),
+    }),
+  component: AboutPage,
 })

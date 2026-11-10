@@ -14,7 +14,9 @@ import { Route as AboutRouteImport } from './routes/about'
 import { Route as CoHostingRouteImport } from './routes/co-hosting'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as FaqsRouteImport } from './routes/faqs'
+import { Route as ReviewRouteImport } from './routes/review'
 import { Route as BlogIndexRouteImport } from './routes/blog/index'
+import { Route as BlogSlugRouteImport } from './routes/blog/$slug'
 import { Route as CabinsIndexRouteImport } from './routes/cabins/index'
 import { Route as CabinsSlugRouteImport } from './routes/cabins/$slug'
 
@@ -43,9 +45,19 @@ const FaqsRoute = FaqsRouteImport.update({
   path: '/faqs',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ReviewRoute = ReviewRouteImport.update({
+  id: '/review',
+  path: '/review',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BlogIndexRoute = BlogIndexRouteImport.update({
   id: '/blog/',
   path: '/blog/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogSlugRoute = BlogSlugRouteImport.update({
+  id: '/blog/$slug',
+  path: '/blog/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CabinsIndexRoute = CabinsIndexRouteImport.update({
@@ -65,6 +77,8 @@ export interface FileRoutesByFullPath {
   '/co-hosting': typeof CoHostingRoute
   '/contact': typeof ContactRoute
   '/faqs': typeof FaqsRoute
+  '/review': typeof ReviewRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/cabins/$slug': typeof CabinsSlugRoute
   '/blog/': typeof BlogIndexRoute
   '/cabins/': typeof CabinsIndexRoute
@@ -75,6 +89,8 @@ export interface FileRoutesByTo {
   '/co-hosting': typeof CoHostingRoute
   '/contact': typeof ContactRoute
   '/faqs': typeof FaqsRoute
+  '/review': typeof ReviewRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/cabins/$slug': typeof CabinsSlugRoute
   '/blog': typeof BlogIndexRoute
   '/cabins': typeof CabinsIndexRoute
@@ -86,6 +102,8 @@ export interface FileRoutesById {
   '/co-hosting': typeof CoHostingRoute
   '/contact': typeof ContactRoute
   '/faqs': typeof FaqsRoute
+  '/review': typeof ReviewRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/cabins/$slug': typeof CabinsSlugRoute
   '/blog/': typeof BlogIndexRoute
   '/cabins/': typeof CabinsIndexRoute
@@ -98,6 +116,8 @@ export interface FileRouteTypes {
     | '/co-hosting'
     | '/contact'
     | '/faqs'
+    | '/review'
+    | '/blog/$slug'
     | '/cabins/$slug'
     | '/blog/'
     | '/cabins/'
@@ -108,6 +128,8 @@ export interface FileRouteTypes {
     | '/co-hosting'
     | '/contact'
     | '/faqs'
+    | '/review'
+    | '/blog/$slug'
     | '/cabins/$slug'
     | '/blog'
     | '/cabins'
@@ -118,6 +140,8 @@ export interface FileRouteTypes {
     | '/co-hosting'
     | '/contact'
     | '/faqs'
+    | '/review'
+    | '/blog/$slug'
     | '/cabins/$slug'
     | '/blog/'
     | '/cabins/'
@@ -129,6 +153,8 @@ export interface RootRouteChildren {
   CoHostingRoute: typeof CoHostingRoute
   ContactRoute: typeof ContactRoute
   FaqsRoute: typeof FaqsRoute
+  ReviewRoute: typeof ReviewRoute
+  BlogSlugRoute: typeof BlogSlugRoute
   CabinsSlugRoute: typeof CabinsSlugRoute
   BlogIndexRoute: typeof BlogIndexRoute
   CabinsIndexRoute: typeof CabinsIndexRoute
@@ -171,11 +197,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FaqsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/review': {
+      id: '/review'
+      path: '/review'
+      fullPath: '/review'
+      preLoaderRoute: typeof ReviewRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/': {
       id: '/blog/'
       path: '/blog'
       fullPath: '/blog/'
       preLoaderRoute: typeof BlogIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/$slug': {
+      id: '/blog/$slug'
+      path: '/blog/$slug'
+      fullPath: '/blog/$slug'
+      preLoaderRoute: typeof BlogSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/cabins/': {
@@ -201,6 +241,8 @@ const rootRouteChildren: RootRouteChildren = {
   CoHostingRoute: CoHostingRoute,
   ContactRoute: ContactRoute,
   FaqsRoute: FaqsRoute,
+  ReviewRoute: ReviewRoute,
+  BlogSlugRoute: BlogSlugRoute,
   CabinsSlugRoute: CabinsSlugRoute,
   BlogIndexRoute: BlogIndexRoute,
   CabinsIndexRoute: CabinsIndexRoute,

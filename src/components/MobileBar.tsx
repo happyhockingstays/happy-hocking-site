@@ -9,6 +9,8 @@ import { SiteLink, useCurrentPath } from './SiteLink'
 export function MobileBar() {
   const path = useCurrentPath()
   const owner = path === '/co-hosting'
+  // The review form is a single-purpose page: nothing should sit on top of it.
+  if (path === '/review') return null
   return (
     <div className="on-forest fixed inset-x-0 bottom-0 z-40 border-t-2 border-mustard bg-forest px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3 lg:hidden">
       <div className="flex items-center gap-3">

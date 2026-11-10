@@ -36,6 +36,7 @@ function checkText(where, text, { cabin } = {}) {
   if (text.replace(/, Ohio,/g, '').split(/[.;:!?]/).some((s) => /\w+, (?:(?! and | or )[^,])+, (and|or) /.test(s))) flag(where, 'looks like a serial comma ("a, b, and c")')
   if (/\d ?(AM|PM)\b/.test(text) || /(?<![:\d])\b\d{1,2} ?(am|pm)\b/.test(text)) flag(where, 'time format should be 4:00 pm')
   if (/\p{Extended_Pictographic}/u.test(text.replace(/[©®™✦]/g, ''))) flag(where, 'has an emoji')
+  if (/\bown a (vacation )?home\?/i.test(text)) flag(where, 'says "Own a home?". Use "Looking for a co-host?"')
   if (cabin && !HEATED_OK.includes(cabin) && /heated/i.test(text.replace(/(not|isn't|is not) heated/gi, '').replace(/Is the pool heated\?/gi, ''))) flag(where, 'says "heated", but only Clouds Reach and Rickenbacker Ridge have heated pools')
 }
 
@@ -81,6 +82,59 @@ for (const f of ['content/settings/site.yml', 'content/settings/policies.yml']) 
 noPeriod('settings/site.banner.text', parse(fs.readFileSync('content/settings/site.yml', 'utf8')).banner?.text)
 for (const r of parse(fs.readFileSync('content/settings/policies.yml', 'utf8')).houseRules || []) noPeriod('settings/policies.houseRules', r)
 
+/* ---------- pages: Home, Co-hosting, About, FAQs ---------- */
+const HEADLINE_KEYS = ['eyebrow', 'heading', 'title', 'linkLabel', 'replyTime']
+function walkPage(where, value, key = '') {
+  if (typeof value === 'string') {
+    checkText(where, value)
+    if (HEADLINE_KEYS.includes(key)) noPeriod(where, value)
+    // "heated" is true for 2 pools only, so the sentence has to name them
+    for (const sentence of value.split(/(?<=[.!?])\s+/)) if (/heated/i.test(sentence) && !/Clouds Reach|Rickenbacker Ridge/.test(sentence)) flag(where, 'says "heated" without naming Clouds Reach or Rickenbacker Ridge')
+  } else if (Array.isArray(value)) value.forEach((v, i) => walkPage(`${where}[${i + 1}]`, v, key))
+  else if (value && typeof value === 'object') for (const [k, v] of Object.entries(value)) if (!['image', 'photo', 'video', 'videoPhone', 'icon'].includes(k)) walkPage(`${where}.${k}`, v, k)
+}
+const pagesDir = 'content/pages'
+for (const f of fs.readdirSync(pagesDir).filter((f) => f.endsWith('.yml'))) {
+  const page = parse(fs.readFileSync(path.join(pagesDir, f), 'utf8')) || {}
+  const w = `pages/${f.replace('.yml', '')}`
+  walkPage(w, page)
+  for (const x of page.cohost?.points || []) noPeriod(`${w}.cohost.points`, x)
+  if (page.hero?.lead && f === 'home.yml') noPeriod(`${w}.hero.lead`, page.hero.lead)
+  for (const key of ['hero', 'story', 'cohost', 'area']) {
+    const i = page[key]?.image
+    if (i && !fs.existsSync(path.join('public', i))) flag(w, `photo not found: ${i}`)
+    if (i && !page[key]?.alt) flag(`${w}.${key}`, 'photo has no description (alt text)')
+  }
+}
+
+/* ---------- blog posts ---------- */
+const blogDir = 'content/blog'
+for (const f of fs.existsSync(blogDir) ? fs.readdirSync(blogDir).filter((f) => f.endsWith('.md')) : []) {
+  const raw = fs.readFileSync(path.join(blogDir, f), 'utf8')
+  const m = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/.exec(raw)
+  const w = `blog/${f.replace('.md', '')}`
+  if (!m) {
+    flag(w, 'is missing its settings block')
+    continue
+  }
+  const meta = parse(m[1]) || {}
+  // Check the words, not the web addresses inside links and photos
+  const words = m[2].replace(/\]\([^)]*\)/g, ']').replace(/https?:\/\/\S+/g, '')
+  checkText(`${w} (title)`, meta.title)
+  checkText(`${w} (summary)`, meta.description)
+  checkText(w, words)
+  noPeriod(`${w} (title)`, meta.title)
+  for (const line of words.split('\n')) if (/^#{1,6}\s/.test(line)) noPeriod(`${w} heading`, line.replace(/^#+\s*/, ''))
+  if (!/^[a-z0-9-]+\.md$/.test(f)) flag(w, 'file name should be lowercase letters, numbers and hyphens')
+  if (!meta.draft) {
+    if (!meta.description || meta.description.length < 120 || meta.description.length > 165) flag(`${w} (summary)`, `${(meta.description || '').length} characters (120 to 165)`)
+    if (meta.seoTitle && meta.seoTitle.length > 60) flag(`${w} (Google title)`, `${meta.seoTitle.length} characters (60 max)`)
+    if (!meta.cover) flag(w, 'has no cover photo')
+    if (meta.cover && !meta.coverAlt) flag(w, 'cover photo has no description (alt text)')
+  }
+  if (meta.cover && !fs.existsSync(path.join('public', meta.cover))) flag(w, `cover photo not found: ${meta.cover}`)
+}
+
 /* ---------- page code: dashes, banned words and cabin counts in the visible copy ---------- */
 const srcFiles = []
 const collect = (d) => fs.readdirSync(d, { withFileTypes: true }).forEach((e) => (e.isDirectory() ? collect(path.join(d, e.name)) : /\.tsx$/.test(e.name) && srcFiles.push(path.join(d, e.name))))
@@ -90,10 +144,11 @@ for (const f of srcFiles) {
   if (/[—–]/.test(code)) flag(f, 'has an em or en dash')
   for (const w of BANNED) if (code.toLowerCase().includes(w)) flag(f, `uses "${w}"`)
   if (/\b(nine|9) (cabins|homes)\b/i.test(code)) flag(f, 'states how many cabins we have')
+  if (/\bown a (vacation )?home( here)?\?/i.test(code.replace(/never "Own a home\?"/g, ''))) flag(f, 'says "Own a home?". Use "Looking for a co-host?"')
 }
 
 if (problems.length) {
   console.log(`${problems.length} copy problem(s):\n` + problems.map((p) => '  - ' + p).join('\n'))
   process.exit(1)
 }
-console.log('Copy check passed: cabins, settings and page code follow the brand copy rules.')
+console.log('Copy check passed: cabins, pages, blog posts, settings and page code follow the brand copy rules.')
