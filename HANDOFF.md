@@ -96,7 +96,6 @@ Netlify account, Hospitable widget codes (9 cabins plus search), Mailchimp embed
 
 ## Known loose ends
 
-- On Cole's Mac, two Clouds Reach files in `_web-ready` still have the names `clouds-reach-bedrooms-x001.jpg` and `-x002.jpg`. In the repo they are `-015` and `-016`.
 - `_web-ready/_transfer-temp/` on Cole's Mac holds empty leftover files and can be deleted.
 - Pages CMS options not yet tried in the live editor: the blog body field (markdown rich text saved as the post body), the file name made from the post title, and the reference fields for "Similar cabins" and a review's cabin.
 - Bedroom numbering at Dunkle Creek and Pickle Hill follows Natalie's photo folders, which differ from Airbnb's order. Waiting on her answer.
