@@ -68,26 +68,26 @@ Nothing below can be tested until this is done.
 3. Give 3 tools access to the repo:
    - **Netlify:** github.com/settings/installations, **Configure** next to Netlify, add `happy-hocking-site`, **Save**
    - **Pages CMS:** app.pagescms.org, sign in with GitHub, install it on `happyhockingstays` for `happy-hocking-site`
-   - **Claude** (how Cole updates the site): github.com/apps/claude/installations/new, pick `happyhockingstays`, **Only select repositories**, `happy-hocking-site`, **Install**
+   - **Claude** (how Cole updates the site): github.com/apps/claude/installations/select_target, pick `happyhockingstays`, **Only select repositories**, `happy-hocking-site`, **Install**
 4. In Netlify, open the site, then **Project configuration**, **Build & deploy**, **Continuous deployment**:
    - **Repository:** **Manage repository**, **Link to a different repository**, pick `happy-hocking-site`. Leave the build settings alone. They come from `netlify.toml`
    - **Branches and deploy contexts:** **Configure**. Production branch: `live`. Branch deploys: **Let me add individual branches**, add `main`. **Save**
-5. In Netlify, click **Forms**, then **Enable form detection**.
+5. In Netlify, click **Forms**, then **Enable form detection**. Then **Deploys**, **Trigger deploy**, **Deploy project**, so the first build picks up the forms.
 6. Form emails: **Project configuration**, **Notifications**, **Emails and webhooks**, **Add notification**, **Email notification**. Event: new form submission. Form: **Any form**. Email: the business address. **Save**.
 7. Invite Cole as a **Reviewer** (free on every plan), so he can see the site while it's locked to the team: **Team settings**, **Members**, **Invite members**.
 8. Delete the empty `happyhocking-website` repo (its **Settings**, **Danger Zone**).
 
 **Cole's part, once she's done:**
 
-9. GitHub, the repo, **Actions**, **Publish the site**, **Run workflow**. That creates the first live build.
-10. Open the preview, https://main--animated-kheer-a8b74a.netlify.app, and check: cabin photos load, the homepage video plays, every menu page opens.
-11. Send a test through each form on the preview and confirm Natalie gets each email:
+9. Open the preview, https://main--animated-kheer-a8b74a.netlify.app, and check: cabin photos load, the homepage video plays, every menu page opens. If it says the page isn't found, the preview hasn't built yet: save any small change in Pages CMS, wait 2 minutes and try again.
+10. Send a test through each form on the preview and confirm Natalie gets each email:
    - `/review?cabin=pickle-hill` (check that Pickle Hill is already picked)
    - `/contact` with "A stay" picked
    - `/contact` with "Co-hosting" picked
    - `/co-hosting`, the form near the bottom
    - the insider list signup in the footer
-12. Change one word in Pages CMS, save, and confirm the preview updates in about 2 minutes.
+11. Change one word in Pages CMS, save, and confirm the preview updates in about 2 minutes.
+12. Then run **Publish the site** once (GitHub, the repo, **Actions**, **Publish the site**, **Run workflow**) and check the live address picks up the change.
 13. Don't add happyhocking.com yet. That's launch day (section 6).
 
 If anything in steps 9 to 12 fails, start a chat with the repo attached and say which step. These parts were built and tested locally but have never run on Netlify: form emails, the photo resizing service and Pages CMS saving.
