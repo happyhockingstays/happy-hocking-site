@@ -2,7 +2,7 @@
 
 Notes for the Loom walkthrough and the training call. Written for Dave and Natalie.
 
-Saving a change publishes it to the live site in about 2 minutes. Read it over before you save. Nothing is ever lost: every version is kept, and Cole can undo any change.
+Saving a change shows up on the preview site (https://main--animated-kheer-a8b74a.netlify.app) in about 2 minutes. The live site picks up everything you've saved on Mondays and Thursdays. Need something live sooner, like a rule or a price? Text Cole, or publish it yourself: on GitHub, open the repo, click **Actions**, then **Publish the site**, then **Run workflow**. Nothing is ever lost: every version is kept, and Cole can undo any change.
 
 ## Change words on a cabin page
 

@@ -22,9 +22,9 @@ Node 22+.
 
 ## How editing works
 
-- **Pages CMS** (app.pagescms.org) is the clients' editing window. `.pages.yml` defines what they see: Cabins, Reviews, the main pages, Blog posts, Site settings and Policies. Saving publishes to the live site in about 2 minutes.
+- **Pages CMS** (app.pagescms.org) is the clients' editing window. `.pages.yml` defines what they see: Cabins, Reviews, the main pages, Blog posts, Site settings and Policies. Saving updates the preview site (https://main--animated-kheer-a8b74a.netlify.app) in about 2 minutes. The live site picks up saved changes when it's published (below).
 - **GitHub** keeps every version. Anything can be undone.
-- **Netlify** rebuilds and publishes on every change.
+- **Netlify** builds 2 copies: `main` as a free preview, and `live` as the real site. **Publish the site** in GitHub Actions copies `main` to `live` on Mondays and Thursdays, or right away when someone clicks **Run workflow**. This keeps the site on Netlify's Free plan (see the punch list).
 - **Hospitable** stays separate and handles bookings. Its widget code is pasted into Pages CMS and never edited.
 
 Plain-language steps for the clients are in `docs/pages-cms-guide.md`.
@@ -55,37 +55,50 @@ Plain-language steps for the clients are in `docs/pages-cms-guide.md`.
 
 Updated Nov 11, 2026. Every page in the first pass is built, and the 13 Wix blog posts are moved over. This is what's left before launch, grouped by who does it. Cross items off here as they're done.
 
-## 1. Natalie and Cole: make the repo public, then set up Netlify
+## 1. Natalie, then Cole: GitHub and Netlify setup
 
 Nothing below can be tested until this is done.
 
-Where things stand (Nov 11): Cole transferred this repo to Natalie's GitHub account, so it's now `happyhockingstays/happy-hocking-site`. Natalie owns the Netlify account (Free plan, 1 member only), and her site `animated-kheer-a8b74a.netlify.app` is linked to the empty `happyhocking-website` repo. On the Free plan, a private repo only deploys changes made by the owner, so this repo has to be public for Cole's and Claude's changes to go live. Nothing private is in it (checked Nov 11).
+**Where things stand (Nov 11):** Cole started the transfer of this repo to Natalie's GitHub account (`happyhockingstays`), waiting on her to accept. Natalie owns the Netlify account (Free plan, 1 member), and her site `animated-kheer-a8b74a.netlify.app` points at the empty `happyhocking-website` repo. Cole emailed her the steps on Nov 11.
 
-Natalie does steps 1 to 4, or Cole talks her through them on a screen share:
+**Natalie's part** (Cole can walk her through it on a screen share):
 
-1. **Make the repo public.** On GitHub, open `happyhockingstays/happy-hocking-site`, **Settings**, scroll to **Danger Zone**, **Change visibility**, **Make public**.
-2. **Give Netlify the repo.** On GitHub: profile picture, **Settings**, **Applications**, **Netlify**, **Configure**. Under **Repository access**, add `happy-hocking-site`, then **Save**.
-3. **Point the site at it.** In Netlify, open the site, then **Project configuration**, **Build & deploy**, **Continuous deployment**, **Manage repository**, **Link to a different repository**, and pick `happy-hocking-site`. Leave the build settings alone. They come from `netlify.toml`. Then **Deploys**, **Trigger deploy**, **Deploy project**.
-4. **Clean up and Pages CMS.** Delete the empty `happyhocking-website` repo. Then open app.pagescms.org, sign in with GitHub and give Pages CMS access to `happy-hocking-site` on the `happyhockingstays` account.
+1. Accept the GitHub transfer email.
+2. Make `happy-hocking-site` public: repo **Settings**, **Danger Zone**, **Change visibility**, **Make public**. On Netlify's Free plan, a private repo only goes live with the owner's changes.
+3. Give 3 tools access to the repo:
+   - **Netlify:** github.com/settings/installations, **Configure** next to Netlify, add `happy-hocking-site`, **Save**
+   - **Pages CMS:** app.pagescms.org, sign in with GitHub, install it on `happyhockingstays` for `happy-hocking-site`
+   - **Claude** (how Cole updates the site): github.com/apps/claude/installations/new, pick `happyhockingstays`, **Only select repositories**, `happy-hocking-site`, **Install**
+4. In Netlify, open the site, then **Project configuration**, **Build & deploy**, **Continuous deployment**:
+   - **Repository:** **Manage repository**, **Link to a different repository**, pick `happy-hocking-site`. Leave the build settings alone. They come from `netlify.toml`
+   - **Branches and deploy contexts:** **Configure**. Production branch: `live`. Branch deploys: **Let me add individual branches**, add `main`. **Save**
+5. In Netlify, click **Forms**, then **Enable form detection**.
+6. Form emails: **Project configuration**, **Notifications**, **Emails and webhooks**, **Add notification**, **Email notification**. Event: new form submission. Form: **Any form**. Email: the business address. **Save**.
+7. Invite Cole as a **Reviewer** (free on every plan), so he can see the site while it's locked to the team: **Team settings**, **Members**, **Invite members**.
+8. Delete the empty `happyhocking-website` repo (its **Settings**, **Danger Zone**).
 
-**Netlify credits.** The Free plan has 300 credits a month with a hard cap. Every production deploy costs 15, and that includes every save in Pages CMS. Bandwidth costs 20 per GB. Commits that only change notes (this README, `HANDOFF.md`, `AGENTS.md`, `docs/`) skip the deploy. Save edits in batches, and plan to move to the Personal plan (1,000 credits with top-ups) before launch.
+**Cole's part, once she's done:**
 
-5. Open `animated-kheer-a8b74a.netlify.app` and check 3 things: cabin photos load, the homepage video plays, and every page in the menu opens.
-6. In Netlify, click **Forms** in the left menu. If it asks, click **Enable form detection**.
-7. Redeploy once so Netlify finds the forms: **Deploys**, **Trigger deploy**, **Deploy project**.
-8. Go to **Forms**, **Submission notifications**, **Add notification**, **Email notification**. Pick the form **review** and type the address that should get reviews. Save.
-9. Repeat step 8 for **contact** (guest questions), **owner-inquiry** (co-hosting) and **insider-list** (email signups). Each can go to a different person. On the Free plan that's Natalie's login email, so she can forward or filter from there.
-10. Send a test through each form on the Netlify address and confirm each email arrives:
+9. GitHub, the repo, **Actions**, **Publish the site**, **Run workflow**. That creates the first live build.
+10. Open the preview, https://main--animated-kheer-a8b74a.netlify.app, and check: cabin photos load, the homepage video plays, every menu page opens.
+11. Send a test through each form on the preview and confirm Natalie gets each email:
    - `/review?cabin=pickle-hill` (check that Pickle Hill is already picked)
    - `/contact` with "A stay" picked
    - `/contact` with "Co-hosting" picked
    - `/co-hosting`, the form near the bottom
    - the insider list signup in the footer
-11. Change one word in Pages CMS, save, and confirm the site updates in about 2 minutes.
-12. In GitHub, open the repo's **Settings**, **Branches**, and add a rule for `main` that blocks force pushes and deletions. Don't require pull requests: Pages CMS saves straight to `main`.
+12. Change one word in Pages CMS, save, and confirm the preview updates in about 2 minutes.
 13. Don't add happyhocking.com yet. That's launch day (section 6).
 
-Steps 6 to 9 happen in Netlify, so Natalie does them or shares her screen. If anything in steps 5 to 11 fails, start a chat with the repo attached and say which step. These parts were built and tested locally but have never run on Netlify: form emails, the photo resizing service, and the new Pages CMS screens saving.
+If anything in steps 9 to 12 fails, start a chat with the repo attached and say which step. These parts were built and tested locally but have never run on Netlify: form emails, the photo resizing service and Pages CMS saving.
+
+**Staying on the Free plan.** Free is 300 credits a month with a hard cap. Every live deploy costs 15 and bandwidth costs 20 per GB. Previews, failed deploys and form submissions are free. So:
+
+- Everyday work goes to `main`, which only rebuilds the free preview.
+- **Publish the site** copies `main` to `live` on Mondays and Thursdays, only if something changed. That's about 9 live deploys a month at most, or 135 credits. Click **Run workflow** for anything urgent.
+- Commits that only change notes (this README, `HANDOFF.md`, `AGENTS.md`, `docs/`) don't build at all.
+- The hero video was re-encoded smaller (2.8 MB wide, 1.6 MB tall) because bandwidth is the other big cost.
+- After launch, check usage in Netlify (**Team settings**, **Usage**) once a month. If live traffic passes about 6 GB a month, publish less often or move to Personal (1,000 credits, with top-ups).
 
 ## 2. Questions for Natalie and Dave
 
@@ -140,10 +153,10 @@ These were drafted from her questionnaire, the mockup and the Airbnb listings. N
 |---|---|
 | Hospitable booking widget code, one per cabin | Pages CMS, **Cabins**, the cabin, **Hospitable booking widget code**. Paste exactly as given |
 | Hospitable search widget code | Pages CMS, **Site settings**, **Hospitable search widget code** |
-| Mailchimp signup embed code | Cole has admin access now, so he can get it: Mailchimp, **Audience**, **Signup forms**, **Embedded form**, copy the code and paste it in a chat. One web address from it goes in **Site settings** |
+| Mailchimp signup form address | The site connection script is in (Site settings, Nov 11). The footer signup still needs the form address: Cole logs in to Mailchimp, **Audience**, **Signup forms**, **Embedded form**, copies the code and pastes it in a chat. One web address from it goes in **Site settings**. Until then, signups are saved in Netlify Forms and emailed |
 | Google Tag Manager ID (Natalie is creating the new Google accounts) | **Site settings**, **Google Tag Manager ID** |
 | Natalie's About story | **Page: About**, **Our story** |
-| Headshots and short bios for Natalie and Dave | **Page: About**, **Team** |
+| Dave's headshot, and short bios for both | **Page: About**, **Team**. Natalie's headshot is in (Nov 11) |
 | Owner testimonials | **Page: Co-hosting**, **Owner testimonials**. The section appears once one is added |
 | The checklist of what they handle for owners | Send to Cole. Replaces the drafted service cards |
 | Her own FAQ list | **Page: FAQs** |
@@ -155,7 +168,7 @@ Done Nov 11: the 13 Wix posts (11 moved, 2 empty winter guides merged into the w
 
 1. **Area map** on each cabin page. It's a labeled placeholder now.
 2. **After the Hospitable widgets are pasted in:** check how they sit in their cards on a phone and on a computer. Never change the widget code itself.
-3. **Mailchimp:** wire the footer signup to Mailchimp once the embed code is in a chat.
+3. **Mailchimp:** paste the form address from the embed code into Site settings, then test a signup on the preview.
 4. **Privacy page**, if the clients say yes.
 5. **Pickle Hill fire pit photo**, if Natalie wants it.
 6. **SEO package** (separate from the build): keyword research, mapping keywords to pages, optimizing the 13 posts, new posts.
@@ -167,7 +180,7 @@ Not planned, flagged in case it comes up: separate pages for large groups, small
 1. Confirm sections 1 to 4 are done and both clients have approved the site.
 2. Refresh the Airbnb rating and review count in **Site settings**. Round the count down.
 3. In Netlify, **Domain management**: add `happyhocking.com` and make it the primary domain. Natalie (or Cole, who now has access) points DNS at Netlify from Hostinger, using the records Netlify shows.
-4. Trigger one more deploy (**Deploys**, **Trigger deploy**). The site unblocks search engines by itself on the first deploy after happyhocking.com becomes primary. Ask in a chat to confirm the "noindex" tag is gone.
+4. Natalie triggers one more deploy (**Deploys**, **Trigger deploy**). The site unblocks search engines by itself on the first live deploy after happyhocking.com becomes primary. The preview never does. Ask in a chat to confirm the "noindex" tag is gone. Then, in Mailchimp, finish connecting happyhocking.com (the site script is already on every page).
 5. Follow `docs/redirects.md` to add the old Wix domain, hockinghills-hosting.com and happyhockingstays.com, so every old address lands on its new page. The 2 old domains are in a GoDaddy account Natalie doesn't own yet (section 2), so sort out access well before this day.
 6. In Google Search Console, add happyhocking.com, submit `https://happyhocking.com/sitemap.xml`, and use **Change of address** on the old site's property.
 7. Natalie or Dave turn on the review request message in Hospitable (`docs/reviews.md`).

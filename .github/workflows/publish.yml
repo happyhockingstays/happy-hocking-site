@@ -1,0 +1,40 @@
+# Publish the site: copy what's on main to the live branch, which Netlify builds as the real site.
+#
+# Why: Netlify's Free plan allows 300 credits a month, and every live deploy costs 15. Everyday work
+# (Pages CMS saves, Claude's changes) lands on main, which Netlify builds as a free preview at
+# https://main--animated-kheer-a8b74a.netlify.app. The live site only rebuilds when this runs.
+#
+# It runs by itself on Mondays and Thursdays at about 9:00 am Eastern, and only publishes if main changed.
+# To publish right away: GitHub, the repo, Actions, "Publish the site", Run workflow.
+name: Publish the site
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 14 * * 1,4'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Copy main to live
+        run: |
+          git fetch origin live || true
+          if git rev-parse --verify -q origin/live >/dev/null && [ "$(git rev-parse origin/live)" = "$(git rev-parse HEAD)" ]; then
+            echo "Nothing new on main since the last publish. Skipping."
+            exit 0
+          fi
+          # Fast-forward only. Nobody commits to live directly, so this never overwrites anything.
+          git push origin HEAD:refs/heads/live
+          echo "Published $(git rev-parse --short HEAD) to live."

@@ -9,7 +9,7 @@ Needs Python with Pillow and numpy, plus ffmpeg. Writes to public/video/:
     hero-desktop.mp4 (1280x720) and hero-phone.mp4 (540x960)
 
 If the clients send a real clip, skip this script: export a wide and a tall MP4 (no sound,
-about 5 MB and 3 MB), save them over these 2 files and keep the names.
+about 2 MB and 1.5 MB), save them over these 2 files and keep the names.
 
 Each shot: photo, then a start and end framing for the wide cut and for the tall cut.
 A framing is (center x, center y, zoom). x and y run 0 to 1 across the photo. Zoom 1.0 is
@@ -23,7 +23,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parent.parent
 CABINS = ROOT / 'public/images/cabins'
 OUT = ROOT / 'public/video'
-FPS = 30
+FPS = 24  # 24 fps keeps the slow pans smooth and the files small (bandwidth costs Netlify credits)
 HOLD = 3.6   # seconds from one shot's start to the next
 FADE = 1.0   # seconds of crossfade
 
@@ -92,5 +92,5 @@ def render(name, target, start_i, end_i, crf):
 
 if __name__ == '__main__':
     OUT.mkdir(parents=True, exist_ok=True)
-    render('hero-desktop.mp4', (1280, 720), 1, 2, crf=29)
-    render('hero-phone.mp4', (540, 960), 3, 4, crf=28)
+    render('hero-desktop.mp4', (1280, 720), 1, 2, crf=31)
+    render('hero-phone.mp4', (540, 960), 3, 4, crf=30)

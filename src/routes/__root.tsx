@@ -44,11 +44,14 @@ export const Route = createRootRoute({
 
 function RootDocument({ children }: { children: ReactNode }) {
   const gtm = settings.gtmId
+  // Mailchimp "connected site" script, as supplied by Mailchimp. Only added once its address is set in Site settings.
+  const mcjs = /^https:\/\/chimpstatic\.com\//.test(settings.mailchimpSiteScript) ? settings.mailchimpSiteScript : ''
   return (
     <html lang="en">
       <head>
         {gtm ? <script dangerouslySetInnerHTML={{ __html: gtmHead(gtm) }} /> : null}
         <HeadContent />
+        {mcjs ? <script id="mcjs" async src={mcjs} /> : null}
       </head>
       <body>
         {gtm ? (

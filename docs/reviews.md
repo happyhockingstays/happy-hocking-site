@@ -5,7 +5,7 @@ Kept light on purpose. No app, no account for guests and nothing publishes by it
 1. A day after checkout, Hospitable sends the guest a message with their review link.
 2. The guest fills in the form at `happyhocking.com/review`.
 3. Netlify emails the review to the hosts.
-4. A host reads it and adds it under **Reviews** in Pages CMS. It shows on the cabin's page and the homepage about 2 minutes later.
+4. A host reads it and adds it under **Reviews** in Pages CMS. It shows on the cabin's page and the homepage at the next publish (Mondays and Thursdays, or sooner with **Publish the site** in GitHub Actions).
 
 ## The review form
 

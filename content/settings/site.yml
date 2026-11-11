@@ -13,4 +13,5 @@ proof:
 showStarRatings: false
 searchWidget: ''
 mailchimpAction: ''
+mailchimpSiteScript: https://chimpstatic.com/mcjs-connected/js/users/06684ddd1a002aa9ad61ab6bb/5f3c5caabce9d18f5435f7b51.js
 gtmId: ''

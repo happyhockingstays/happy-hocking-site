@@ -12,7 +12,8 @@ const cabins = loadCabins()
 
 // Search engines stay out until the site is on its real domain. Netlify sets URL to the site's
 // primary address, so this turns itself off the day happyhocking.com becomes the primary domain.
-const live = (process.env.URL || '').includes('happyhocking.com')
+// Only the production build counts: the free preview of the main branch always stays out of search.
+const live = (process.env.URL || '').includes('happyhocking.com') && (process.env.CONTEXT || 'production') === 'production'
 
 // Blog posts, and the private review form, which nothing links to. Drafts are built only before launch.
 const posts = loadPosts({ includeDrafts: !live })

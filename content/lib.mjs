@@ -59,6 +59,7 @@ export function loadSettings() {
     showStarRatings: bool(d.showStarRatings),
     searchWidget: str(d.searchWidget),
     mailchimpAction: str(d.mailchimpAction),
+    mailchimpSiteScript: str(d.mailchimpSiteScript),
     gtmId: str(d.gtmId),
   }
 }

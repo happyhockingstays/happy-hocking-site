@@ -1,5 +1,6 @@
 # Pages CMS: what Dave and Natalie can edit at app.pagescms.org.
-# Saving in Pages CMS publishes to the live site in about 2 minutes, so double-check before saving.
+# Saving in Pages CMS updates the preview site in about 2 minutes. The live site picks up saved changes
+# on Mondays and Thursdays, or right away when someone runs "Publish the site" in GitHub Actions.
 # Structure changes (new fields, new page types) are made here by Cole.
 
 media:
@@ -979,6 +980,10 @@ content:
         label: Mailchimp signup form address
         type: string
         description: The form "action" web address from the Mailchimp embed code. Until this is filled in, signups are saved in Netlify Forms.
+      - name: mailchimpSiteScript
+        label: Mailchimp site connection script address
+        type: string
+        description: 'The web address inside the Mailchimp "connect your site" code (it starts with https://chimpstatic.com). It lets Mailchimp see the site for pop-up forms and tracking. Leave empty to turn it off.'
       - name: gtmId
         label: Google Tag Manager ID
         type: string

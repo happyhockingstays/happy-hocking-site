@@ -11,6 +11,7 @@ export interface Settings {
   showStarRatings: boolean
   searchWidget: string
   mailchimpAction: string
+  mailchimpSiteScript: string
   gtmId: string
 }
 
