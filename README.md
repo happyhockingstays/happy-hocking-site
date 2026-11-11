@@ -73,7 +73,7 @@ Nothing below can be tested until this is done.
    - **Repository** (left menu): **Manage repository**, **Link to a different repository**, pick `happy-hocking-site`. Leave the build settings alone. They come from `netlify.toml`
    - **Branches and deploy contexts** (left menu): **Configure**. Production branch: `live`. Branch deploys: **Let me add individual branches**, add `main`. **Save**
 5. In Netlify, click **Forms**, then **Enable form detection**. Then **Deploys**, **Trigger deploy**, **Deploy project**, so the first build picks up the forms.
-6. Form emails: **Project configuration**, **Notifications** tab, then the form submission notifications section, **Add notification**, **Email notification**. Event: new form submission. Form: **Any form**. Email: the business address. **Save**.
+6. Form emails: in the left menu, **Forms**, then the **Submission notifications** tab, **Add notification**, **Email notification**. Form: **Any form**. Email: the business address. **Save**.
 7. Invite Cole as a **Reviewer** (free on every plan), so he can see the site while it's locked to the team: **Team settings**, **Members**, **Invite members**.
 8. Delete the empty `happyhocking-website` repo (its **Settings**, **Danger Zone**).
 
