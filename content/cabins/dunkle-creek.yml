@@ -197,8 +197,14 @@ poolNote: Not heated.
 driveTimes:
   - place: Ash Cave
     time: 15 min
-  - place: Other Hocking Hills trails
-    time: 20 to 30 min
+  - place: Cedar Falls
+    time: 25 min
+  - place: Old Man's Cave
+    time: 30 min
+  - place: Downtown Logan
+    time: 35 min
+  - place: Lake Logan
+    time: 45 min
 areaNote: In the woods near McArthur, on the quiet south side of the Hocking Hills.
 checkOut: ''
 quietHours: 10:00 pm to 8:00 am

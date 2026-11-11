@@ -24,7 +24,8 @@ const HEATED_OK = ['clouds-reach', 'rickenbacker-ridge']
 function checkText(where, text, { cabin } = {}) {
   if (typeof text !== 'string' || !text) return
   if (/[—–]/.test(text)) flag(where, 'has an em or en dash. Use a comma, a colon or a new sentence')
-  const low = text.toLowerCase()
+  // Real business names that happen to contain a banned word
+  const low = text.toLowerCase().replace(/oasis coffee shop/g, '')
   for (const w of BANNED) if (low.includes(w)) flag(where, `uses "${w}"`)
   for (const [re, right, okRe] of SPELLING) {
     const m = text.match(new RegExp(re.source, re.flags.includes('i') ? 'gi' : 'g')) || []

@@ -216,8 +216,14 @@ driveTimes:
     time: 15 min
   - place: Lancaster
     time: 15 min
-  - place: Hocking Hills State Park trails
+  - place: Lake Logan
     time: 30 min
+  - place: Old Man's Cave
+    time: 40 min
+  - place: Cedar Falls
+    time: 40 min
+  - place: Ash Cave
+    time: 45 min
 areaNote: Between Logan and Lancaster, with shops and restaurants 15 minutes either way.
 checkOut: ''
 quietHours: ''

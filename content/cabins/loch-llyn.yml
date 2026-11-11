@@ -249,8 +249,16 @@ allAmenities:
 poolSeason: May 15 to October 15
 poolNote: Not heated.
 driveTimes:
-  - place: Hocking Hills trails
-    time: 20 to 30 min
+  - place: Downtown Logan
+    time: 15 min
+  - place: Lake Logan
+    time: 20 min
+  - place: Old Man's Cave
+    time: 30 min
+  - place: Cedar Falls
+    time: 35 min
+  - place: Ash Cave
+    time: 35 min
 areaNote: 130 acres of your own, 20 to 30 minutes from the main Hocking Hills trails.
 checkOut: 10:00 am
 quietHours: ''

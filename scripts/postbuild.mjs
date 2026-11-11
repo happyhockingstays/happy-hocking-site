@@ -11,6 +11,8 @@ import { loadPosts } from '../content/lib.mjs'
 const SITE = 'https://happyhocking.com'
 const OLD_HOSTS = ['www.hockinghills-cabinrentals.com', 'hockinghills-cabinrentals.com']
 const FORWARD_HOSTS = ['www.happyhockingstays.com', 'happyhockingstays.com']
+// The old co-hosting site (Squarespace). Every page goes to the co-hosting page once the domain points at Netlify
+const COHOST_HOSTS = ['hockinghills-hosting.com', 'www.hockinghills-hosting.com']
 const PRIVATE = ['/review']
 
 /* ---------- sitemap ---------- */
@@ -56,5 +58,7 @@ lines.push('', '# Anything else on the old site goes to the new homepage')
 for (const host of OLD_HOSTS) for (const scheme of ['https', 'http']) lines.push(`${scheme}://${host}/*  ${SITE}/  301!`)
 lines.push('', '# happyhockingstays.com forwards to happyhocking.com, keeping the page')
 for (const host of FORWARD_HOSTS) for (const scheme of ['https', 'http']) lines.push(`${scheme}://${host}/*  ${SITE}/:splat  301!`)
+lines.push('', '# The old co-hosting site goes to the co-hosting page')
+for (const host of COHOST_HOSTS) for (const scheme of ['https', 'http']) lines.push(`${scheme}://${host}/*  ${SITE}/co-hosting  301!`)
 fs.writeFileSync('dist/client/_redirects', lines.join('\n') + '\n')
 console.log(`[postbuild] redirects: ${rows.length} old URLs mapped${waiting ? `, ${waiting} blog posts waiting to be moved over` : ''}`)

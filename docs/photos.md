@@ -31,6 +31,7 @@ Result: 748 photos, 331 MB, in `public/images/cabins/<cabin>/<category>/`. A cop
 
 - **370 photos are 2000 to 2399px.** Most are 2048px wide, which looks like a web export rather than the photographer's original. They are fine on the site today. Full-size originals would be sharper as heroes.
 - **57 photos are under 2000px** and should be resent. They are listed in `photos-to-resend.csv`. Most are 1536 x 1024 PNG files, the AI-enhanced exports, which look soft when shown large. None is used as a hero. One is used as a tile: the Clouds Reach fire pit.
+- **Natalie's answer (Nov 11):** the small ones are the AI-enhanced edits, and there are no larger originals (The Farm's 1024 px photos may be the exception). So they stay as they are. Summer photos are the default. Leave out the fall photos at Dunkle Creek and The Johnny, which are also AI-enhanced, until the winter or holiday photos arrive. The Valhalla Hills dusk photos can't be found, so the daylight view stays. She added Pickle Hill's stone fire pit to Dropbox, but it's AI-enhanced too, so add it only if it holds up.
 
 ## Things for Natalie to check
 

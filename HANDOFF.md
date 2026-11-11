@@ -1,6 +1,6 @@
 # Handoff
 
-Updated Nov 9, 2026 (second session). Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
+Updated Nov 11, 2026 (third session). Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
 
 The kickoff brief, brand guide, listing content, questionnaire and contract are in the "Happy Hocking" Claude project. The brief is `claude/website-build-handoff.md`.
 
@@ -19,6 +19,15 @@ The kickoff brief, brand guide, listing content, questionnaire and contract are 
 | 9 | 301 redirects from the old Wix site | Map drafted from the live Wix sitemap: `docs/redirects.csv`, explained in `docs/redirects.md` |
 
 Not done yet outside the repo: Netlify site (waiting on the clients), branch protection, DNS. Pages CMS is installed on the repo. Cole opened it after the new screens were added (the 4 "Page:" screens and Blog posts) and saw no errors. Saving from those screens hasn't been tried.
+
+## Third session (Nov 11)
+
+- **Accounts:** Cole transferred this repo to Natalie's GitHub account (`happyhockingstays`). Her Netlify site (`animated-kheer-a8b74a.netlify.app`, Free plan, she's the only member) still points at an empty repo. On Free, a private repo only deploys the owner's commits, so this repo has to go public, then Netlify gets relinked. `netlify.toml` now skips deploys for notes-only commits to save credits. Steps are section 1 of the punch list.
+- **Blog:** all 13 Wix posts handled. 11 are in `content/blog` with their old names, edited only for the brand rules and facts, and illustrated with cabin photos instead of the Wix stock photos. The 2 "2026 winter guide" posts were Wix HTML boxes with no readable text, so their old addresses go to the winter weekend post. Every old address now redirects permanently. The sample post is deleted. `scripts/check.mjs` lets the business name "Oasis Coffee Shop" through the banned-word check.
+- **Drive times** for every cabin to Old Man's Cave, Ash Cave, Cedar Falls, Lake Logan and downtown Logan (plus Lancaster for Rickenbacker Ridge and Columbus for Valhalla Hills). Looked up from the questionnaire addresses with the US Census geocoder and OpenStreetMap routing, rounded to 5 minutes, keeping the listing's number where it gave one. Dunkle Creek's address didn't match exactly, so its times use the road.
+- **Share image:** `public/images/brand/og-happy-hocking-stays.jpg` is now The Farm's pool with the logo card.
+- **Old co-hosting domain:** `scripts/postbuild.mjs` sends every page of hockinghills-hosting.com to `/co-hosting` once that domain points at Netlify.
+- **Natalie's answers:** no larger photo originals; summer photos are the default; no fall photos at Dunkle Creek or The Johnny for now; bedroom numbers match Airbnb (Pickle Hill's Airbnb text has Bedrooms 4 and 5 swapped). Both old domains are registered at GoDaddy in an account the clients don't control yet.
 
 ## What was checked, and what wasn't
 
@@ -56,7 +65,7 @@ Other choices made while building, all easy to change: the homepage cabin row sh
 
 ## Placeholders still in the site
 
-Hospitable booking and search widgets, the area map and most drive times, Natalie's story, headshots and bios, owner testimonials (hidden until one is added), guest reviews (hidden until one is published), the 13 Wix posts, a real Hocking Hills photo, the Mailchimp address and GTM ID, the share image.
+Hospitable booking and search widgets, the area map, Natalie's story, headshots and bios, owner testimonials (hidden until one is added), guest reviews (hidden until one is published), a real Hocking Hills photo, the Mailchimp address and GTM ID.
 
 ## Photos
 
@@ -69,5 +78,4 @@ Hospitable booking and search widgets, the area map and most drive times, Natali
 
 - `_web-ready/_transfer-temp/` on Cole's Mac holds empty leftover files and can be deleted.
 - Pages CMS shows no errors, but these haven't been used for real yet: saving a blog post (the body field and the file name made from the title), and the reference fields for "Similar cabins" and a review's cabin.
-- Bedroom numbering at Dunkle Creek and Pickle Hill follows Natalie's photo folders, which differ from Airbnb's order. Waiting on her answer.
-- `hockinghills-hosting.com`, the old co-hosting site, isn't in the redirect map.
+- The old domains (hockinghills-cabinrentals.com and hockinghills-hosting.com) are in a GoDaddy account the clients don't control yet. Needed before launch.

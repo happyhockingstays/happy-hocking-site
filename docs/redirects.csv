@@ -20,8 +20,8 @@ Old path,New path,Kind,Note
 /blog/categories/activities,/blog,blog,
 /blog/categories/tips-and-tricks,/blog,blog,
 /blog/categories/why-book-with-us,/blog,blog,
-/post/the-ultimate-hocking-hills-winter-experience-guide-2026,/blog/the-ultimate-hocking-hills-winter-experience-guide-2026,post,Overlaps with the other 2026 winter guide. Consider merging the 2 in the SEO pass
-/post/the-ultimate-hocking-hills-winter-guide-2026-your-complete-planning-resource,/blog/the-ultimate-hocking-hills-winter-guide-2026-your-complete-planning-resource,post,Overlaps with the other 2026 winter guide
+/post/the-ultimate-hocking-hills-winter-experience-guide-2026,/blog/a-cozy-winter-weekend-in-hocking-hills,post,"Merged: the Wix post was an HTML embed with no readable text, so it points at the winter weekend post"
+/post/the-ultimate-hocking-hills-winter-guide-2026-your-complete-planning-resource,/blog/a-cozy-winter-weekend-in-hocking-hills,post,"Merged, same as the guide above"
 /post/a-cozy-winter-weekend-in-hocking-hills,/blog/a-cozy-winter-weekend-in-hocking-hills,post,
 /post/hocking-hills-fall-foliage-when-to-go,/blog/hocking-hills-fall-foliage-when-to-go,post,
 /post/the-best-fall-weekends-in-hocking-hills-and-what-to-do-on-them,/blog/the-best-fall-weekends-in-hocking-hills-and-what-to-do-on-them,post,

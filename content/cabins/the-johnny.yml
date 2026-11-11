@@ -218,8 +218,16 @@ allAmenities:
 poolSeason: May 15 to October 15
 poolNote: Not heated.
 driveTimes:
-  - place: Hocking Hills trails
-    time: 20 to 30 min
+  - place: Ash Cave
+    time: 25 min
+  - place: Old Man's Cave
+    time: 30 min
+  - place: Cedar Falls
+    time: 30 min
+  - place: Downtown Logan
+    time: 40 min
+  - place: Lake Logan
+    time: 40 min
 areaNote: 3.5 wooded acres in Laurelville, 20 to 30 minutes from the Hocking Hills trails.
 checkOut: ''
 quietHours: 10:00 pm to 8:00 am

@@ -237,8 +237,14 @@ poolNote: Not heated.
 driveTimes:
   - place: Downtown Logan
     time: 10 min
-  - place: Hocking Hills trails
-    time: 20 to 30 min
+  - place: Lake Logan
+    time: 20 min
+  - place: Old Man's Cave
+    time: 30 min
+  - place: Cedar Falls
+    time: 35 min
+  - place: Ash Cave
+    time: 35 min
 areaNote: A hilltop just outside Logan, with shops and restaurants 10 minutes away.
 checkOut: ''
 quietHours: ''

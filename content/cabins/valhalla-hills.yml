@@ -253,8 +253,16 @@ allAmenities:
 poolSeason: May 15 to October 15
 poolNote: Saltwater, not heated.
 driveTimes:
-  - place: Hocking Hills trails
-    time: 20 to 30 min
+  - place: Lake Logan
+    time: 25 min
+  - place: Downtown Logan
+    time: 25 min
+  - place: Old Man's Cave
+    time: 40 min
+  - place: Cedar Falls
+    time: 40 min
+  - place: Ash Cave
+    time: 45 min
   - place: Columbus
     time: 45 min
 areaNote: A quiet hilltop outside Lancaster, between Columbus and the Hocking Hills trails.

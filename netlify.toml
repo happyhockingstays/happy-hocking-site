@@ -1,6 +1,9 @@
 [build]
   command = "npm run build"
   publish = "dist/client"
+  # Skip the deploy when a commit only changes notes (README, HANDOFF, AGENTS, docs/).
+  # Each production deploy uses 15 of the Free plan's 300 monthly credits.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)docs' ':(exclude)README.md' ':(exclude)HANDOFF.md' ':(exclude)AGENTS.md' ':(exclude)CLAUDE.md'"
 
 [build.environment]
   NODE_VERSION = "22"
