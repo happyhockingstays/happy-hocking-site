@@ -18,7 +18,7 @@ team:
     - name: Dave Hughes
       role: Co-owner and host
       bio: ''
-      photo: ''
+      photo: /images/uploads/dave-hughes-headshot.jpg
 promises:
   heading: What you can count on
   items:

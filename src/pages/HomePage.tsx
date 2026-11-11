@@ -78,7 +78,7 @@ export function HomePage() {
         <section className="section sec-sage-tint on-tint sec-line">
           <div className="container-x grid items-center gap-10 md:grid-cols-2 md:gap-14">
             <div className="frame shadow-terracotta" data-reveal>
-              <Photo src={p.story.image} alt={p.story.alt} ratio="4 / 3" sizes="(min-width: 768px) 50vw, 100vw" label="The team or a cabin moment" />
+              <Photo src={p.story.image} alt={p.story.alt} ratio="1 / 1" position="center 15%" sizes="(min-width: 768px) 50vw, 100vw" label="The team or a cabin moment" />
             </div>
             <div data-reveal>
               {p.story.eyebrow ? <p className="eyebrow">{p.story.eyebrow}</p> : null}

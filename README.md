@@ -156,7 +156,7 @@ These were drafted from her questionnaire, the mockup and the Airbnb listings. N
 | Mailchimp signup form address | The site connection script is in (Site settings, Nov 11). The footer signup still needs the form address: Cole logs in to Mailchimp, **Audience**, **Signup forms**, **Embedded form**, copies the code and pastes it in a chat. One web address from it goes in **Site settings**. Until then, signups are saved in Netlify Forms and emailed |
 | Google Tag Manager ID (Natalie is creating the new Google accounts) | **Site settings**, **Google Tag Manager ID** |
 | Natalie's About story | **Page: About**, **Our story** |
-| Dave's headshot, and short bios for both | **Page: About**, **Team**. Natalie's headshot is in (Nov 11) |
+| Short bios for Natalie and Dave, and larger versions of the 2 team photos (the ones sent are under 600 px) | **Page: About**, **Team**, and **Page: Homepage**, story band. Both headshots and the team photo are in (Nov 11) |
 | Owner testimonials | **Page: Co-hosting**, **Owner testimonials**. The section appears once one is added |
 | The checklist of what they handle for owners | Send to Cole. Replaces the drafted service cards |
 | Her own FAQ list | **Page: FAQs** |
