@@ -69,11 +69,11 @@ Nothing below can be tested until this is done.
    - **Netlify:** github.com/settings/installations, **Configure** next to Netlify, add `happy-hocking-site`, **Save**
    - **Pages CMS:** app.pagescms.org, sign in with GitHub, install it on `happyhockingstays` for `happy-hocking-site`
    - **Claude** (how Cole updates the site): github.com/apps/claude/installations/select_target, pick `happyhockingstays`, **Only select repositories**, `happy-hocking-site`, **Install**
-4. In Netlify, open the site, then **Project configuration**, **Build & deploy**, **Continuous deployment**:
-   - **Repository:** **Manage repository**, **Link to a different repository**, pick `happy-hocking-site`. Leave the build settings alone. They come from `netlify.toml`
-   - **Branches and deploy contexts:** **Configure**. Production branch: `live`. Branch deploys: **Let me add individual branches**, add `main`. **Save**
+4. In Netlify, open the site, then **Project configuration**, **Developer settings** (tab along the top):
+   - **Repository** (left menu): **Manage repository**, **Link to a different repository**, pick `happy-hocking-site`. Leave the build settings alone. They come from `netlify.toml`
+   - **Branches and deploy contexts** (left menu): **Configure**. Production branch: `live`. Branch deploys: **Let me add individual branches**, add `main`. **Save**
 5. In Netlify, click **Forms**, then **Enable form detection**. Then **Deploys**, **Trigger deploy**, **Deploy project**, so the first build picks up the forms.
-6. Form emails: **Project configuration**, **Notifications**, **Emails and webhooks**, **Add notification**, **Email notification**. Event: new form submission. Form: **Any form**. Email: the business address. **Save**.
+6. Form emails: **Project configuration**, **Notifications** tab, then the form submission notifications section, **Add notification**, **Email notification**. Event: new form submission. Form: **Any form**. Email: the business address. **Save**.
 7. Invite Cole as a **Reviewer** (free on every plan), so he can see the site while it's locked to the team: **Team settings**, **Members**, **Invite members**.
 8. Delete the empty `happyhocking-website` repo (its **Settings**, **Danger Zone**).
 
