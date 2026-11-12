@@ -95,6 +95,10 @@ export function Footer() {
             © {year} {settings.legalName}
           </p>
         </div>
+        {/* Required by Airbnb's trademark guidelines on any site that names Airbnb (the rating stat, the co-hosting page) */}
+        <p className="container-x soft pb-6 text-center text-xs md:text-left">
+          {settings.name} is an independent third party and is not endorsed by or associated with Airbnb, Inc. or its affiliates.
+        </p>
       </div>
     </footer>
   )

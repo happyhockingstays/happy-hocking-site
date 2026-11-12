@@ -58,7 +58,7 @@ for (const f of fs.readdirSync(dir).filter((f) => f.endsWith('.yml'))) {
   const c = parse(fs.readFileSync(path.join(dir, f), 'utf8'))
   const w = `cabins/${slug}`
   walk(w, c, { cabin: slug })
-  for (const k of ['name', 'shortName', 'tagline', 'poolSeason', 'quietHours', 'checkOut']) noPeriod(`${w}.${k}`, c[k])
+  for (const k of ['name', 'shortName', 'tagline', 'aboutHeading', 'poolSeason', 'quietHours', 'checkOut']) noPeriod(`${w}.${k}`, c[k])
   ;(c.chips || []).forEach((x) => noPeriod(`${w}.chips`, x))
   ;(c.extraRules || []).forEach((x) => noPeriod(`${w}.extraRules`, x))
   ;(c.goodToKnow || []).forEach((x) => noPeriod(`${w}.goodToKnow`, x))
@@ -125,6 +125,10 @@ for (const f of fs.existsSync(blogDir) ? fs.readdirSync(blogDir).filter((f) => f
   checkText(`${w} (title)`, meta.title)
   checkText(`${w} (summary)`, meta.description)
   checkText(w, words)
+  for (const f of meta.faqs || []) {
+    checkText(`${w} (FAQ)`, f?.q)
+    checkText(`${w} (FAQ)`, f?.a)
+  }
   noPeriod(`${w} (title)`, meta.title)
   for (const line of words.split('\n')) if (/^#{1,6}\s/.test(line)) noPeriod(`${w} heading`, line.replace(/^#+\s*/, ''))
   if (!/^[a-z0-9-]+\.md$/.test(f)) flag(w, 'file name should be lowercase letters, numbers and hyphens')

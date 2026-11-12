@@ -95,6 +95,10 @@ content:
         label: Short intro (about 30 words)
         type: text
         description: Shows under the cabin name. Lead with the feeling, prove it with a fact.
+      - name: aboutHeading
+        label: About this home, heading
+        type: string
+        description: 'The heading over "About this home". Carries the search phrase this page targets, for example "A Hocking Hills A-frame cabin". Leave blank for "About this home". No period.'
       - name: about
         label: About this home
         type: text
@@ -911,6 +915,21 @@ content:
         label: Google title (optional)
         type: string
         description: Leave blank to use the post title. 60 characters at most.
+      - name: updated
+        label: Last updated (optional)
+        type: date
+        description: Set this when you rewrite a post. Leave blank to use the date above.
+      - name: faqs
+        label: Questions under the post
+        type: object
+        description: 3 to 5 questions, each answered in 40 to 70 words. They show under the post with FAQ schema.
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{q}"
+        fields:
+          - { name: q, label: Question, type: string }
+          - { name: a, label: Answer, type: text }
       - name: body
         label: Post
         type: rich-text

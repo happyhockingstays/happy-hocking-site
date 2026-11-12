@@ -44,8 +44,8 @@ export function CabinsPage() {
       <section className="sec-mustard-tint on-tint border-b-2 border-forest py-10 md:py-14">
         <div className="container-x">
           <p className="eyebrow">Find your happy place</p>
-          <h1 className="h-display mt-3">Hocking Hills cabins</h1>
-          <p className="lead mt-4 max-w-2xl">A private pool and hot tub at every cabin, and room for groups of 6 to 29. Pick your dates, then pick your place.</p>
+          <h1 className="h-display mt-3">Hocking Hills cabin rentals</h1>
+          <p className="lead mt-4 max-w-2xl">Every one of our Hocking Hills cabins has a hot tub and a private pool, with room for groups of 6 to 29. Pick your dates, then pick your place.</p>
           <div className="card mt-8 max-w-3xl p-4 md:p-5">
             <SearchWidget />
           </div>
@@ -81,6 +81,13 @@ export function CabinsPage() {
           <div data-reveal>
             <h2 className="h-section !text-[clamp(1.625rem,3vw,2.25rem)]">Not sure which cabin fits your group?</h2>
             <p className="lead mt-2">Tell us who's coming and what you want to do. We'll point you to the right one.</p>
+            <p className="mt-3">
+              Planning for a big crew? Start with our guide to{' '}
+              <SiteLink to="/blog/large-group-cabin-rentals-ohio" className="text-link">
+                large group cabin rentals in Ohio
+              </SiteLink>
+              .
+            </p>
           </div>
           <SiteLink to="/contact" className="btn btn-forest btn-lg shrink-0" data-reveal>
             Happy to help

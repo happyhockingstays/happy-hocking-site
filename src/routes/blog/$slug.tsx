@@ -1,7 +1,7 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 import { BlogPostPage } from '@/pages/BlogPages'
 import { loadPostBody, postBySlug } from '@/lib/content'
-import { breadcrumbJsonLd, postJsonLd, seo } from '@/lib/seo'
+import { breadcrumbJsonLd, faqJsonLd, postJsonLd, seo } from '@/lib/seo'
 
 export const Route = createFileRoute('/blog/$slug')({
   loader: async ({ params }) => {
@@ -26,6 +26,7 @@ export const Route = createFileRoute('/blog/$slug')({
           { name: 'Blog', path: '/blog' },
           { name: p.title, path: `/blog/${p.slug}` },
         ]),
+        ...(p.faqs.length ? [faqJsonLd(p.faqs)] : []),
       ],
     })
   },

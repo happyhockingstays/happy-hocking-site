@@ -6,10 +6,11 @@ The old URLs came from the live Wix sitemap on Nov 9, 2026: 16 pages, 13 blog po
 
 ## What goes where
 
-- The 8 old cabin pages go to their new cabin pages. `/cloudsreach` and `/new-dunkle-creek` change names.
-- `/properties` and its leftover copy go to `/cabins`. `/contact-us` goes to `/contact`. `/faqs` stays `/faqs`.
+- The 8 old cabin pages go to their new cabin pages. `/cloudsreach` and `/new-dunkle-creek` change names. `/dunkle-creek` and the leftover `/valhallacopy` go to their cabins too (added Nov 12 from the IA's redirect map).
+- `/properties` and its leftover copy go to `/cabins`. `/contact-us` and the old `/lead-collection` form go to `/contact`. `/faqs` stays `/faqs`.
 - `/sign-up-insider-list` goes to the signup in the footer.
-- Each blog post goes from `/post/its-name` to `/blog/its-name`. The names stay the same.
+- Each blog post goes from `/post/its-name` to `/blog/its-keyword`. On Nov 12 the posts moved to keyword slugs (the IA's slug rule, open question 10), and 2 pairs merged: the fall foliage post into `/blog/fall-weekend-getaways` and the "explore" post into `/blog/things-to-do-in-hocking-hills-for-adults`. Every old Wix address points straight at the new slug, with no chains.
+- The posts' first addresses on this site (`/blog/its-old-name`, only ever on the preview) redirect to the new slugs too. They're the rows marked `renamed` in the CSV, and they work on happyhocking.com itself.
 - Blog category pages go to `/blog`.
 - Anything not on the list goes to the homepage.
 - happyhockingstays.com forwards to happyhocking.com, page for page.
@@ -17,7 +18,7 @@ The old URLs came from the live Wix sitemap on Nov 9, 2026: 16 pages, 13 blog po
 ## Open questions
 
 1. **Phoenix Landing** has a page on the old site and isn't on the new one. It points to `/cabins`. Cole OK'd this on Nov 9.
-2. **Blog posts:** all moved over on Nov 11, so every post redirect is permanent. The 2 "2026 winter guide" posts were Wix HTML boxes with no readable text, so both old addresses go to `/blog/a-cozy-winter-weekend-in-hocking-hills`.
+2. **Blog posts:** all moved over on Nov 11, so every post redirect is permanent. The 2 "2026 winter guide" posts were Wix HTML boxes with no readable text, so both old addresses go to `/blog/cabins-for-winter`.
 3. **hockinghills-hosting.com**, the old co-hosting site, sends every page to `/co-hosting`. This is set in `scripts/postbuild.mjs`, not the CSV, because the whole domain goes to one page.
 
 ## Where the old domains live (Nov 11)

@@ -49,6 +49,15 @@ The first two come straight from Natalie and are not up for debate.
 - Ratings carry their source and count ("4.99 on Airbnb, 107 reviews") and get refreshed every quarter.
 - **Reviews:** never add Airbnb review text to the repo. The hosts are still deciding whether to use it. The rating stat ("Every cabin rated 4.9+ on Airbnb", "650+ reviews") is fine. Post every genuine direct review; only spam, profanity, personal info or a review from someone who didn't stay is skipped (FTC review-suppression rules). Private feedback from the review form never goes in the repo.
 
+## SEO rules (from the approved IA)
+
+- Every page has one seed keyword in the IA (Cole's Quadratic file; clients see it in Lookout). Put it at the front of the Google title (60 characters max), near the front of the description (120 to 165), in the first paragraph and in one H2. Don't use another page's seed as a target.
+- Cabin pages keep the cabin name in the URL, nav and H1. Their seed goes in the title, description, About text and the `aboutHeading` H2.
+- Post URLs are `/blog/<seed>`, no year. A renamed post needs a `renamed` row in `docs/redirects.csv`.
+- Internal links use the target page's seed as anchor text, except cabin names, which link to their cabin page. Never use the same anchor for 2 different pages. Link only to pages that exist.
+- Airbnb and Vrbo may appear in body copy and URLs, never in titles, headings or FAQ questions. Keep the Airbnb disclaimer in the footer and under the owner form.
+- No pets, parties or events (that includes bachelorette, bachelor and birthday trips and weddings). Corporate and church retreats are undecided. Serenity Lodge owns pet-friendly, secluded and log-cabin terms: body copy only here.
+
 ## Photo rules
 
 - Photos live in `public/images/cabins/<cabin-slug>/<category>/`, as JPEGs resized to **2400px on the long side at about 80 quality**. Never commit originals: roughly 750 full-size photos would put the repo past GitHub's recommended size.
