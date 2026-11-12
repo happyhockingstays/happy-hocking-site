@@ -13,7 +13,7 @@ const OLD_HOSTS = ['www.hockinghills-cabinrentals.com', 'hockinghills-cabinrenta
 const FORWARD_HOSTS = ['www.happyhockingstays.com', 'happyhockingstays.com']
 // The old co-hosting site (Squarespace). Every page goes to the co-hosting page once the domain points at Netlify
 const COHOST_HOSTS = ['hockinghills-hosting.com', 'www.hockinghills-hosting.com']
-const PRIVATE = ['/review']
+const PRIVATE = ['/review', '/404']
 
 /* ---------- sitemap ---------- */
 const all = loadPosts({ includeDrafts: true })
@@ -61,8 +61,9 @@ for (const r of rows.filter((x) => x.kind !== 'renamed')) {
   const status = pending ? '302!' : '301!'
   for (const host of OLD_HOSTS) for (const scheme of ['https', 'http']) lines.push(`${scheme}://${host}${r.from}  ${target}  ${status}`)
 }
-lines.push('', '# Anything else on the old site goes to the new homepage')
-for (const host of OLD_HOSTS) for (const scheme of ['https', 'http']) lines.push(`${scheme}://${host}/*  ${SITE}/  301!`)
+// Never the homepage as a fallback (the IA's redirect rule): Google reads that as a soft 404.
+lines.push('', '# Anything else on the old site goes to the same address here, which shows the 404 page')
+for (const host of OLD_HOSTS) for (const scheme of ['https', 'http']) lines.push(`${scheme}://${host}/*  ${SITE}/:splat  301!`)
 lines.push('', '# happyhockingstays.com forwards to happyhocking.com, keeping the page')
 for (const host of FORWARD_HOSTS) for (const scheme of ['https', 'http']) lines.push(`${scheme}://${host}/*  ${SITE}/:splat  301!`)
 lines.push('', '# The old co-hosting site goes to the co-hosting page')

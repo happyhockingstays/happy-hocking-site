@@ -2,7 +2,7 @@
 title: 'Vacation rental by owner in Ohio: why book direct'
 seoTitle: Vacation rental by owner in Ohio | Happy Hocking Stays
 draft: false
-description: 'Want a vacation rental by owner in Ohio? Book direct with the local hosts: no booking-site fee at checkout, real answers fast and help picking the right cabin.'
+description: 'Want a vacation rental by owner in Ohio? Book direct with the local hosts: it costs less than a booking site, with real answers fast and help picking a cabin.'
 date: 2026-09-03
 updated: 2026-11-12
 category: Why book with us
@@ -10,7 +10,7 @@ cover: /images/cabins/rickenbacker-ridge/backyard-fire-pit/rickenbacker-ridge-ba
 coverAlt: S'mores at the fire pit at Rickenbacker Ridge, a Hocking Hills cabin you can book direct
 faqs:
   - q: Is it cheaper to book direct than on a booking site?
-    a: When you book direct, no booking site is involved, so there's no service fee added at checkout and no booking-site commission on your stay. Booking sites work differently. Vrbo adds a traveler service fee at checkout, and Airbnb now takes its fee from the host instead. Either way, booking direct means the same cabin and the same team with no middleman.
+    a: Yes. When you book direct, no booking site is involved, so there's no service fee at checkout and no booking-site commission in your rate. Booking sites work differently. Vrbo adds a traveler service fee at checkout, and Airbnb takes its fee from the host. Booking direct means the same cabin and the same team for less.
   - q: How do payments work when I book direct?
     a: Pick your dates on any cabin's page and book online. Most major credit cards are accepted, and you can pay in up to 3 installments that line up with the cancellation policy. Every direct booking comes with a rental agreement that you sign online, and your check-in details land in your inbox before you arrive.
   - q: Can I rent a cabin near Hocking Hills State Park by owner?
@@ -35,7 +35,7 @@ You don't get that when a booking passes through a faceless booking site. The re
 
 Here's the straightforward version. When you book through a booking site, the site takes a fee. On Vrbo, a traveler service fee is added at checkout. Airbnb now takes its fee from the host instead of adding it at checkout. Either way, the booking site is part of every stay.
 
-When you book directly with us, there's no booking site at all. No service fee at checkout, and no booking-site commission on your stay. It's the same cabin, the same care, the same cleaning team, stocked firewood and warm hot tub, just without the middleman.
+When you book directly with us, there's no booking site at all. No service fee at checkout and no booking-site commission in your rate, so booking direct costs less. It's the same cabin, the same care, the same cleaning team, stocked firewood and warm hot tub, just without the middleman.
 
 ![Hot tub on the deck at Lazy Deer Retreat](/images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-008.jpg)
 

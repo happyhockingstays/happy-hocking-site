@@ -37,7 +37,7 @@ export default defineConfig({
         // Index routes are registered with a trailing slash but linked and canonical without one.
         filter: (page) => page.path === '/' || !page.path.endsWith('/'),
       },
-      pages: [...cabins.map((c) => ({ path: `/cabins/${c.slug}` })), ...posts.map((p) => ({ path: `/blog/${p.slug}` })), { path: '/review' }],
+      pages: [...cabins.map((c) => ({ path: `/cabins/${c.slug}` })), ...posts.map((p) => ({ path: `/blog/${p.slug}` })), { path: '/review' }, { path: '/404' }],
       sitemap: {
         enabled: true,
         host: 'https://happyhocking.com',
