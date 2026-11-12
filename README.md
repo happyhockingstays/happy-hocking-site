@@ -123,7 +123,7 @@ Still to ask:
 9. **Valhalla Hills tagline.** "A place to celebrate" is on the site as the proposed line. Final?
 10. **Privacy policy.** The forms collect names and emails, so the site should have a short privacy page. It isn't in the first pass. OK to add one?
 11. **Accounts.** GitHub and Netlify should end up in accounts they own. The repo is in Cole's GitHub for now. When do they want the handover?
-12. **Booking direct and price (new, Nov 12).** Since Sept 15, 2026, Airbnb charges US hosts a single fee (about 15.5%) and shows guests no separate service fee at checkout. Vrbo still adds a traveler fee. "Book direct and skip the booking-site service fees" is still true, but is the direct nightly rate actually lower than Airbnb's? The posts were written so they're true either way. If direct is cheaper, the book-direct post can say so with numbers.
+12. **Answered Nov 12 (Cole): direct is cheaper than Airbnb, no numbers yet. The book-direct post now says booking direct costs less. If they share actual rates, add a worked example.** Background: Since Sept 15, 2026, Airbnb charges US hosts a single fee (about 15.5%) and shows guests no separate service fee at checkout. Vrbo still adds a traveler fee. "Book direct and skip the booking-site service fees" is still true, but is the direct nightly rate actually lower than Airbnb's? The posts were written so they're true either way. If direct is cheaper, the book-direct post can say so with numbers.
 
 ## 3. For Natalie to read and correct
 

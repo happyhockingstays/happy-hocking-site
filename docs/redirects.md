@@ -12,7 +12,7 @@ The old URLs came from the live Wix sitemap on Nov 9, 2026: 16 pages, 13 blog po
 - Each blog post goes from `/post/its-name` to `/blog/its-keyword`. On Nov 12 the posts moved to keyword slugs (the IA's slug rule, open question 10), and 2 pairs merged: the fall foliage post into `/blog/fall-weekend-getaways` and the "explore" post into `/blog/things-to-do-in-hocking-hills-for-adults`. Every old Wix address points straight at the new slug, with no chains.
 - The posts' first addresses on this site (`/blog/its-old-name`, only ever on the preview) redirect to the new slugs too. They're the rows marked `renamed` in the CSV, and they work on happyhocking.com itself.
 - Blog category pages go to `/blog`.
-- Anything not on the list goes to the homepage.
+- Anything not on the list goes to the same address on happyhocking.com, which shows the 404 page (`/404`, prerendered to `404.html`). Never the homepage: Google reads a homepage fallback as a soft 404 (Cole, Nov 12).
 - happyhockingstays.com forwards to happyhocking.com, page for page.
 
 ## Open questions
