@@ -123,6 +123,7 @@ Still to ask:
 9. **Valhalla Hills tagline.** "A place to celebrate" is on the site as the proposed line. Final?
 10. **Privacy policy.** The forms collect names and emails, so the site should have a short privacy page. It isn't in the first pass. OK to add one?
 11. **Accounts.** GitHub and Netlify should end up in accounts they own. The repo is in Cole's GitHub for now. When do they want the handover?
+12. **Booking direct and price (new, Nov 12).** Since Sept 15, 2026, Airbnb charges US hosts a single fee (about 15.5%) and shows guests no separate service fee at checkout. Vrbo still adds a traveler fee. "Book direct and skip the booking-site service fees" is still true, but is the direct nightly rate actually lower than Airbnb's? The posts were written so they're true either way. If direct is cheaper, the book-direct post can say so with numbers.
 
 ## 3. For Natalie to read and correct
 
@@ -137,15 +138,16 @@ These were drafted from her questionnaire, the mockup and the Airbnb listings. N
 7. **The hero video's shots:** The Farm from the air, Rickenbacker Ridge's pool, the pickleball game at Pickle Hill, Loch Llyn's dock, Dunkle Creek's hot tub, Valhalla Hills' sunroom, Clouds Reach's fire pit. The pickleball shot shows people. OK to use?
 8. **The review request message** in `docs/reviews.md`, before it goes into Hospitable.
 9. **Logo on dark backgrounds:** "Hocking" and "STAYS" are cream, "Happy" stays mustard.
-10. **The 11 blog posts moved from Wix.** The words are hers, edited only to fit the brand rules (numerals, no serial commas, "booking-site fees", links to the new cabin pages). A few changes to check:
+10. **The 9 blog posts, rewritten for search on Nov 12.** Each old post now targets one search phrase from the keyword research and lives at a new address named for it (old addresses redirect). The fall foliage post merged into the fall weekend post, and the "explore" post merged into the things-to-do post. Her sections and voice are kept where they fit, with new sections where the topic needed them (the family reunion post is now a full planning guide) and 3 to 5 questions under each post. Bachelorette and birthday trips, weddings, elopements and company retreats came out (the events rule). Worth her read before launch.
+11. **Earlier notes on the posts moved from Wix.** The words are hers, edited only to fit the brand rules (numerals, no serial commas, "booking-site fees", links to the new cabin pages). A few changes to check:
     - Facts fixed: pools are outdoor, not indoor; pool dates now read May 15 to October 15 (Clouds Reach April 15 to November 30); Dunkle Creek no longer claims Starlink; "intimate spaces for 2" became "cozy A-frames for a couple or a small family"
     - Added: Lazy Deer Retreat (newer than the posts) in 3 posts, and a short "Winter on the trails" tip list in the winter weekend post
     - Removed: the "Summer26" booking code from the spring and summer post
-    - Retitled: 2 titles used banned phrases ("hidden gems", "perfect getaway"). The web addresses didn't change
+    - Retitled: 2 titles used banned phrases ("hidden gems", "perfect getaway"). The web addresses changed later, on Nov 12 (item 10)
     - The Wix posts used stock photos of people. Each post now uses the clients' own cabin photos
     - The 2 "2026 winter guide" posts were HTML boxes with no readable text, so they now point to the winter weekend post. If she has the text, they can come back
-11. **Drive times** on each cabin page: Old Man's Cave, Ash Cave, Cedar Falls, Lake Logan and downtown Logan. Worked out from the addresses and rounded to 5 minutes, keeping her listing's number where it gave one. Dunkle Creek's address didn't look up exactly, so its times are close but worth a glance.
-12. **Share image:** the picture that shows when a link is texted or posted. It's The Farm's pool with the logo card.
+12. **Drive times** on each cabin page: Old Man's Cave, Ash Cave, Cedar Falls, Lake Logan and downtown Logan. Worked out from the addresses and rounded to 5 minutes, keeping her listing's number where it gave one. Dunkle Creek's address didn't look up exactly, so its times are close but worth a glance.
+13. **Share image:** the picture that shows when a link is texted or posted. It's The Farm's pool with the logo card.
 
 ## 4. Waiting on the clients to send
 
@@ -171,7 +173,10 @@ Done Nov 11: the 13 Wix posts (11 moved, 2 empty winter guides merged into the w
 3. **Mailchimp:** paste the form address from the embed code into Site settings, then test a signup on the preview.
 4. **Privacy page**, if the clients say yes.
 5. **Pickle Hill fire pit photo**, if Natalie wants it.
-6. **SEO package** (separate from the build): keyword research, mapping keywords to pages, optimizing the 13 posts, new posts.
+6. **SEO package** (separate from the build). Keyword research and the IA are done (Lookout, client slug `hh-5cbs23`). The on-page pass for every page already in the repo is done (Nov 12, see `HANDOFF.md`). Left:
+   - The 4 collection pages (pools, large groups, games and sports, luxury) at the URLs in the IA
+   - The Wave 1 posts, 5 a week, in the IA's publish order
+   - When a new post is created in Pages CMS, set its file name to the IA's slug (the seed, no year), not the title
 
 Not planned, flagged in case it comes up: separate pages for large groups, small groups and games. The Cabins page filters cover this and can be linked (`/cabins?group=large`).
 

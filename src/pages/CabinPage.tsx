@@ -114,7 +114,7 @@ export function CabinPage({ cabin: c }: { cabin: Cabin }) {
           <div className="container-x grid gap-8 lg:grid-cols-12">
             <div className="lg:col-span-4" data-reveal>
               <p className="eyebrow">{c.town}, Ohio</p>
-              <h2 className="h-section mt-2">About this home</h2>
+              <h2 className="h-section mt-2">{c.aboutHeading || 'About this home'}</h2>
             </div>
             <div className="prose-site max-w-[65ch] lg:col-span-8" data-reveal>
               <Paragraphs text={c.about} />

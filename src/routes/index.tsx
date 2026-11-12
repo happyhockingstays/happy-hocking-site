@@ -6,8 +6,8 @@ import { orgJsonLd, seo } from '@/lib/seo'
 export const Route = createFileRoute('/')({
   head: () =>
     seo({
-      title: 'Happy Hocking Stays: Hocking Hills cabins with pools and hot tubs',
-      description: 'A place for everyone in the Hocking Hills. Private cabins with pools and hot tubs for groups of 6 to 29. Book direct and skip the booking-site service fees.',
+      title: 'Cabins in Hocking Hills with pools | Happy Hocking Stays',
+      description: 'Cabins in Hocking Hills, Ohio for groups of 6 to 29. All our Hocking Hills cabins have a private pool and hot tub. Book direct and skip the booking-site fees.',
       path: '/',
       image: pages.home.hero.image || undefined,
       jsonLd: orgJsonLd(),

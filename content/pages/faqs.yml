@@ -22,7 +22,7 @@ groups:
       - q: Which cabin is right for my group?
         a: Our cabins sleep 6 to 29. Dunkle Creek, Lazy Deer Retreat and Pickle Hill suit couples and small groups. For bigger gatherings, look at Rickenbacker Ridge, Clouds Reach, The Johnny, The Farm at Nickel Plate, Loch Llyn and Valhalla Hills.
         home: true
-      - q: Do all the cabins have a pool and hot tub?
+      - q: Do all your Hocking Hills cabins have a pool and hot tub?
         a: Yes. Every cabin has a private pool and hot tub. Hot tubs are open all year. Pools are seasonal. Most are open May 15 to October 15, and Clouds Reach is open April 15 to November 30. The pools at Clouds Reach and Rickenbacker Ridge are heated.
         home: true
       - q: How close are the cabins to the caves and trails?

@@ -1,6 +1,6 @@
 # Handoff
 
-Updated Nov 11, 2026 (third session). Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
+Updated Nov 12, 2026 (fourth session: the SEO on-page pass). Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
 
 The kickoff brief, brand guide, listing content, questionnaire and contract are in the "Happy Hocking" Claude project. The brief is `claude/website-build-handoff.md`.
 
@@ -19,6 +19,18 @@ The kickoff brief, brand guide, listing content, questionnaire and contract are 
 | 9 | 301 redirects from the old Wix site | Map drafted from the live Wix sitemap: `docs/redirects.csv`, explained in `docs/redirects.md` |
 
 Not done yet outside the repo: Netlify site (waiting on the clients), branch protection, DNS. Pages CMS is installed on the repo. Cole opened it after the new screens were added (the 4 "Page:" screens and Blog posts) and saw no errors. Saving from those screens hasn't been tried.
+
+## Fourth session (Nov 12): SEO on-page pass
+
+Every page that was already in the repo now targets its seed from the approved IA (v1.1, published in Lookout as client slug `hh-5cbs23`). The IA lives in Cole's Quadratic file; Lookout shows the same map.
+
+- **Home, cabins overview, co-hosting:** titles, descriptions, leads, alt text and one H2 or FAQ each carry the seed ("cabins in hocking hills", "hocking hills cabin rentals", "hocking hills property management"). The approved brand headlines didn't change. The cabins page H1 is now "Hocking Hills cabin rentals".
+- **Cabin pages:** each has a seed with search volume (the cabin name stays in the URL, nav and H1). New optional field `aboutHeading` (Pages CMS: "About this home, heading") puts the seed in the About H2; blank falls back to "About this home". Fact fixes: Valhalla Hills and Rickenbacker Ridge are about 40 minutes from Old Man's Cave, not 20 to 30, and Valhalla's copy no longer mentions milestone birthdays (the events rule).
+- **Blog:** the 11 Wix posts are now 9 posts at their IA slugs (`/blog/cabins-for-winter`, `/blog/fall-weekend-getaways`, `/blog/summer-weekend-getaways`, `/blog/pickleball-getaways`, `/blog/large-group-cabin-rentals-ohio`, `/blog/how-to-plan-a-family-reunion`, `/blog/things-to-do-in-hocking-hills-for-adults`, `/blog/weekend-getaways-from-columbus-ohio`, `/blog/vacation-rental-by-owner-ohio`). The fall foliage post merged into the fall weekend post and the "explore" post into the things-to-do post. Each post was retargeted (title, Google title, summary, intro, H2s, internal links using the target page's seed as the anchor) and has 3 to 5 FAQs.
+- **Post FAQs:** new optional `faqs` list on posts (Pages CMS: "Questions under the post"), shown under the post with FAQPage schema. Also a `updated` date field.
+- **Redirects:** every old Wix post address points straight at its new slug. The posts' first addresses on this site redirect too (kind `renamed` in `docs/redirects.csv`, written as same-site rules by `scripts/postbuild.mjs`). Added the 3 missing Wix addresses from the IA's redirect map: `/valhallacopy`, `/dunkle-creek`, `/lead-collection`.
+- **Airbnb trademark line:** Airbnb's trademark guidelines ask any site that names Airbnb to say it isn't affiliated. It's now in the footer and under the owner form. Airbnb and Vrbo may appear in body copy and URLs, never in titles or headings (Cole's rule, matching Airbnb's guidelines).
+- Checked: `npm run check`, `npm run typecheck` and `npm run build` pass, no broken internal links, no anchor text pointing at 2 different pages, FAQ schema on posts and cabins, and screenshots of the changed sections at phone and desktop widths.
 
 ## Third session (Nov 11)
 

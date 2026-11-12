@@ -1,13 +1,13 @@
 hero:
   eyebrow: Hocking Hills, Ohio
-  lead: Private cabins with pools, hot tubs and room for your whole crew
+  lead: Private cabins in Hocking Hills with pools, hot tubs and room for your whole crew
   image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-013.jpg
-  alt: Aerial view of The Farm at Nickel Plate and the surrounding hills
+  alt: Aerial view of The Farm at Nickel Plate, one of our cabins in Hocking Hills
   video: /video/hero-desktop.mp4
   videoPhone: /video/hero-phone.mp4
 cabins:
   eyebrow: Our cabins
-  intro: From a cozy A-frame for 6 to a lake estate for 29, each with a private pool and hot tub. Pick the one that fits your crew.
+  intro: Our Hocking Hills cabins run from a cozy A-frame for 6 to a lake estate for 29, each with a private pool and hot tub. Pick the one that fits your crew.
 story:
   eyebrow: Who we are
   heading: The crew behind your stay
@@ -39,4 +39,4 @@ faqs:
   heading: Good to know
 closing:
   heading: Find your happy place
-  text: Check dates, pick your cabin and book direct with the crew that runs them.
+  text: Check dates, pick your cabin and book your Hocking Hills getaway direct with the crew that runs them.

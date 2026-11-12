@@ -45,7 +45,14 @@ const rows = fs
 
 const lines = ['# Built from docs/redirects.csv by scripts/postbuild.mjs. Edit the CSV, not this file.', '']
 let waiting = 0
-for (const r of rows) {
+// Addresses on this site that changed before launch (posts moved to their keyword slugs)
+const renamed = rows.filter((r) => r.kind === 'renamed')
+if (renamed.length) {
+  lines.push('# Old addresses on this site')
+  for (const r of renamed) lines.push(`${r.from}  ${r.to}  301`)
+  lines.push('')
+}
+for (const r of rows.filter((x) => x.kind !== 'renamed')) {
   // A post that hasn't been moved over yet goes to the blog index for now, as a temporary (302)
   // redirect so search engines keep checking. It becomes a permanent 301 once the post exists.
   const pending = r.kind === 'post' && !live.has(r.to)
@@ -61,4 +68,4 @@ for (const host of FORWARD_HOSTS) for (const scheme of ['https', 'http']) lines.
 lines.push('', '# The old co-hosting site goes to the co-hosting page')
 for (const host of COHOST_HOSTS) for (const scheme of ['https', 'http']) lines.push(`${scheme}://${host}/*  ${SITE}/co-hosting  301!`)
 fs.writeFileSync('dist/client/_redirects', lines.join('\n') + '\n')
-console.log(`[postbuild] redirects: ${rows.length} old URLs mapped${waiting ? `, ${waiting} blog posts waiting to be moved over` : ''}`)
+console.log(`[postbuild] redirects: ${rows.length - renamed.length} old URLs mapped, ${renamed.length} renamed on this site${waiting ? `, ${waiting} blog posts waiting to be moved over` : ''}`)

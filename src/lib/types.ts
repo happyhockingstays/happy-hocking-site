@@ -96,6 +96,7 @@ export interface Cabin extends CabinSummary {
   seoTitle: string
   seoDescription: string
   blurb: string
+  aboutHeading: string
   about: string
   aboutMore: string
   keyShots: { image: string; alt: string; label: string }[]
@@ -183,6 +184,8 @@ export interface PostMeta {
   category: string
   cover: string
   coverAlt: string
+  /** Questions shown under the post, with FAQ schema */
+  faqs: Qa[]
   draft: boolean
   readingMinutes: number
 }

@@ -10,26 +10,40 @@ Old path,New path,Kind,Note
 /rickenbacker-ridge,/cabins/rickenbacker-ridge,cabin,
 /pickle-hill,/cabins/pickle-hill,cabin,
 /new-dunkle-creek,/cabins/dunkle-creek,cabin,
+/dunkle-creek,/cabins/dunkle-creek,cabin,"Second Wix address for Dunkle Creek (IA redirect map, Nov 11)"
+/valhallacopy,/cabins/valhalla-hills,cabin,"Leftover Wix copy of the Valhalla Hills page (IA redirect map, Nov 11)"
 /phoenix-landing,/cabins,cabin,Phoenix Landing is not on the new site. Confirm with the clients that it is gone for good
 /faqs,/faqs,page,
 /contact-us,/contact,page,
+/lead-collection,/contact,page,"Old Wix lead form (IA redirect map, Nov 11)"
 /sign-up-insider-list,/#insider-list,page,Goes to the insider list signup in the footer
-/blog,/blog,blog,Blog index ("Area Insights")
+/blog,/blog,blog,"Blog index (""Area Insights"")"
 /blog/categories/seasonal-guide,/blog,blog,Category pages are not carried over
 /blog/categories/cabin-guides,/blog,blog,
 /blog/categories/activities,/blog,blog,
 /blog/categories/tips-and-tricks,/blog,blog,
 /blog/categories/why-book-with-us,/blog,blog,
-/post/the-ultimate-hocking-hills-winter-experience-guide-2026,/blog/a-cozy-winter-weekend-in-hocking-hills,post,"Merged: the Wix post was an HTML embed with no readable text, so it points at the winter weekend post"
-/post/the-ultimate-hocking-hills-winter-guide-2026-your-complete-planning-resource,/blog/a-cozy-winter-weekend-in-hocking-hills,post,"Merged, same as the guide above"
-/post/a-cozy-winter-weekend-in-hocking-hills,/blog/a-cozy-winter-weekend-in-hocking-hills,post,
-/post/hocking-hills-fall-foliage-when-to-go,/blog/hocking-hills-fall-foliage-when-to-go,post,
-/post/the-best-fall-weekends-in-hocking-hills-and-what-to-do-on-them,/blog/the-best-fall-weekends-in-hocking-hills-and-what-to-do-on-them,post,
-/post/your-ultimate-spring-summer-escape-to-hocking-hills,/blog/your-ultimate-spring-summer-escape-to-hocking-hills,post,
-/post/why-hocking-hills-is-the-perfect-getaway-destination,/blog/why-hocking-hills-is-the-perfect-getaway-destination,post,
-/post/how-to-plan-a-successful-family-gathering-in-hocking-hills,/blog/how-to-plan-a-successful-family-gathering-in-hocking-hills,post,
-/post/best-hocking-hills-cabins-for-active-families,/blog/best-hocking-hills-cabins-for-active-families,post,
-/post/why-book-your-hocking-hills-cabin-direct,/blog/why-book-your-hocking-hills-cabin-direct,post,
-/post/explore-hocking-hills-outdoor-adventures-hidden-gems-and-must-do-activities,/blog/explore-hocking-hills-outdoor-adventures-hidden-gems-and-must-do-activities,post,
-/post/things-to-do-in-hocking-hills-insiders-guide,/blog/things-to-do-in-hocking-hills-insiders-guide,post,
-/post/how-to-choose-the-right-hocking-hills-cabin-for-your-group,/blog/how-to-choose-the-right-hocking-hills-cabin-for-your-group,post,
+/post/the-ultimate-hocking-hills-winter-experience-guide-2026,/blog/cabins-for-winter,post,"Merged: the Wix post was an HTML embed with no readable text, so it points at the winter cabins post"
+/post/the-ultimate-hocking-hills-winter-guide-2026-your-complete-planning-resource,/blog/cabins-for-winter,post,"Merged, same as the guide above"
+/post/a-cozy-winter-weekend-in-hocking-hills,/blog/cabins-for-winter,post,Renamed to its keyword slug (Nov 12)
+/post/hocking-hills-fall-foliage-when-to-go,/blog/fall-weekend-getaways,post,Merged into the fall weekend post (Nov 12)
+/post/the-best-fall-weekends-in-hocking-hills-and-what-to-do-on-them,/blog/fall-weekend-getaways,post,Renamed to its keyword slug (Nov 12)
+/post/your-ultimate-spring-summer-escape-to-hocking-hills,/blog/summer-weekend-getaways,post,Renamed to its keyword slug (Nov 12)
+/post/why-hocking-hills-is-the-perfect-getaway-destination,/blog/weekend-getaways-from-columbus-ohio,post,Renamed to its keyword slug (Nov 12)
+/post/how-to-plan-a-successful-family-gathering-in-hocking-hills,/blog/how-to-plan-a-family-reunion,post,Renamed to its keyword slug (Nov 12)
+/post/best-hocking-hills-cabins-for-active-families,/blog/pickleball-getaways,post,Renamed to its keyword slug (Nov 12)
+/post/why-book-your-hocking-hills-cabin-direct,/blog/vacation-rental-by-owner-ohio,post,Renamed to its keyword slug (Nov 12)
+/post/explore-hocking-hills-outdoor-adventures-hidden-gems-and-must-do-activities,/blog/things-to-do-in-hocking-hills-for-adults,post,Merged into the things-to-do post (Nov 12)
+/post/things-to-do-in-hocking-hills-insiders-guide,/blog/things-to-do-in-hocking-hills-for-adults,post,Renamed to its keyword slug (Nov 12)
+/post/how-to-choose-the-right-hocking-hills-cabin-for-your-group,/blog/large-group-cabin-rentals-ohio,post,Renamed to its keyword slug (Nov 12)
+/blog/a-cozy-winter-weekend-in-hocking-hills,/blog/cabins-for-winter,renamed,"This site, before launch: the post moved to its keyword slug (Nov 12)"
+/blog/why-book-your-hocking-hills-cabin-direct,/blog/vacation-rental-by-owner-ohio,renamed,"This site, before launch: the post moved to its keyword slug (Nov 12)"
+/blog/best-hocking-hills-cabins-for-active-families,/blog/pickleball-getaways,renamed,"This site, before launch: the post moved to its keyword slug (Nov 12)"
+/blog/the-best-fall-weekends-in-hocking-hills-and-what-to-do-on-them,/blog/fall-weekend-getaways,renamed,"This site, before launch: the post moved to its keyword slug (Nov 12)"
+/blog/how-to-choose-the-right-hocking-hills-cabin-for-your-group,/blog/large-group-cabin-rentals-ohio,renamed,"This site, before launch: the post moved to its keyword slug (Nov 12)"
+/blog/hocking-hills-fall-foliage-when-to-go,/blog/fall-weekend-getaways,renamed,"This site, before launch: the post moved to its keyword slug (Nov 12)"
+/blog/things-to-do-in-hocking-hills-insiders-guide,/blog/things-to-do-in-hocking-hills-for-adults,renamed,"This site, before launch: the post moved to its keyword slug (Nov 12)"
+/blog/your-ultimate-spring-summer-escape-to-hocking-hills,/blog/summer-weekend-getaways,renamed,"This site, before launch: the post moved to its keyword slug (Nov 12)"
+/blog/explore-hocking-hills-outdoor-adventures-hidden-gems-and-must-do-activities,/blog/things-to-do-in-hocking-hills-for-adults,renamed,"This site, before launch: the post moved to its keyword slug (Nov 12)"
+/blog/how-to-plan-a-successful-family-gathering-in-hocking-hills,/blog/how-to-plan-a-family-reunion,renamed,"This site, before launch: the post moved to its keyword slug (Nov 12)"
+/blog/why-hocking-hills-is-the-perfect-getaway-destination,/blog/weekend-getaways-from-columbus-ohio,renamed,"This site, before launch: the post moved to its keyword slug (Nov 12)"

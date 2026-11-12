@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react'
-import { cabins } from '@/lib/content'
+import { cabins, site } from '@/lib/content'
 import { Honeypot, useNetlifyForm } from './Forms'
 import { Icon } from './Icon'
 
@@ -126,6 +126,8 @@ export function OwnerForm() {
         <button type="submit" className="btn btn-book btn-lg" disabled={state === 'sending'}>
           {state === 'sending' ? 'Sending…' : 'Send it our way'}
         </button>
+        {/* Airbnb's trademark guidelines ask for this line below the button on any form that collects owner details. */}
+        <p className="meta mt-4">{site.name} is an independent third party and is not endorsed by or associated with Airbnb, Inc. or its affiliates.</p>
       </div>
     </form>
   )

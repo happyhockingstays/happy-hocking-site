@@ -1,4 +1,5 @@
 import { ClosingBand } from '@/components/ClosingBand'
+import { FaqList } from '@/components/Faq'
 import { InsiderSignup } from '@/components/Forms'
 import { Icon } from '@/components/Icon'
 import { Photo } from '@/components/Photo'
@@ -92,6 +93,16 @@ export function BlogPostPage({ post: p, html }: { post: PostMeta; html: string }
               </div>
             ) : null}
             <div className="post-body" dangerouslySetInnerHTML={{ __html: html }} />
+            {p.faqs.length ? (
+              <section className="mt-14" aria-labelledby="post-faqs">
+                <h2 id="post-faqs" className="h-section">
+                  Frequently asked questions
+                </h2>
+                <div className="mt-6">
+                  <FaqList items={p.faqs} />
+                </div>
+              </section>
+            ) : null}
           </div>
         </div>
       </article>
