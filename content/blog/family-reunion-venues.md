@@ -37,7 +37,7 @@ We host big families at our cabins in the Hocking Hills, so we'll say up front w
 
 ### Park shelter houses
 
-For a simple picnic reunion, a shelter house is the classic choice. Hocking Hills State Park has reservable day-use shelter houses at Old Man's Cave, Cedar Falls, Ash Cave, Rock House and Cantwell Cliffs, and the picnic areas there have tables and grills. The details are on the [Hocking Hills State Park page](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/hocking-hills-state-park). The trade-offs are weather and the clock: you're outdoors, and the day ends when the park closes.
+For a simple picnic reunion, a shelter house is the classic choice. Hocking Hills State Park has reservable day-use shelter houses at Old Man's Cave, Cedar Falls, Ash Cave, [Rock House](/blog/hocking-hills-rock-house) and Cantwell Cliffs, and the picnic areas there have tables and grills. The details are on the [Hocking Hills State Park page](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/hocking-hills-state-park). The trade-offs are weather and the clock: you're outdoors, and the day ends when the park closes.
 
 ### Halls and restaurants
 

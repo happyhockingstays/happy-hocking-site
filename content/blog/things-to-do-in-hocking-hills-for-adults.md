@@ -39,15 +39,15 @@ This is the one we recommend to everyone, whatever your fitness level. The trail
 
 The famous one: the gorge, the Upper Falls, the Devil's Bathtub. There's a reason it's the most photographed spot in the Hocking Hills. Our advice is to go early on a weekday. On a Saturday afternoon in October, you'll share the trail with hundreds of people. At 8:00 am on a Tuesday, you might have it to yourself. The trail also connects to Cedar Falls if you want a longer hike, about 3 miles one way. [Lazy Deer Retreat](/cabins/lazy-deer-retreat) is just 5 minutes away, so you can beat the crowds.
 
-### [Cedar Falls](https://www.explorehockinghills.com/parks-trails/parks/cedar-falls/)
+### [Cedar Falls](/blog/cedar-falls-hocking-hills)
 
-A short, shaded walk to one of the prettiest waterfalls in the park. It's easy and always worth the stop, especially if you're already on the [Old Man's Cave](/blog/old-mans-cave) trails. After a good rain, the falls really come to life.
+A short, shaded walk to one of the prettiest waterfalls in the park. It's short and always worth the stop, especially if you're already on the [Old Man's Cave](/blog/old-mans-cave) trails. After a good rain, the falls really come to life.
 
 ### [Conkle's Hollow](https://www.explorehockinghills.com/parks-trails/parks/conkles-hollow-nature-preserve/)
 
 This one is special. The gorge trail at the bottom is flat and shaded, a walk between towering sandstone walls that feels like stepping into another world. If you're feeling strong, the rim trail above is more challenging and rewards you with some of the best overlooks in the region. If you only do 2 hikes on your trip, make this one of them.
 
-### [Rock House](https://www.explorehockinghills.com/parks-trails/parks/rock-house/)
+### [Rock House](/blog/hocking-hills-rock-house)
 
 The only true cave in the park system: a cavern with window-like openings carved into the cliff face. The hike is moderate with some stone steps, and the cave is unlike anything else here. It tends to be less crowded than Old Man's Cave, especially during the week.
 
