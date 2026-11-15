@@ -1,6 +1,6 @@
 // Runs after `vite build`.
-//  1. Tidies the sitemap: drops trailing-slash duplicates, in-page links (#...), the private
-//     review form and draft blog posts.
+//  1. Tidies the sitemap: drops trailing-slash duplicates, in-page links (#...), filtered views
+//     of a page (?group=large), the private pages and draft blog posts.
 //  2. Writes the redirects file from docs/redirects.csv: every page of the old Wix site
 //     (hockinghills-cabinrentals.com) points to its new home, and happyhockingstays.com
 //     forwards to happyhocking.com. The rules only match those domains, so they do nothing
@@ -13,7 +13,7 @@ const OLD_HOSTS = ['www.hockinghills-cabinrentals.com', 'hockinghills-cabinrenta
 const FORWARD_HOSTS = ['www.happyhockingstays.com', 'happyhockingstays.com']
 // The old co-hosting site (Squarespace). Every page goes to the co-hosting page once the domain points at Netlify
 const COHOST_HOSTS = ['hockinghills-hosting.com', 'www.hockinghills-hosting.com']
-const PRIVATE = ['/review', '/search']
+const PRIVATE = ['/review', '/search', '/404']
 
 /* ---------- sitemap ---------- */
 const all = loadPosts({ includeDrafts: true })
@@ -22,7 +22,8 @@ const live = new Set(all.filter((p) => !p.draft).map((p) => `/blog/${p.slug}`))
 const file = 'dist/client/sitemap.xml'
 const xml = fs.readFileSync(file, 'utf8')
 const out = xml.replace(/\s*<url>\s*<loc>([^<]+)<\/loc>[\s\S]*?<\/url>/g, (block, loc) => {
-  if (loc.includes('#')) return ''
+  // In-page links and filtered views of the Cabins page are the same page, not new ones
+  if (loc.includes('#') || loc.includes('?')) return ''
   const p = new URL(loc).pathname
   if (p !== '/' && p.endsWith('/')) return ''
   if (PRIVATE.includes(p) || drafts.has(p)) return ''
@@ -61,8 +62,9 @@ for (const r of rows.filter((x) => x.kind !== 'renamed')) {
   const status = pending ? '302!' : '301!'
   for (const host of OLD_HOSTS) for (const scheme of ['https', 'http']) lines.push(`${scheme}://${host}${r.from}  ${target}  ${status}`)
 }
-lines.push('', '# Anything else on the old site goes to the new homepage')
-for (const host of OLD_HOSTS) for (const scheme of ['https', 'http']) lines.push(`${scheme}://${host}/*  ${SITE}/  301!`)
+// Never the homepage as a fallback (the IA's redirect rule): Google reads that as a soft 404.
+lines.push('', '# Anything else on the old site goes to the same address here, which shows the 404 page')
+for (const host of OLD_HOSTS) for (const scheme of ['https', 'http']) lines.push(`${scheme}://${host}/*  ${SITE}/:splat  301!`)
 lines.push('', '# happyhockingstays.com forwards to happyhocking.com, keeping the page')
 for (const host of FORWARD_HOSTS) for (const scheme of ['https', 'http']) lines.push(`${scheme}://${host}/*  ${SITE}/:splat  301!`)
 lines.push('', '# The old co-hosting site goes to the co-hosting page')

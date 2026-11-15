@@ -1,6 +1,6 @@
 # Handoff
 
-Updated Nov 12, 2026 (fourth session: the SEO on-page pass). Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
+Updated Nov 15, 2026 (sixth session: the pre-launch pass). Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
 
 The kickoff brief, brand guide, listing content, questionnaire and contract are in the "Happy Hocking" Claude project. The brief is `claude/website-build-handoff.md`.
 
@@ -15,10 +15,26 @@ The kickoff brief, brand guide, listing content, questionnaire and contract are 
 | 5 | Co-hosting page with its own owner form | Done |
 | 6 | About, FAQs, Contact with a topic picker | Done. About has placeholders for the story and headshots |
 | 7 | Reviews system and `/review` form | Built and tested locally. The email step can't be tested until Netlify is connected |
-| 8 | Blog index and post template | Done, with 1 sample draft post. The 13 Wix posts are not moved yet |
+| 8 | Blog index and post template | Done. The 13 Wix posts are moved (9 posts after merges) |
 | 9 | 301 redirects from the old Wix site | Map drafted from the live Wix sitemap: `docs/redirects.csv`, explained in `docs/redirects.md` |
 
 Not done yet outside the repo: Netlify site (waiting on the clients), branch protection, DNS. Pages CMS is installed on the repo. Cole opened it after the new screens were added (the 4 "Page:" screens and Blog posts) and saw no errors. Saving from those screens hasn't been tried.
+
+## Sixth session (Nov 15): pre-launch pass
+
+Done without Netlify, in the pull request "Pre-launch pass". Nothing here has been seen on a Netlify preview yet.
+
+- **Pull request #2 folded in:** the 404 page and the "direct costs less" edit. It had fallen behind `main` and conflicted in `scripts/postbuild.mjs`.
+- **4 collection pages** at the IA's URLs: `/hocking-hills-cabins-with-pool` (seed "hocking hills cabins with pool"), `/hocking-hills-large-group-cabins` ("cabin rentals for large groups"), `/hocking-hills-cabins-with-game-room` ("cabins with game rooms") and `/hocking-hills-luxury-cabins` ("luxury cabins hocking hills"). One template (`src/pages/CollectionPage.tsx`), words in `content/collections/*.yml`, editable in Pages CMS. Sleeps, bedrooms, towns and pool dates come from the cabin files, so they can't drift. Each page has CollectionPage, BreadcrumbList and FAQPage schema. Linked from the footer ("Find a cabin"), the Cabins page and each other, never the top menu.
+- **Judgment calls on those pages:** the luxury page shows 6 cabins, picked for a sauna, a heated pool, a lake or acreage. The large group page lists the 7 cabins that sleep 10 or more (the IA's range), while the Cabins page filter still calls 13 or more a large group. The luxury H1 and H2 use "luxury cabins in Hocking Hills" and "Hocking Hills luxury cabins"; the exact seed is in the Google title, the description and the first line. Indoor pools and log cabins aren't targeted (the IA's rules).
+- **Links from older posts:** 6 posts now link to the collection pages with their seeds. The 3 links to filtered views of the Cabins page were swapped for collection pages.
+- **Privacy page** at `/privacy`, in the footer. A plain-language draft for the clients to read.
+- **Share images:** 29 cards in `public/images/share`, one per page, made by `scripts/make-share-images.py`. `seo()` finds them by name.
+- **Technical fixes:** `/cabins?group=` and `?games=` are out of the sitemap. Photos inside posts go through the image service on Netlify and carry their width and height. Share tags carry the image size and alt text. The homepage has WebSite schema.
+- **Cabin pages:** the map placeholder is gone. The section keeps the town note and drive times, side by side.
+- **New checks:** `npm run check` now covers collection pages. `npm run links` (after a build) reports broken links, link wording that points at 2 pages and pages nothing links to.
+- **New doc:** `docs/blog-writing.md`, Cole's blog playbook fitted to this site, for the Wave 1 posts.
+- Checked: copy check, typecheck, build and link check pass. 34 pages, 30 in the sitemap, no duplicate titles or descriptions. Screenshots of every new page at phone and desktop widths: no sideways scrolling. The Hospitable search card shows empty in the test browser because it can't reach Hospitable.
 
 ## Fourth session (Nov 12): SEO on-page pass
 
@@ -86,7 +102,7 @@ Other choices made while building, all easy to change: the homepage cabin row sh
 
 ## Placeholders still in the site
 
-The area map, Natalie's story, headshots and bios, owner testimonials (hidden until one is added), guest reviews (hidden until one is published), a real Hocking Hills photo, the Mailchimp address and GTM ID.
+Natalie's story, bios, owner testimonials (hidden until one is added), guest reviews (hidden until one is published), a real Hocking Hills photo, the Mailchimp address and GTM ID.
 
 ## Photos
 

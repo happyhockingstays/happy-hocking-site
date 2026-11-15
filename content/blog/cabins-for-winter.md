@@ -41,7 +41,7 @@ The heart of a winter weekend is the cabin itself, so choose one built to get wa
 - **A kitchen you can settle into.** Winter weekends are for long breakfasts and slow-cooked dinners
 - **An easy drive.** Some cabins sit up hilly gravel drives, so check the forecast and message us before a snowy stay
 
-For a sauna, pick one of these:
+For a sauna, pick one of these [Hocking Hills luxury cabins](/hocking-hills-luxury-cabins):
 
 - [Valhalla Hills](/cabins/valhalla-hills) has a 3-person sauna and an 8-person hot tub, plus a great room with a stone fireplace and room for 29
 - [Pickle Hill](/cabins/pickle-hill) has an infrared sauna for a group of 10 and an indoor pickleball barn for a few games before you warm up

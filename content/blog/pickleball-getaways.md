@@ -51,7 +51,7 @@ Bringing the whole crew? [The Farm at Nickel Plate](/cabins/the-farm-at-nickel-p
 
 ### More cabins for active groups
 
-Not everyone in your group plays pickleball? [Clouds Reach](/cabins/clouds-reach) sleeps 16 and has a proper bocce court, plus a heated pool open April 15 to November 30. [The Johnny](/cabins/the-johnny) sleeps 16, with kayaks on its private pond. Compare them side by side on our [Hocking Hills cabin rentals](/cabins) page, or use the [games and sports](/cabins?games=1) filter.
+Not everyone in your group plays pickleball? [Clouds Reach](/cabins/clouds-reach) sleeps 16 and has a proper bocce court, plus a heated pool open April 15 to November 30. [The Johnny](/cabins/the-johnny) sleeps 16, with kayaks on its private pond. Compare them side by side on our [Hocking Hills cabin rentals](/cabins) page, or see all our [cabins with game rooms](/hocking-hills-cabins-with-game-room) and courts.
 
 ## Pickleball resorts vs a cabin with a court
 

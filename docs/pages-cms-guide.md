@@ -55,6 +55,16 @@ A few sections hide themselves when they're empty: the homepage story band, the 
 
 The big headlines that are brand lines ("A place for everyone in the Hocking Hills", "Find your happy place", "Happy to help") are fixed, so they can't be changed by accident.
 
+## The 4 cabin collection pages
+
+These group cabins by what a guest is after: pools, large groups, game rooms and luxury. They're linked from the footer and the Cabins page.
+
+1. Click **Cabin collection pages** and open one.
+2. Change the opening lines, the points in the dark green section or the questions, then **Save**.
+3. To add or remove a cabin, open **Cabins on this page**. The line under each cabin says why it's on the page.
+
+Sleeps, bedrooms, towns and pool dates fill themselves in from each cabin, so change those on the cabin, not here. Please don't rename these pages, and check with Cole before changing a headline or the link wording: they carry the search phrases.
+
 ## Add or edit an FAQ
 
 1. Open **Page: FAQs**, then the group, for example **Your stay**.

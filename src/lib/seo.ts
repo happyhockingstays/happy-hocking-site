@@ -1,6 +1,5 @@
-import { site } from './content'
-import { settings } from './content'
-import type { Cabin, Policies, PostMeta } from './types'
+import { settings, shareImages, site } from './content'
+import type { Cabin, CabinSummary, Policies, PostMeta } from './types'
 
 interface SeoInput {
   title: string
@@ -17,10 +16,24 @@ interface SeoInput {
 const OG_DEFAULT = '/images/brand/og-happy-hocking-stays.jpg'
 const PRELAUNCH = import.meta.env.VITE_NOINDEX === 'true'
 
+/**
+ * The share image for a page: the picture that shows when its link is texted or posted.
+ * Each page has its own 1200 x 630 card in public/images/share, named for the page
+ * (/cabins/pickle-hill is cabins-pickle-hill.jpg), made by scripts/make-share-images.py.
+ * A page without one yet (a brand new post) falls back to its own photo, then to the site card.
+ */
+export const shareKey = (path: string) => (path === '/' ? 'home' : path.replace(/^\/+|\/+$/g, '').replace(/\//g, '-'))
+function shareImage(path: string, fallback?: string) {
+  const key = shareKey(path)
+  if (shareImages.includes(key)) return { src: `/images/share/${key}.jpg`, card: true }
+  return { src: fallback || OG_DEFAULT, card: !fallback }
+}
+
 /** Per-page <head> tags: title, description, canonical, Open Graph, Twitter, JSON-LD. */
-export function seo({ title, description, path, image = OG_DEFAULT, jsonLd, noindex, article }: SeoInput) {
+export function seo({ title, description, path, image, jsonLd, noindex, article }: SeoInput) {
   const url = site.url + (path === '/' ? '/' : path)
-  const img = image.startsWith('http') ? image : site.url + image
+  const share = shareImage(path, image)
+  const img = share.src.startsWith('http') ? share.src : site.url + share.src
   const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []
   return {
     meta: [
@@ -31,14 +44,24 @@ export function seo({ title, description, path, image = OG_DEFAULT, jsonLd, noin
       ...(article?.published ? [{ property: 'article:published_time', content: article.published }] : []),
       ...(article?.modified ? [{ property: 'article:modified_time', content: article.modified }] : []),
       { property: 'og:site_name', content: site.name },
+      { property: 'og:locale', content: 'en_US' },
       { property: 'og:title', content: title },
       { property: 'og:description', content: description },
       { property: 'og:url', content: url },
       { property: 'og:image', content: img },
+      // Every share card is the same size. A fallback photo isn't, so its size is left out.
+      ...(share.card
+        ? [
+            { property: 'og:image:width', content: '1200' },
+            { property: 'og:image:height', content: '630' },
+          ]
+        : []),
+      { property: 'og:image:alt', content: title },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:title', content: title },
       { name: 'twitter:description', content: description },
       { name: 'twitter:image', content: img },
+      { name: 'twitter:image:alt', content: title },
     ],
     links: [{ rel: 'canonical', href: url }],
     scripts: ld.map((o) => ({ type: 'application/ld+json', children: JSON.stringify(o) })),
@@ -98,6 +121,28 @@ export function cabinJsonLd(c: Cabin, policies: Policies) {
 }
 
 const org = () => ({ '@type': 'Organization', '@id': `${site.url}/#org`, name: site.name, url: site.url, logo: `${site.url}/icon-512.png` })
+
+/** The site itself, for the homepage. Tells search engines the site's name. */
+export function websiteJsonLd() {
+  return { '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${site.url}/#website`, name: site.name, url: site.url, publisher: { '@id': `${site.url}/#org` } }
+}
+
+/** A list of cabins, for a collection page. Each item points at the cabin's own page. */
+export function cabinListJsonLd(name: string, path: string, list: CabinSummary[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': `${site.url}${path}#page`,
+    name,
+    url: site.url + path,
+    isPartOf: { '@id': `${site.url}/#website` },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: list.length,
+      itemListElement: list.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, url: `${site.url}/cabins/${c.slug}` })),
+    },
+  }
+}
 
 /** Who runs the site, for the homepage. Town-level only: no street address. */
 export function orgJsonLd() {

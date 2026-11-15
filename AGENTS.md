@@ -54,7 +54,8 @@ The first two come straight from Natalie and are not up for debate.
 - Every page has one seed keyword in the IA (Cole's Quadratic file; clients see it in Lookout). Put it at the front of the Google title (60 characters max), near the front of the description (120 to 165), in the first paragraph and in one H2. Don't use another page's seed as a target.
 - Cabin pages keep the cabin name in the URL, nav and H1. Their seed goes in the title, description, About text and the `aboutHeading` H2.
 - Post URLs are `/blog/<seed>`, no year. A renamed post needs a `renamed` row in `docs/redirects.csv`.
-- Internal links use the target page's seed as anchor text, except cabin names, which link to their cabin page. Never use the same anchor for 2 different pages. Link only to pages that exist.
+- Internal links use the target page's seed as anchor text, except cabin names, which link to their cabin page. Never use the same anchor for 2 different pages. Link only to pages that exist. Run `npm run links` after a build: it catches broken links, wording that points at 2 pages and pages nothing links to.
+- The 4 collection pages are linked as: "cabins with private pools" (`/hocking-hills-cabins-with-pool`), "cabin rentals for large groups" (`/hocking-hills-large-group-cabins`), "cabins with game rooms" (`/hocking-hills-cabins-with-game-room`) and "Hocking Hills luxury cabins" (`/hocking-hills-luxury-cabins`). They live in the footer and on the Cabins page, never the top menu. Link them in copy instead of a filtered view of the Cabins page.
 - Airbnb and Vrbo may appear in body copy and URLs, never in titles, headings or FAQ questions. Keep the Airbnb disclaimer in the footer and under the owner form.
 - No pets, parties or events (that includes bachelorette, bachelor and birthday trips and weddings). Corporate and church retreats are undecided. Serenity Lodge owns pet-friendly, secluded and log-cabin terms: body copy only here.
 
@@ -78,6 +79,10 @@ The first two come straight from Natalie and are not up for debate.
 | Check-in, minimum stay, age, shared house rules, cancellation policies | `content/settings/policies.yml` |
 | Homepage, Co-hosting, About and FAQs words and photos | `content/pages/*.yml` |
 | Blog posts (markdown; the file name is the URL; `draft: true` shows only before launch) | `content/blog/*.md` |
+| Cabin collection pages: words, cabin list and questions (the file name is the URL) | `content/collections/*.yml`, template `src/pages/CollectionPage.tsx`, route options `src/lib/collectionRoute.tsx` |
+| Privacy page | `content/pages/privacy.yml`, `src/pages/PrivacyPage.tsx` |
+| Share images, one per page | `public/images/share/`, made by `scripts/make-share-images.py` |
+| How new posts are researched, written and linked | `docs/blog-writing.md` |
 | Published reviews | `content/reviews/*.yml` |
 | What the clients can edit, and how each field is labeled | `.pages.yml` |
 | Content loading and defaults | `content/lib.mjs`, `content/vite-plugin.mjs` |
@@ -113,7 +118,8 @@ Tokens are in `src/styles.css`, straight from the brand guide.
 ## Technical rules
 
 - TanStack Start with every route prerendered (`vite.config.ts`). Keep new pages static so they prerender.
-- New pages are `src/routes/<slug>.tsx` with a `head: () => seo({...})` call. Cabin pages are `/cabins/<slug>`.
+- New pages are `src/routes/<slug>.tsx` with a `head: () => seo({...})` call. Cabin pages are `/cabins/<slug>`. A new collection page needs a YAML file in `content/collections` and a 3-line route file named for its URL.
+- **Share images:** `seo()` uses `public/images/share/<page>.jpg` when it exists (`/cabins/pickle-hill` is `cabins-pickle-hill.jpg`, a post is `blog-<slug>.jpg`) and falls back to the page's own photo. After adding a page or post, or changing a main photo, cover or headline, run `python3 scripts/make-share-images.py` and commit the new card. It's a one-off tool like the hero video, never part of the build.
 - Use `<Photo src alt />` for photos and `<SiteLink to>` for internal links.
 - Forms post to Netlify Forms through `/__forms.html`. A new form, or a new field on a form, needs a matching entry in `public/__forms.html`, or Netlify drops it. No serverless functions. Guest questions (`contact`) and owner inquiries (`owner-inquiry`) stay separate forms.
 - The private review form lives at `/review`: noindex, out of the sitemap (`scripts/postbuild.mjs`) and never linked in the nav. Nothing publishes from it: a host adds each approved review in Pages CMS. See `docs/reviews.md`.

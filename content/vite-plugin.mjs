@@ -1,6 +1,6 @@
 // Vite plugin for the YAML content in /content (edited in Pages CMS).
 //  - `virtual:content` exports site settings, policies, page copy, published reviews, blog post
-//    summaries and a card-sized summary of every visible cabin.
+//    summaries, the cabin collection pages and a card-sized summary of every visible cabin.
 //  - Each content/blog/*.md file becomes a module exporting the post's HTML (loaded per post).
 //  - Each content/cabins/*.yml file becomes a module exporting the full cabin (loaded per page, so
 //    galleries and long copy are code-split and never land in the shared bundle).
@@ -9,11 +9,16 @@ import path from 'node:path'
 import {
   BLOG_DIR,
   CABINS_DIR,
+  COLLECTIONS_DIR,
   CONTENT_DIR,
+  SHARE_DIR,
   cabinSummary,
   listCabinFiles,
+  listCollectionFiles,
   listPostFiles,
+  listShareImages,
   loadCabins,
+  loadCollections,
   loadPages,
   loadPolicies,
   loadPosts,
@@ -39,6 +44,9 @@ export default function contentPlugin() {
         this.addWatchFile(CONTENT_DIR)
         for (const f of listCabinFiles()) this.addWatchFile(f)
         for (const f of listPostFiles()) this.addWatchFile(f)
+        for (const f of listCollectionFiles()) this.addWatchFile(f)
+        this.addWatchFile(COLLECTIONS_DIR)
+        this.addWatchFile(SHARE_DIR)
         const data = {
           settings: loadSettings(),
           policies: loadPolicies(),
@@ -47,6 +55,9 @@ export default function contentPlugin() {
           // Draft posts show only while the site is still blocked from search engines (before launch).
           posts: loadPosts({ includeDrafts: !(process.env.URL || '').includes('happyhocking.com') }),
           cabins: loadCabins().map(cabinSummary),
+          collections: loadCollections(),
+          // Which pages have their own share image (public/images/share/<page>.jpg)
+          shareImages: listShareImages(),
         }
         return `export default ${JSON.stringify(data)}`
       }

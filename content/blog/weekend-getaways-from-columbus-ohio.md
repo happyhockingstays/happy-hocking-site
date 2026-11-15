@@ -26,7 +26,7 @@ Weekend getaways from Columbus, Ohio don't get much easier than this. The Hockin
 - **It's close.** About an hour from Columbus and under 3 hours from Cincinnati or Cleveland. No flights and no lost day on the road
 - **It feels remote.** Trees, gorges and quiet roads. With spotty cell service in places and quiet all around, it's easy to unplug and reconnect with nature and each other
 - **It's beautiful all year.** Spring brings wildflowers and rushing waterfalls. Summer brings shaded trails and cool river paddles. Fall is famous for its color, and winter turns the landscape into a quiet wonderland
-- **It has cabins for every kind of trip.** Many come with hot tubs, fire pits and big views. Every one of [our cabins](/cabins) has a private pool, a hot tub and room to spread out
+- **It has cabins for every kind of trip.** Many come with hot tubs, fire pits and big views. Every one of our [cabins with private pools](/hocking-hills-cabins-with-pool) has a hot tub and room to spread out
 
 ## Weekend trips from Columbus, Ohio: the drive
 

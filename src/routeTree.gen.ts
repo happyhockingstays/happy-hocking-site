@@ -10,10 +10,16 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as R404RouteImport } from './routes/404'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as CoHostingRouteImport } from './routes/co-hosting'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as FaqsRouteImport } from './routes/faqs'
+import { Route as HockingHillsCabinsWithGameRoomRouteImport } from './routes/hocking-hills-cabins-with-game-room'
+import { Route as HockingHillsCabinsWithPoolRouteImport } from './routes/hocking-hills-cabins-with-pool'
+import { Route as HockingHillsLargeGroupCabinsRouteImport } from './routes/hocking-hills-large-group-cabins'
+import { Route as HockingHillsLuxuryCabinsRouteImport } from './routes/hocking-hills-luxury-cabins'
+import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as ReviewRouteImport } from './routes/review'
 import { Route as SearchRouteImport } from './routes/search'
 import { Route as BlogIndexRouteImport } from './routes/blog/index'
@@ -24,6 +30,11 @@ import { Route as CabinsSlugRouteImport } from './routes/cabins/$slug'
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const R404Route = R404RouteImport.update({
+  id: '/404',
+  path: '/404',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AboutRoute = AboutRouteImport.update({
@@ -44,6 +55,35 @@ const ContactRoute = ContactRouteImport.update({
 const FaqsRoute = FaqsRouteImport.update({
   id: '/faqs',
   path: '/faqs',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HockingHillsCabinsWithGameRoomRoute =
+  HockingHillsCabinsWithGameRoomRouteImport.update({
+    id: '/hocking-hills-cabins-with-game-room',
+    path: '/hocking-hills-cabins-with-game-room',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const HockingHillsCabinsWithPoolRoute =
+  HockingHillsCabinsWithPoolRouteImport.update({
+    id: '/hocking-hills-cabins-with-pool',
+    path: '/hocking-hills-cabins-with-pool',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const HockingHillsLargeGroupCabinsRoute =
+  HockingHillsLargeGroupCabinsRouteImport.update({
+    id: '/hocking-hills-large-group-cabins',
+    path: '/hocking-hills-large-group-cabins',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const HockingHillsLuxuryCabinsRoute =
+  HockingHillsLuxuryCabinsRouteImport.update({
+    id: '/hocking-hills-luxury-cabins',
+    path: '/hocking-hills-luxury-cabins',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const PrivacyRoute = PrivacyRouteImport.update({
+  id: '/privacy',
+  path: '/privacy',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ReviewRoute = ReviewRouteImport.update({
@@ -79,10 +119,16 @@ const CabinsSlugRoute = CabinsSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/404': typeof R404Route
   '/about': typeof AboutRoute
   '/co-hosting': typeof CoHostingRoute
   '/contact': typeof ContactRoute
   '/faqs': typeof FaqsRoute
+  '/hocking-hills-cabins-with-game-room': typeof HockingHillsCabinsWithGameRoomRoute
+  '/hocking-hills-cabins-with-pool': typeof HockingHillsCabinsWithPoolRoute
+  '/hocking-hills-large-group-cabins': typeof HockingHillsLargeGroupCabinsRoute
+  '/hocking-hills-luxury-cabins': typeof HockingHillsLuxuryCabinsRoute
+  '/privacy': typeof PrivacyRoute
   '/review': typeof ReviewRoute
   '/search': typeof SearchRoute
   '/blog/$slug': typeof BlogSlugRoute
@@ -92,10 +138,16 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/404': typeof R404Route
   '/about': typeof AboutRoute
   '/co-hosting': typeof CoHostingRoute
   '/contact': typeof ContactRoute
   '/faqs': typeof FaqsRoute
+  '/hocking-hills-cabins-with-game-room': typeof HockingHillsCabinsWithGameRoomRoute
+  '/hocking-hills-cabins-with-pool': typeof HockingHillsCabinsWithPoolRoute
+  '/hocking-hills-large-group-cabins': typeof HockingHillsLargeGroupCabinsRoute
+  '/hocking-hills-luxury-cabins': typeof HockingHillsLuxuryCabinsRoute
+  '/privacy': typeof PrivacyRoute
   '/review': typeof ReviewRoute
   '/search': typeof SearchRoute
   '/blog/$slug': typeof BlogSlugRoute
@@ -106,10 +158,16 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/404': typeof R404Route
   '/about': typeof AboutRoute
   '/co-hosting': typeof CoHostingRoute
   '/contact': typeof ContactRoute
   '/faqs': typeof FaqsRoute
+  '/hocking-hills-cabins-with-game-room': typeof HockingHillsCabinsWithGameRoomRoute
+  '/hocking-hills-cabins-with-pool': typeof HockingHillsCabinsWithPoolRoute
+  '/hocking-hills-large-group-cabins': typeof HockingHillsLargeGroupCabinsRoute
+  '/hocking-hills-luxury-cabins': typeof HockingHillsLuxuryCabinsRoute
+  '/privacy': typeof PrivacyRoute
   '/review': typeof ReviewRoute
   '/search': typeof SearchRoute
   '/blog/$slug': typeof BlogSlugRoute
@@ -121,10 +179,16 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/404'
     | '/about'
     | '/co-hosting'
     | '/contact'
     | '/faqs'
+    | '/hocking-hills-cabins-with-game-room'
+    | '/hocking-hills-cabins-with-pool'
+    | '/hocking-hills-large-group-cabins'
+    | '/hocking-hills-luxury-cabins'
+    | '/privacy'
     | '/review'
     | '/search'
     | '/blog/$slug'
@@ -134,10 +198,16 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/404'
     | '/about'
     | '/co-hosting'
     | '/contact'
     | '/faqs'
+    | '/hocking-hills-cabins-with-game-room'
+    | '/hocking-hills-cabins-with-pool'
+    | '/hocking-hills-large-group-cabins'
+    | '/hocking-hills-luxury-cabins'
+    | '/privacy'
     | '/review'
     | '/search'
     | '/blog/$slug'
@@ -147,10 +217,16 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/404'
     | '/about'
     | '/co-hosting'
     | '/contact'
     | '/faqs'
+    | '/hocking-hills-cabins-with-game-room'
+    | '/hocking-hills-cabins-with-pool'
+    | '/hocking-hills-large-group-cabins'
+    | '/hocking-hills-luxury-cabins'
+    | '/privacy'
     | '/review'
     | '/search'
     | '/blog/$slug'
@@ -161,10 +237,16 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  R404Route: typeof R404Route
   AboutRoute: typeof AboutRoute
   CoHostingRoute: typeof CoHostingRoute
   ContactRoute: typeof ContactRoute
   FaqsRoute: typeof FaqsRoute
+  HockingHillsCabinsWithGameRoomRoute: typeof HockingHillsCabinsWithGameRoomRoute
+  HockingHillsCabinsWithPoolRoute: typeof HockingHillsCabinsWithPoolRoute
+  HockingHillsLargeGroupCabinsRoute: typeof HockingHillsLargeGroupCabinsRoute
+  HockingHillsLuxuryCabinsRoute: typeof HockingHillsLuxuryCabinsRoute
+  PrivacyRoute: typeof PrivacyRoute
   ReviewRoute: typeof ReviewRoute
   SearchRoute: typeof SearchRoute
   BlogSlugRoute: typeof BlogSlugRoute
@@ -180,6 +262,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/404': {
+      id: '/404'
+      path: '/404'
+      fullPath: '/404'
+      preLoaderRoute: typeof R404RouteImport
       parentRoute: typeof rootRouteImport
     }
     '/about': {
@@ -208,6 +297,41 @@ declare module '@tanstack/react-router' {
       path: '/faqs'
       fullPath: '/faqs'
       preLoaderRoute: typeof FaqsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hocking-hills-cabins-with-game-room': {
+      id: '/hocking-hills-cabins-with-game-room'
+      path: '/hocking-hills-cabins-with-game-room'
+      fullPath: '/hocking-hills-cabins-with-game-room'
+      preLoaderRoute: typeof HockingHillsCabinsWithGameRoomRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hocking-hills-cabins-with-pool': {
+      id: '/hocking-hills-cabins-with-pool'
+      path: '/hocking-hills-cabins-with-pool'
+      fullPath: '/hocking-hills-cabins-with-pool'
+      preLoaderRoute: typeof HockingHillsCabinsWithPoolRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hocking-hills-large-group-cabins': {
+      id: '/hocking-hills-large-group-cabins'
+      path: '/hocking-hills-large-group-cabins'
+      fullPath: '/hocking-hills-large-group-cabins'
+      preLoaderRoute: typeof HockingHillsLargeGroupCabinsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hocking-hills-luxury-cabins': {
+      id: '/hocking-hills-luxury-cabins'
+      path: '/hocking-hills-luxury-cabins'
+      fullPath: '/hocking-hills-luxury-cabins'
+      preLoaderRoute: typeof HockingHillsLuxuryCabinsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacy': {
+      id: '/privacy'
+      path: '/privacy'
+      fullPath: '/privacy'
+      preLoaderRoute: typeof PrivacyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/review': {
@@ -257,10 +381,16 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  R404Route: R404Route,
   AboutRoute: AboutRoute,
   CoHostingRoute: CoHostingRoute,
   ContactRoute: ContactRoute,
   FaqsRoute: FaqsRoute,
+  HockingHillsCabinsWithGameRoomRoute: HockingHillsCabinsWithGameRoomRoute,
+  HockingHillsCabinsWithPoolRoute: HockingHillsCabinsWithPoolRoute,
+  HockingHillsLargeGroupCabinsRoute: HockingHillsLargeGroupCabinsRoute,
+  HockingHillsLuxuryCabinsRoute: HockingHillsLuxuryCabinsRoute,
+  PrivacyRoute: PrivacyRoute,
   ReviewRoute: ReviewRoute,
   SearchRoute: SearchRoute,
   BlogSlugRoute: BlogSlugRoute,

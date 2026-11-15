@@ -66,7 +66,7 @@ Not every group needs 29 beds. These are our favorites for a medium-size crew:
 
 Smaller crew? [Lazy Deer Retreat](/cabins/lazy-deer-retreat) sleeps 8 and sits 5 minutes from Old Man's Cave. [Dunkle Creek](/cabins/dunkle-creek) is a cozy A-frame for up to 6.
 
-Browse them all on our [Hocking Hills cabin rentals](/cabins) page. You can filter by [big groups](/cabins?group=large), [smaller groups](/cabins?group=small) or [games and sports](/cabins?games=1).
+Browse them all on our [Hocking Hills cabin rentals](/cabins) page, or go straight to our [cabin rentals for large groups](/hocking-hills-large-group-cabins). Playing as well as staying? See our [cabins with game rooms](/hocking-hills-cabins-with-game-room).
 
 ## Make it a real Hocking Hills weekend
 

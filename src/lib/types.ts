@@ -64,9 +64,34 @@ export interface CabinSummary {
   baths: string
   gamesAndSports: boolean
   chips: string[]
+  poolSeason: string
+  poolNote: string
   heroImage: string
   heroAlt: string
   ratingSummary: RatingSummary | null
+}
+
+/** A cabin collection page (content/collections/<slug>.yml). The slug is the web address. */
+export interface Collection {
+  slug: string
+  navLabel: string
+  linkText: string
+  title: string
+  seoTitle: string
+  seoDescription: string
+  eyebrow: string
+  lead: string
+  image: string
+  alt: string
+  listHeading: string
+  listIntro: string
+  showPoolDates: boolean
+  cabins: { slug: string; note: string }[]
+  know: { eyebrow: string; heading: string; items: { icon: string; title: string; text: string }[] }
+  compare: { heading: string; intro: string }
+  guide: { heading: string; text: string; linkLabel: string; link: string }
+  faqHeading: string
+  faqs: { q: string; a: string }[]
 }
 
 export interface GalleryImage {
@@ -141,6 +166,7 @@ export interface Qa {
 }
 
 export interface Pages {
+  privacy: { updated: string; intro: string; sections: { heading: string; text: string }[] }
   home: {
     hero: PhotoRef & { eyebrow: string; lead: string; video: string; videoPhone: string }
     cabins: { eyebrow: string; intro: string }

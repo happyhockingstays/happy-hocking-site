@@ -3,7 +3,7 @@ import { SearchWidget } from '@/components/Booking'
 import { CabinCard } from '@/components/CabinCard'
 import { Icon } from '@/components/Icon'
 import { SiteLink } from '@/components/SiteLink'
-import { cabins, isLargeGroup } from '@/lib/content'
+import { cabins, collections, isLargeGroup } from '@/lib/content'
 
 type Size = 'all' | 'small' | 'large'
 
@@ -75,6 +75,30 @@ export function CabinsPage() {
           {list.length === 0 ? <p className="lead mt-8">No cabins match both filters. Try clearing one.</p> : null}
         </div>
       </section>
+
+      {/* The cabin collection pages: linked here and in the footer, never in the top menu */}
+      {collections.length ? (
+        <section className="section sec-forest on-forest">
+          <div className="container-x">
+            <p className="eyebrow" data-reveal>
+              Know what you're after?
+            </p>
+            <h2 className="h-section mt-2" data-reveal>
+              Pick a cabin by what <span className="accent">matters most</span>
+            </h2>
+            <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4" data-reveal>
+              {collections.map((c) => (
+                <li key={c.slug}>
+                  <SiteLink to={`/${c.slug}`} className="card card-link flex h-full items-center justify-between gap-3 p-5 font-extrabold text-forest">
+                    {c.linkText}
+                    <Icon name="arrow-right" className="h-5 w-5 shrink-0 text-terracotta-deep" />
+                  </SiteLink>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      ) : null}
 
       <section className="sec-sage-tint on-tint sec-line py-12 md:py-14">
         <div className="container-x flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
