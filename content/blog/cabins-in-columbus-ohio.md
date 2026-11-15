@@ -73,7 +73,7 @@ You came for the cabin, so start there. But the trails are the reason these hill
 - [Old Man's Cave](/blog/old-mans-cave) is a 1-mile gorge trail with 2 waterfalls and a huge recess cave. Go early.
 - [Ash Cave](/blog/ash-cave) is a paved quarter-mile walk to the largest recess cave in Ohio. It works for every age.
 
-Our guide to [weekend getaways from Columbus, Ohio](/blog/weekend-getaways-from-columbus-ohio) lays out a full 2-night plan, hour by hour. If you only have a day, day trips from Columbus, Ohio are doable too, but you'll wish you'd stayed.
+Our guide to [weekend getaways from Columbus, Ohio](/blog/weekend-getaways-from-columbus-ohio) lays out a full 2-night plan, hour by hour. If you only have a day, [day trips from Columbus, Ohio](/blog/day-trips-from-columbus-ohio) are doable too, but you'll wish you'd stayed.
 
 ## When to come
 
