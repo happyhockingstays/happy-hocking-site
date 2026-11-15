@@ -129,6 +129,10 @@ Still to ask:
 10. **Privacy policy.** Built on Nov 15 at `/privacy` and linked in the footer (Cole's OK). It's a plain-language draft, not legal advice: it names Hospitable, Netlify, Mailchimp and Google, and says information isn't sold. Natalie and Dave should read it, and have their attorney look if they want one to. Editable in Pages CMS under **Page: Privacy**.
 11. **Accounts.** GitHub and Netlify should end up in accounts they own. The repo is in Cole's GitHub for now. When do they want the handover?
 12. **Answered Nov 12 (Cole): direct is cheaper than Airbnb, no numbers yet. The book-direct post now says booking direct costs less. If they share actual rates, add a worked example.** Background: Since Sept 15, 2026, Airbnb charges US hosts a single fee (about 15.5%) and shows guests no separate service fee at checkout. Vrbo still adds a traveler fee. "Book direct and skip the booking-site service fees" is still true, but is the direct nightly rate actually lower than Airbnb's? The posts were written so they're true either way. If direct is cheaper, the book-direct post can say so with numbers.
+13. **Christmas at the cabins (new, Nov 15).** Are any cabins decorated for Christmas, and can guests bring a tree or their own decorations? The Christmas cabin rentals post says nothing either way. If the answer is yes, it's worth a line in the post and a question under it.
+14. **Day visitors at a reunion (new, Nov 15).** Can relatives who aren't staying overnight visit a cabin for the day? The family reunion venues post plays it safe: it says to hold that day's gathering at a park shelter house if more people are coming than the cabin sleeps.
+15. **Where they send guests first (new, Nov 15).** 2 lines are written in the hosts' voice: "It's the first place we point our guests to" (Old Man's Cave post) and "the trail we suggest for the first morning of a trip" (Ash Cave post). True, or would they say it differently?
+16. **A photo of Old Man's Cave and one of Ash Cave (new, Nov 15).** Both trail guides lead with a cabin photo, because the clients' photo set has no park photos. One of each, taken by them, would help both posts.
 
 ## 3. For Natalie to read and correct
 
@@ -154,10 +158,7 @@ These were drafted from her questionnaire, the mockup and the Airbnb listings. N
 12. **Drive times** on each cabin page: Old Man's Cave, Ash Cave, Cedar Falls, Lake Logan and downtown Logan. Worked out from the addresses and rounded to 5 minutes, keeping her listing's number where it gave one. Dunkle Creek's address didn't look up exactly, so its times are close but worth a glance.
 13. **Share images:** the picture that shows when a link is texted or posted. Every page now has its own (Nov 15): the page's photo with the logo card, the cabin name or page headline and one short line.
 14. **The 4 collection pages (new, Nov 15):** cabins with pools, cabin rentals for large groups, cabins with game rooms and luxury cabins. Each has an opening, a cabin list with a line on why each cabin is there, 6 "what to know" points and 5 or 6 questions. Things to check: the luxury page shows 6 cabins (Valhalla Hills, Loch Llyn, Clouds Reach, Rickenbacker Ridge, Lazy Deer Retreat, Pickle Hill); the large group page says parties, weddings and events aren't allowed; the pool page says hot tubs seat 4 to 8 and stay open all year. Editable in Pages CMS under **Cabin collection pages**.
-15. **The 5 new posts (Nov 15).** Things only the hosts know, which the posts either leave out or state carefully:
-    - Are the cabins decorated for Christmas, and can guests bring a tree? The Christmas post says nothing either way.
-    - Can relatives who aren't staying overnight visit a cabin during a reunion? The family reunion venues post says to hold that day's gathering at a park shelter house if more people are coming than the cabin sleeps.
-    - "It's the first place we point our guests to" (Old Man's Cave) and "the trail we suggest for the first morning" (Ash Cave) are written in the hosts' voice. Change them if they aren't true.
+15. **The 5 new posts (Nov 15):** Christmas cabin rentals, Christmas getaway ideas, family reunion venues, Old Man's Cave and Ash Cave. The 4 things only the hosts can answer about them are questions 13 to 16 in section 2.
 
 ## 4. Waiting on the clients to send
 
