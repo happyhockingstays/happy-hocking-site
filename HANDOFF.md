@@ -1,6 +1,6 @@
 # Handoff
 
-Updated Nov 15, 2026 (sixth session: the pre-launch pass and 7 Wave 1 posts). Pull requests #3, #4 and #5 are merged. Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
+Updated Nov 15, 2026 (seventh session: event dates and 12 more Wave 1 posts, in open pull requests #6 to #11). Pull requests #3, #4 and #5 are merged. Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
 
 The kickoff brief, brand guide, listing content, questionnaire and contract are in the "Happy Hocking" Claude project. The brief is `claude/website-build-handoff.md`.
 
@@ -19,6 +19,29 @@ The kickoff brief, brand guide, listing content, questionnaire and contract are 
 | 9 | 301 redirects from the old Wix site | Map drafted from the live Wix sitemap: `docs/redirects.csv`, explained in `docs/redirects.md` |
 
 Not done yet outside the repo: Netlify site (waiting on the clients), branch protection, DNS. Pages CMS is installed on the repo. Cole opened it after the new screens were added (the 4 "Page:" screens and Blog posts) and saw no errors. Saving from those screens hasn't been tried.
+
+## Seventh session (Nov 15): 12 Wave 1 posts, event dates, Netlify checked
+
+6 pull requests, all open, all branched from `main`. They were merged together in a test: no conflicts in any order, and the combined site passes the copy check, typecheck, build, link check (53 pages) and post check.
+
+| Pull request | What | Pages |
+|---|---|---|
+| #6 | This season's event dates in 4 posts | Ash Cave, Old Man's Cave, both Christmas posts |
+| #7 | Wave 1, week 3, part 2 | `/blog/day-trips-from-columbus-ohio` (P091), `/blog/things-to-do-in-logan-ohio` (P072) |
+| #8 | Week 4, part 1 | `/blog/how-to-plan-a-group-trip` (P022), `/blog/family-reunion-ideas` (P020), `/blog/family-reunion-games` (P021) |
+| #9 | Week 4, part 2 | `/blog/cedar-falls-hocking-hills` (P052), `/blog/hocking-hills-rock-house` (P053) |
+| #10 | Week 5, part 1 | `/blog/weekend-getaways-in-ohio` (P099), `/blog/day-trips-from-cincinnati` (P092), `/blog/weekend-trip-packing-list` (P103) |
+| #11 | Week 5, part 2 | `/blog/cantwell-cliffs` (P054), `/blog/lake-logan-state-park` (P055) |
+
+- **Event dates (#6):** the park lists Holidays in Ash Cave (long called Christmas in Ash Cave) on Saturday, December 12, 2026, from 3:00 to 5:00 pm. The posts had said 5:00 to 7:00 pm from earlier years. The 61st Winter Hike is Saturday, January 16, 2027, starts 9:00 to 11:00 am. Both link to the park's event pages. They go stale after January.
+- **Sources:** park facts come from the Ohio Department of Natural Resources (park pages, its 2024 trail maps, its events calendar and 2 Ohio Geological Survey publications). Logan's shops, museums and welcome center come from the Hocking Hills Tourism Association, the county's tourism bureau. Venue facts come from the venue (Columbus Washboard Co., Lake Logan Marina, the National Park Service for Chillicothe). Drive times inside the region use OpenStreetMap routing, rounded to 5 minutes; longer drives use the tourism association's figures. Each pull request has a sources table.
+- **A fix (#10):** 7 lines said the Hocking Hills are under 3 hours from Cincinnati or Cleveland. The tourism association says about 2.5 and 3.5. Fixed.
+- **Parallel pull requests:** each one adds its rows to `docs/blog-seeds.csv` in a different spot and never edits the same lines of an older post as another, which is why they merge cleanly. A link to a page in a different open pull request is written unlinked. The list to switch on after they all merge is in the Claude project doc `claude/seo-ia-pending-changes.md`.
+- **Link wording:** Cedar Falls, Rock House and Cantwell Cliffs link with their place names, like Old Man's Cave and Ash Cave. The things-to-do post's trail headings now link to the new guides instead of the tourism association. Its Lake Logan heading now reads "Lake Logan State Park".
+- **Still unlinked, waiting for their pages:** Lake Hope State Park (P056), Tar Hollow State Park (P059) and John Glenn Astronomy Park (P057).
+- **Netlify, checked in the browser:** `main` is a branch deploy and has built after every merge. Netlify posts GitHub checks only on pull requests, which is why it looked like `main` never built. Notes-only commits show as "Failed" ("Canceled build due to no content change"), which is the skip working. Live is still pull request #1 (Nov 12) until Monday's publish. Cole isn't on Natalie's team yet, so the preview checks in README section 1 couldn't run. The team login covers the live address as well as the previews.
+- **Quadratic:** the connector needs Cole to sign in, so posts were written from the Nov 15 export. The IA edits for all 23 shipped pages are in `claude/seo-ia-pending-changes.md`.
+- **Next:** Wave 1, week 6 (P045, P036, P013, P056, P057), then weeks 7 and 8. 12 new posts left.
 
 ## Wave 1 posts, week 3, part 1 (Nov 15)
 

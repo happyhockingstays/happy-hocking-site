@@ -58,17 +58,18 @@ Plain-language steps for the clients are in `docs/pages-cms-guide.md`.
 
 # Punch list
 
-Updated Nov 15, 2026. Every page in the first pass is built, the 13 Wix blog posts are moved over, and the 4 collection pages, the privacy page and a share image for every page are in (Nov 15). This is what's left before launch, grouped by who does it. Cross items off here as they're done.
+Updated Nov 15, 2026 (seventh session). Every page in the first pass is built, the 13 Wix blog posts are moved over, and the 4 collection pages, the privacy page and a share image for every page are in (Nov 15). This is what's left before launch, grouped by who does it. Cross items off here as they're done.
 
 ## 1. Natalie, then Cole: GitHub and Netlify setup
 
 Nothing below can be tested until this is done.
 
-**Where things stand (Nov 15):** partly done. The repo is in Natalie's GitHub account (`happyhockingstays`) and is public, and Netlify is linked: it built deploy previews for pull requests #3, #4 and #5. What isn't working yet:
+**Where things stand (checked Nov 15, seventh session):** mostly done. The repo is in Natalie's GitHub account (`happyhockingstays`) and is public, and Netlify is linked with `live` as the production branch and `main` as a branch deploy (steps 1 to 4 are done).
 
-- **No build of `main`.** After #3, #4 and #5 merged, Netlify posted nothing on `main`. Most likely `main` isn't set as a branch deploy yet (step 4). Until it is, there's no `main--animated-kheer-a8b74a.netlify.app` preview, and changes saved in Pages CMS can't be seen before they go live.
-- **Cole can't sign in.** Previews sit behind Netlify's team login, and Cole's account isn't on Natalie's team yet (step 7). Natalie is re-sending the Reviewer invite.
-- **Publishing goes ahead anyway.** "Publish the site" runs Mondays and Thursdays at 9:00 am Eastern and copies `main` to `live`. The next run (Monday, Nov 16) carries everything merged on Nov 15 to the live address. Search engines stay blocked until happyhocking.com is the primary domain, so that's safe.
+- **`main` builds.** Netlify's deploy list shows completed branch deploys of `main` for the #3, #4 and #5 merges. Netlify only posts GitHub checks on pull requests, which is why it looked like nothing built. A notes-only commit shows as "Failed" in that list ("Canceled build due to no content change"): that's the skip working, not an error.
+- **Cole can't see the previews yet.** They sit behind Netlify's team login, and Cole's Netlify account shows no invite to Natalie's team (step 7). The deploy list is readable only because the repo is public.
+- **The team login covers the live address too.** On Nov 15, `animated-kheer-a8b74a.netlify.app` answered with the team login, like the previews. Fine before launch, but it must be limited to previews (or turned off) before happyhocking.com goes live (launch day, step 3).
+- **Publishing.** "Publish the site" last ran Nov 12, so the live branch is still pull request #1. It runs Mondays and Thursdays at 9:00 am Eastern and copies `main` to `live`. The next run (Monday, Nov 16) carries #3, #4 and #5. Search engines stay blocked until happyhocking.com is the primary domain, so that's safe.
 
 **Natalie's part** (Cole can walk her through it on a screen share):
 
@@ -83,7 +84,7 @@ Nothing below can be tested until this is done.
    - **Branches and deploy contexts** (left menu): **Configure**. Production branch: `live`. Branch deploys: **Let me add individual branches**, add `main`. **Save**
 5. In Netlify, click **Forms**, then **Enable form detection**. Then **Deploys**, **Trigger deploy**, **Deploy project**, so the first build picks up the forms.
 6. Form emails: in the left menu, **Forms**, then the **Submission notifications** tab, **Add notification**, **Email notification**. Form: **Any form**. Email: the business address. **Save**.
-7. Invite Cole as a **Reviewer** (free on every plan), so he can see the site while it's locked to the team: **Team settings**, **Members**, **Invite members**.
+7. Invite Cole as a **Reviewer** (free on every plan), so he can see the site while it's locked to the team: **Team settings**, **Members**, **Invite members**. **Still to do (Nov 15):** no invite had reached Cole's Netlify account. Use the email address his Netlify account is under.
 8. Delete the empty `happyhocking-website` repo (its **Settings**, **Danger Zone**).
 
 **Cole's part, once she's done:**
@@ -143,9 +144,9 @@ Still to ask:
 11. **Accounts.** GitHub and Netlify should end up in accounts they own. The repo is in Cole's GitHub for now. When do they want the handover?
 12. **Answered Nov 12 (Cole): direct is cheaper than Airbnb, no numbers yet. The book-direct post now says booking direct costs less. If they share actual rates, add a worked example.** Background: Since Sept 15, 2026, Airbnb charges US hosts a single fee (about 15.5%) and shows guests no separate service fee at checkout. Vrbo still adds a traveler fee. "Book direct and skip the booking-site service fees" is still true, but is the direct nightly rate actually lower than Airbnb's? The posts were written so they're true either way. If direct is cheaper, the book-direct post can say so with numbers.
 13. **Christmas at the cabins (new, Nov 15).** Are any cabins decorated for Christmas, and can guests bring a tree or their own decorations? The Christmas cabin rentals post says nothing either way. If the answer is yes, it's worth a line in the post and a question under it.
-14. **Day visitors at a reunion (new, Nov 15).** Can relatives who aren't staying overnight visit a cabin for the day? The family reunion venues post plays it safe: it says to hold that day's gathering at a park shelter house if more people are coming than the cabin sleeps.
+14. **Day visitors at a reunion (new, Nov 15).** Can relatives who aren't staying overnight visit a cabin for the day? The family reunion posts play it safe: they say visitors need host approval (the house rule) and to hold that day's gathering at a park shelter house if more people are coming than the cabin sleeps. The family reunion ideas and group trip posts (pull request #8) say the same.
 15. **Where they send guests first (new, Nov 15).** 2 lines are written in the hosts' voice: "It's the first place we point our guests to" (Old Man's Cave post) and "the trail we suggest for the first morning of a trip" (Ash Cave post). True, or would they say it differently?
-16. **A photo of Old Man's Cave and one of Ash Cave (new, Nov 15).** Both trail guides lead with a cabin photo, because the clients' photo set has no park photos. One of each, taken by them, would help both posts.
+16. **Photos of the trails (new, Nov 15).** The trail guides lead with cabin photos, because the clients' photo set has no park photos. A photo they took of Old Man's Cave, Ash Cave, Cedar Falls, Rock House, Cantwell Cliffs or Lake Logan would help each guide.
 
 ## 3. For Natalie to read and correct
 
@@ -172,6 +173,12 @@ These were drafted from her questionnaire, the mockup and the Airbnb listings. N
 13. **Share images:** the picture that shows when a link is texted or posted. Every page now has its own (Nov 15): the page's photo with the logo card, the cabin name or page headline and one short line.
 14. **The 4 collection pages (new, Nov 15):** cabins with pools, cabin rentals for large groups, cabins with game rooms and luxury cabins. Each has an opening, a cabin list with a line on why each cabin is there, 6 "what to know" points and 5 or 6 questions. Things to check: the luxury page shows 6 cabins (Valhalla Hills, Loch Llyn, Clouds Reach, Rickenbacker Ridge, Lazy Deer Retreat, Pickle Hill); the large group page says parties, weddings and events aren't allowed; the pool page says hot tubs seat 4 to 8 and stay open all year. Editable in Pages CMS under **Cabin collection pages**.
 15. **The 5 new posts (Nov 15):** Christmas cabin rentals, Christmas getaway ideas, family reunion venues, Old Man's Cave and Ash Cave. The 4 things only the hosts can answer about them are questions 13 to 16 in section 2.
+16. **The 12 newer posts (Nov 15, pull requests #7 to #11, once merged):** day trips from Columbus, things to do in Logan, how to plan a group trip, family reunion ideas, family reunion games, Cedar Falls, Rock House, weekend getaways in Ohio, day trips from Cincinnati, the weekend trip packing list, Cantwell Cliffs and Lake Logan State Park. Things to check:
+    - **Packing list:** it says every cabin has towels, because every cabin lists "Essentials" on Airbnb (towels, sheets, soap and toilet paper). It also says most cabins have board games, an iron and a pack 'n play. True?
+    - **Group and reunion posts:** the advice in the hosts' voice (plan 3 to 6 months out, split by bedroom, 1 meal per household, 1 shared thing a day)
+    - **Things to do in Logan:** the downtown restaurants and shops come from the tourism association's list. Anything they'd add or drop?
+    - **Cantwell Cliffs** uses the narrow passage's old name, the Fat Woman's Squeeze, recorded by state geologists in 1953. Keep it or cut it?
+    - **Drive times:** 7 lines in older posts said the Hocking Hills are under 3 hours from Cleveland. They now say about 3.5 hours, per the tourism association
 
 ## 4. Waiting on the clients to send
 
@@ -200,10 +207,12 @@ Done Nov 15 (pull request #3, merged): the 4 collection pages, the privacy page,
 3. **Pickle Hill fire pit photo**, if Natalie wants it.
 4. **Share images** are files, not part of the build. After adding a page or a post, or changing a cabin's main photo or a post's cover, run `python3 scripts/make-share-images.py` (in a chat with the repo attached). A page without one falls back to its own photo.
 5. **SEO package** (separate from the build). Keyword research and the IA are done (Lookout, client slug `hh-5cbs23`). The on-page pass for every page already in the repo is done (Nov 12), and the 4 collection pages are built (Nov 15). Left:
-   - The new Wave 1 posts, in the IA's publish order. 7 of 31 are written (Nov 15): Christmas cabin rentals, Christmas getaway ideas, family reunion venues, Old Man's Cave and Ash Cave (pull request #4, merged), then cabins in Columbus, Ohio and Logan, Ohio cabins (pull request #5, merged). Next: the other 2 from week 3, day trips from Columbus (P091) and things to do in Logan (P072), which both need local research, then week 4. Launch goes out with everything that's written (Cole, Nov 15)
+   - The new Wave 1 posts, in the IA's publish order. 19 of 31 are written. Merged: Christmas cabin rentals, Christmas getaway ideas, family reunion venues, Old Man's Cave and Ash Cave (#4), cabins in Columbus, Ohio and Logan, Ohio cabins (#5). Open (Nov 15): day trips from Columbus and things to do in Logan (#7), how to plan a group trip, family reunion ideas and family reunion games (#8), Cedar Falls and Rock House (#9), weekend getaways in Ohio, day trips from Cincinnati and the weekend trip packing list (#10), Cantwell Cliffs and Lake Logan State Park (#11). Next: week 6 (P045 cabins in Ohio, P036 cabin rentals with hot tub, P013 cabins with pools in Ohio, P056 Lake Hope State Park, P057 John Glenn Astronomy Park), then weeks 7 and 8. Launch goes out with everything that's written (Cole, Nov 15)
+   - Pull requests #6 to #11 merge cleanly in any order. After they all merge, one small follow-up switches on the links between them: the list is in the Claude project doc `claude/seo-ia-pending-changes.md` ("Links to switch on")
+   - **Event dates:** pull request #6 adds this season's dates (Holidays in Ash Cave, Saturday, December 12, 2026, 3:00 to 5:00 pm; the Winter Hike, Saturday, January 16, 2027). After January, swap in next season's dates once the park posts them on its events calendar
    - Each new post follows `docs/blog-writing.md`, and its pull request adds links from 2 or 3 older posts
    - When a new post is created in Pages CMS, set its file name to the IA's slug (the seed, no year), not the title
-   - Mark each shipped page Done on the IA's Cluster map. The list of 11 pages and every other IA edit owed from Nov 15 is in the Claude project doc `claude/seo-ia-pending-changes.md`
+   - Mark each shipped page Done on the IA's Cluster map. The list of 23 pages (11 merged, 12 in open pull requests) and every other IA edit owed from Nov 15 is in the Claude project doc `claude/seo-ia-pending-changes.md`
 
 The Cabins page filters can still be linked (`/cabins?group=large`), but copy should link the collection pages instead.
 
@@ -211,7 +220,7 @@ The Cabins page filters can still be linked (`/cabins?group=large`), but copy sh
 
 1. Confirm sections 1 to 4 are done and both clients have approved the site.
 2. Refresh the Airbnb rating and review count in **Site settings**. Round the count down.
-3. In Netlify, check that the team login only covers previews. On Nov 15 every deploy preview answered with Netlify's "Team protection" login page. That's fine for previews, but the live site has to be open to everyone: in the project's access settings, the protection should cover preview deploys only, or be turned off. Open the live address in a private browser window to be sure.
+3. In Netlify, check that the team login only covers previews. On Nov 15 every deploy preview, and the live address too, answered with Netlify's "Team protection" login page. That's fine for previews, but the live site has to be open to everyone: in the project's access settings, the protection should cover preview deploys only, or be turned off. Open the live address in a private browser window to be sure.
 4. In Netlify, **Domain management**: add `happyhocking.com` and make it the primary domain. Natalie (or Cole, who now has access) points DNS at Netlify from Hostinger, using the records Netlify shows.
 5. Natalie triggers one more deploy (**Deploys**, **Trigger deploy**). The site unblocks search engines by itself on the first live deploy after happyhocking.com becomes primary. The preview never does. Ask in a chat to confirm the "noindex" tag is gone. Then, in Mailchimp, finish connecting happyhocking.com (the site script is already on every page).
 6. Follow `docs/redirects.md` to add the old Wix domain, hockinghills-hosting.com and happyhockingstays.com, so every old address lands on its new page. The 2 old domains are in a GoDaddy account Natalie doesn't own yet (section 2), so sort out access well before this day.
