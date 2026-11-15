@@ -90,7 +90,9 @@ Put a person in the shot. Without someone standing on the sand, there's nothing 
 - **Fall:** the trees above the gorge turn, and it's the busiest time of year
 - **Winter:** the quietest season, with the ice cone when it's cold enough
 
-December has its own tradition. Christmas in Ash Cave is a free evening hosted by the park, usually on a Saturday in mid-December from 5:00 to 7:00 pm. You walk the lit trail to the cave, where there's a fire, hot chocolate and a visit from Santa. The park announces the date each year. It pairs well with one of our [Christmas cabin rentals](/blog/christmas-cabin-rentals).
+December has its own tradition. The park's free holiday afternoon in the cave, long known as Christmas in Ash Cave, is listed this year as Holidays in Ash Cave: Saturday, December 12, 2026, from 3:00 to 5:00 pm, with holiday crafts, music, cookies, hot cocoa and a visit from Santa. The [park's event page](https://ohiodnr.gov/home/news-and-events/all-events/parks-wc-events/SE-Ohio/holiday-ashcave-hocking-12-12-26) has the details. It pairs well with one of our [Christmas cabin rentals](/blog/christmas-cabin-rentals).
+
+January brings the park's [Winter Hike](https://ohiodnr.gov/home/news-and-events/all-events/parks-wc-events/SE-Ohio/winterhike-hocking-11627), which finishes here. This season it's Saturday, January 16, 2027: 6 miles from Old Man's Cave, with hot chocolate and donuts from the Lions Club at the cave and a shuttle back to your car.
 
 ## Where to stay near Ash Cave
 
