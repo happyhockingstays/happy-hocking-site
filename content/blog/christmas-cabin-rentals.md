@@ -18,7 +18,7 @@ faqs:
   - q: Can we cook Christmas dinner at the cabin?
     a: Yes. Every cabin has a full kitchen, and cooking Christmas dinner together is half the fun of a cabin for Christmas. Valhalla Hills has 2 full kitchens with 3 ovens and 2 dishwashers, and Loch Llyn has 2 full kitchens with 3 ovens and 3 refrigerators. Bring your groceries with you, since stores keep short hours on the holiday.
   - q: What is there to do in the Hocking Hills at Christmas?
-    a: Plenty, and most of it is quiet. Hike to the frozen waterfall at Ash Cave, walk the gorge at Old Man's Cave or go to Christmas in Ash Cave, a free evening the state park hosts in mid-December. Then come back to the hot tub, the fire pit and a board game at the kitchen table.
+    a: Plenty, and most of it is quiet. Hike to the frozen waterfall at Ash Cave, walk the gorge at Old Man's Cave or go to the state park's free holiday afternoon at Ash Cave on Saturday, December 12, 2026. Then come back to the hot tub, the fire pit and a board game at the kitchen table.
 ---
 
 Christmas cabin rentals trade the hosting, the driving between houses and the crowded living room for one place where everybody sleeps under the same roof. In the Hocking Hills, that means a hot tub in the cold air, a fire pit under the stars and woods outside every window, about an hour from Columbus.
@@ -85,10 +85,10 @@ Here's a simple 3-night plan. Change anything you like.
 
 You don't have to leave the cabin. But if you want to:
 
-- **Christmas in Ash Cave.** The state park hosts this free evening in mid-December, usually on a Saturday from 5:00 to 7:00 pm. You walk a lit path to the cave, where there's a fire, hot chocolate and a visit from Santa. The park announces the date each year.
+- **Holidays in Ash Cave.** The state park's free holiday afternoon in the cave, long known as Christmas in Ash Cave, is Saturday, December 12, 2026, from 3:00 to 5:00 pm. Expect holiday crafts, music, cookies, hot cocoa and a visit from Santa. The [park's event page](https://ohiodnr.gov/home/news-and-events/all-events/parks-wc-events/SE-Ohio/holiday-ashcave-hocking-12-12-26) has the details.
 - **Frozen waterfalls.** When it stays cold, the waterfall at [Ash Cave](/blog/ash-cave) freezes into an ice formation at the base of the cave.
 - **A quiet hike.** Winter is the quiet season on the trails. Wear boots with grip and be back before dark.
-- **The Winter Hike.** If you're staying into the new year, the park's 6-mile Winter Hike runs each January, usually on the third Saturday.
+- **The Winter Hike.** If you're staying into the new year, the park's 61st [Winter Hike](https://ohiodnr.gov/home/news-and-events/all-events/parks-wc-events/SE-Ohio/winterhike-hocking-11627) is Saturday, January 16, 2027. It's 6 miles from Old Man's Cave to Ash Cave, you can start any time from 9:00 to 11:00 am and a shuttle takes you back to your car.
 
 Our guide to [things to do in Hocking Hills for adults](/blog/things-to-do-in-hocking-hills-for-adults) has more for the days in between.
 

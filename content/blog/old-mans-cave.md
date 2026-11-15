@@ -80,7 +80,7 @@ The visitor center is the starting point for the park's longer routes, too.
 
 - **Grandma Gatewood Trail.** This 6-mile trail starts at Upper Falls and runs to Cedar Falls and then to [Ash Cave](/blog/ash-cave). It's named for Emma "Grandma" Gatewood, who in 1955 became the first woman to hike the entire Appalachian Trail. It's also part of Ohio's Buckeye Trail.
 - **Whispering Cave Trail.** A 4.5-mile route the park rates difficult. It crosses the swinging Hemlock Bridge and reaches the second largest cave in the region, with a 105-foot seasonal waterfall.
-- **The Winter Hike.** Every January, usually on the third Saturday, the park hosts a 6-mile hike from here to Ash Cave, with a shuttle back. Check the park's page for this winter's date.
+- **The Winter Hike.** The park's 61st [Winter Hike](https://ohiodnr.gov/home/news-and-events/all-events/parks-wc-events/SE-Ohio/winterhike-hocking-11627) is Saturday, January 16, 2027. Hikers set off from Upper Falls any time from 9:00 to 11:00 am and walk 6 miles to Ash Cave, with bean soup and cornbread at Cedar Falls on the way. A shuttle takes you back to your car.
 
 For more ideas beyond the trails, see our guide to [things to do in Hocking Hills for adults](/blog/things-to-do-in-hocking-hills-for-adults).
 

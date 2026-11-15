@@ -37,9 +37,9 @@ Hike in the cold, then sit in the heat. [Lazy Deer Retreat](/cabins/lazy-deer-re
 
 When it stays cold, the waterfall at [Ash Cave](/blog/ash-cave) freezes into an ice formation at the base of the largest recess cave in Ohio. The trail in is paved, level and a quarter mile long, so it works for every age.
 
-### 4. Walk a lantern-lit trail to Santa
+### 4. Visit Santa in Ash Cave
 
-Christmas in Ash Cave is a free evening the state park hosts in mid-December, usually on a Saturday from 5:00 to 7:00 pm. You walk a lit path to the cave, where there's a fire, hot chocolate and Santa. The park announces the date each year. Bundle up.
+Holidays in Ash Cave, long known as Christmas in Ash Cave, is a free afternoon the state park hosts in the cave. This season it's Saturday, December 12, 2026, from 3:00 to 5:00 pm, with holiday crafts, music, cookies, hot cocoa and Santa himself. The [park's event page](https://ohiodnr.gov/home/news-and-events/all-events/parks-wc-events/SE-Ohio/holiday-ashcave-hocking-12-12-26) has the details. Bundle up.
 
 ### 5. Put the whole family under one roof
 
@@ -86,7 +86,7 @@ Didn't plan ahead? These December getaway ideas still work.
 - **Stay close.** Anything within 3 hours of home means you don't lose a day to travel.
 - **Check the calendar yourself.** Each cabin's page shows its open dates, and you can book on the spot.
 
-Christmas getaway ideas work after December 25, too. The first weeks of January are just as cold and just as quiet, and the holiday rush is over. The state park's 6-mile Winter Hike runs each January, usually on the third Saturday.
+Christmas getaway ideas work after December 25, too. The first weeks of January are just as cold and just as quiet, and the holiday rush is over. The state park's 6-mile [Winter Hike](https://ohiodnr.gov/home/news-and-events/all-events/parks-wc-events/SE-Ohio/winterhike-hocking-11627) is Saturday, January 16, 2027, from Old Man's Cave to Ash Cave.
 
 ## Good to know before you book a winter trip
 
