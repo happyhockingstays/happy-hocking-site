@@ -57,7 +57,7 @@ Winter is the surprise. When it stays cold, the falling water freezes into a nat
 
 To make a loop, take the steps beside the cave up to the Rim Trail. It's another quarter mile along the top of the gorge and it's rated moderate. It brings you back to the parking area. The steps are steep, and this half isn't accessible.
 
-At the top of the steps, a left turn puts you on the trail toward Cedar Falls, about 2.3 miles away, and on to [Old Man's Cave](/blog/old-mans-cave). That's the Grandma Gatewood Trail, 6 miles from end to end.
+At the top of the steps, a left turn puts you on the trail toward [Cedar Falls](/blog/cedar-falls-hocking-hills), about 2.3 miles away, and on to [Old Man's Cave](/blog/old-mans-cave). That's the Grandma Gatewood Trail, 6 miles from end to end.
 
 ## The Ash Cave fire tower
 
