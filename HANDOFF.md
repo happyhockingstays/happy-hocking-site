@@ -20,6 +20,16 @@ The kickoff brief, brand guide, listing content, questionnaire and contract are 
 
 Not done yet outside the repo: Netlify site (waiting on the clients), branch protection, DNS. Pages CMS is installed on the repo. Cole opened it after the new screens were added (the 4 "Page:" screens and Blog posts) and saw no errors. Saving from those screens hasn't been tried.
 
+## Wave 1 posts, weeks 1 and 2 (Nov 15)
+
+5 new posts, in the pull request "Wave 1, weeks 1 and 2", stacked on the pre-launch pull request: `/blog/christmas-cabin-rentals` (P084), `/blog/christmas-getaway-ideas` (P106), `/blog/family-reunion-venues` (P019), `/blog/old-mans-cave` (P050) and `/blog/ash-cave` (P051). The other 5 posts in those 2 publish weeks were already on the site.
+
+- Written to `docs/blog-writing.md`. Park facts come from the Ohio Department of Natural Resources (trail lengths and ratings, park and visitor center hours, the shelter houses, the Ash Cave fire tower, Christmas in Ash Cave and the Winter Hike). Cabin facts come from the cabin files.
+- Event dates aren't stated, only the pattern ("usually the third Saturday of January"), because the park hadn't published this season's dates. The fire tower is noted as closed as of November 2026, per the state forest's page.
+- Covers are cabin photos: no park photos are in the repo, since the clients don't own any.
+- 7 older posts link to the new ones. Seeds of pages that aren't written yet ("family reunion ideas", "family reunion games", "weekend getaways in Ohio", "Cedar Falls") are in the copy unlinked.
+- New: `npm run posts` checks each post against its seed and supporting terms in `docs/blog-seeds.csv`. Only posts that are written are listed there. The full plan stays in the IA, because this repo is public.
+
 ## Sixth session (Nov 15): pre-launch pass
 
 Done without Netlify, in the pull request "Pre-launch pass". Nothing here has been seen on a Netlify preview yet.

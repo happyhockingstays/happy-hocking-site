@@ -18,7 +18,8 @@ How the Wave 1 posts (and any later ones) are researched, written, linked and sh
 - **First paragraph:** the seed in the first sentence, and the question answered in about 40 to 60 words.
 - **H2s:** the seed in one H2 near the top, and left out of at least a quarter of them. Each H2 says what follows.
 - **Supporting terms:** each appears as an exact phrase at least once. Questions under the post count. A term that can't be placed naturally is left out and noted in the pull request.
-- **Density:** 1.2% to 2% for the seed on this site (the playbook's 2% to 3% reads stuffed in Natalie's voice).
+- **Density:** 1.2% to 2% for the seed on this site (the playbook's 2% to 3% reads stuffed in Natalie's voice). A place name such as Ash Cave runs higher, up to about 3%, because there's no other way to say it.
+- **The copy check reads some commas as serial commas.** "a, b, and c" is the rule it's after, but a sentence like "x, rated easy, and y" trips it too. Split the sentence.
 - **Questions (`faqs`):** 4 to 6, each answered in 40 to 70 words, the first sentence repeating the key term. Plain text, no links. Don't repeat a question another post answers.
 - **Cover:** one of the clients' own cabin photos, with alt text. No stock photos, and no photos of parks we don't own.
 - **Voice:** a host who knows the area, talking to a friend. "You" and "we", contractions, plain words, paragraphs of 1 to 3 sentences. No em dashes, no exclamation-mark hype, no bold inside paragraphs and none of the banned words.
@@ -35,7 +36,8 @@ How the Wave 1 posts (and any later ones) are researched, written, linked and sh
 
 ## Shipping
 
-1. `npm run check`, `npm run typecheck`, `npm run build`, then `npm run links`.
-2. `python3 scripts/make-share-images.py` for the new post's share image.
-3. The pull request lists, for each post: the seed and its density, where each supporting term went, links added in both directions, a sources table (fact, source, link, date checked) and any judgment calls.
-4. When it merges, mark the page Done on the IA's Cluster map and republish Lookout.
+1. Add the post's row to `docs/blog-seeds.csv` (slug, Page ID, seed, supporting terms), then run `npm run posts -- <slug>`. It checks seed placement, density, each supporting term, the questions and the links. Errors have to be fixed. Notes get fixed or explained in the pull request.
+2. `npm run check`, `npm run typecheck`, `npm run build`, then `npm run links`.
+3. `python3 scripts/make-share-images.py` for the new post's share image.
+4. The pull request lists, for each post: the seed and its density, where each supporting term went, links added in both directions, a sources table (fact, source, link, date checked) and any judgment calls.
+5. When it merges, mark the page Done on the IA's Cluster map and republish Lookout.

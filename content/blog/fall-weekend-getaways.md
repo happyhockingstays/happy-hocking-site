@@ -47,8 +47,8 @@ Arrive, settle in and let the drive melt off you. Light the fire pit, get in the
 
 Start slow with coffee at [Hocking Hills Coffee Emporium](https://hockinghillscoffeeemporium.com/) or the [Oasis Coffee Shop](https://www.hockinghillsoasiscoffeeshop.com/), and grab a cinnamon roll from [The Dough Maker](https://www.stellasmercantile.com/dough-maker) at [Stella's Mercantile](https://www.stellasmercantile.com/). Then head for the trails while the light is beautiful. Almost every trail here turns spectacular in the fall, so choose by your group's comfort level:
 
-- **Ash Cave** is the gentle one: an easy, accessible walk to a massive recess cave framed by turning trees
-- **Old Man's Cave** is the classic Hocking Hills hike, with gorges, waterfalls and color overhead
+- **[Ash Cave](/blog/ash-cave)** is the gentle one: an easy, accessible walk to a massive recess cave framed by turning trees
+- **[Old Man's Cave](/blog/old-mans-cave)** is the classic Hocking Hills hike, with gorges, waterfalls and color overhead
 - **Conkle's Hollow** rewards a bit more effort on the rim trail, with long views over a valley full of color
 - **Cantwell Cliffs** and **Cedar Falls** are beautiful this time of year too
 

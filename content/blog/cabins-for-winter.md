@@ -57,7 +57,7 @@ Winter is when families come together, and there's nothing better than one home 
 
 For the whole family or a holiday reunion, [Loch Llyn](/cabins/loch-llyn) sleeps 29 and [The Farm at Nickel Plate](/cabins/the-farm-at-nickel-plate) sleeps 22, with big kitchens, game rooms and gathering spaces made for a crowd. If you're bringing everyone, our guide to [how to plan a family reunion](/blog/how-to-plan-a-family-reunion) walks you through it step by step. For a smaller group, Dunkle Creek and [Rickenbacker Ridge](/cabins/rickenbacker-ridge) are pure cozy. Compare them all on our [Hocking Hills cabin rentals](/cabins) page.
 
-Holiday and New Year weekends are among the first to book, and the large homes go earliest because groups plan far ahead. If a winter gathering is in your future, now is the time to claim it.
+Holiday and New Year weekends are among the first to book, and the large homes go earliest because groups plan far ahead. Our guide to [Christmas cabin rentals](/blog/christmas-cabin-rentals) covers the holiday itself, and we've collected more [Christmas getaway ideas](/blog/christmas-getaway-ideas) for the weeks around it. If a winter gathering is in your future, now is the time to claim it.
 
 ## Winter cabin getaways: when you venture out
 

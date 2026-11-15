@@ -41,7 +41,7 @@ The famous one: the gorge, the Upper Falls, the Devil's Bathtub. There's a reaso
 
 ### [Cedar Falls](https://www.explorehockinghills.com/parks-trails/parks/cedar-falls/)
 
-A short, shaded walk to one of the prettiest waterfalls in the park. It's easy and always worth the stop, especially if you're already on the Old Man's Cave trails. After a good rain, the falls really come to life.
+A short, shaded walk to one of the prettiest waterfalls in the park. It's easy and always worth the stop, especially if you're already on the [Old Man's Cave](/blog/old-mans-cave) trails. After a good rain, the falls really come to life.
 
 ### [Conkle's Hollow](https://www.explorehockinghills.com/parks-trails/parks/conkles-hollow-nature-preserve/)
 
@@ -65,7 +65,7 @@ Don't miss one of the most underrated things to do in the Hocking Hills: stargaz
 
 ### Quieter waterfalls
 
-Ash Cave and Cedar Falls are among the most visited, while Whispering Cave and Broken Rock Falls are quieter spots worth finding.
+[Ash Cave](/blog/ash-cave) and Cedar Falls are among the most visited, while Whispering Cave and Broken Rock Falls are quieter spots worth finding.
 
 ### Ziplining and paddling
 

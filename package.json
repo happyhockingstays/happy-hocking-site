@@ -8,7 +8,8 @@
     "typecheck": "tsc --noEmit",
     "check": "node scripts/check.mjs",
     "serve": "node scripts/serve.mjs",
-    "links": "node scripts/links.mjs"
+    "links": "node scripts/links.mjs",
+    "posts": "node scripts/post-check.mjs"
   },
   "dependencies": {
     "@fontsource-variable/montserrat": "^5.3.0",
