@@ -46,7 +46,7 @@ For a longer list, our guide to [things to do in Hocking Hills for adults](/blog
 
 Skip the hotel. A cabin gives you space to spread out, private amenities and the freedom to set your own schedule. Here's what guests love most about summer stays:
 
-- **Your own pool.** Every one of our cabins has a private pool, open May 15 to October 15. At [Clouds Reach](/cabins/clouds-reach) it's heated and open April 15 to November 30, and at [Rickenbacker Ridge](/cabins/rickenbacker-ridge) it's heated to about 80°F
+- **Your own pool.** These are all [cabins with private pools](/hocking-hills-cabins-with-pool), open May 15 to October 15. At [Clouds Reach](/cabins/clouds-reach) it's heated and open April 15 to November 30, and at [Rickenbacker Ridge](/cabins/rickenbacker-ridge) it's heated to about 80°F
 - **Outdoor spaces.** Decks, fire pits and outdoor seating for long summer evenings. Grill dinner while the sun sets over the hills, then gather around the fire as the stars come out
 - **Room to play.** [Pickle Hill](/cabins/pickle-hill) has a regulation pickleball court in its own barn, and [The Farm at Nickel Plate](/cabins/the-farm-at-nickel-plate) has a sports barn for basketball, pickleball and soccer. See our [pickleball getaways](/blog/pickleball-getaways) guide for more
 - **Comfortable interiors.** After a full day exploring, come home to air conditioning, a full kitchen and a comfy bed. No camping gear required

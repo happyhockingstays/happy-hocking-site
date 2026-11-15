@@ -16,6 +16,7 @@ npm run build      # static site in dist/client
 npm run serve      # serve the build the way Netlify does, at http://localhost:4173
 npm run typecheck
 npm run check      # brand copy rules across content and pages
+npm run links      # after a build: broken links, link wording that points at 2 pages, orphans
 ```
 
 Node 22+.
@@ -37,6 +38,9 @@ Plain-language steps for the clients are in `docs/pages-cms-guide.md`.
 | Site settings and shared policies | `content/settings/*.yml` |
 | Homepage, Co-hosting, About and FAQs copy | `content/pages/*.yml` |
 | Blog posts (markdown, the file name is the URL) | `content/blog/*.md` |
+| Cabin collection pages (pools, large groups, game rooms, luxury) | `content/collections/*.yml`, one template in `src/pages/CollectionPage.tsx` |
+| Privacy page | `content/pages/privacy.yml` |
+| Share images, one per page (made by `scripts/make-share-images.py`) | `public/images/share/` |
 | Published reviews | `content/reviews/*.yml` |
 | Pages CMS setup | `.pages.yml` |
 | Cabin page template | `src/pages/CabinPage.tsx` |
@@ -53,13 +57,13 @@ Plain-language steps for the clients are in `docs/pages-cms-guide.md`.
 
 # Punch list
 
-Updated Nov 11, 2026. Every page in the first pass is built, and the 13 Wix blog posts are moved over. This is what's left before launch, grouped by who does it. Cross items off here as they're done.
+Updated Nov 15, 2026. Every page in the first pass is built, the 13 Wix blog posts are moved over, and the 4 collection pages, the privacy page and a share image for every page are in (Nov 15). This is what's left before launch, grouped by who does it. Cross items off here as they're done.
 
 ## 1. Natalie, then Cole: GitHub and Netlify setup
 
 Nothing below can be tested until this is done.
 
-**Where things stand (Nov 11):** Cole started the transfer of this repo to Natalie's GitHub account (`happyhockingstays`), waiting on her to accept. Natalie owns the Netlify account (Free plan, 1 member), and her site `animated-kheer-a8b74a.netlify.app` points at the empty `happyhocking-website` repo. Cole emailed her the steps on Nov 11.
+**Where things stand (Nov 15):** the repo is in Natalie's GitHub account (`happyhockingstays`) and is public, and Cole is a Reviewer on her Netlify team. GitHub shows no Netlify build for any commit on `main` yet, so steps 4 to 6 below (link the repo, set `live` and `main`, turn on forms) still look undone. A Reviewer can't change those settings, so it's Natalie or a screen share.
 
 **Natalie's part** (Cole can walk her through it on a screen share):
 
@@ -121,7 +125,7 @@ Still to ask:
 7. **Airbnb soundbites:** use short Airbnb review quotes or not? Nothing from Airbnb is on the site. If yes, they add each one under Reviews with Source set to Airbnb.
 8. **Old co-hosting site.** Confirm hockinghills-hosting.com is being retired. The redirect to `/co-hosting` is built and does nothing until the domain points at Netlify.
 9. **Valhalla Hills tagline.** "A place to celebrate" is on the site as the proposed line. Final?
-10. **Privacy policy.** The forms collect names and emails, so the site should have a short privacy page. It isn't in the first pass. OK to add one?
+10. **Privacy policy.** Built on Nov 15 at `/privacy` and linked in the footer (Cole's OK). It's a plain-language draft, not legal advice: it names Hospitable, Netlify, Mailchimp and Google, and says information isn't sold. Natalie and Dave should read it, and have their attorney look if they want one to. Editable in Pages CMS under **Page: Privacy**.
 11. **Accounts.** GitHub and Netlify should end up in accounts they own. The repo is in Cole's GitHub for now. When do they want the handover?
 12. **Answered Nov 12 (Cole): direct is cheaper than Airbnb, no numbers yet. The book-direct post now says booking direct costs less. If they share actual rates, add a worked example.** Background: Since Sept 15, 2026, Airbnb charges US hosts a single fee (about 15.5%) and shows guests no separate service fee at checkout. Vrbo still adds a traveler fee. "Book direct and skip the booking-site service fees" is still true, but is the direct nightly rate actually lower than Airbnb's? The posts were written so they're true either way. If direct is cheaper, the book-direct post can say so with numbers.
 
@@ -147,7 +151,8 @@ These were drafted from her questionnaire, the mockup and the Airbnb listings. N
     - The Wix posts used stock photos of people. Each post now uses the clients' own cabin photos
     - The 2 "2026 winter guide" posts were HTML boxes with no readable text, so they now point to the winter weekend post. If she has the text, they can come back
 12. **Drive times** on each cabin page: Old Man's Cave, Ash Cave, Cedar Falls, Lake Logan and downtown Logan. Worked out from the addresses and rounded to 5 minutes, keeping her listing's number where it gave one. Dunkle Creek's address didn't look up exactly, so its times are close but worth a glance.
-13. **Share image:** the picture that shows when a link is texted or posted. It's The Farm's pool with the logo card.
+13. **Share images:** the picture that shows when a link is texted or posted. Every page now has its own (Nov 15): the page's photo with the logo card, the cabin name or page headline and one short line.
+14. **The 4 collection pages (new, Nov 15):** cabins with pools, cabin rentals for large groups, cabins with game rooms and luxury cabins. Each has an opening, a cabin list with a line on why each cabin is there, 6 "what to know" points and 5 or 6 questions. Things to check: the luxury page shows 6 cabins (Valhalla Hills, Loch Llyn, Clouds Reach, Rickenbacker Ridge, Lazy Deer Retreat, Pickle Hill); the large group page says parties, weddings and events aren't allowed; the pool page says hot tubs seat 4 to 8 and stay open all year. Editable in Pages CMS under **Cabin collection pages**.
 
 ## 4. Waiting on the clients to send
 
@@ -166,19 +171,23 @@ These were drafted from her questionnaire, the mockup and the Airbnb listings. N
 
 Done Nov 11: the 13 Wix posts (11 moved, 2 empty winter guides merged into the winter weekend post; all 34 old addresses now redirect permanently), drive times for every cabin, the share image, the sample post deleted, and the redirect for hockinghills-hosting.com.
 
-1. **Area map** on each cabin page. It's a labeled placeholder now.
-2. **Hospitable widgets (pasted in Nov 15):** all 9 booking widgets, the search bar (homepage and Cabins page) and the search results page at `/search` (noindex, out of the sitemap). On the preview, check how they sit in their cards on a phone and on a computer, and run one search from dates to booking. Never change the widget code itself.
+Done Nov 15 (pull request "Pre-launch pass"): the 4 collection pages, the privacy page, share images for every page, the 404 page and the "direct costs less" edit from pull request #2, and these fixes: filtered views of the Cabins page are out of the sitemap, photos inside posts go through the image service and reserve their space, share tags carry the image size, and the homepage has WebSite schema. The map placeholder on cabin pages is gone (Cole, Nov 15): the section keeps the town note and drive times.
+
+1. **Hospitable widgets (pasted in Nov 15):** all 9 booking widgets, the search bar (homepage, Cabins page and the 4 collection pages) and the search results page at `/search` (noindex, out of the sitemap). On the preview, check how they sit in their cards on a phone and on a computer, and run one search from dates to booking. Never change the widget code itself.
    - Hospitable's optional "Step 3" script (pass search dates to the booking widget) is left out on purpose. Its booking loader already copies checkin, checkout and guest counts from the page address into the booking widget, and the pasted script would add them a second time.
    - **Natalie, in Hospitable:** set each property's direct URL to its cabin page on happyhocking.com (for example `https://happyhocking.com/cabins/valhalla-hills`). Search results send guests there. Before launch they can point at the preview address instead.
-3. **Mailchimp:** paste the form address from the embed code into Site settings, then test a signup on the preview.
-4. **Privacy page**, if the clients say yes.
-5. **Pickle Hill fire pit photo**, if Natalie wants it.
-6. **SEO package** (separate from the build). Keyword research and the IA are done (Lookout, client slug `hh-5cbs23`). The on-page pass for every page already in the repo is done (Nov 12, see `HANDOFF.md`). Left:
-   - The 4 collection pages (pools, large groups, games and sports, luxury) at the URLs in the IA
-   - The Wave 1 posts, 5 a week, in the IA's publish order
+2. **Mailchimp.** 2 separate things:
+   - **Footer signup:** still needs the embedded form's address. In Mailchimp, create an **Embedded form** (not a pop-up), copy the code and paste it in a chat. One web address from it goes in **Site settings**. Until then, signups are saved in Netlify Forms and emailed.
+   - **Pop-up form:** Cole duplicated the clients' pop-up for happyhocking.com (Nov 15). A pop-up has no embed code: it shows through the "connected site" script that's already on every page, once happyhocking.com is live and Mailchimp verifies it. It still needs the new brand (logo, colors, wording) and its page rules changed from the old Wix addresses to this site's (`/contact`, `/review`, `/search`, `/co-hosting`, `/privacy`).
+3. **Pickle Hill fire pit photo**, if Natalie wants it.
+4. **Share images** are files, not part of the build. After adding a page or a post, or changing a cabin's main photo or a post's cover, run `python3 scripts/make-share-images.py` (in a chat with the repo attached). A page without one falls back to its own photo.
+5. **SEO package** (separate from the build). Keyword research and the IA are done (Lookout, client slug `hh-5cbs23`). The on-page pass for every page already in the repo is done (Nov 12), and the 4 collection pages are built (Nov 15). Left:
+   - The 31 new Wave 1 posts, in the IA's publish order. Launch goes out with everything that's written (Cole, Nov 15)
+   - Each new post follows `docs/blog-writing.md`, and its pull request adds links from 2 or 3 older posts
    - When a new post is created in Pages CMS, set its file name to the IA's slug (the seed, no year), not the title
+   - Mark each shipped page Done on the IA's Cluster map and republish Lookout (waiting on Quadratic, which was down on Nov 15)
 
-Not planned, flagged in case it comes up: separate pages for large groups, small groups and games. The Cabins page filters cover this and can be linked (`/cabins?group=large`).
+The Cabins page filters can still be linked (`/cabins?group=large`), but copy should link the collection pages instead.
 
 ## 6. Launch day
 
@@ -199,6 +208,9 @@ Not planned, flagged in case it comes up: separate pages for large groups, small
 - Phoenix Landing, a cabin on the old site, redirects to `/cabins`.
 - Reviews launch as comments only. Stars are a switch in Site settings.
 - No mushroom or sun icons.
+- No area map on cabin pages. The town note and drive times stay (Cole, Nov 15).
+- Share images: photo plus the logo card on every page. Posts show their title (Cole, Nov 15).
+- Launch goes out with every post that's written, not 5 a week (Cole, Nov 15).
 - The 57 smaller photos stay in use. There are no larger originals (Natalie, Nov 11).
 - Summer photos are the default. Fall photos at Dunkle Creek and The Johnny stay out for now.
 - Bedroom numbers match Airbnb.

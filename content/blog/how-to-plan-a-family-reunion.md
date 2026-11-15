@@ -41,7 +41,7 @@ Add up the big costs first: lodging, food and any outings. Then decide how to sp
 
 ### 4. Find the right place to stay
 
-Start with a home that fits your group. Look for multiple bedrooms, a big kitchen, bunk rooms, game rooms and outdoor extras like a hot tub and a fire pit. The right cabin keeps everyone close while still giving people private space.
+Start with a home that fits your group. Our [cabin rentals for large groups](/hocking-hills-large-group-cabins) sleep 10 to 29. Look for multiple bedrooms, a big kitchen, bunk rooms, game rooms and outdoor extras like a hot tub and a fire pit. The right cabin keeps everyone close while still giving people private space.
 
 For the biggest groups, [Loch Llyn](/cabins/loch-llyn) and [Valhalla Hills](/cabins/valhalla-hills) each sleep 29 and have 2 full kitchens apiece. [The Farm at Nickel Plate](/cabins/the-farm-at-nickel-plate) sleeps 22. Our guide to [large group cabin rentals in Ohio](/blog/large-group-cabin-rentals-ohio) walks through what to look for. Not sure which fits? [Ask us](/contact). Matching groups to cabins is our favorite part of the job.
 
