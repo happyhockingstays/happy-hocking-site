@@ -87,7 +87,7 @@ Every one has a private pool and a hot tub. Most pools are open May 15 to Octobe
 
 A reunion needs 1 shared thing a day and a lot of free time. Here, the shared thing can be a short hike. The paved trail to [Ash Cave](/blog/ash-cave) is a quarter mile and level, so great-grandma and the toddlers can both make it. [Old Man's Cave](/blog/old-mans-cave) is a 1-mile loop for the relatives with more energy.
 
-Back at the cabin, the pool, the fire pit and the kitchen table do the rest. If you're looking for family reunion ideas or family reunion games, start simple: a cornhole bracket, a recipe swap and a group photo before anyone leaves.
+Back at the cabin, the pool, the fire pit and the kitchen table do the rest. If you're looking for [family reunion ideas](/blog/family-reunion-ideas) or [family reunion games](/blog/family-reunion-games), start simple: a cornhole bracket, a recipe swap and a group photo before anyone leaves.
 
 ## Choosing between family reunion venues
 

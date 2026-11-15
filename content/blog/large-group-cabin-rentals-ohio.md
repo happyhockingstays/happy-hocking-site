@@ -37,7 +37,7 @@ Most people start by counting bedrooms. That matters, but with a big group it's 
 
 ## The questions we ask every group
 
-When you reach out, we only need to know a few things to point you to the right place.
+When you're working out [how to plan a group trip](/blog/how-to-plan-a-group-trip), we only need to know a few things to point you to the right place.
 
 1. **How many people are coming?** This narrows things quickly. Our cabins sleep 6 to 29.
 2. **What does your group love to do?** This is the one that matters most. Hiking and adventure, or rest and recovery? A pool and a sports barn, or a sauna and a quiet deck? Tell us what a great day looks like for your people.

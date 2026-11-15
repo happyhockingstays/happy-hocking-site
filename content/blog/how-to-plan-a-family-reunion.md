@@ -57,13 +57,13 @@ The program is your rough schedule. Keep it light: a welcome on the first night,
 
 ### 6. Share meals and traditions
 
-Make a meal plan and split up the cooking so everyone pitches in. Give each household 1 meal to cover, and keep breakfasts simple. Eat together around the fire pit or the big dining table. Think about starting a tradition, like a family talent show or a game night.
+Make a meal plan and split up the cooking so everyone pitches in. Give each household 1 meal to cover, and keep breakfasts simple. Eat together around the fire pit or the big dining table. Think about starting a tradition from our list of [family reunion ideas](/blog/family-reunion-ideas), like a family talent show or a game night.
 
 ![Foosball and air hockey tables in the basement game room at The Farm](/images/cabins/the-farm-at-nickel-plate/basement-game-room/the-farm-at-nickel-plate-basement-game-room-004.jpg)
 
 ### 7. Plan activities for every age
 
-Make a list of things to do that work for everyone. Short hikes like Ash Cave are stroller-friendly, while older kids might love ziplining or canoeing. Plan outings around mealtimes to keep everyone energized. Back at the cabin, a pool, a game room or a court keeps cousins busy for hours. Our list of [things to do in Hocking Hills for adults](/blog/things-to-do-in-hocking-hills-for-adults) has ideas for the grown-ups too.
+Make a list of things to do that work for everyone. Short hikes like Ash Cave are stroller-friendly, while older kids might love ziplining or canoeing. Plan outings around mealtimes to keep everyone energized. Back at the cabin, a pool, a game room or a court keeps cousins busy for hours, and our [family reunion games](/blog/family-reunion-games) fill the rest. Our list of [things to do in Hocking Hills for adults](/blog/things-to-do-in-hocking-hills-for-adults) has ideas for the grown-ups too.
 
 ### 8. Send updates and a what-to-bring list
 

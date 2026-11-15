@@ -64,7 +64,7 @@ If your group already loves to play, you probably don't need a clinic. You need 
 
 ## How to plan pickleball trips for a group
 
-A few tips for planning the trip:
+A few tips for planning the trip, beyond the basics of [how to plan a group trip](/blog/how-to-plan-a-group-trip):
 
 1. **Count your players and your non-players.** It decides the cabin. A group of 8 to 10 fits Pickle Hill or Lazy Deer. A bigger crew fits The Farm, or 2 cabins
 2. **Plan around the weather.** Pickle Hill's barn is covered but not heated or cooled, so in summer play early and late, and save the afternoon for the pool
