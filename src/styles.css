@@ -357,6 +357,6 @@
 .post-body figure img { width: 100%; height: auto; border: var(--outline); border-radius: var(--radius-card); box-shadow: 5px 5px 0 var(--color-sage); }
 .post-body figcaption { margin-top: 0.75em; font-size: 0.875rem; font-weight: 500; }
 .post-body hr { border: 0; border-top: var(--outline); margin-block: 2em; }
-.post-body table { width: 100%; border-collapse: collapse; font-size: 1rem; }
+.post-body table { display: block; width: 100%; overflow-x: auto; border-collapse: collapse; font-size: 1rem; }
 .post-body th, .post-body td { border: var(--outline); padding: 0.5em 0.75em; text-align: left; }
 .post-body th { background: var(--color-sage-tint); font-weight: 800; }

@@ -74,7 +74,7 @@ Once you have your home base, the days fill themselves. Do the hikes first, and 
 
 Start your mornings slow with coffee. We love [Hocking Hills Coffee Emporium](https://hockinghillscoffeeemporium.com/) and the [Oasis Coffee Shop](https://www.hockinghillsoasiscoffeeshop.com/), and [Stella's Mercantile](https://www.stellasmercantile.com/) carries cinnamon rolls from [The Dough Maker](https://www.stellasmercantile.com/dough-maker) that you have to try. For a good meal, [Millstone BBQ](https://www.themillstonebbq.com/) and [Pizza Crossing](https://pizzacrossing.com/) are favorites. For an afternoon out, try wine at [Le Petit Chevalier](https://www.lepetitchev.com/) or [Hocking Hills Winery](https://www.hockinghillswinery.com/). Our list of [things to do in Hocking Hills for adults](/blog/things-to-do-in-hocking-hills-for-adults) has plenty more.
 
-Planning a reunion? Our step-by-step guide on [how to plan a family reunion](/blog/how-to-plan-a-family-reunion) covers the budget, the program and a checklist.
+Planning a reunion? Our step-by-step guide on [how to plan a family reunion](/blog/how-to-plan-a-family-reunion) covers the budget, the program and a checklist, and our guide to [family reunion venues](/blog/family-reunion-venues) compares cabins with shelters, halls and hotels.
 
 ## Why book direct with us
 

@@ -46,7 +46,7 @@ Leave Columbus after lunch or right after work. Check-in is 4:00 pm. Pick up gro
 
 ### Saturday
 
-Start slow with coffee at [Hocking Hills Coffee Emporium](https://hockinghillscoffeeemporium.com/), then hit the trails while it's quiet. Old Man's Cave and Cedar Falls are connected by a trail, and Ash Cave is an easy walk for every age. In the afternoon, try a winery, a zipline tour or the pool back at the cabin. Bring dinner in from [Millstone BBQ](https://www.themillstonebbq.com/) and end the night at the fire pit.
+Start slow with coffee at [Hocking Hills Coffee Emporium](https://hockinghillscoffeeemporium.com/), then hit the trails while it's quiet. [Old Man's Cave](/blog/old-mans-cave) and Cedar Falls are connected by a trail, and [Ash Cave](/blog/ash-cave) is an easy walk for every age. In the afternoon, try a winery, a zipline tour or the pool back at the cabin. Bring dinner in from [Millstone BBQ](https://www.themillstonebbq.com/) and end the night at the fire pit.
 
 ### Sunday
 
@@ -72,7 +72,7 @@ Have an extra day? Make it a road trip:
 - [Lazy Deer Retreat](/cabins/lazy-deer-retreat) is the closest of our cabins to the trails, about 5 minutes from Old Man's Cave. It sleeps 8
 - [Loch Llyn](/cabins/loch-llyn), [The Farm at Nickel Plate](/cabins/the-farm-at-nickel-plate) and [Clouds Reach](/cabins/clouds-reach) are all in the Logan area, 10 to 15 minutes from downtown
 
-Bringing a big crew? Our guide to [large group cabin rentals in Ohio](/blog/large-group-cabin-rentals-ohio) helps you choose.
+Bringing a big crew? Our guide to [large group cabin rentals in Ohio](/blog/large-group-cabin-rentals-ohio) helps you choose. Coming in December? Start with our [Christmas getaway ideas](/blog/christmas-getaway-ideas).
 
 ## Disconnect to reconnect
 

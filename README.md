@@ -17,6 +17,7 @@ npm run serve      # serve the build the way Netlify does, at http://localhost:4
 npm run typecheck
 npm run check      # brand copy rules across content and pages
 npm run links      # after a build: broken links, link wording that points at 2 pages, orphans
+npm run posts      # blog posts against the keyword plan (docs/blog-seeds.csv)
 ```
 
 Node 22+.
@@ -153,6 +154,10 @@ These were drafted from her questionnaire, the mockup and the Airbnb listings. N
 12. **Drive times** on each cabin page: Old Man's Cave, Ash Cave, Cedar Falls, Lake Logan and downtown Logan. Worked out from the addresses and rounded to 5 minutes, keeping her listing's number where it gave one. Dunkle Creek's address didn't look up exactly, so its times are close but worth a glance.
 13. **Share images:** the picture that shows when a link is texted or posted. Every page now has its own (Nov 15): the page's photo with the logo card, the cabin name or page headline and one short line.
 14. **The 4 collection pages (new, Nov 15):** cabins with pools, cabin rentals for large groups, cabins with game rooms and luxury cabins. Each has an opening, a cabin list with a line on why each cabin is there, 6 "what to know" points and 5 or 6 questions. Things to check: the luxury page shows 6 cabins (Valhalla Hills, Loch Llyn, Clouds Reach, Rickenbacker Ridge, Lazy Deer Retreat, Pickle Hill); the large group page says parties, weddings and events aren't allowed; the pool page says hot tubs seat 4 to 8 and stay open all year. Editable in Pages CMS under **Cabin collection pages**.
+15. **The 5 new posts (Nov 15).** Things only the hosts know, which the posts either leave out or state carefully:
+    - Are the cabins decorated for Christmas, and can guests bring a tree? The Christmas post says nothing either way.
+    - Can relatives who aren't staying overnight visit a cabin during a reunion? The family reunion venues post says to hold that day's gathering at a park shelter house if more people are coming than the cabin sleeps.
+    - "It's the first place we point our guests to" (Old Man's Cave) and "the trail we suggest for the first morning" (Ash Cave) are written in the hosts' voice. Change them if they aren't true.
 
 ## 4. Waiting on the clients to send
 
@@ -182,7 +187,7 @@ Done Nov 15 (pull request "Pre-launch pass"): the 4 collection pages, the privac
 3. **Pickle Hill fire pit photo**, if Natalie wants it.
 4. **Share images** are files, not part of the build. After adding a page or a post, or changing a cabin's main photo or a post's cover, run `python3 scripts/make-share-images.py` (in a chat with the repo attached). A page without one falls back to its own photo.
 5. **SEO package** (separate from the build). Keyword research and the IA are done (Lookout, client slug `hh-5cbs23`). The on-page pass for every page already in the repo is done (Nov 12), and the 4 collection pages are built (Nov 15). Left:
-   - The 31 new Wave 1 posts, in the IA's publish order. Launch goes out with everything that's written (Cole, Nov 15)
+   - The new Wave 1 posts, in the IA's publish order. 5 of 31 are written (Nov 15, pull request "Wave 1, weeks 1 and 2"): Christmas cabin rentals, Christmas getaway ideas, family reunion venues, Old Man's Cave and Ash Cave. Next is week 3: day trips from Columbus, cabins near Columbus, cabins in Logan and things to do in Logan. Launch goes out with everything that's written (Cole, Nov 15)
    - Each new post follows `docs/blog-writing.md`, and its pull request adds links from 2 or 3 older posts
    - When a new post is created in Pages CMS, set its file name to the IA's slug (the seed, no year), not the title
    - Mark each shipped page Done on the IA's Cluster map and republish Lookout (waiting on Quadratic, which was down on Nov 15)
