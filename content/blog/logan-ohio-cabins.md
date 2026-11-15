@@ -84,7 +84,7 @@ Coming from the city? Our guide to [cabins in Columbus, Ohio](/blog/cabins-in-co
 - **House rules:** no pets, no smoking and no parties or events.
 - **Booking direct:** you may have seen these same cabins on Airbnb or Vrbo. Book here and you skip the booking-site service fees.
 
-Looking for things to do in Logan, Ohio between hikes? Our list of [things to do in Hocking Hills for adults](/blog/things-to-do-in-hocking-hills-for-adults) covers the trails and plenty more.
+Looking for [things to do in Logan, Ohio](/blog/things-to-do-in-logan-ohio) between hikes? Our list of [things to do in Hocking Hills for adults](/blog/things-to-do-in-hocking-hills-for-adults) covers the trails and plenty more.
 
 ## Pick from our Logan, Ohio cabins
 

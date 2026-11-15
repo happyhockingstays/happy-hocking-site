@@ -30,7 +30,7 @@ Weekend getaways from Columbus, Ohio don't get much easier than this. The Hockin
 
 ## Weekend trips from Columbus, Ohio: the drive
 
-Most guests take US-33 southeast out of Columbus. It runs through Lancaster, then on to Logan, the gateway to the Hocking Hills trails. From Logan, the main trailheads are a short, winding drive away.
+Most guests take US-33 southeast out of Columbus, the same road most [day trips from Columbus, Ohio](/blog/day-trips-from-columbus-ohio) to the hills follow. It runs through Lancaster, then on to Logan, the gateway to the Hocking Hills trails. From Logan, the main trailheads are a short, winding drive away.
 
 A few easy stops along the way:
 

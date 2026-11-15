@@ -38,7 +38,7 @@ Coming in late spring? The pools open May 15, the waterfalls are still running f
 - **Ziplining:** [Hocking Hills Canopy Tours](https://www.hockinghillscanopytours.com/) sends you soaring through the trees. Great for families with older kids and adventurous adults
 - **Canoeing and kayaking:** the [Hocking River](https://hockingriver.com) is ideal for paddling. Rent gear locally or bring your own
 - **Lake Logan:** rent a boat, kayak or paddleboard at [Lake Logan Marina](https://www.lakeloganmarina.com). It's a "dry" lake, with no alcohol on the water, so it stays calm and family-friendly
-- **Downtown Logan:** browse local shops, grab ice cream and enjoy small-town Ohio. The summer Saturday farmers market is a guest favorite
+- **Downtown Logan:** browse local shops, grab ice cream and pick from our list of [things to do in Logan, Ohio](/blog/things-to-do-in-logan-ohio). The summer Saturday farmers market is a guest favorite
 
 For a longer list, our guide to [things to do in Hocking Hills for adults](/blog/things-to-do-in-hocking-hills-for-adults) goes trail by trail.
 
