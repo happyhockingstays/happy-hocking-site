@@ -74,12 +74,22 @@ export function InsiderSignup({ id = 'insider' }: { id?: string }) {
       </button>
     </div>
   )
-  if (mailchimp)
+  if (mailchimp) {
+    // Mailchimp's own trap for bots: a hidden field named for the account and audience in the form
+    // address. A real visitor never sees it, and Mailchimp drops any signup that fills it in.
+    const q = new URLSearchParams(mailchimp.split('?')[1] || '')
+    const trap = q.get('u') && q.get('id') ? `b_${q.get('u')}_${q.get('id')}` : ''
     return (
       <form action={mailchimp} method="post" target="_blank" rel="noopener">
+        {trap ? (
+          <div aria-hidden="true" className="absolute -left-[5000px]">
+            <input type="text" name={trap} tabIndex={-1} defaultValue="" autoComplete="off" />
+          </div>
+        ) : null}
         {fields}
       </form>
     )
+  }
   return (
     <form name="insider-list" method="POST" onSubmit={onSubmit}>
       <input type="hidden" name="form-name" value="insider-list" />
