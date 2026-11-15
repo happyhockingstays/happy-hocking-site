@@ -66,10 +66,12 @@ Have an extra day? Make it a road trip:
 
 ## Where to stay: our cabins by drive time
 
+Short on time? Our guide to [cabins in Columbus, Ohio](/blog/cabins-in-columbus-ohio) starts with the ones closest to the city.
+
 - [Valhalla Hills](/cabins/valhalla-hills) is the closest to Columbus, about 45 minutes away on a hilltop outside Lancaster. It sleeps 29
 - [Rickenbacker Ridge](/cabins/rickenbacker-ridge) sits in Sugar Grove, about 15 minutes from both Lancaster and Logan, on 20 wooded acres. It sleeps 13
 - [Pickle Hill](/cabins/pickle-hill) is 5 minutes from downtown Logan, with a regulation pickleball court in its own barn. It sleeps 10
-- [Lazy Deer Retreat](/cabins/lazy-deer-retreat) is the closest of our cabins to the trails, about 5 minutes from Old Man's Cave. It sleeps 8
+- [Lazy Deer Retreat](/cabins/lazy-deer-retreat), one of our [Logan, Ohio cabins](/blog/logan-ohio-cabins), is the closest of our cabins to the trails, about 5 minutes from Old Man's Cave. It sleeps 8
 - [Loch Llyn](/cabins/loch-llyn), [The Farm at Nickel Plate](/cabins/the-farm-at-nickel-plate) and [Clouds Reach](/cabins/clouds-reach) are all in the Logan area, 10 to 15 minutes from downtown
 
 Bringing a big crew? Our guide to [large group cabin rentals in Ohio](/blog/large-group-cabin-rentals-ohio) helps you choose. Coming in December? Start with our [Christmas getaway ideas](/blog/christmas-getaway-ideas).

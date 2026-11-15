@@ -75,7 +75,7 @@ Don't miss one of the most underrated things to do in the Hocking Hills: stargaz
 
 This one catches people off guard. After a day on the trails, you don't expect to find a lake. Guests are always surprised when we tell them they can hike and boat in the same day, a few minutes from where they're staying. Lake Logan is a "dry" lake, which means no alcohol on the water. That keeps it calm, quiet and family-friendly. You can rent boats, kayaks and paddleboards at [Lake Logan Marina](https://www.lakeloganmarina.com).
 
-If water on your own property matters to you, [Loch Llyn](/cabins/loch-llyn) has a private 2-acre lake and [The Johnny](/cabins/the-johnny) has a private 2-acre pond. Wake up, pour your coffee and walk to the water without getting in the car.
+Staying close to the lake? See our [Logan, Ohio cabins](/blog/logan-ohio-cabins). If water on your own property matters to you, [Loch Llyn](/cabins/loch-llyn) has a private 2-acre lake and [The Johnny](/cabins/the-johnny) has a private 2-acre pond. Wake up, pour your coffee and walk to the water without getting in the car.
 
 ## Fun things to do near Hocking Hills, Ohio
 

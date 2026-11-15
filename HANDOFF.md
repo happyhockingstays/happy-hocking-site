@@ -20,6 +20,17 @@ The kickoff brief, brand guide, listing content, questionnaire and contract are 
 
 Not done yet outside the repo: Netlify site (waiting on the clients), branch protection, DNS. Pages CMS is installed on the repo. Cole opened it after the new screens were added (the 4 "Page:" screens and Blog posts) and saw no errors. Saving from those screens hasn't been tried.
 
+## Wave 1 posts, week 3, part 1 (Nov 15)
+
+2 more posts, stacked on pull request #4: `/blog/cabins-in-columbus-ohio` (P041) and `/blog/logan-ohio-cabins` (P040). Both are cabin guides built from the cabin files, with Lake Logan facts from the Ohio Department of Natural Resources.
+
+- The Columbus post says plainly that the cabins aren't in Columbus: they're about an hour southeast, with Valhalla Hills the closest at about 45 minutes.
+- The Logan post says plainly that no cabin is on Lake Logan (the closest are about 15 minutes away) and points to Loch Llyn's private lake.
+- Neither states how many cabins there are. The Logan post says "a few more of our cabins" for the ones in other towns.
+- Still to write from week 3: day trips from Columbus (P091) and things to do in Logan (P072).
+- The footer signup now posts to Mailchimp (form address in Site settings).
+- Netlify is linked. Deploy previews sit behind Netlify's team login, so they need a browser signed in as a team member.
+
 ## Wave 1 posts, weeks 1 and 2 (Nov 15)
 
 5 new posts, in the pull request "Wave 1, weeks 1 and 2", stacked on the pre-launch pull request: `/blog/christmas-cabin-rentals` (P084), `/blog/christmas-getaway-ideas` (P106), `/blog/family-reunion-venues` (P019), `/blog/old-mans-cave` (P050) and `/blog/ash-cave` (P051). The other 5 posts in those 2 publish weeks were already on the site.
