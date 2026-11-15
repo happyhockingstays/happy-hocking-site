@@ -198,12 +198,13 @@ The Cabins page filters can still be linked (`/cabins?group=large`), but copy sh
 
 1. Confirm sections 1 to 4 are done and both clients have approved the site.
 2. Refresh the Airbnb rating and review count in **Site settings**. Round the count down.
-3. In Netlify, **Domain management**: add `happyhocking.com` and make it the primary domain. Natalie (or Cole, who now has access) points DNS at Netlify from Hostinger, using the records Netlify shows.
-4. Natalie triggers one more deploy (**Deploys**, **Trigger deploy**). The site unblocks search engines by itself on the first live deploy after happyhocking.com becomes primary. The preview never does. Ask in a chat to confirm the "noindex" tag is gone. Then, in Mailchimp, finish connecting happyhocking.com (the site script is already on every page).
-5. Follow `docs/redirects.md` to add the old Wix domain, hockinghills-hosting.com and happyhockingstays.com, so every old address lands on its new page. The 2 old domains are in a GoDaddy account Natalie doesn't own yet (section 2), so sort out access well before this day.
-6. In Google Search Console, add happyhocking.com, submit `https://happyhocking.com/sitemap.xml`, and use **Change of address** on the old site's property.
-7. Natalie or Dave turn on the review request message in Hospitable (`docs/reviews.md`).
-8. Send one last test through each form on the real domain.
+3. In Netlify, check that the team login only covers previews. On Nov 15 every deploy preview answered with Netlify's "Team protection" login page. That's fine for previews, but the live site has to be open to everyone: in **Project configuration**, **Access & security**, the protection should be set to non-production deploys only, or turned off. Open the live address in a private browser window to be sure.
+4. In Netlify, **Domain management**: add `happyhocking.com` and make it the primary domain. Natalie (or Cole, who now has access) points DNS at Netlify from Hostinger, using the records Netlify shows.
+5. Natalie triggers one more deploy (**Deploys**, **Trigger deploy**). The site unblocks search engines by itself on the first live deploy after happyhocking.com becomes primary. The preview never does. Ask in a chat to confirm the "noindex" tag is gone. Then, in Mailchimp, finish connecting happyhocking.com (the site script is already on every page).
+6. Follow `docs/redirects.md` to add the old Wix domain, hockinghills-hosting.com and happyhockingstays.com, so every old address lands on its new page. The 2 old domains are in a GoDaddy account Natalie doesn't own yet (section 2), so sort out access well before this day.
+7. In Google Search Console, add happyhocking.com, submit `https://happyhocking.com/sitemap.xml`, and use **Change of address** on the old site's property.
+8. Natalie or Dave turn on the review request message in Hospitable (`docs/reviews.md`).
+9. Send one last test through each form on the real domain.
 
 ## Decided, so nobody re-asks
 
