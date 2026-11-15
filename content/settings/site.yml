@@ -17,6 +17,6 @@ searchWidget: |-
 searchResultsWidget: |-
   <script src="https://hospitable.b-cdn.net/direct-property-search-widget/hospitable-search-widget.prod.js"></script>
   <hospitable-direct-mps identifier="0bd584a1-23f9-40bf-9831-0a652d714b6b" type="custom"></hospitable-direct-mps>
-mailchimpAction: ''
+mailchimpAction: "https://hockinghills-hosting.us13.list-manage.com/subscribe/post?u=06684ddd1a002aa9ad61ab6bb&id=4d52e4859b&f_id=00de50e1f0"
 mailchimpSiteScript: https://chimpstatic.com/mcjs-connected/js/users/06684ddd1a002aa9ad61ab6bb/5f3c5caabce9d18f5435f7b51.js
 gtmId: ''

@@ -19,7 +19,7 @@ faqs:
     a: Yes. Hocking Hills State Park is open all year, from a half hour before sunrise to a half hour after sunset. Ash Cave and Old Man's Cave are both open in December, and they're at their quietest. Wear boots with grip, bring traction cleats if it's icy and start early, because the days are short.
 ---
 
-Looking for Christmas getaway ideas that don't need a flight, a week off or a spreadsheet? Start with a cabin a short drive from home, add a hot tub and a fire pit, and build 2 or 3 days around doing very little. The Hocking Hills are about an hour from Columbus, and they're made for this kind of trip.
+Looking for Christmas getaway ideas that don't need a flight, a week off or a spreadsheet? Start with a cabin a short drive from home (from the city, that means our [cabins in Columbus, Ohio](/blog/cabins-in-columbus-ohio) guide), add a hot tub and a fire pit, and build 2 or 3 days around doing very little. The Hocking Hills are about an hour from Columbus, and they're made for this kind of trip.
 
 Here are 10 weekend getaway ideas for the holidays, with a cabin to match each one. Mix a few together and you have a trip.
 

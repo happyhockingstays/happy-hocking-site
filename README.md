@@ -64,7 +64,7 @@ Updated Nov 15, 2026. Every page in the first pass is built, the 13 Wix blog pos
 
 Nothing below can be tested until this is done.
 
-**Where things stand (Nov 15):** the repo is in Natalie's GitHub account (`happyhockingstays`) and is public, and Cole is a Reviewer on her Netlify team. GitHub shows no Netlify build for any commit on `main` yet, so steps 4 to 6 below (link the repo, set `live` and `main`, turn on forms) still look undone. A Reviewer can't change those settings, so it's Natalie or a screen share.
+**Where things stand (Nov 15):** done. The repo is in Natalie's GitHub account (`happyhockingstays`) and is public, Cole is a Reviewer on her Netlify team, and Netlify is linked: it built a deploy preview for pull requests #3 and #4 on Nov 15 (`deploy-preview-3--animated-kheer-a8b74a.netlify.app`). Still to confirm in Netlify: the production branch is `live`, `main` is a branch deploy, and form emails are on (steps 4 to 6). The first commit to `main` after the link will show whether the `main` preview builds.
 
 **Natalie's part** (Cole can walk her through it on a screen share):
 
@@ -129,6 +129,10 @@ Still to ask:
 10. **Privacy policy.** Built on Nov 15 at `/privacy` and linked in the footer (Cole's OK). It's a plain-language draft, not legal advice: it names Hospitable, Netlify, Mailchimp and Google, and says information isn't sold. Natalie and Dave should read it, and have their attorney look if they want one to. Editable in Pages CMS under **Page: Privacy**.
 11. **Accounts.** GitHub and Netlify should end up in accounts they own. The repo is in Cole's GitHub for now. When do they want the handover?
 12. **Answered Nov 12 (Cole): direct is cheaper than Airbnb, no numbers yet. The book-direct post now says booking direct costs less. If they share actual rates, add a worked example.** Background: Since Sept 15, 2026, Airbnb charges US hosts a single fee (about 15.5%) and shows guests no separate service fee at checkout. Vrbo still adds a traveler fee. "Book direct and skip the booking-site service fees" is still true, but is the direct nightly rate actually lower than Airbnb's? The posts were written so they're true either way. If direct is cheaper, the book-direct post can say so with numbers.
+13. **Christmas at the cabins (new, Nov 15).** Are any cabins decorated for Christmas, and can guests bring a tree or their own decorations? The Christmas cabin rentals post says nothing either way. If the answer is yes, it's worth a line in the post and a question under it.
+14. **Day visitors at a reunion (new, Nov 15).** Can relatives who aren't staying overnight visit a cabin for the day? The family reunion venues post plays it safe: it says to hold that day's gathering at a park shelter house if more people are coming than the cabin sleeps.
+15. **Where they send guests first (new, Nov 15).** 2 lines are written in the hosts' voice: "It's the first place we point our guests to" (Old Man's Cave post) and "the trail we suggest for the first morning of a trip" (Ash Cave post). True, or would they say it differently?
+16. **A photo of Old Man's Cave and one of Ash Cave (new, Nov 15).** Both trail guides lead with a cabin photo, because the clients' photo set has no park photos. One of each, taken by them, would help both posts.
 
 ## 3. For Natalie to read and correct
 
@@ -154,16 +158,12 @@ These were drafted from her questionnaire, the mockup and the Airbnb listings. N
 12. **Drive times** on each cabin page: Old Man's Cave, Ash Cave, Cedar Falls, Lake Logan and downtown Logan. Worked out from the addresses and rounded to 5 minutes, keeping her listing's number where it gave one. Dunkle Creek's address didn't look up exactly, so its times are close but worth a glance.
 13. **Share images:** the picture that shows when a link is texted or posted. Every page now has its own (Nov 15): the page's photo with the logo card, the cabin name or page headline and one short line.
 14. **The 4 collection pages (new, Nov 15):** cabins with pools, cabin rentals for large groups, cabins with game rooms and luxury cabins. Each has an opening, a cabin list with a line on why each cabin is there, 6 "what to know" points and 5 or 6 questions. Things to check: the luxury page shows 6 cabins (Valhalla Hills, Loch Llyn, Clouds Reach, Rickenbacker Ridge, Lazy Deer Retreat, Pickle Hill); the large group page says parties, weddings and events aren't allowed; the pool page says hot tubs seat 4 to 8 and stay open all year. Editable in Pages CMS under **Cabin collection pages**.
-15. **The 5 new posts (Nov 15).** Things only the hosts know, which the posts either leave out or state carefully:
-    - Are the cabins decorated for Christmas, and can guests bring a tree? The Christmas post says nothing either way.
-    - Can relatives who aren't staying overnight visit a cabin during a reunion? The family reunion venues post says to hold that day's gathering at a park shelter house if more people are coming than the cabin sleeps.
-    - "It's the first place we point our guests to" (Old Man's Cave) and "the trail we suggest for the first morning" (Ash Cave) are written in the hosts' voice. Change them if they aren't true.
+15. **The 5 new posts (Nov 15):** Christmas cabin rentals, Christmas getaway ideas, family reunion venues, Old Man's Cave and Ash Cave. The 4 things only the hosts can answer about them are questions 13 to 16 in section 2.
 
 ## 4. Waiting on the clients to send
 
 | What | Where it goes when it arrives |
 |---|---|
-| Mailchimp signup form address | The site connection script is in (Site settings, Nov 11). The footer signup still needs the form address: Cole logs in to Mailchimp, **Audience**, **Signup forms**, **Embedded form**, copies the code and pastes it in a chat. One web address from it goes in **Site settings**. Until then, signups are saved in Netlify Forms and emailed |
 | Google Tag Manager ID (Natalie is creating the new Google accounts) | **Site settings**, **Google Tag Manager ID** |
 | Natalie's About story | **Page: About**, **Our story** |
 | Short bios for Natalie and Dave, and larger versions of the 2 team photos (the ones sent are under 600 px) | **Page: About**, **Team**, and **Page: Homepage**, story band. Both headshots and the team photo are in (Nov 11) |
@@ -182,12 +182,12 @@ Done Nov 15 (pull request "Pre-launch pass"): the 4 collection pages, the privac
    - Hospitable's optional "Step 3" script (pass search dates to the booking widget) is left out on purpose. Its booking loader already copies checkin, checkout and guest counts from the page address into the booking widget, and the pasted script would add them a second time.
    - **Natalie, in Hospitable:** set each property's direct URL to its cabin page on happyhocking.com (for example `https://happyhocking.com/cabins/valhalla-hills`). Search results send guests there. Before launch they can point at the preview address instead.
 2. **Mailchimp.** 2 separate things:
-   - **Footer signup:** still needs the embedded form's address. In Mailchimp, create an **Embedded form** (not a pop-up), copy the code and paste it in a chat. One web address from it goes in **Site settings**. Until then, signups are saved in Netlify Forms and emailed.
-   - **Pop-up form:** Cole duplicated the clients' pop-up for happyhocking.com (Nov 15). A pop-up has no embed code: it shows through the "connected site" script that's already on every page, once happyhocking.com is live and Mailchimp verifies it. It still needs the new brand (logo, colors, wording) and its page rules changed from the old Wix addresses to this site's (`/contact`, `/review`, `/search`, `/co-hosting`, `/privacy`).
+   - **Footer signup:** wired up (Nov 15). The form address is in **Site settings**, **Mailchimp form address**. The signup keeps the site's own design and posts to Mailchimp, which opens its confirmation page in a new tab. Test it once on a preview with a real address.
+   - **Pop-up form:** Cole duplicated the clients' pop-up for happyhocking.com, restyled it and set its page rules (Nov 15). A pop-up has no embed code: it shows through the "connected site" script that's already on every page, once happyhocking.com is live and Mailchimp verifies it. It won't show on a preview address.
 3. **Pickle Hill fire pit photo**, if Natalie wants it.
 4. **Share images** are files, not part of the build. After adding a page or a post, or changing a cabin's main photo or a post's cover, run `python3 scripts/make-share-images.py` (in a chat with the repo attached). A page without one falls back to its own photo.
 5. **SEO package** (separate from the build). Keyword research and the IA are done (Lookout, client slug `hh-5cbs23`). The on-page pass for every page already in the repo is done (Nov 12), and the 4 collection pages are built (Nov 15). Left:
-   - The new Wave 1 posts, in the IA's publish order. 5 of 31 are written (Nov 15, pull request "Wave 1, weeks 1 and 2"): Christmas cabin rentals, Christmas getaway ideas, family reunion venues, Old Man's Cave and Ash Cave. Next is week 3: day trips from Columbus, cabins near Columbus, cabins in Logan and things to do in Logan. Launch goes out with everything that's written (Cole, Nov 15)
+   - The new Wave 1 posts, in the IA's publish order. 7 of 31 are written (Nov 15): Christmas cabin rentals, Christmas getaway ideas, family reunion venues, Old Man's Cave and Ash Cave (pull request #4), then cabins in Columbus, Ohio and Logan, Ohio cabins (pull request "Wave 1, week 3, part 1"). Next: the other 2 from week 3, day trips from Columbus (P091) and things to do in Logan (P072), which both need local research, then week 4. Launch goes out with everything that's written (Cole, Nov 15)
    - Each new post follows `docs/blog-writing.md`, and its pull request adds links from 2 or 3 older posts
    - When a new post is created in Pages CMS, set its file name to the IA's slug (the seed, no year), not the title
    - Mark each shipped page Done on the IA's Cluster map and republish Lookout (waiting on Quadratic, which was down on Nov 15)
@@ -198,12 +198,13 @@ The Cabins page filters can still be linked (`/cabins?group=large`), but copy sh
 
 1. Confirm sections 1 to 4 are done and both clients have approved the site.
 2. Refresh the Airbnb rating and review count in **Site settings**. Round the count down.
-3. In Netlify, **Domain management**: add `happyhocking.com` and make it the primary domain. Natalie (or Cole, who now has access) points DNS at Netlify from Hostinger, using the records Netlify shows.
-4. Natalie triggers one more deploy (**Deploys**, **Trigger deploy**). The site unblocks search engines by itself on the first live deploy after happyhocking.com becomes primary. The preview never does. Ask in a chat to confirm the "noindex" tag is gone. Then, in Mailchimp, finish connecting happyhocking.com (the site script is already on every page).
-5. Follow `docs/redirects.md` to add the old Wix domain, hockinghills-hosting.com and happyhockingstays.com, so every old address lands on its new page. The 2 old domains are in a GoDaddy account Natalie doesn't own yet (section 2), so sort out access well before this day.
-6. In Google Search Console, add happyhocking.com, submit `https://happyhocking.com/sitemap.xml`, and use **Change of address** on the old site's property.
-7. Natalie or Dave turn on the review request message in Hospitable (`docs/reviews.md`).
-8. Send one last test through each form on the real domain.
+3. In Netlify, check that the team login only covers previews. On Nov 15 every deploy preview answered with Netlify's "Team protection" login page. That's fine for previews, but the live site has to be open to everyone: in the project's access settings, the protection should cover preview deploys only, or be turned off. Open the live address in a private browser window to be sure.
+4. In Netlify, **Domain management**: add `happyhocking.com` and make it the primary domain. Natalie (or Cole, who now has access) points DNS at Netlify from Hostinger, using the records Netlify shows.
+5. Natalie triggers one more deploy (**Deploys**, **Trigger deploy**). The site unblocks search engines by itself on the first live deploy after happyhocking.com becomes primary. The preview never does. Ask in a chat to confirm the "noindex" tag is gone. Then, in Mailchimp, finish connecting happyhocking.com (the site script is already on every page).
+6. Follow `docs/redirects.md` to add the old Wix domain, hockinghills-hosting.com and happyhockingstays.com, so every old address lands on its new page. The 2 old domains are in a GoDaddy account Natalie doesn't own yet (section 2), so sort out access well before this day.
+7. In Google Search Console, add happyhocking.com, submit `https://happyhocking.com/sitemap.xml`, and use **Change of address** on the old site's property.
+8. Natalie or Dave turn on the review request message in Hospitable (`docs/reviews.md`).
+9. Send one last test through each form on the real domain.
 
 ## Decided, so nobody re-asks
 
