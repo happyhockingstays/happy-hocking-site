@@ -1,6 +1,6 @@
 # Handoff
 
-Updated Nov 15, 2026 (sixth session: the pre-launch pass). Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
+Updated Nov 15, 2026 (sixth session: the pre-launch pass and 7 Wave 1 posts). Pull requests #3, #4 and #5 are merged. Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
 
 The kickoff brief, brand guide, listing content, questionnaire and contract are in the "Happy Hocking" Claude project. The brief is `claude/website-build-handoff.md`.
 
@@ -22,18 +22,18 @@ Not done yet outside the repo: Netlify site (waiting on the clients), branch pro
 
 ## Wave 1 posts, week 3, part 1 (Nov 15)
 
-2 more posts, stacked on pull request #4: `/blog/cabins-in-columbus-ohio` (P041) and `/blog/logan-ohio-cabins` (P040). Both are cabin guides built from the cabin files, with Lake Logan facts from the Ohio Department of Natural Resources.
+2 more posts, in pull request #5 (merged Nov 15): `/blog/cabins-in-columbus-ohio` (P041) and `/blog/logan-ohio-cabins` (P040). Both are cabin guides built from the cabin files, with Lake Logan facts from the Ohio Department of Natural Resources.
 
 - The Columbus post says plainly that the cabins aren't in Columbus: they're about an hour southeast, with Valhalla Hills the closest at about 45 minutes.
 - The Logan post says plainly that no cabin is on Lake Logan (the closest are about 15 minutes away) and points to Loch Llyn's private lake.
 - Neither states how many cabins there are. The Logan post says "a few more of our cabins" for the ones in other towns.
 - Still to write from week 3: day trips from Columbus (P091) and things to do in Logan (P072).
 - The footer signup now posts to Mailchimp (form address in Site settings).
-- Netlify is linked. Deploy previews sit behind Netlify's team login, so they need a browser signed in as a team member.
+- Netlify is linked and builds pull request previews, which sit behind Netlify's team login. It didn't build `main` after the merges. See README section 1.
 
 ## Wave 1 posts, weeks 1 and 2 (Nov 15)
 
-5 new posts, in the pull request "Wave 1, weeks 1 and 2", stacked on the pre-launch pull request: `/blog/christmas-cabin-rentals` (P084), `/blog/christmas-getaway-ideas` (P106), `/blog/family-reunion-venues` (P019), `/blog/old-mans-cave` (P050) and `/blog/ash-cave` (P051). The other 5 posts in those 2 publish weeks were already on the site.
+5 new posts, in pull request #4 (merged Nov 15): `/blog/christmas-cabin-rentals` (P084), `/blog/christmas-getaway-ideas` (P106), `/blog/family-reunion-venues` (P019), `/blog/old-mans-cave` (P050) and `/blog/ash-cave` (P051). The other 5 posts in those 2 publish weeks were already on the site.
 
 - Written to `docs/blog-writing.md`. Park facts come from the Ohio Department of Natural Resources (trail lengths and ratings, park and visitor center hours, the shelter houses, the Ash Cave fire tower, Christmas in Ash Cave and the Winter Hike). Cabin facts come from the cabin files.
 - Event dates aren't stated, only the pattern ("usually the third Saturday of January"), because the park hadn't published this season's dates. The fire tower is noted as closed as of November 2026, per the state forest's page.
@@ -43,7 +43,7 @@ Not done yet outside the repo: Netlify site (waiting on the clients), branch pro
 
 ## Sixth session (Nov 15): pre-launch pass
 
-Done without Netlify, in the pull request "Pre-launch pass". Nothing here has been seen on a Netlify preview yet.
+Done without Netlify, in pull request #3 (merged Nov 15). Nothing here has been seen on a Netlify preview yet: see README section 1.
 
 - **Pull request #2 folded in:** the 404 page and the "direct costs less" edit. It had fallen behind `main` and conflicted in `scripts/postbuild.mjs`.
 - **4 collection pages** at the IA's URLs: `/hocking-hills-cabins-with-pool` (seed "hocking hills cabins with pool"), `/hocking-hills-large-group-cabins` ("cabin rentals for large groups"), `/hocking-hills-cabins-with-game-room` ("cabins with game rooms") and `/hocking-hills-luxury-cabins` ("luxury cabins hocking hills"). One template (`src/pages/CollectionPage.tsx`), words in `content/collections/*.yml`, editable in Pages CMS. Sleeps, bedrooms, towns and pool dates come from the cabin files, so they can't drift. Each page has CollectionPage, BreadcrumbList and FAQPage schema. Linked from the footer ("Find a cabin"), the Cabins page and each other, never the top menu.

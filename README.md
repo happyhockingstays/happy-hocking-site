@@ -64,7 +64,11 @@ Updated Nov 15, 2026. Every page in the first pass is built, the 13 Wix blog pos
 
 Nothing below can be tested until this is done.
 
-**Where things stand (Nov 15):** done. The repo is in Natalie's GitHub account (`happyhockingstays`) and is public, Cole is a Reviewer on her Netlify team, and Netlify is linked: it built a deploy preview for pull requests #3 and #4 on Nov 15 (`deploy-preview-3--animated-kheer-a8b74a.netlify.app`). Still to confirm in Netlify: the production branch is `live`, `main` is a branch deploy, and form emails are on (steps 4 to 6). The first commit to `main` after the link will show whether the `main` preview builds.
+**Where things stand (Nov 15):** partly done. The repo is in Natalie's GitHub account (`happyhockingstays`) and is public, and Netlify is linked: it built deploy previews for pull requests #3, #4 and #5. What isn't working yet:
+
+- **No build of `main`.** After #3, #4 and #5 merged, Netlify posted nothing on `main`. Most likely `main` isn't set as a branch deploy yet (step 4). Until it is, there's no `main--animated-kheer-a8b74a.netlify.app` preview, and changes saved in Pages CMS can't be seen before they go live.
+- **Cole can't sign in.** Previews sit behind Netlify's team login, and Cole's account isn't on Natalie's team yet (step 7). Natalie is re-sending the Reviewer invite.
+- **Publishing goes ahead anyway.** "Publish the site" runs Mondays and Thursdays at 9:00 am Eastern and copies `main` to `live`. The next run (Monday, Nov 16) carries everything merged on Nov 15 to the live address. Search engines stay blocked until happyhocking.com is the primary domain, so that's safe.
 
 **Natalie's part** (Cole can walk her through it on a screen share):
 
@@ -94,6 +98,15 @@ Nothing below can be tested until this is done.
 11. Change one word in Pages CMS, save, and confirm the preview updates in about 2 minutes.
 12. Then run **Publish the site** once (GitHub, the repo, **Actions**, **Publish the site**, **Run workflow**) and check the live address picks up the change.
 13. Don't add happyhocking.com yet. That's launch day (section 6).
+
+Also check, from the Nov 15 pull requests (#3, #4, #5):
+
+- The 4 collection pages: photos load, the search card shows the Hospitable widget, and the table scrolls sideways on a phone
+- A cabin page: the "area nearby" section shows drive times with no map
+- A blog post: photos inside the post load (their addresses start with `/.netlify/images`)
+- Share images: paste a cabin link and a post link into a text message or https://www.opengraph.xyz
+- The footer signup: join with your own email and confirm it lands in Mailchimp
+- Any made-up address shows the 404 page
 
 If anything in steps 9 to 12 fails, start a chat with the repo attached and say which step. These parts were built and tested locally but have never run on Netlify: form emails, the photo resizing service and Pages CMS saving.
 
@@ -176,7 +189,7 @@ These were drafted from her questionnaire, the mockup and the Airbnb listings. N
 
 Done Nov 11: the 13 Wix posts (11 moved, 2 empty winter guides merged into the winter weekend post; all 34 old addresses now redirect permanently), drive times for every cabin, the share image, the sample post deleted, and the redirect for hockinghills-hosting.com.
 
-Done Nov 15 (pull request "Pre-launch pass"): the 4 collection pages, the privacy page, share images for every page, the 404 page and the "direct costs less" edit from pull request #2, and these fixes: filtered views of the Cabins page are out of the sitemap, photos inside posts go through the image service and reserve their space, share tags carry the image size, and the homepage has WebSite schema. The map placeholder on cabin pages is gone (Cole, Nov 15): the section keeps the town note and drive times.
+Done Nov 15 (pull request #3, merged): the 4 collection pages, the privacy page, share images for every page, the 404 page and the "direct costs less" edit from pull request #2, and these fixes: filtered views of the Cabins page are out of the sitemap, photos inside posts go through the image service and reserve their space, share tags carry the image size, and the homepage has WebSite schema. The map placeholder on cabin pages is gone (Cole, Nov 15): the section keeps the town note and drive times.
 
 1. **Hospitable widgets (pasted in Nov 15):** all 9 booking widgets, the search bar (homepage, Cabins page and the 4 collection pages) and the search results page at `/search` (noindex, out of the sitemap). On the preview, check how they sit in their cards on a phone and on a computer, and run one search from dates to booking. Never change the widget code itself.
    - Hospitable's optional "Step 3" script (pass search dates to the booking widget) is left out on purpose. Its booking loader already copies checkin, checkout and guest counts from the page address into the booking widget, and the pasted script would add them a second time.
@@ -187,10 +200,10 @@ Done Nov 15 (pull request "Pre-launch pass"): the 4 collection pages, the privac
 3. **Pickle Hill fire pit photo**, if Natalie wants it.
 4. **Share images** are files, not part of the build. After adding a page or a post, or changing a cabin's main photo or a post's cover, run `python3 scripts/make-share-images.py` (in a chat with the repo attached). A page without one falls back to its own photo.
 5. **SEO package** (separate from the build). Keyword research and the IA are done (Lookout, client slug `hh-5cbs23`). The on-page pass for every page already in the repo is done (Nov 12), and the 4 collection pages are built (Nov 15). Left:
-   - The new Wave 1 posts, in the IA's publish order. 7 of 31 are written (Nov 15): Christmas cabin rentals, Christmas getaway ideas, family reunion venues, Old Man's Cave and Ash Cave (pull request #4), then cabins in Columbus, Ohio and Logan, Ohio cabins (pull request "Wave 1, week 3, part 1"). Next: the other 2 from week 3, day trips from Columbus (P091) and things to do in Logan (P072), which both need local research, then week 4. Launch goes out with everything that's written (Cole, Nov 15)
+   - The new Wave 1 posts, in the IA's publish order. 7 of 31 are written (Nov 15): Christmas cabin rentals, Christmas getaway ideas, family reunion venues, Old Man's Cave and Ash Cave (pull request #4, merged), then cabins in Columbus, Ohio and Logan, Ohio cabins (pull request #5, merged). Next: the other 2 from week 3, day trips from Columbus (P091) and things to do in Logan (P072), which both need local research, then week 4. Launch goes out with everything that's written (Cole, Nov 15)
    - Each new post follows `docs/blog-writing.md`, and its pull request adds links from 2 or 3 older posts
    - When a new post is created in Pages CMS, set its file name to the IA's slug (the seed, no year), not the title
-   - Mark each shipped page Done on the IA's Cluster map and republish Lookout (waiting on Quadratic, which was down on Nov 15)
+   - Mark each shipped page Done on the IA's Cluster map. The list of 11 pages and every other IA edit owed from Nov 15 is in the Claude project doc `claude/seo-ia-pending-changes.md`
 
 The Cabins page filters can still be linked (`/cabins?group=large`), but copy should link the collection pages instead.
 
