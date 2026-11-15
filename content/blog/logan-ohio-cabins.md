@@ -55,7 +55,7 @@ A line on each:
 
 People often ask us about Lake Logan cabins. An honest answer first: our cabins aren't on the lake. The closest are about 15 minutes away.
 
-The lake itself is worth an afternoon. Lake Logan State Park is about 3 miles west of town, with a 400-acre lake that's limited to small motors, so it stays calm. The marina rents canoes, kayaks, paddleboards, pedal boats and pontoons from spring through fall. The fishing is good, too: bluegill, crappie, bass, muskie and catfish. Anyone 16 or older needs an Ohio fishing license. The [Lake Logan State Park page](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/lake-logan-state-park) has the details.
+The lake itself is worth an afternoon. [Lake Logan State Park](/blog/lake-logan-state-park) is about 3 miles west of town, with a 400-acre lake that's limited to small motors, so it stays calm. The marina rents canoes, kayaks, paddleboards, pedal boats and pontoons from spring through fall. The fishing is good, too: bluegill, crappie, bass, muskie and catfish. Anyone 16 or older needs an Ohio fishing license. The [Lake Logan State Park page](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/lake-logan-state-park) has the details.
 
 If you'd rather have the water to yourself, [Loch Llyn](/cabins/loch-llyn) has a private 2-acre lake with kayaks and paddleboards. [The Johnny](/cabins/the-johnny), in nearby Laurelville, has a private pond with kayaks.
 

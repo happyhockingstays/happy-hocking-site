@@ -51,7 +51,7 @@ This one is special. The gorge trail at the bottom is flat and shaded, a walk be
 
 The only true cave in the park system: a cavern with window-like openings carved into the cliff face. The hike is moderate with some stone steps, and the cave is unlike anything else here. It tends to be less crowded than Old Man's Cave, especially during the week.
 
-### [Cantwell Cliffs](https://www.explorehockinghills.com/parks-trails/parks/cantwell-cliffs/)
+### [Cantwell Cliffs](/blog/cantwell-cliffs)
 
 The least visited of the major trail areas, and the most adventurous. The trail drops through a narrow slot canyon that gets tight enough you'll need to turn sideways in spots. This one is for people who want to feel like they discovered something. The solitude alone makes it worth the drive.
 
@@ -71,7 +71,7 @@ Don't miss one of the most underrated things to do in the Hocking Hills: stargaz
 
 [Hocking Hills Canopy Tours](https://www.hockinghillscanopytours.com/) sends you soaring on ziplines through the treetops. If your group loves the water, a [canoe or kayak trip on the Hocking River](https://hockingriver.com) is one of the best ways to spend a summer afternoon. Everyone comes back to the cabin sunburned, happy and ready for the hot tub.
 
-### [Lake Logan](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/lake-logan-state-park)
+### [Lake Logan State Park](/blog/lake-logan-state-park)
 
 This one catches people off guard. After a day on the trails, you don't expect to find a lake. Guests are always surprised when we tell them they can hike and boat in the same day, a few minutes from where they're staying. Lake Logan is a "dry" lake, which means no alcohol on the water. That keeps it calm, quiet and family-friendly. You can rent boats, kayaks and paddleboards at [Lake Logan Marina](https://www.lakeloganmarina.com).
 
