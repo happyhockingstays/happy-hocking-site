@@ -64,7 +64,7 @@ Updated Nov 15, 2026. Every page in the first pass is built, the 13 Wix blog pos
 
 Nothing below can be tested until this is done.
 
-**Where things stand (Nov 15):** the repo is in Natalie's GitHub account (`happyhockingstays`) and is public, and Cole is a Reviewer on her Netlify team. GitHub shows no Netlify build for any commit on `main` yet, so steps 4 to 6 below (link the repo, set `live` and `main`, turn on forms) still look undone. A Reviewer can't change those settings, so it's Natalie or a screen share.
+**Where things stand (Nov 15):** done. The repo is in Natalie's GitHub account (`happyhockingstays`) and is public, Cole is a Reviewer on her Netlify team, and Netlify is linked: it built a deploy preview for pull requests #3 and #4 on Nov 15 (`deploy-preview-3--animated-kheer-a8b74a.netlify.app`). Still to confirm in Netlify: the production branch is `live`, `main` is a branch deploy, and form emails are on (steps 4 to 6). The first commit to `main` after the link will show whether the `main` preview builds.
 
 **Natalie's part** (Cole can walk her through it on a screen share):
 
@@ -163,7 +163,6 @@ These were drafted from her questionnaire, the mockup and the Airbnb listings. N
 
 | What | Where it goes when it arrives |
 |---|---|
-| Mailchimp signup form address | The site connection script is in (Site settings, Nov 11). The footer signup still needs the form address: Cole logs in to Mailchimp, **Audience**, **Signup forms**, **Embedded form**, copies the code and pastes it in a chat. One web address from it goes in **Site settings**. Until then, signups are saved in Netlify Forms and emailed |
 | Google Tag Manager ID (Natalie is creating the new Google accounts) | **Site settings**, **Google Tag Manager ID** |
 | Natalie's About story | **Page: About**, **Our story** |
 | Short bios for Natalie and Dave, and larger versions of the 2 team photos (the ones sent are under 600 px) | **Page: About**, **Team**, and **Page: Homepage**, story band. Both headshots and the team photo are in (Nov 11) |
@@ -182,8 +181,8 @@ Done Nov 15 (pull request "Pre-launch pass"): the 4 collection pages, the privac
    - Hospitable's optional "Step 3" script (pass search dates to the booking widget) is left out on purpose. Its booking loader already copies checkin, checkout and guest counts from the page address into the booking widget, and the pasted script would add them a second time.
    - **Natalie, in Hospitable:** set each property's direct URL to its cabin page on happyhocking.com (for example `https://happyhocking.com/cabins/valhalla-hills`). Search results send guests there. Before launch they can point at the preview address instead.
 2. **Mailchimp.** 2 separate things:
-   - **Footer signup:** still needs the embedded form's address. In Mailchimp, create an **Embedded form** (not a pop-up), copy the code and paste it in a chat. One web address from it goes in **Site settings**. Until then, signups are saved in Netlify Forms and emailed.
-   - **Pop-up form:** Cole duplicated the clients' pop-up for happyhocking.com (Nov 15). A pop-up has no embed code: it shows through the "connected site" script that's already on every page, once happyhocking.com is live and Mailchimp verifies it. It still needs the new brand (logo, colors, wording) and its page rules changed from the old Wix addresses to this site's (`/contact`, `/review`, `/search`, `/co-hosting`, `/privacy`).
+   - **Footer signup:** wired up (Nov 15). The form address is in **Site settings**, **Mailchimp form address**. The signup keeps the site's own design and posts to Mailchimp, which opens its confirmation page in a new tab. Test it once on a preview with a real address.
+   - **Pop-up form:** Cole duplicated the clients' pop-up for happyhocking.com, restyled it and set its page rules (Nov 15). A pop-up has no embed code: it shows through the "connected site" script that's already on every page, once happyhocking.com is live and Mailchimp verifies it. It won't show on a preview address.
 3. **Pickle Hill fire pit photo**, if Natalie wants it.
 4. **Share images** are files, not part of the build. After adding a page or a post, or changing a cabin's main photo or a post's cover, run `python3 scripts/make-share-images.py` (in a chat with the repo attached). A page without one falls back to its own photo.
 5. **SEO package** (separate from the build). Keyword research and the IA are done (Lookout, client slug `hh-5cbs23`). The on-page pass for every page already in the repo is done (Nov 12), and the 4 collection pages are built (Nov 15). Left:
