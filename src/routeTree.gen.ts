@@ -15,6 +15,7 @@ import { Route as CoHostingRouteImport } from './routes/co-hosting'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as FaqsRouteImport } from './routes/faqs'
 import { Route as ReviewRouteImport } from './routes/review'
+import { Route as SearchRouteImport } from './routes/search'
 import { Route as BlogIndexRouteImport } from './routes/blog/index'
 import { Route as BlogSlugRouteImport } from './routes/blog/$slug'
 import { Route as CabinsIndexRouteImport } from './routes/cabins/index'
@@ -50,6 +51,11 @@ const ReviewRoute = ReviewRouteImport.update({
   path: '/review',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SearchRoute = SearchRouteImport.update({
+  id: '/search',
+  path: '/search',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BlogIndexRoute = BlogIndexRouteImport.update({
   id: '/blog/',
   path: '/blog/',
@@ -78,6 +84,7 @@ export interface FileRoutesByFullPath {
   '/contact': typeof ContactRoute
   '/faqs': typeof FaqsRoute
   '/review': typeof ReviewRoute
+  '/search': typeof SearchRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/cabins/$slug': typeof CabinsSlugRoute
   '/blog/': typeof BlogIndexRoute
@@ -90,6 +97,7 @@ export interface FileRoutesByTo {
   '/contact': typeof ContactRoute
   '/faqs': typeof FaqsRoute
   '/review': typeof ReviewRoute
+  '/search': typeof SearchRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/cabins/$slug': typeof CabinsSlugRoute
   '/blog': typeof BlogIndexRoute
@@ -103,6 +111,7 @@ export interface FileRoutesById {
   '/contact': typeof ContactRoute
   '/faqs': typeof FaqsRoute
   '/review': typeof ReviewRoute
+  '/search': typeof SearchRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/cabins/$slug': typeof CabinsSlugRoute
   '/blog/': typeof BlogIndexRoute
@@ -117,6 +126,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/faqs'
     | '/review'
+    | '/search'
     | '/blog/$slug'
     | '/cabins/$slug'
     | '/blog/'
@@ -129,6 +139,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/faqs'
     | '/review'
+    | '/search'
     | '/blog/$slug'
     | '/cabins/$slug'
     | '/blog'
@@ -141,6 +152,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/faqs'
     | '/review'
+    | '/search'
     | '/blog/$slug'
     | '/cabins/$slug'
     | '/blog/'
@@ -154,6 +166,7 @@ export interface RootRouteChildren {
   ContactRoute: typeof ContactRoute
   FaqsRoute: typeof FaqsRoute
   ReviewRoute: typeof ReviewRoute
+  SearchRoute: typeof SearchRoute
   BlogSlugRoute: typeof BlogSlugRoute
   CabinsSlugRoute: typeof CabinsSlugRoute
   BlogIndexRoute: typeof BlogIndexRoute
@@ -204,6 +217,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ReviewRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/search': {
+      id: '/search'
+      path: '/search'
+      fullPath: '/search'
+      preLoaderRoute: typeof SearchRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/': {
       id: '/blog/'
       path: '/blog'
@@ -242,6 +262,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContactRoute: ContactRoute,
   FaqsRoute: FaqsRoute,
   ReviewRoute: ReviewRoute,
+  SearchRoute: SearchRoute,
   BlogSlugRoute: BlogSlugRoute,
   CabinsSlugRoute: CabinsSlugRoute,
   BlogIndexRoute: BlogIndexRoute,

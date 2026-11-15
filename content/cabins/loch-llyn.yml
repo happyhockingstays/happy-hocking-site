@@ -28,7 +28,13 @@ aboutMore: |-
   Looking for Hocking Hills cabins with a fishing pond? Loch Llyn has a private 2-acre lake, stocked with fish, with kayaks and paddleboards ready to go. It's about 75 steps down from the house, and worth every one.
 
   Back up top there's a new pool, an 8-person hot tub, a huge patio deck and a propane grill. Inside you'll find 3 living rooms, 2 full kitchens, a dining table that seats 20, a pool table, ping pong and an Xbox. There's parking for 12 to 15 cars.
-bookingWidget: ''
+bookingWidget: |-
+  <script
+    src="https://cdn.hsptb.com/direct-booking-widget/widget-loader.prod.js"
+    data-site-uuid="9d6a5809-dd4a-4d42-a534-dd9989acde5c"
+    data-property-id="1094000"
+    data-theme="default">
+  </script>
 heroImage: /images/cabins/loch-llyn/lake/loch-llyn-lake-001.jpg
 heroAlt: Dock on the private lake at Loch Llyn, a Hocking Hills lakefront cabin
 keyShots:

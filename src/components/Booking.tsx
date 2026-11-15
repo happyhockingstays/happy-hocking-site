@@ -75,9 +75,16 @@ export function BookingCard({ cabin, code }: { cabin: string; code: string }) {
   )
 }
 
-/** Date and guest search across every cabin (homepage hero and the Cabins page). */
+/** Date and guest search bar (homepage hero and the Cabins page). Sends guests to /search. */
 export function SearchWidget() {
   const code = settings.searchWidget
   if (code.trim()) return <HospitableEmbed code={code} minHeight={96} />
   return <WidgetPlaceholder title="Hospitable search widget" text="Check-in, check-out and guests, with a Find your happy place button" />
+}
+
+/** The open cabins for the guest's dates, on /search. Each result links to its cabin page. */
+export function SearchResults() {
+  const code = settings.searchResultsWidget
+  if (code.trim()) return <HospitableEmbed code={code} minHeight={600} />
+  return <WidgetPlaceholder title="Hospitable search results" text="The cabins open for the guest's dates show here" />
 }

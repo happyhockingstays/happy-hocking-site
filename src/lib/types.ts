@@ -10,6 +10,7 @@ export interface Settings {
   proof: { rating: string; reviewCount: string }
   showStarRatings: boolean
   searchWidget: string
+  searchResultsWidget: string
   mailchimpAction: string
   mailchimpSiteScript: string
   gtmId: string

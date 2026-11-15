@@ -28,7 +28,13 @@ aboutMore: |-
   There's more to play: ping pong, a basketball hoop, cornhole, Spikeball and KanJam. When it's time to slow down, there's an infrared sauna, a fire pit with firewood provided and a finished basement with a TV.
 
   The kitchen has a coffee bar with specialty syrups and to-go cups, plus an air fryer and everything you need to cook for 10. The barn is covered but not heated or cooled, so dress for the season.
-bookingWidget: ''
+bookingWidget: |-
+  <script
+    src="https://cdn.hsptb.com/direct-booking-widget/widget-loader.prod.js"
+    data-site-uuid="9d6a5809-dd4a-4d42-a534-dd9989acde5c"
+    data-property-id="1385354"
+    data-theme="default">
+  </script>
 heroImage: /images/cabins/pickle-hill/pool/pickle-hill-pool-004.jpg
 heroAlt: Saltwater pool in front of the red-roofed house at Pickle Hill
 keyShots:

@@ -28,7 +28,13 @@ aboutMore: |-
   The cabin sits on 3.5 wooded acres, with a huge open yard and a covered front porch for morning coffee. Fall is a favorite: the trees around the pond put on a show.
 
   Inside, the kitchen and living room share an open layout under log beams, with an indoor gas fireplace and fast Starlink Wi-Fi. 4 bedrooms are on the first floor, and 2 open lofts sleep 8 more.
-bookingWidget: ''
+bookingWidget: |-
+  <script
+    src="https://cdn.hsptb.com/direct-booking-widget/widget-loader.prod.js"
+    data-site-uuid="9d6a5809-dd4a-4d42-a534-dd9989acde5c"
+    data-property-id="2023752"
+    data-theme="default">
+  </script>
 heroImage: /images/cabins/the-johnny/pond/the-johnny-pond-003.jpg
 heroAlt: Dock on the private pond at The Johnny, a cabin in Laurelville, Ohio
 keyShots:

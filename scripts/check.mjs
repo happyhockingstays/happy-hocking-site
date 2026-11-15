@@ -48,7 +48,7 @@ const noPeriod = (where, text) => {
 function walk(where, value, opts) {
   if (typeof value === 'string') checkText(where, value, opts)
   else if (Array.isArray(value)) value.forEach((v, i) => walk(`${where}[${i + 1}]`, v, opts))
-  else if (value && typeof value === 'object') for (const [k, v] of Object.entries(value)) if (!['bookingWidget', 'searchWidget', 'image', 'heroImage', 'icon', 'similar', 'cabin', 'email'].includes(k)) walk(`${where}.${k}`, v, opts)
+  else if (value && typeof value === 'object') for (const [k, v] of Object.entries(value)) if (!['bookingWidget', 'searchWidget', 'searchResultsWidget', 'image', 'heroImage', 'icon', 'similar', 'cabin', 'email'].includes(k)) walk(`${where}.${k}`, v, opts)
 }
 
 /* ---------- cabins ---------- */

@@ -28,7 +28,13 @@ aboutMore: |-
   Downstairs, the game room has a pool table, air hockey, foosball, ping pong and video games. Outside there's a fire pit with long views, a swing set, a propane grill and a big yard.
 
   The kitchen has 2 refrigerators, an induction stovetop and room for everyone to help. Families get a crib, a high chair and stair gates, so little ones are covered too.
-bookingWidget: ''
+bookingWidget: |-
+  <script
+    src="https://cdn.hsptb.com/direct-booking-widget/widget-loader.prod.js"
+    data-site-uuid="9d6a5809-dd4a-4d42-a534-dd9989acde5c"
+    data-property-id="1727924"
+    data-theme="default">
+  </script>
 heroImage: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-002.jpg
 heroAlt: Indoor basketball court and basketballs in the sports barn at The Farm at Nickel Plate
 keyShots:

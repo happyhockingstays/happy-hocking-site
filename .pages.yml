@@ -992,9 +992,13 @@ content:
           Off: reviews show as comments only. On: each cabin name gets a badge with its average rating, stars and review count.
           The average uses only published reviews that have an overall rating.
       - name: searchWidget
-        label: Hospitable search widget code
+        label: Hospitable search bar code
         type: text
-        description: Paste the embed code from Hospitable exactly as given. Do not change anything inside it.
+        description: 'The search bar on the homepage and the Cabins page. In Hospitable this is Step 2, "Add a search widget to your homepage", with the results page URL set to /search. Paste it exactly as given. Do not change anything inside it.'
+      - name: searchResultsWidget
+        label: Hospitable search results code
+        type: text
+        description: 'The results on the /search page, where the search bar sends guests. In Hospitable this is Step 1, "Create a results page and add the widget". Paste it exactly as given. Do not change anything inside it.'
       - name: mailchimpAction
         label: Mailchimp signup form address
         type: string

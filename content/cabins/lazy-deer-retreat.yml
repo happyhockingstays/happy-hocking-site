@@ -28,7 +28,13 @@ aboutMore: |-
   The sport court is ready for pickleball and basketball, and the game room has a 75-inch TV, shuffleboard, arcade games and a chess set. Outside, Adirondack chairs circle the fire pit and the propane grill is ready to go.
 
   The kitchen and living room share an open layout, with an induction stovetop and both Keurig and drip coffee. Starlink Wi-Fi is fast, and there's an EV charger on site.
-bookingWidget: ''
+bookingWidget: |-
+  <script
+    src="https://cdn.hsptb.com/direct-booking-widget/widget-loader.prod.js"
+    data-site-uuid="9d6a5809-dd4a-4d42-a534-dd9989acde5c"
+    data-property-id="2501719"
+    data-theme="default">
+  </script>
 heroImage: /images/cabins/lazy-deer-retreat/pool/lazy-deer-retreat-pool-002.jpg
 heroAlt: Pool and deck with shade sails at Lazy Deer Retreat, 5 minutes from Old Man's Cave
 keyShots:

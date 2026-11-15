@@ -58,6 +58,7 @@ export function loadSettings() {
     proof: { rating: str(d.proof?.rating, '4.9+'), reviewCount: str(d.proof?.reviewCount, '650+') },
     showStarRatings: bool(d.showStarRatings),
     searchWidget: str(d.searchWidget),
+    searchResultsWidget: str(d.searchResultsWidget),
     mailchimpAction: str(d.mailchimpAction),
     mailchimpSiteScript: str(d.mailchimpSiteScript),
     gtmId: str(d.gtmId),

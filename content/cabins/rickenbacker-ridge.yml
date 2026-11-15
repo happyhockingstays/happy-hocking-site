@@ -28,7 +28,13 @@ aboutMore: |-
   Evenings belong to the hot tub, the fire pit (firewood provided) and the bench swing. Downstairs, the finished basement has a TV, foosball, air hockey and board games.
 
   The kitchen is fully equipped, with coffee provided. Starlink Wi-Fi keeps up with streaming and video calls. Kids love the bunk room, with its secret loft for reading and naps.
-bookingWidget: ''
+bookingWidget: |-
+  <script
+    src="https://cdn.hsptb.com/direct-booking-widget/widget-loader.prod.js"
+    data-site-uuid="9d6a5809-dd4a-4d42-a534-dd9989acde5c"
+    data-property-id="1516018"
+    data-theme="default">
+  </script>
 heroImage: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-002.jpg
 heroAlt: Rickenbacker Ridge and its heated pool seen from above the patio
 keyShots:

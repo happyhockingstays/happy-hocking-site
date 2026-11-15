@@ -13,7 +13,7 @@ const OLD_HOSTS = ['www.hockinghills-cabinrentals.com', 'hockinghills-cabinrenta
 const FORWARD_HOSTS = ['www.happyhockingstays.com', 'happyhockingstays.com']
 // The old co-hosting site (Squarespace). Every page goes to the co-hosting page once the domain points at Netlify
 const COHOST_HOSTS = ['hockinghills-hosting.com', 'www.hockinghills-hosting.com']
-const PRIVATE = ['/review']
+const PRIVATE = ['/review', '/search']
 
 /* ---------- sitemap ---------- */
 const all = loadPosts({ includeDrafts: true })

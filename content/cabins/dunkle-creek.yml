@@ -28,7 +28,13 @@ aboutMore: |-
   Inside there are 2 electric fireplaces, 2 65-inch smart TVs and a basement game room with shuffleboard and board games. The kitchen is fully stocked, and Wi-Fi and a dedicated workspace make midweek stays easy.
 
   The A-frame has several levels, with flights of stairs between them. The king bedroom is in the top-floor loft, and the pool is open May 15 to October 15.
-bookingWidget: ''
+bookingWidget: |-
+  <script
+    src="https://cdn.hsptb.com/direct-booking-widget/widget-loader.prod.js"
+    data-site-uuid="9d6a5809-dd4a-4d42-a534-dd9989acde5c"
+    data-property-id="1963708"
+    data-theme="default">
+  </script>
 heroImage: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-006.jpg
 heroAlt: Black A-frame cabin at Dunkle Creek in Hocking Hills, seen from the yard, with a balcony and covered deck
 keyShots:

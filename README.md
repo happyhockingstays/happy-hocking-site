@@ -153,8 +153,6 @@ These were drafted from her questionnaire, the mockup and the Airbnb listings. N
 
 | What | Where it goes when it arrives |
 |---|---|
-| Hospitable booking widget code, one per cabin | Pages CMS, **Cabins**, the cabin, **Hospitable booking widget code**. Paste exactly as given |
-| Hospitable search widget code | Pages CMS, **Site settings**, **Hospitable search widget code** |
 | Mailchimp signup form address | The site connection script is in (Site settings, Nov 11). The footer signup still needs the form address: Cole logs in to Mailchimp, **Audience**, **Signup forms**, **Embedded form**, copies the code and pastes it in a chat. One web address from it goes in **Site settings**. Until then, signups are saved in Netlify Forms and emailed |
 | Google Tag Manager ID (Natalie is creating the new Google accounts) | **Site settings**, **Google Tag Manager ID** |
 | Natalie's About story | **Page: About**, **Our story** |
@@ -169,7 +167,9 @@ These were drafted from her questionnaire, the mockup and the Airbnb listings. N
 Done Nov 11: the 13 Wix posts (11 moved, 2 empty winter guides merged into the winter weekend post; all 34 old addresses now redirect permanently), drive times for every cabin, the share image, the sample post deleted, and the redirect for hockinghills-hosting.com.
 
 1. **Area map** on each cabin page. It's a labeled placeholder now.
-2. **After the Hospitable widgets are pasted in:** check how they sit in their cards on a phone and on a computer. Never change the widget code itself.
+2. **Hospitable widgets (pasted in Nov 15):** all 9 booking widgets, the search bar (homepage and Cabins page) and the search results page at `/search` (noindex, out of the sitemap). On the preview, check how they sit in their cards on a phone and on a computer, and run one search from dates to booking. Never change the widget code itself.
+   - Hospitable's optional "Step 3" script (pass search dates to the booking widget) is left out on purpose. Its booking loader already copies checkin, checkout and guest counts from the page address into the booking widget, and the pasted script would add them a second time.
+   - **Natalie, in Hospitable:** set each property's direct URL to its cabin page on happyhocking.com (for example `https://happyhocking.com/cabins/valhalla-hills`). Search results send guests there. Before launch they can point at the preview address instead.
 3. **Mailchimp:** paste the form address from the embed code into Site settings, then test a signup on the preview.
 4. **Privacy page**, if the clients say yes.
 5. **Pickle Hill fire pit photo**, if Natalie wants it.

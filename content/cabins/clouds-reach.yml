@@ -28,7 +28,13 @@ aboutMore: |-
   Around it you'll find a hot tub, a bocce court, a covered gazebo and a fire pit with room for everyone. A three-seasons room and a deck with Adirondack chairs look out over the property.
 
   Inside, the kitchen and living room share an open layout. The first-floor primary suite has a king bed, a soaking tub and a walk-in closet, and the basement bunk room sleeps 8.
-bookingWidget: ''
+bookingWidget: |-
+  <script
+    src="https://cdn.hsptb.com/direct-booking-widget/widget-loader.prod.js"
+    data-site-uuid="9d6a5809-dd4a-4d42-a534-dd9989acde5c"
+    data-property-id="1160468"
+    data-theme="default">
+  </script>
 heroImage: /images/cabins/clouds-reach/pool/clouds-reach-pool-010.jpg
 heroAlt: Clouds Reach house, pool and garden path in the fall
 keyShots:

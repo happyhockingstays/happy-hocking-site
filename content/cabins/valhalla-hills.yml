@@ -28,7 +28,13 @@ aboutMore: |-
   Outside, the saltwater pool, the 8-person hot tub and the fire pit sit by a huge patio deck, with a propane grill and plenty of seating. Inside there are multiple living areas, a 3-person sauna, a pool table and ping pong.
 
   8 bedrooms have king beds. A bunk room sleeps 6, a loft has 4 twin beds and a hallway bunk sleeps 2. There's parking for 10 to 14 cars, so everyone can drive in.
-bookingWidget: ''
+bookingWidget: |-
+  <script
+    src="https://cdn.hsptb.com/direct-booking-widget/widget-loader.prod.js"
+    data-site-uuid="9d6a5809-dd4a-4d42-a534-dd9989acde5c"
+    data-property-id="752630"
+    data-theme="default">
+  </script>
 heroImage: /images/cabins/valhalla-hills/exterior/valhalla-hills-exterior-003.jpg
 heroAlt: Back of Valhalla Hills with the wraparound deck and patio table
 keyShots:

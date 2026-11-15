@@ -78,9 +78,15 @@ How the hero photos were picked: the main photo and 4 key shots on every cabin m
 
 Other choices made while building, all easy to change: the homepage cabin row shows every cabin; the Hocking Hills photo band uses Loch Llyn's lake; review sections stay hidden until a review is published; the Contact topic picker swaps between 2 separate forms; the review form's month is a dropdown of the last 18 months and the phone bottom bar is hidden there; blog post addresses keep their Wix names; posts not moved yet redirect to the blog page as temporary redirects.
 
+## Fifth session (Nov 15): Hospitable widgets
+
+- Booking widget code is in every cabin file. Property IDs: Valhalla Hills 752630, Loch Llyn 1094000, Clouds Reach 1160468, Pickle Hill 1385354, Rickenbacker Ridge 1516018, The Farm 1727924, Dunkle Creek 1963708, The Johnny 2023752, Lazy Deer 2501719.
+- Site settings now has 2 Hospitable fields: `searchWidget` (the search bar, Hospitable Step 2, `results-url="/search"`) and the new `searchResultsWidget` (Hospitable Step 1). The new `/search` page shows the results: noindex and left out of the sitemap.
+- Hospitable's Step 3 script is not used. Its booking loader (`widget-loader.prod.js`) already reads checkin, checkout, adults, children, infants and pets from the page address and adds them to the booking iframe. It also checks that the cabin's name appears on the page and pings Hospitable with the page address.
+
 ## Placeholders still in the site
 
-Hospitable booking and search widgets, the area map, Natalie's story, headshots and bios, owner testimonials (hidden until one is added), guest reviews (hidden until one is published), a real Hocking Hills photo, the Mailchimp address and GTM ID.
+The area map, Natalie's story, headshots and bios, owner testimonials (hidden until one is added), guest reviews (hidden until one is published), a real Hocking Hills photo, the Mailchimp address and GTM ID.
 
 ## Photos
 
