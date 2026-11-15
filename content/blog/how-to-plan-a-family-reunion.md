@@ -67,7 +67,7 @@ Make a list of things to do that work for everyone. Short hikes like Ash Cave ar
 
 ### 8. Send updates and a what-to-bring list
 
-A month out, send the schedule, the address details (they come with your booking confirmation), who's cooking what and a what-to-bring list. Send a short reminder the week before.
+A month out, send the schedule, the address details (they come with your booking confirmation), who's cooking what and a what-to-bring list, built from our [weekend trip packing list](/blog/weekend-trip-packing-list). Send a short reminder the week before.
 
 ## Planning a family reunion: the timeline
 

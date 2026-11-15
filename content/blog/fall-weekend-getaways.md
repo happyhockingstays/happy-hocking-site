@@ -68,7 +68,7 @@ Take one more easy walk or a scenic drive through the hills. If you have time, L
 
 ## Fall things to do in Ohio, beyond the trails
 
-Fall here isn't only the hikes. Our list of [things to do in Hocking Hills for adults](/blog/things-to-do-in-hocking-hills-for-adults) covers the wineries, stargazing and rainy-day stops in more detail. Coming from the city? Our guide to [weekend getaways from Columbus, Ohio](/blog/weekend-getaways-from-columbus-ohio) has the drive and a 2-night plan.
+Fall here isn't only the hikes. Our list of [things to do in Hocking Hills for adults](/blog/things-to-do-in-hocking-hills-for-adults) covers the wineries, stargazing and rainy-day stops in more detail. Coming from the city? Our guide to [weekend getaways from Columbus, Ohio](/blog/weekend-getaways-from-columbus-ohio) has the drive and a 2-night plan, and our [weekend getaways in Ohio](/blog/weekend-getaways-in-ohio) guide has more ideas around the state.
 
 ![Fire pit with Adirondack chairs at Clouds Reach in the fall](/images/cabins/clouds-reach/exterior/clouds-reach-exterior-011.jpg)
 

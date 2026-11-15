@@ -18,7 +18,7 @@ faqs:
   - q: How far ahead should we book a family reunion venue?
     a: Book your family reunion venue as soon as the date is set. Calendars for our cabins usually open about a year out, and a large family needs more schedules to line up than a small one. Summer and holiday weekends are popular, so choosing the date early gives the most relatives a chance to come.
   - q: Where is a good central location for an Ohio family reunion?
-    a: The Hocking Hills are a good central location for an Ohio family reunion. They're about an hour from Columbus and under 3 hours from Cincinnati or Cleveland, so relatives from every corner of the state have a reasonable drive. There's also plenty to do without spending much, from trails to waterfalls to a pool at the cabin.
+    a: The Hocking Hills are a good central location for an Ohio family reunion. They're about an hour from Columbus, 2.5 hours from Cincinnati and 3.5 from Cleveland, so relatives from every corner of the state have a reasonable drive. There's also plenty to do without spending much, from trails to waterfalls to a pool at the cabin.
 ---
 
 Family reunion venues come in 5 main kinds: park shelters, rented halls, restaurants, hotels and big vacation homes. The right one depends on a single question: is your family getting together for an afternoon, or for a weekend? For an afternoon, almost any space with tables will do. For a weekend, you want a place where everyone can sleep, cook and spend time together without getting back in the car.
@@ -72,7 +72,7 @@ It can help the budget, too. Splitting one large cabin across several households
 
 ## Our family reunion cabins in the Hocking Hills
 
-The Hocking Hills are about an hour from Columbus and under 3 hours from Cincinnati or Cleveland, which makes them one of the easier family reunion destinations in Ohio to reach. These are our family reunion cabins, largest first.
+The Hocking Hills are about an hour from Columbus, 2.5 hours from Cincinnati and 3.5 from Cleveland, which makes them one of the easier family reunion destinations in Ohio to reach. These are our family reunion cabins, largest first.
 
 - [Valhalla Hills](/cabins/valhalla-hills) sleeps 29 in 11 bedrooms near Lancaster, with 2 full kitchens, a saltwater pool, an 8-person hot tub and a sauna
 - [Loch Llyn](/cabins/loch-llyn) sleeps 29 on 130 acres, with a private lake, 2 full kitchens and 3 living rooms

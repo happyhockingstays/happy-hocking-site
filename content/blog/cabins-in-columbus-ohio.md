@@ -91,7 +91,7 @@ Our guides to [summer weekend getaways](/blog/summer-weekend-getaways), [fall we
 - **Leave Friday.** Check-in is at 4:00 pm, so an afternoon departure gets you there for dinner.
 - **Stay 2 nights.** That's the minimum, and it gives you 1 full day with nowhere to be.
 - **Shop before you arrive or in town.** Lancaster and Logan both have full grocery stores on the way in.
-- **Pack for the season.** Swimsuits from May 15 to October 15. Boots with grip in winter.
+- **Pack for the season.** Our [weekend trip packing list](/blog/weekend-trip-packing-list) has it all: swimsuits from May 15 to October 15, boots with grip in winter.
 - **Book direct.** You skip the booking-site service fees, and your reservation comes straight to us.
 
 ## Find your cabin

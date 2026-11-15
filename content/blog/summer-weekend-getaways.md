@@ -25,7 +25,7 @@ Summer weekend getaways in the Hocking Hills are pure magic. The forest canopy s
 
 Summer is prime outdoor season here. The weather is warm and inviting, made for swimming in your private pool, exploring caves, ziplining through the canopy or relaxing on the deck with a cold drink. Fireflies come out in the trees after dark. Summer evenings around the fire pit with s'mores? The best.
 
-It's close, too. The Hocking Hills are about an hour from Columbus and under 3 hours from Cincinnati or Cleveland, so a Friday-to-Sunday trip doesn't lose a day to the drive. Our guide to [weekend getaways from Columbus, Ohio](/blog/weekend-getaways-from-columbus-ohio) has a 2-night plan.
+It's close, too. The Hocking Hills are about an hour from Columbus, 2.5 hours from Cincinnati and 3.5 from Cleveland, so a Friday-to-Sunday trip doesn't lose a day to the drive. Our guide to [weekend getaways from Columbus, Ohio](/blog/weekend-getaways-from-columbus-ohio) has a 2-night plan.
 
 Coming in late spring? The pools open May 15, the waterfalls are still running full from the spring rains and the crowds haven't arrived yet.
 
