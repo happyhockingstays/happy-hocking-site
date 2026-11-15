@@ -10,7 +10,7 @@ cover: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-003.jpg
 coverAlt: Covered hot tub at Dunkle Creek with a view of the meadow, one of our Christmas getaway ideas for a winter weekend
 faqs:
   - q: Where should I go for a Christmas getaway in Ohio?
-    a: For a Christmas getaway in Ohio, the Hocking Hills are hard to beat. They're about an hour from Columbus and under 3 hours from Cincinnati or Cleveland, with frozen waterfalls, quiet trails and cabins that have hot tubs open all winter. You can leave after work on Friday and be in warm water by dinner.
+    a: For a Christmas getaway in Ohio, the Hocking Hills are hard to beat. They're about an hour from Columbus, 2.5 hours from Cincinnati and 3.5 from Cleveland, with frozen waterfalls, quiet trails and cabins that have hot tubs open all winter. You can leave after work on Friday and be in warm water by dinner.
   - q: What are good last minute getaway ideas for the holidays?
     a: The best last minute getaway ideas are close to home and short. Pick a place within a 3-hour drive, go midweek if you can and stay flexible on the cabin. A smaller group fits most of ours, which means more dates to choose from. Check a cabin's calendar on its page to see what's open right now.
   - q: How many days do you need for a winter getaway?
@@ -97,4 +97,4 @@ Christmas getaway ideas work after December 25, too. The first weeks of January 
 
 ## Pick your Christmas getaway
 
-The best Christmas getaway ideas are the ones you'll really do, and that usually means close, simple and booked. Browse our [Hocking Hills cabin rentals](/cabins), pick the cabin that fits your group and book direct to skip the booking-site service fees. Planning more weekend getaways in Ohio for the year ahead? Start with the cabin and work out from there.
+The best Christmas getaway ideas are the ones you'll really do, and that usually means close, simple and booked. Browse our [Hocking Hills cabin rentals](/cabins), pick the cabin that fits your group and book direct to skip the booking-site service fees. Planning more [weekend getaways in Ohio](/blog/weekend-getaways-in-ohio) for the year ahead? Start with the cabin and work out from there.
