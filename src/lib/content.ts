@@ -1,5 +1,5 @@
 import data from 'virtual:content'
-import type { Cabin, CabinSummary, Pages, PostMeta, Review } from './types'
+import type { Cabin, CabinSummary, Collection, Pages, PostMeta, Review } from './types'
 
 /** Site settings, policies and cabin cards. All of it comes from /content, edited in Pages CMS. */
 export const settings = data.settings
@@ -10,6 +10,11 @@ export const pages: Pages = data.pages
 export const reviews: Review[] = data.reviews
 export const posts: PostMeta[] = data.posts
 export const cabinBySlug = (slug: string) => cabins.find((c) => c.slug === slug)
+/** Cabin collection pages (pools, large groups, games, luxury). Linked from the Cabins page and the footer. */
+export const collections: Collection[] = data.collections
+export const collectionBySlug = (slug: string) => collections.find((c) => c.slug === slug)
+/** Pages that have their own share image in public/images/share. */
+export const shareImages: string[] = data.shareImages
 
 export const site = {
   name: settings.name,

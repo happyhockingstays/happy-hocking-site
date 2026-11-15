@@ -6,6 +6,8 @@ declare module 'virtual:content' {
     reviews: import('./lib/types').Review[]
     posts: import('./lib/types').PostMeta[]
     cabins: import('./lib/types').CabinSummary[]
+    collections: import('./lib/types').Collection[]
+    shareImages: string[]
   }
   export default data
 }

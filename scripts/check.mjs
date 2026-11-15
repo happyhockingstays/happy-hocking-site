@@ -109,6 +109,53 @@ for (const f of fs.readdirSync(pagesDir).filter((f) => f.endsWith('.yml'))) {
   }
 }
 
+/* ---------- cabin collection pages: pools, large groups, game rooms, luxury ---------- */
+const collectionsDir = 'content/collections'
+for (const f of fs.existsSync(collectionsDir) ? fs.readdirSync(collectionsDir).filter((f) => f.endsWith('.yml')) : []) {
+  const c = parse(fs.readFileSync(path.join(collectionsDir, f), 'utf8')) || {}
+  const w = `collections/${f.replace('.yml', '')}`
+  // "heated" is true for 2 pools only: the text has to name them, unless it's on that cabin's own card.
+  // A question ("Are any of the pools heated?") and "isn't heated" are fine.
+  const heated = (where, text, cabin) => {
+    if (typeof text !== 'string' || HEATED_OK.includes(cabin)) return
+    for (const sentence of text.replace(/(not|isn't|aren't|is not|are not) heated/gi, '').split(/(?<=[.!?])\s+/)) if (/heated/i.test(sentence) && !/Clouds Reach|Rickenbacker Ridge/.test(sentence)) flag(where, 'says "heated" without naming Clouds Reach or Rickenbacker Ridge')
+  }
+  for (const k of ['title', 'navLabel', 'linkText', 'seoTitle', 'seoDescription', 'eyebrow', 'lead', 'alt', 'listHeading', 'listIntro', 'faqHeading']) checkText(`${w}.${k}`, c[k])
+  for (const k of ['title', 'navLabel', 'linkText', 'eyebrow', 'listHeading', 'faqHeading']) noPeriod(`${w}.${k}`, c[k])
+  for (const k of ['lead', 'listIntro']) heated(`${w}.${k}`, c[k])
+  if (c.seoTitle && c.seoTitle.length > 60) flag(`${w}.seoTitle`, `${c.seoTitle.length} characters (60 max)`)
+  if (!c.seoDescription || c.seoDescription.length < 120 || c.seoDescription.length > 165) flag(`${w}.seoDescription`, `${(c.seoDescription || '').length} characters (120 to 165)`)
+  if (/airbnb|vrbo/i.test(`${c.title} ${c.seoTitle} ${c.listHeading} ${c.know?.heading} ${c.compare?.heading} ${c.faqHeading} ${(c.faqs || []).map((x) => x.q).join(' ')}`)) flag(w, 'names Airbnb or Vrbo in a title, heading or question. Body copy only')
+  if (c.image && !fs.existsSync(path.join('public', c.image))) flag(w, `photo not found: ${c.image}`)
+  if (c.image && !c.alt) flag(w, 'photo has no description (alt text)')
+  for (const x of c.cabins || []) {
+    const slug = path.basename(String(x.cabin || '')).replace('.yml', '')
+    if (!fs.existsSync(path.join(dir, `${slug}.yml`))) flag(`${w}.cabins`, `cabin not found: ${x.cabin}`)
+    checkText(`${w}.cabins (${slug})`, x.note)
+    heated(`${w}.cabins (${slug})`, x.note, slug)
+  }
+  for (const part of ['know', 'compare']) {
+    checkText(`${w}.${part}.heading`, c[part]?.heading)
+    noPeriod(`${w}.${part}.heading`, c[part]?.heading)
+    checkText(`${w}.${part}.intro`, c[part]?.intro)
+  }
+  noPeriod(`${w}.know.eyebrow`, c.know?.eyebrow)
+  for (const i of c.know?.items || []) {
+    checkText(`${w}.know (${i.title})`, `${i.title}. ${i.text}`)
+    noPeriod(`${w}.know title`, i.title)
+    heated(`${w}.know (${i.title})`, `${i.title}: ${i.text}`)
+  }
+  if (c.guide?.link && !/^\/[a-z0-9/-]+$/.test(c.guide.link)) flag(`${w}.guide.link`, 'should be a path on this site, like /blog/pickleball-getaways')
+  noPeriod(`${w}.guide.linkLabel`, c.guide?.linkLabel)
+  for (const q of c.faqs || []) {
+    checkText(`${w} (FAQ)`, q?.q)
+    checkText(`${w} (FAQ)`, q?.a)
+    heated(`${w} (FAQ: ${q?.q})`, q?.a)
+    const n = String(q?.a || '').split(/\s+/).filter(Boolean).length
+    if (n < 40 || n > 70) flag(`${w} (FAQ: ${q?.q})`, `answer is ${n} words (40 to 70)`)
+  }
+}
+
 /* ---------- blog posts ---------- */
 const blogDir = 'content/blog'
 for (const f of fs.existsSync(blogDir) ? fs.readdirSync(blogDir).filter((f) => f.endsWith('.md')) : []) {
@@ -157,4 +204,4 @@ if (problems.length) {
   console.log(`${problems.length} copy problem(s):\n` + problems.map((p) => '  - ' + p).join('\n'))
   process.exit(1)
 }
-console.log('Copy check passed: cabins, pages, blog posts, settings and page code follow the brand copy rules.')
+console.log('Copy check passed: cabins, pages, collection pages, blog posts, settings and page code follow the brand copy rules.')

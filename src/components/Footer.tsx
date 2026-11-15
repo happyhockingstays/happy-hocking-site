@@ -1,4 +1,4 @@
-import { settings, telHref } from '@/lib/content'
+import { collections, settings, telHref } from '@/lib/content'
 import { asset } from '@/lib/asset'
 import { InsiderSignup } from './Forms'
 import { navLeft, navRight } from './Header'
@@ -26,7 +26,7 @@ export function Footer() {
       </div>
 
       <div className="container-x grid gap-10 py-12 md:grid-cols-12 md:py-16">
-        <div className="md:col-span-4">
+        <div className="md:col-span-3">
           <img src={asset('/images/brand/wordmark-reversed.svg')} alt="Happy Hocking Stays" width={468} height={246} className="h-24 w-auto" loading="lazy" />
           <p className="soft mt-5 max-w-sm">
             Private Hocking Hills cabins with pools and hot tubs, and co-hosting for local vacation homeowners.
@@ -46,8 +46,19 @@ export function Footer() {
           </ul>
         </div>
 
-        <div className="md:col-span-2">
-          <h2 className="eyebrow mb-4">For owners</h2>
+        {/* The cabin collection pages live here and on the Cabins page, never in the top menu */}
+        <div className="md:col-span-3">
+          <h2 className="eyebrow mb-4">Find a cabin</h2>
+          <ul className="grid gap-2 font-bold">
+            {collections.map((c) => (
+              <li key={c.slug}>
+                <SiteLink to={`/${c.slug}`} className="hover:text-mustard">
+                  {c.navLabel}
+                </SiteLink>
+              </li>
+            ))}
+          </ul>
+          <h2 className="eyebrow mb-4 mt-8">For owners</h2>
           <ul className="grid gap-2 font-bold">
             <li>
               <SiteLink to="/co-hosting" className="hover:text-mustard">
@@ -92,7 +103,10 @@ export function Footer() {
           </p>
           <img src={asset('/images/brand/monogram-reversed.svg')} alt="" width={118} height={116} className="h-10 w-auto" loading="lazy" />
           <p className="soft">
-            © {year} {settings.legalName}
+            © {year} {settings.legalName} ·{' '}
+            <SiteLink to="/privacy" className="underline underline-offset-2 hover:text-mustard">
+              Privacy
+            </SiteLink>
           </p>
         </div>
         {/* Required by Airbnb's trademark guidelines on any site that names Airbnb (the rating stat, the co-hosting page) */}

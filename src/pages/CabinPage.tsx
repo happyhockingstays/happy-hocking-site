@@ -207,35 +207,29 @@ export function CabinPage({ cabin: c }: { cabin: Cabin }) {
         </section>
       ) : null}
 
-      {/* 7. The area nearby */}
+      {/* 7. The area nearby: the town and drive times. Street addresses stay private, so there's no map. */}
       <section className="section sec-forest on-forest">
-        <div className="container-x grid items-center gap-10 lg:grid-cols-2">
+        <div className="container-x grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <div data-reveal>
             <p className="eyebrow">Hocking Hills, Ohio</p>
             <h2 className="h-section mt-2">
               The area <span className="accent">nearby</span>
             </h2>
             {c.areaNote ? <p className="soft lead mt-4 max-w-[52ch]">{c.areaNote}</p> : null}
-            {c.driveTimes.length ? (
-              <dl className="mt-6 max-w-md">
-                {c.driveTimes.map((t) => (
-                  <div key={t.place} className="flex items-center justify-between gap-6 border-b-2 border-cream/15 py-3">
-                    <dt className="flex items-center gap-2.5 font-bold">
-                      <Icon name="pin" className="h-5 w-5 text-mustard" /> {t.place}
-                    </dt>
-                    <dd className="font-extrabold text-mustard">{t.time}</dd>
-                  </div>
-                ))}
-              </dl>
-            ) : null}
             <p className="meta soft mt-5">The exact address comes with your booking confirmation.</p>
           </div>
-          <div data-reveal>
-            {/* Placeholder until the area map is drawn. Town level only: street addresses stay private. */}
-            <div className="frame">
-              <Photo src="" alt={`Map of ${c.name} and the Hocking Hills trails`} emptyText="Map: the cabin and the trails" ratio="4 / 3" tint="sage" />
-            </div>
-          </div>
+          {c.driveTimes.length ? (
+            <dl data-reveal>
+              {c.driveTimes.map((t) => (
+                <div key={t.place} className="flex items-center justify-between gap-6 border-b-2 border-cream/15 py-3.5">
+                  <dt className="flex items-center gap-2.5 text-lg font-bold">
+                    <Icon name="pin" className="h-5 w-5 text-mustard" /> {t.place}
+                  </dt>
+                  <dd className="text-lg font-extrabold text-mustard">{t.time}</dd>
+                </div>
+              ))}
+            </dl>
+          ) : null}
         </div>
       </section>
 

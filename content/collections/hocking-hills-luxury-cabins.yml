@@ -1,0 +1,66 @@
+order: 4
+navLabel: Luxury cabins
+linkText: Hocking Hills luxury cabins
+title: Luxury cabins in Hocking Hills
+seoTitle: "Luxury cabins Hocking Hills: pools, saunas and space"
+seoDescription: "Luxury cabins Hocking Hills groups can book direct: private pools, hot tubs, saunas, a private lake and room for 8 to 29. Compare our luxury cabin rentals."
+eyebrow: Everything you need to feel at home
+lead: "For luxury cabins, Hocking Hills has no shortage of pretty ones. Ours add what a group actually uses: a private pool, a hot tub and room to spread out, with extras like a sauna, a private lake or 20 wooded acres."
+image: /images/cabins/valhalla-hills/pool/valhalla-hills-pool-001.jpg
+alt: Aerial view of Valhalla Hills and its private pool, one of our luxury cabins in Hocking Hills
+listHeading: Hocking Hills luxury cabins, each with a private pool
+listIntro: Luxury here is simple. The pool, the hot tub and the fire pit are yours alone, and there's space for everyone to find a quiet corner.
+cabins:
+  - cabin: content/cabins/valhalla-hills.yml
+    note: 8,000 square feet, a saltwater pool, an 8-person hot tub and a 3-person sauna.
+  - cabin: content/cabins/loch-llyn.yml
+    note: 130 acres with a private 2-acre lake, kayaks, paddleboards and 11,000 square feet.
+  - cabin: content/cabins/clouds-reach.yml
+    note: Saltwater pool heated to about 85°F, open April 15 to November 30.
+  - cabin: content/cabins/rickenbacker-ridge.yml
+    note: 20 wooded acres, a pool heated to about 80°F and no neighbors in sight.
+  - cabin: content/cabins/lazy-deer-retreat.yml
+    note: Our newest cabin, with a private sauna, an EV charger and Old Man's Cave 5 minutes away.
+  - cabin: content/cabins/pickle-hill.yml
+    note: A regulation pickleball barn, a saltwater pool and an infrared sauna.
+know:
+  eyebrow: What you get
+  heading: What makes a luxury cabin rental worth it
+  items:
+    - icon: pool
+      title: A pool of your own
+      text: Private and outdoors, open May 15 to October 15 at most cabins. Clouds Reach runs April 15 to November 30.
+    - icon: sauna
+      title: Saunas
+      text: Valhalla Hills, Pickle Hill and Lazy Deer Retreat each have a sauna, open all year.
+    - icon: woods
+      title: Land, not a lot
+      text: 130 acres at Loch Llyn. 20 wooded acres at Rickenbacker Ridge. Room to roam without leaving.
+    - icon: kitchen
+      title: Kitchens for a crowd
+      text: Valhalla Hills and Loch Llyn each have 2 full kitchens and 3 ovens.
+    - icon: wifi
+      title: Fast Wi-Fi
+      text: Starlink at Rickenbacker Ridge and Lazy Deer Retreat, and Wi-Fi at every cabin.
+    - icon: message
+      title: Hosts who answer
+      text: A real person answers, typically within an hour.
+compare:
+  heading: Compare our luxury cabins side by side
+  intro: Sleeps, bedrooms, town and pool season for each cabin. Tap a name for photos and open dates.
+guide:
+  text: Coming in the colder months? Read our guide to
+  linkLabel: cabins for winter
+  link: /blog/cabins-for-winter
+faqHeading: Luxury cabin questions, answered
+faqs:
+  - q: What makes a cabin a luxury cabin?
+    a: A luxury cabin gives your group things you'd otherwise share or go without. That means a private pool, a hot tub, real space and a kitchen that can feed everyone. At our cabins it also means land. Loch Llyn sits on 130 acres with a private lake, and Rickenbacker Ridge has 20 wooded acres.
+  - q: Which luxury cabin works for a smaller group?
+    a: Lazy Deer Retreat sleeps 8 and Pickle Hill sleeps 10, so they're the easiest fit for a smaller group that still wants a luxury cabin rental. Both have a private pool, a hot tub and a sauna. Lazy Deer is about 5 minutes from Old Man's Cave, and Pickle Hill is 5 minutes from downtown Logan.
+  - q: Do any of the luxury cabins have a heated pool?
+    a: Yes. Clouds Reach has a saltwater pool heated to about 85°F and open April 15 to November 30, and Rickenbacker Ridge has a pool heated to about 80°F and open May 15 to October 15. Every one of our luxury cabins also has a hot tub that's open all year.
+  - q: How close are the luxury cabins to the trails?
+    a: Most of our Hocking Hills luxury cabins are 25 to 30 minutes from Old Man's Cave, and Lazy Deer Retreat is about 5 minutes away. Valhalla Hills and Rickenbacker Ridge are the farthest, at about 40 minutes. Every cabin page lists drive times to Old Man's Cave, Ash Cave, Cedar Falls and Lake Logan.
+  - q: Is it cheaper to book a luxury cabin direct?
+    a: Yes. Booking direct costs less than booking the same cabin on a booking site, because you skip the booking-site service fees. On a large luxury cabin, that difference adds up. You get the same cabin and the same hosts, and your reservation comes straight to us.

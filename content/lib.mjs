@@ -18,6 +18,8 @@ export const SETTINGS_FILE = path.join(CONTENT_DIR, 'settings', 'site.yml')
 export const POLICIES_FILE = path.join(CONTENT_DIR, 'settings', 'policies.yml')
 export const PAGES_DIR = path.join(CONTENT_DIR, 'pages')
 export const BLOG_DIR = path.join(CONTENT_DIR, 'blog')
+export const COLLECTIONS_DIR = path.join(CONTENT_DIR, 'collections')
+export const SHARE_DIR = path.join(ROOT, 'public', 'images', 'share')
 export const SITE_URL = 'https://happyhocking.com'
 
 const readYaml = (file) => (fs.existsSync(file) ? parseYaml(fs.readFileSync(file, 'utf8')) || {} : {})
@@ -210,6 +212,8 @@ export function cabinSummary(c) {
     baths: c.baths,
     gamesAndSports: c.gamesAndSports,
     chips: c.chips,
+    poolSeason: c.poolSeason,
+    poolNote: c.poolNote,
     heroImage: c.heroImage,
     heroAlt: c.heroAlt,
     ratingSummary: c.ratingSummary,
@@ -229,12 +233,13 @@ const photo = (o) => ({ image: img(o?.image), alt: str(o?.alt) })
 const titled = (v) => list(v).map((i) => ({ icon: str(i?.icon, 'sparkle'), title: str(i?.title), text: str(i?.text) })).filter((i) => i.title)
 const qa = (v) => list(v).map((f) => ({ q: str(f?.q), a: str(f?.a) })).filter((f) => f.q && f.a)
 
-/** Words and photos for Home, Co-hosting, About and FAQs. Empty values hide their piece of the page. */
+/** Words and photos for Home, Co-hosting, About, FAQs and Privacy. Empty values hide their piece of the page. */
 export function loadPages() {
   const h = readYaml(path.join(PAGES_DIR, 'home.yml'))
   const c = readYaml(path.join(PAGES_DIR, 'co-hosting.yml'))
   const a = readYaml(path.join(PAGES_DIR, 'about.yml'))
   const f = readYaml(path.join(PAGES_DIR, 'faqs.yml'))
+  const pr = readYaml(path.join(PAGES_DIR, 'privacy.yml'))
   return {
     home: {
       hero: { eyebrow: str(h.hero?.eyebrow), lead: str(h.hero?.lead), ...photo(h.hero), video: img(h.hero?.video), videoPhone: img(h.hero?.videoPhone) },
@@ -267,6 +272,13 @@ export function loadPages() {
       },
       promises: { heading: str(a.promises?.heading), items: titled(a.promises?.items) },
     },
+    privacy: {
+      updated: asDate(pr.updated),
+      intro: str(pr.intro),
+      sections: list(pr.sections)
+        .map((x) => ({ heading: str(x?.heading), text: str(x?.text) }))
+        .filter((x) => x.heading && x.text),
+    },
     faqs: {
       intro: str(f.intro),
       groups: list(f.groups)
@@ -277,6 +289,53 @@ export function loadPages() {
         .filter((g) => g.items.length),
     },
   }
+}
+
+/* ------------------------------------------------------------ collection pages */
+export const listCollectionFiles = () => listFiles(COLLECTIONS_DIR, '.yml')
+
+/**
+ * Cabin collection pages: a short list of cabins that share something (pools, room for a big group,
+ * games, a luxury stay). The file name is the web address, set by the keyword plan, so it never changes.
+ * A page needs a matching file in src/routes to be built.
+ */
+export function loadCollections() {
+  const visible = new Set(loadCabins().map((c) => c.slug))
+  const pages = listCollectionFiles().map((file) => {
+    const slug = path.basename(file, '.yml')
+    const d = readYaml(file)
+    if (!str(d.title)) throw new Error(`content/collections/${slug}.yml needs a title`)
+    return {
+      slug,
+      order: num(d.order, 99),
+      navLabel: str(d.navLabel, str(d.title)),
+      linkText: str(d.linkText, str(d.title)),
+      title: str(d.title),
+      seoTitle: str(d.seoTitle),
+      seoDescription: str(d.seoDescription),
+      eyebrow: str(d.eyebrow),
+      lead: str(d.lead),
+      ...photo(d),
+      listHeading: str(d.listHeading),
+      listIntro: str(d.listIntro),
+      showPoolDates: bool(d.showPoolDates),
+      // A hidden or removed cabin drops off the page by itself
+      cabins: list(d.cabins)
+        .map((c) => ({ slug: cabinRef(c?.cabin), note: str(c?.note) }))
+        .filter((c) => visible.has(c.slug)),
+      know: { eyebrow: str(d.know?.eyebrow), heading: str(d.know?.heading), items: titled(d.know?.items) },
+      compare: { heading: str(d.compare?.heading), intro: str(d.compare?.intro) },
+      guide: { heading: str(d.guide?.heading), text: str(d.guide?.text), linkLabel: str(d.guide?.linkLabel), link: str(d.guide?.link) },
+      faqHeading: str(d.faqHeading, 'Good to know'),
+      faqs: qa(d.faqs),
+    }
+  })
+  return pages.sort((a, b) => a.order - b.order || a.slug.localeCompare(b.slug))
+}
+
+/** Share images made by scripts/make-share-images.py: one 1200 x 630 card per page, named for the page. */
+export function listShareImages() {
+  return listFiles(SHARE_DIR, '.jpg').map((f) => path.basename(f, '.jpg'))
 }
 
 /* ------------------------------------------------------------ blog */
@@ -325,6 +384,36 @@ export function loadPosts({ includeDrafts = false } = {}) {
     .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : a.title.localeCompare(b.title)))
 }
 
+/**
+ * Width and height of a JPEG or PNG in /public, read from the file's header. Lets a photo in a post
+ * reserve its space before it loads, so the text doesn't jump. Returns null for anything else.
+ */
+export function imageSize(sitePath) {
+  try {
+    const file = path.join(ROOT, 'public', sitePath)
+    const b = fs.readFileSync(file)
+    if (b.length > 24 && b.toString('ascii', 1, 4) === 'PNG') return { width: b.readUInt32BE(16), height: b.readUInt32BE(20) }
+    if (b[0] !== 0xff || b[1] !== 0xd8) return null
+    let i = 2
+    while (i + 9 < b.length) {
+      if (b[i] !== 0xff) return null
+      const marker = b[i + 1]
+      const len = b.readUInt16BE(i + 2)
+      // Start-of-frame markers carry the size. C4, C8 and CC are tables, not frames.
+      if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) return { width: b.readUInt16BE(i + 7), height: b.readUInt16BE(i + 5) }
+      i += 2 + len
+    }
+  } catch {
+    /* a missing photo is reported by npm run check */
+  }
+  return null
+}
+
+// Photos inside posts go through Netlify's Image CDN on the live site, like every other photo (src/lib/img.ts).
+const POST_CDN = process.env.VITE_IMAGE_CDN === 'netlify'
+const POST_WIDTHS = [480, 800, 1200, 1600]
+const cdnUrl = (src, w) => `/.netlify/images?url=${encodeURIComponent(src)}&w=${w}&q=72`
+
 const slugifyHeading = (s) =>
   String(s)
     .toLowerCase()
@@ -333,7 +422,7 @@ const slugifyHeading = (s) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/(^-|-$)/g, '')
 
-/** Markdown to HTML. Photos lazy-load, headings get anchors and outside links open in a new tab. */
+/** Markdown to HTML. Photos lazy-load at the right size, headings get anchors and outside links open in a new tab. */
 export function renderPost(body) {
   const marked = new Marked({ gfm: true })
   marked.use({
@@ -345,7 +434,13 @@ export function renderPost(body) {
       },
       image({ href, title, text }) {
         const cap = title ? `<figcaption>${title}</figcaption>` : ''
-        return `<figure><img src="${href}" alt="${String(text || '').replace(/"/g, '&quot;')}" loading="lazy" decoding="async" />${cap}</figure>`
+        const local = href.startsWith('/') && !href.endsWith('.svg')
+        const size = local ? imageSize(href) : null
+        const dims = size ? ` width="${size.width}" height="${size.height}"` : ''
+        const cdn = POST_CDN && local
+        const src = cdn ? cdnUrl(href, 1200) : href
+        const srcset = cdn ? ` srcset="${POST_WIDTHS.map((w) => `${cdnUrl(href, w)} ${w}w`).join(', ')}" sizes="(min-width: 800px) 740px, 100vw"` : ''
+        return `<figure><img src="${src}"${srcset}${dims} alt="${String(text || '').replace(/"/g, '&quot;')}" loading="lazy" decoding="async" />${cap}</figure>`
       },
       link({ href, title, tokens }) {
         const inner = this.parser.parseInline(tokens)

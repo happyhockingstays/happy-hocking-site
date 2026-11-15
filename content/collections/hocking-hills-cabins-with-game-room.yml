@@ -1,0 +1,68 @@
+order: 3
+navLabel: Cabins with game rooms
+linkText: Cabins with game rooms
+title: Hocking Hills cabins with game rooms and pickleball courts
+seoTitle: Cabins with game rooms and pickleball in Hocking Hills
+seoDescription: Cabins with game rooms, sports barns and a regulation pickleball court in Hocking Hills, Ohio. Compare our pickleball vacation rentals and book direct.
+eyebrow: Game on
+lead: Our Hocking Hills cabins with game rooms keep a group busy in any weather, with pool tables, air hockey, arcade games and shuffleboard. Pickle Hill, The Farm at Nickel Plate and Lazy Deer Retreat add a court.
+image: /images/cabins/the-farm-at-nickel-plate/sport-court/the-farm-at-nickel-plate-sport-court-002.jpg
+alt: Indoor basketball court in the sports barn at The Farm at Nickel Plate, one of our Hocking Hills cabins with game rooms
+listHeading: Cabins with game rooms, courts and sports barns
+listIntro: Pick by how you like to play. Every one of these also has a private pool and a hot tub for after the game.
+cabins:
+  - cabin: content/cabins/pickle-hill.yml
+    note: Regulation pickleball court in its own barn, plus ping pong, cornhole and a basketball hoop.
+  - cabin: content/cabins/the-farm-at-nickel-plate.yml
+    note: Sports barn for basketball, pickleball and soccer. Game room with a pool table, air hockey and foosball.
+  - cabin: content/cabins/lazy-deer-retreat.yml
+    note: Sport court for pickleball and basketball. Game room with shuffleboard and arcade games.
+  - cabin: content/cabins/rickenbacker-ridge.yml
+    note: Basement game room with foosball, air hockey and board games.
+  - cabin: content/cabins/dunkle-creek.yml
+    note: Basement game room with shuffleboard and board games.
+  - cabin: content/cabins/valhalla-hills.yml
+    note: Pool table room and ping pong, with space for 29.
+  - cabin: content/cabins/loch-llyn.yml
+    note: Pool table, ping pong and an Xbox, plus kayaks on a private lake.
+know:
+  eyebrow: Ways to play
+  heading: Pickleball vacation rentals, sports barns and rainy day rooms
+  items:
+    - icon: pickleball
+      title: A regulation court
+      text: Pickle Hill's court is full size and inside its own barn, so the game goes on in the rain.
+    - icon: sport-court
+      title: A sports barn
+      text: The Farm at Nickel Plate has an indoor court for basketball, pickleball and soccer.
+    - icon: trails
+      title: A court by the trails
+      text: Lazy Deer Retreat pairs a sport court with a 5-minute drive to Old Man's Cave.
+    - icon: game-room
+      title: Rainy day rooms
+      text: Pool tables, air hockey, foosball, shuffleboard and arcade games, depending on the cabin.
+    - icon: bocce
+      title: Yard games
+      text: Bocce at Clouds Reach. Cornhole at Pickle Hill and Rickenbacker Ridge.
+    - icon: pool
+      title: A pool after the game
+      text: Every cabin on this page has a private pool, open May 15 to October 15. The hot tubs are open all year.
+compare:
+  heading: Compare the game cabins side by side
+  intro: Sleeps, bedrooms and town for each cabin. Tap a name to see the courts and game rooms.
+guide:
+  text: Building a trip around the court? Read our guide to
+  linkLabel: pickleball getaways
+  link: /blog/pickleball-getaways
+faqHeading: Courts and game rooms, answered
+faqs:
+  - q: Which cabins have a pickleball court?
+    a: Pickle Hill, The Farm at Nickel Plate and Lazy Deer Retreat. Pickle Hill has a regulation pickleball court inside its own barn. The Farm has a sports barn for pickleball, basketball and soccer, and Lazy Deer has a sport court for pickleball and basketball. They're vacation rentals with pickleball courts you don't share with anyone.
+  - q: What's in the game rooms?
+    a: It depends on the cabin. The Farm at Nickel Plate has a pool table, air hockey, foosball, ping pong and video games. Lazy Deer Retreat has shuffleboard and arcade games, Rickenbacker Ridge has foosball and air hockey, and Dunkle Creek has shuffleboard. Each cabin game room is shown in the photos on its page.
+  - q: Are these family friendly cabins with game rooms?
+    a: Yes. These are family friendly cabins with game rooms that work for kids, teens and grandparents, with board games and yard games next to the pool tables and arcade machines. The Farm at Nickel Plate also has a crib, a high chair, stair gates and a swing set.
+  - q: Can we play pickleball if it rains?
+    a: Yes, at Pickle Hill and The Farm at Nickel Plate. Pickle Hill's regulation court is inside an enclosed barn, and The Farm's court is inside its sports barn, so rain doesn't stop the game. Pickle Hill's barn is covered but isn't heated or cooled, so dress for the season.
+  - q: Is it cheaper to book a pickleball cabin direct?
+    a: Yes. If you found Pickle Hill on Airbnb or Vrbo, it's the same cabin here, with the same hosts. Booking direct costs less because you skip the booking-site service fees, and your reservation comes straight to us. The same goes for all our pickleball vacation rentals.

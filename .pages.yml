@@ -864,6 +864,132 @@ content:
               - { name: home, label: Show on the homepage, type: boolean, default: false, description: About 6 on the homepage is plenty. }
 
   # ------------------------------------------------------------------ Blog
+  - name: privacy
+    label: "Page: Privacy"
+    type: file
+    path: content/pages/privacy.yml
+    format: yaml
+    fields:
+      - { name: updated, label: Last updated, type: date, description: Change this whenever the page changes. }
+      - { name: intro, label: Opening lines, type: text }
+      - name: sections
+        label: Sections
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{heading}"
+        fields:
+          - { name: heading, label: Heading, type: string, description: Sentence case and no period. }
+          - { name: text, label: Text, type: text, description: Leave a blank line between paragraphs. }
+
+  - name: collections
+    label: Cabin collection pages
+    type: collection
+    path: content/collections
+    format: yaml
+    filename:
+      template: "{navLabel}.yml"
+      field: create
+    view:
+      fields: [title]
+      primary: title
+    description: 'The 4 pages that group cabins: pools, large groups, game rooms and luxury. Each page''s web address was set by the keyword research, so please don''t rename or delete these files, and ask Cole before adding a new one (a new page also needs a small code file).'
+    fields:
+      - name: title
+        label: Headline
+        type: string
+        required: true
+        description: The big headline at the top. Sentence case and no period. It carries the page's search phrase, so check with Cole before changing it.
+      - { name: order, label: Order in the footer and on the Cabins page, type: number }
+      - name: navLabel
+        label: Short name
+        type: string
+        description: Used in the footer and on the Cabins page. 2 to 4 words.
+      - name: linkText
+        label: Link wording
+        type: string
+        description: The words other pages use when they link here. Part of the keyword plan, so check with Cole before changing it.
+      - name: seoTitle
+        label: Google title
+        type: string
+        description: 60 characters at most.
+      - name: seoDescription
+        label: Google description
+        type: text
+        description: 120 to 165 characters.
+      - { name: eyebrow, label: Small line above the headline, type: string }
+      - { name: lead, label: Opening lines, type: text, description: About 30 words. }
+      - name: image
+        label: Photo at the top
+        type: image
+        description: Resize to 2400 px wide before uploading.
+        options: { media: photos, path: public/images }
+      - { name: alt, label: Photo description, type: string, description: "What the photo shows, plus the cabin name." }
+      - { name: listHeading, label: Heading above the cabins, type: string }
+      - { name: listIntro, label: Line under that heading, type: text }
+      - name: showPoolDates
+        label: Show each cabin's pool dates on its card
+        type: boolean
+        description: The dates come from each cabin (Pool season), so they stay right when a cabin's dates change.
+      - name: cabins
+        label: Cabins on this page
+        type: object
+        description: In the order they show. A hidden cabin drops off by itself.
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{cabin}"
+        fields:
+          - name: cabin
+            label: Cabin
+            type: reference
+            options: { collection: cabins, value: "{path}", label: "{name}" }
+          - { name: note, label: Why this cabin is on this page, type: string, description: One short line with a period. Say "heated" only for Clouds Reach and Rickenbacker Ridge. }
+      - name: know
+        label: What to know (the dark green section)
+        type: object
+        fields:
+          - { name: eyebrow, label: Small line above the heading, type: string }
+          - { name: heading, label: Heading, type: string }
+          - name: items
+            label: Points
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - { name: icon, label: Icon, type: string, description: "An icon name, like pool, hot-tub, sauna, calendar, bed, kitchen, pickleball or game-room." }
+              - { name: title, label: Title, type: string }
+              - { name: text, label: Text, type: text, description: About 30 words at most. }
+      - name: compare
+        label: Side by side table
+        type: object
+        description: The table fills itself in from each cabin. Clear the heading to hide it.
+        fields:
+          - { name: heading, label: Heading, type: string }
+          - { name: intro, label: Line under the heading, type: text }
+      - name: guide
+        label: Link to a blog post (next to the questions)
+        type: object
+        fields:
+          - { name: text, label: Words before the link, type: string }
+          - { name: linkLabel, label: Link wording, type: string, description: Use the post's search phrase. Check with Cole before changing it. }
+          - { name: link, label: Web address of the post, type: string, description: "For example /blog/pickleball-getaways" }
+      - { name: faqHeading, label: Heading above the questions, type: string }
+      - name: faqs
+        label: Questions
+        type: object
+        description: 5 or 6 questions, each answered in 40 to 70 words.
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{q}"
+        fields:
+          - { name: q, label: Question, type: string }
+          - { name: a, label: Answer, type: text }
+
   - name: blog
     label: Blog posts
     type: collection

@@ -1,0 +1,70 @@
+order: 2
+navLabel: Large group cabins
+linkText: Cabin rentals for large groups
+title: Cabin rentals for large groups in Hocking Hills
+seoTitle: Cabin rentals for large groups in Hocking Hills, Ohio
+seoDescription: Cabin rentals for large groups of 10 to 29 in Hocking Hills, Ohio. Large cabin rentals with a private pool, a hot tub and beds for the whole crew. Book direct.
+eyebrow: A place for everyone
+lead: Our cabin rentals for large groups sleep 10 to 29 under one roof, so nobody gets sent to a second house. Every one has a private pool, a hot tub and a fire pit.
+image: /images/cabins/loch-llyn/exterior/loch-llyn-exterior-006.jpg
+alt: Deck with a long dining table at Loch Llyn, one of our cabin rentals for large groups in Hocking Hills
+listHeading: Cabins for large groups, from 10 guests to 29
+listIntro: Start with your head count, then pick the extra. A private lake, a sports barn, a sauna or a pickleball court.
+cabins:
+  - cabin: content/cabins/valhalla-hills.yml
+    note: Sleeps 29 in 11 bedrooms, with 2 full kitchens.
+  - cabin: content/cabins/loch-llyn.yml
+    note: Sleeps 29 in 10 bedrooms, on 130 private acres.
+  - cabin: content/cabins/the-farm-at-nickel-plate.yml
+    note: Sleeps 22 in 8 bedrooms, with a sports barn.
+  - cabin: content/cabins/clouds-reach.yml
+    note: Sleeps 16 in 4 bedrooms, with a heated saltwater pool.
+  - cabin: content/cabins/the-johnny.yml
+    note: Sleeps 16 in 6 bedrooms, with a private pond.
+  - cabin: content/cabins/rickenbacker-ridge.yml
+    note: Sleeps 13 in 4 bedrooms, on 20 wooded acres.
+  - cabin: content/cabins/pickle-hill.yml
+    note: Sleeps 10 in 5 bedrooms, with a pickleball barn.
+know:
+  eyebrow: Planning for a crowd
+  heading: What a big group needs from a cabin
+  items:
+    - icon: bed
+      title: A bed for everyone
+      text: Count beds, not bedrooms. Each cabin page lists every room and what's in it, down to the bunks.
+    - icon: kitchen
+      title: A kitchen that keeps up
+      text: Valhalla Hills and Loch Llyn each have 2 full kitchens, so breakfast for 29 doesn't mean a line at the stove.
+    - icon: sofa
+      title: Room to spread out
+      text: Loch Llyn has 3 living rooms and Valhalla Hills has 8,000 square feet. Loud games in one room, naps in another.
+    - icon: pool
+      title: Something for every age
+      text: A pool and a hot tub at every cabin, plus a lake, a pond, a sports barn or a game room, depending on your pick.
+    - icon: calendar
+      title: Time to line up dates
+      text: Calendars usually open about a year out. For a summer or holiday weekend, earlier is better.
+    - icon: rules
+      title: Stays, not events
+      text: These cabins are for reunions and group trips. Parties, weddings and other events aren't allowed.
+compare:
+  heading: Compare large cabin rentals side by side
+  intro: Sleeps, bedrooms and town for each cabin. Tap a name for the full room list.
+guide:
+  text: Getting the whole family together? Read
+  linkLabel: how to plan a family reunion
+  link: /blog/how-to-plan-a-family-reunion
+faqHeading: Good to know before you book for a group
+faqs:
+  - q: How many people can your largest cabins sleep?
+    a: Valhalla Hills and Loch Llyn each sleep 29, which makes them our biggest cabin rentals for large groups. Valhalla Hills has 11 bedrooms and Loch Llyn has 10. The Farm at Nickel Plate sleeps 22 in 8 bedrooms. Every cabin has a maximum guest count, listed on its page.
+  - q: Which cabin is best for a family reunion?
+    a: For a family reunion of 20 to 29, start with Valhalla Hills or Loch Llyn. Both have 2 full kitchens and several living areas, so 3 generations can share a large cabin without sharing every minute. For 13 to 22 people, look at The Farm at Nickel Plate, Clouds Reach, The Johnny or Rickenbacker Ridge.
+  - q: Can we host a wedding or a party at a large cabin?
+    a: No. Our cabins are group vacation rentals for overnight stays, not event venues. Weddings, parties and other events aren't allowed, and each cabin has a maximum guest count. Family reunions, trips with friends and vacations shared by 2 or 3 families are what these large group cabin rentals are for.
+  - q: Do the big cabins have more than 1 kitchen?
+    a: Valhalla Hills and Loch Llyn do. Valhalla Hills has 2 full kitchens with 3 ovens and 2 dishwashers, and Loch Llyn has 2 full kitchens with 3 refrigerators and 3 ovens. Our other large cabins have 1 fully equipped kitchen. The Farm at Nickel Plate adds a second refrigerator and a mini fridge.
+  - q: How far ahead should a large group book?
+    a: As early as you can. Calendars are usually open about a year out, and a large group needs more schedules to line up than a small one. Pick 2 or 3 weekends that could work, check them on the cabin's page, then book the one the most people can make.
+  - q: How do large groups split the cost?
+    a: One person books and pays, and most groups settle up among themselves. You can pay in up to 3 installments that line up with the cancellation policy, which gives everyone time to send their share. Booking direct also skips the booking-site service fees, so there's less to split.
