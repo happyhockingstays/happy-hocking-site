@@ -74,7 +74,7 @@ A few tips for planning the trip, beyond the basics of [how to plan a group trip
 
 ## Beyond the court
 
-The best part of an active trip is that the Hocking Hills meet everyone where they are. Do the hikes first, and choose your trail by your group's comfort level. Ash Cave is an easy, stroller-friendly walk to a giant recess cave, while the Conkle's Hollow rim trail and Cantwell Cliffs give your more adventurous hikers something to earn. [Explore Hocking Hills](https://www.explorehockinghills.com/) has trail details and conditions.
+The best part of an active trip is that the Hocking Hills meet everyone where they are. Do the hikes first, and choose your trail by your group's comfort level. Ash Cave is an easy, stroller-friendly walk to a giant recess cave, while the Conkle's Hollow rim trail and [Cantwell Cliffs](/blog/cantwell-cliffs) give your more adventurous hikers something to earn. [Explore Hocking Hills](https://www.explorehockinghills.com/) has trail details and conditions.
 
 When you want a thrill, [Hocking Hills Canopy Tours](https://www.hockinghillscanopytours.com/) sends you soaring on ziplines through the treetops. On warm days, get out on the water with a canoe or kayak trip, or spend an afternoon at Lake Hope, about 30 minutes east. For more, see our [things to do in Hocking Hills for adults](/blog/things-to-do-in-hocking-hills-for-adults).
 

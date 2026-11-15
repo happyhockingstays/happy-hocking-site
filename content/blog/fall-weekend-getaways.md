@@ -50,7 +50,7 @@ Start slow with coffee at [Hocking Hills Coffee Emporium](https://hockinghillsco
 - **[Ash Cave](/blog/ash-cave)** is the gentle one: an easy, accessible walk to a massive recess cave framed by turning trees
 - **[Old Man's Cave](/blog/old-mans-cave)** is the classic Hocking Hills hike, with gorges, waterfalls and color overhead
 - **Conkle's Hollow** rewards a bit more effort on the rim trail, with long views over a valley full of color
-- **Cantwell Cliffs** and **Cedar Falls** are beautiful this time of year too
+- **[Cantwell Cliffs](/blog/cantwell-cliffs)** and **Cedar Falls** are beautiful this time of year too
 
 [Explore Hocking Hills](https://www.explorehockinghills.com/) has maps and current trail conditions.
 
