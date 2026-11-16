@@ -24,13 +24,13 @@ Not done yet outside the repo: Netlify site (waiting on the clients), branch pro
 
 Pull request #13. Cole asked for more co-hosting posts from the owner topics the IA had held back, now that Natalie asked about them.
 
-- `/blog/vacation-rental-co-hosting` (P128, seed "vacation rental co hosting", 70 at KD 38, plus "co hosting" 260 and "co host" 1,300). These terms were on Avoid in the IA because they sat near Cole's other site's topics. Its current map doesn't target them, so they're on Happy Hocking now.
+- `/blog/vacation-rental-co-hosting` (P128, seed "vacation rental co hosting", 70 at KD 38, plus "co hosting" 260 and "co host" 1,300). The IA had held these terms back. Cole cleared them on Nov 16.
 - `/blog/short-term-rental-property-management` (P129, seed 720 at KD 17; 25 keywords and 22,330 a month, including "airbnb property manager" 2,900 at KD 15 as body copy).
 - `/blog/vacation-rental-cleaning` (P130, seed 5,400 at KD 25; 8 keywords and 27,600 a month, including "airbnb cleaning checklist" 1,600).
 - Seeds avoid "Airbnb" because Airbnb's name can't go in titles or headings. Airbnb phrasings are body terms.
 - Sources: Airbnb's help article on what co-hosts can do (permission levels, payouts), the CDC's hot tub guidance (test strips, chlorine, bromine and pH), and the site's own policies and cabin files (check-in, check-out, pool dates, sleeps).
 - Back links: P116 and P117 now link the 3 new posts, and the Co-hosting page's "Owner guides" list picks them up by category.
-- Not written: management fees (Natalie's fees are unpublished, and Cole's other site targets those terms) and short-term rental tax strategy (not in the keyword pool: it needs a SEMrush pull first).
+- Not written: management fees (the hosts' fees are unpublished) and short-term rental tax strategy (not in the keyword pool: it needs a SEMrush pull first).
 - Checked: copy check, typecheck, build, link check (58 pages), post check, phone and desktop widths.
 
 ## Eighth session (Nov 16): owner posts and fixes from the call with Natalie
