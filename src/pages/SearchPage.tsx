@@ -6,8 +6,8 @@ import { SiteLink } from '@/components/SiteLink'
  * The results widget reads the dates from the web address. Picking a cabin goes to its
  * cabin page, where the booking widget picks the same dates up from the address.
  *
- * The results widget draws its own full-width search band, so it sits straight in the
- * section rather than in a card. overflow-x-clip stops that band from adding a sideways
+ * The results widget draws its own full-width search band, so it sits in the page
+ * container rather than in a card. overflow-x-clip stops that band from adding a sideways
  * scroll without clipping the date picker.
  */
 export function SearchPage() {
@@ -21,7 +21,9 @@ export function SearchPage() {
         </div>
       </section>
       <section className="sec-cream overflow-x-clip pb-14">
-        <SearchResults />
+        <div className="container-x">
+          <SearchResults />
+        </div>
         <div className="container-x mt-8">
           <SiteLink to="/cabins" className="text-link font-bold">
             Browse all our cabins
