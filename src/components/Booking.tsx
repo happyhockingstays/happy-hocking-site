@@ -10,7 +10,16 @@ import { Icon, Sparkle } from './Icon'
  * settings). This component only injects that snippet into the page. We frame the widget
  * in our own card and never restyle what is inside it.
  */
-export function HospitableEmbed({ code, minHeight = 420 }: { code: string; minHeight?: number }) {
+export function HospitableEmbed({
+  code,
+  minHeight = 420,
+  settings: widgetSettings,
+}: {
+  code: string
+  minHeight?: number
+  /** Settings the Hospitable search widget accepts as attributes. Set here so the pasted code stays as Hospitable gave it. */
+  settings?: Record<string, string>
+}) {
   const ref = useRef<HTMLDivElement>(null)
   useEffect(() => {
     const host = ref.current
@@ -19,6 +28,10 @@ export function HospitableEmbed({ code, minHeight = 420 }: { code: string; minHe
     const tpl = document.createElement('template')
     tpl.innerHTML = code
     host.appendChild(tpl.content)
+    if (widgetSettings)
+      host.querySelectorAll('hospitable-direct-mps').forEach((el) => {
+        for (const [k, v] of Object.entries(widgetSettings)) el.setAttribute(k, v)
+      })
     // Scripts parsed inside a <template> never run, so swap each for a fresh one (runs once).
     host.querySelectorAll('script').forEach((old) => {
       const s = document.createElement('script')
@@ -26,7 +39,7 @@ export function HospitableEmbed({ code, minHeight = 420 }: { code: string; minHe
       s.text = old.text
       old.replaceWith(s)
     })
-  }, [code])
+  }, [code, widgetSettings])
   return <div ref={ref} style={{ minHeight }} className="widget-host" />
 }
 
@@ -82,9 +95,13 @@ export function SearchWidget() {
   return <WidgetPlaceholder title="Hospitable search widget" text="Check-in, check-out and guests, with a Find your happy place button" />
 }
 
+const RESULTS_SETTINGS = { 'full-screen-mode': 'false' }
+
 /** The open cabins for the guest's dates, on /search. Each result links to its cabin page. */
 export function SearchResults() {
   const code = settings.searchResultsWidget
-  if (code.trim()) return <HospitableEmbed code={code} minHeight={600} />
+  // Hospitable's results default to a box one screen tall that scrolls inside itself.
+  // full-screen-mode="false" is the widget's own setting for one long list instead.
+  if (code.trim()) return <HospitableEmbed code={code} minHeight={600} settings={RESULTS_SETTINGS} />
   return <WidgetPlaceholder title="Hospitable search results" text="The cabins open for the guest's dates show here" />
 }

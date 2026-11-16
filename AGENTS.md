@@ -12,7 +12,7 @@ The full brand guide lives in the Claude project (`claude/happy-hocking-brand-gu
 
 ## Three hard rules
 
-1. **Never edit the Hospitable widget code.** Hospitable handles every booking. Each cabin's booking widget and the property search widget arrive as embed snippets and are pasted, unchanged, into Pages CMS (`bookingWidget` on a cabin, `searchWidget` in Site settings). `src/components/Booking.tsx` only injects them. Frame a widget in our own card, never restyle or rewrite what's inside it, and never build a custom booking or payment flow.
+1. **Never edit the Hospitable widget code.** Hospitable handles every booking. Each cabin's booking widget and the property search widget arrive as embed snippets and are pasted, unchanged, into Pages CMS (`bookingWidget` on a cabin, `searchWidget` in Site settings). `src/components/Booking.tsx` only injects them. One exception, set in code so the pasted snippet stays untouched: the search results widget gets Hospitable's own `full-screen-mode="false"` setting, which shows every result in one list instead of a scrolling box. Frame a widget in our own card, never restyle or rewrite what's inside it, and never build a custom booking or payment flow.
 2. **Follow the copy rules** (next section) in every page, post, caption and alt text. Run `npm run check` after any copy change.
 3. **Follow the photo rules** (below). Never commit a full-size original.
 
