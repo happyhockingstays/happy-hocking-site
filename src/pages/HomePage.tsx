@@ -25,10 +25,14 @@ export function HomePage() {
   return (
     <>
       {/* 1. Hero: full-bleed video over its still photo, with the date and guest search */}
-      <section className="on-forest relative -mt-[var(--header-h)] flex min-h-[92svh] items-center overflow-hidden bg-forest text-cream">
-        <Photo src={p.hero.image} alt={p.hero.alt} className="absolute inset-0 h-full w-full" priority sizes="100vw" emptyText="Hero photo or video" />
-        {p.hero.video ? <HeroVideo wide={p.hero.video} tall={p.hero.videoPhone} /> : null}
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-forest/75 via-forest/40 to-forest/80" aria-hidden="true" />
+      {/* The photo and video are clipped in their own layer, not the section, so the search
+          widget's date picker can open past the bottom of the hero. */}
+      <section className="on-forest relative -mt-[var(--header-h)] flex min-h-[92svh] items-center bg-forest text-cream">
+        <div className="absolute inset-0 overflow-hidden">
+          <Photo src={p.hero.image} alt={p.hero.alt} className="absolute inset-0 h-full w-full" priority sizes="100vw" emptyText="Hero photo or video" />
+          {p.hero.video ? <HeroVideo wide={p.hero.video} tall={p.hero.videoPhone} /> : null}
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-forest/75 via-forest/40 to-forest/80" aria-hidden="true" />
+        </div>
         <div className="container-x relative z-10 pb-14 pt-[calc(var(--header-h)+2rem)] text-center md:pb-20">
           {p.hero.eyebrow ? <p className="eyebrow">{p.hero.eyebrow}</p> : null}
           <h1 className="h-display mx-auto mt-4 max-w-4xl">
