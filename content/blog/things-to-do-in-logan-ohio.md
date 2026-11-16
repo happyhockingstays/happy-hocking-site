@@ -65,7 +65,7 @@ Logan, Ohio shopping is mostly small and local. Park once downtown and walk.
 
 ## Lake Logan and the parks in town
 
-[Lake Logan State Park](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/lake-logan-state-park) is just west of town. The 400-acre lake allows motors up to 10 horsepower, with a 10 mph limit, so it stays calm for paddlers. The marina rents canoes, kayaks, paddleboards, pedal boats and pontoons in spring, summer and fall.
+[Lake Logan State Park](/blog/lake-logan-state-park) is just west of town. The 400-acre lake allows motors up to 10 horsepower, with a 10 mph limit, so it stays calm for paddlers. The marina rents canoes, kayaks, paddleboards, pedal boats and pontoons in spring, summer and fall.
 
 The swimming beach on the north shore runs 527 feet, is free and is open all year. There are no lifeguards, so keep an eye on kids. Anglers go after bluegill, crappie, bass, muskie and catfish, and anyone 16 or older needs an Ohio fishing license.
 
@@ -76,7 +76,7 @@ In town, the [city's parks](https://www.cityoflogan.oh.gov/recreation/page/parks
 The real headliners are a short drive south, in Hocking Hills State Park.
 
 - **[Old Man's Cave](/blog/old-mans-cave):** the park's main trail and visitor center, about 25 minutes from downtown
-- **Cedar Falls:** a 1-mile trail the park rates moderate, down to the falls
+- **[Cedar Falls](/blog/cedar-falls-hocking-hills):** a 1-mile trail the park rates moderate, down to the falls
 - **[Ash Cave](/blog/ash-cave):** a paved quarter-mile walk to the largest recess cave in Ohio
 - **Conkle's Hollow:** a narrow gorge with cliffs nearly 200 feet high, and a partly paved trail to the falls
 - **Rock climbing and rappelling:** the state forest sets aside 99 acres on Big Pine Road, about a mile east of Conkle's Hollow. Bring good gear and climb with experienced people

@@ -43,7 +43,7 @@ This is the classic, and the one to do first.
 
 **Morning: [Old Man's Cave](/blog/old-mans-cave).** Park at the visitor center and walk the 1-mile gorge trail past 2 main waterfalls, stone stairways and a huge recess cave. It's the busiest trail in the park, so this is the stop to make early.
 
-**Midday: Cedar Falls.** A short drive away, a 1-mile trail the park rates moderate drops into a shaded gorge to the falls. Every trailhead parking area has picnic tables and grills, so pack lunch and eat it here.
+**Midday: [Cedar Falls](/blog/cedar-falls-hocking-hills).** A short drive away, a 1-mile trail the park rates moderate drops into a shaded gorge to the falls. Every trailhead parking area has picnic tables and grills, so pack lunch and eat it here.
 
 **Afternoon: [Ash Cave](/blog/ash-cave).** End with the easy one. A paved, level quarter-mile trail leads to a sandstone horseshoe about 700 feet across, with a seasonal waterfall dropping from the rim. It's the one stop everybody in your car can do.
 
@@ -54,7 +54,7 @@ Want to walk between them instead of driving? The Grandma Gatewood Trail links a
 If you've done the big 3, or you'd rather skip the busiest lots, head north and west of the main park.
 
 - **[Conkle's Hollow State Nature Preserve](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/conkles-hollow-state-nature-preserve).** The cliffs rise nearly 200 feet, and the gorge is only 100 feet wide in places. The Gorge Trail is partly paved and runs about 1 mile round trip to the falls. The 2-mile rim loop is for steadier legs. Pets aren't allowed in the preserve.
-- **Rock House.** A 1-mile trail the park rates moderate leads to a cave that formed differently from the rest: water widened cracks in the sandstone instead of hollowing out a recess. In 1835, a hotel stood on top of it.
+- **[Rock House](/blog/hocking-hills-rock-house).** A 1-mile trail the park rates moderate leads to a cave that formed differently from the rest: water widened cracks in the sandstone instead of hollowing out a recess. In 1835, a hotel stood on top of it.
 - **[Rockbridge State Nature Preserve](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/rockbridge-state-nature-preserve).** Save this for the drive home. Its sandstone arch is more than 100 feet long and spans 50 feet across a ravine, and the state calls it the largest natural bridge in Ohio. There are 2.8 miles of trail and no restrooms, so plan ahead.
 
 Clear Creek Metro Park is out this way, too. It's one of Columbus's own Metro Parks, and the second-largest of the 20.
@@ -63,7 +63,7 @@ Clear Creek Metro Park is out this way, too. It's one of Columbus's own Metro Pa
 
 For an easier day, or a summer one, stay close to town.
 
-[Lake Logan State Park](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/lake-logan-state-park) has a 400-acre lake where motors top out at 10 horsepower, so the water stays calm. The marina rents canoes, kayaks, paddleboards, pedal boats and pontoons in spring, summer and fall. The swimming beach on the north shore is free and open all year, with no lifeguards.
+[Lake Logan State Park](/blog/lake-logan-state-park) has a 400-acre lake where motors top out at 10 horsepower, so the water stays calm. The marina rents canoes, kayaks, paddleboards, pedal boats and pontoons in spring, summer and fall. The swimming beach on the north shore is free and open all year, with no lifeguards.
 
 Then drive into Logan. The Columbus Washboard Company, which moved here from Grandview in 1999, runs guided factory tours by reservation. Main Street has local shops, a gallery and plenty of places for lunch. Our guide to [things to do in Logan, Ohio](/blog/things-to-do-in-logan-ohio) has the full list.
 

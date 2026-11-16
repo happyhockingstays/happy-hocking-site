@@ -68,6 +68,11 @@ export interface CabinSummary {
   poolNote: string
   heroImage: string
   heroAlt: string
+  /** The cabin card's cover photo: its own card photo if set, otherwise the hero photo. */
+  cardImage: string
+  cardAlt: string
+  /** Up to 5 photos the cabin card cycles through on hover. */
+  cardPhotos: { image: string; alt: string }[]
   ratingSummary: RatingSummary | null
 }
 

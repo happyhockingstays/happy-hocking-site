@@ -82,7 +82,7 @@ The kitchen has the tools. You bring the food.
 
 **With kids:** a favorite blanket, a night-light, swim gear, rain boots and a few small toys for the car. Most of our cabins have a pack 'n play, and some have a high chair. Check the cabin's page first.
 
-**With a group:** a shared list so nobody brings 4 coolers and no coffee filters. Our guide on how to plan a group trip has a trip sheet that covers it.
+**With a group:** a shared list so nobody brings 4 coolers and no coffee filters. Our guide on [how to plan a group trip](/blog/how-to-plan-a-group-trip) has a trip sheet that covers it.
 
 **For game night:** cards and a favorite board game. [Pickle Hill](/cabins/pickle-hill), [The Farm at Nickel Plate](/cabins/the-farm-at-nickel-plate) and [Lazy Deer Retreat](/cabins/lazy-deer-retreat) have courts, so pack paddles or a ball if you have a favorite.
 

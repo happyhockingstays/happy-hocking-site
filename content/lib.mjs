@@ -152,6 +152,12 @@ export function readCabin(file, reviews = loadReviews()) {
     aboutMore: str(d.aboutMore),
     heroImage: img(d.heroImage),
     heroAlt: str(d.heroAlt),
+    cardImage: img(d.cardImage),
+    cardAlt: str(d.cardAlt),
+    cardPhotos: list(d.cardPhotos)
+      .map((s) => ({ image: img(s?.image), alt: str(s?.alt) }))
+      .filter((s) => s.image)
+      .slice(0, 5),
     keyShots: list(d.keyShots).map((s) => ({ image: img(s?.image), alt: str(s?.alt), label: str(s?.label) })),
     highlights: list(d.highlights).map((h) => ({ title: str(h?.title), text: str(h?.text), image: img(h?.image), alt: str(h?.alt) })),
     rooms: list(d.rooms).map((r) => ({
@@ -216,6 +222,11 @@ export function cabinSummary(c) {
     poolNote: c.poolNote,
     heroImage: c.heroImage,
     heroAlt: c.heroAlt,
+    // The card's cover: its own photo if one is set, otherwise the hero photo
+    cardImage: c.cardImage || c.heroImage,
+    cardAlt: c.cardImage ? c.cardAlt || c.heroAlt : c.heroAlt,
+    // Up to 5 photos the card cycles through on hover (computers only)
+    cardPhotos: c.cardPhotos,
     ratingSummary: c.ratingSummary,
   }
 }

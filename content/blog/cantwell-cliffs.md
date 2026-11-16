@@ -61,7 +61,7 @@ Like every trail area in the park, the lot has a picnic area with tables, grills
 
 ## A piece of the park's history
 
-In 1933, the Civilian Conservation Corps set up 2 work camps in the park. Camp Logan, Company 526, was a camp of Black workers. It sat on top of these cliffs. The [park's history](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/hocking-hills-state-park) credits them with improvements at Cantwell Cliffs, Rock House and Rock Bridge, and the CCC camps built many of the trails and bridges still in use today. Camp Logan closed in 1937.
+In 1933, the Civilian Conservation Corps set up 2 work camps in the park. Camp Logan, Company 526, was a camp of Black workers. It sat on top of these cliffs. The [park's history](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/hocking-hills-state-park) credits them with improvements at Cantwell Cliffs, [Rock House](/blog/hocking-hills-rock-house) and Rock Bridge, and the CCC camps built many of the trails and bridges still in use today. Camp Logan closed in 1937.
 
 ## When to go
 

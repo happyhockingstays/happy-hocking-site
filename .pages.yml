@@ -98,7 +98,7 @@ content:
       - name: aboutHeading
         label: About this home, heading
         type: string
-        description: 'The heading over "About this home". Carries the search phrase this page targets, for example "A Hocking Hills A-frame cabin". Leave blank for "About this home". No period.'
+        description: 'The heading over "About this home". Set for search: it carries the phrase this page targets, so please check with Cole before changing it. No period.'
       - name: about
         label: About this home
         type: text
@@ -126,6 +126,36 @@ content:
         type: object
         list:
           max: 4
+          collapsible:
+            collapsed: true
+            summary: "{alt}"
+        fields:
+          - name: image
+            label: Photo
+            type: image
+            options:
+              media: photos
+              path: public/images/cabins
+          - name: alt
+            label: Photo description
+            type: string
+      - name: cardImage
+        label: Card photo (optional)
+        type: image
+        description: The photo on this cabin's card on the Cabins page, the homepage and the collection pages. Leave blank to use the hero photo. Use an outside shot of the home.
+        options:
+          media: photos
+          path: public/images/cabins
+      - name: cardAlt
+        label: Card photo description
+        type: string
+        description: What the card photo shows, plus the cabin name. Only needed if you set a card photo.
+      - name: cardPhotos
+        label: Card photos on hover (3 to 5)
+        type: object
+        description: On a computer, pointing at the cabin's card fades through these photos, a new one every 2.5 seconds. Lead with what makes this cabin different (the court, the lake, the sauna). Phones show the card photo only.
+        list:
+          max: 5
           collapsible:
             collapsed: true
             summary: "{alt}"
@@ -365,12 +395,13 @@ content:
       - name: seoTitle
         label: Google title (60 characters max)
         type: string
-        description: 'Cabin name, then its signature feature and "Hocking Hills".'
+        description: 'Set for search: it carries the phrase this page is built to rank for. Please leave it as is, or check with Cole before changing it.'
         options:
           maxlength: 60
       - name: seoDescription
         label: Google description (120 to 165 characters)
         type: text
+        description: Set for search, like the Google title. Please leave it as is, or check with Cole before changing it.
         options:
           maxlength: 165
       - name: gallery
@@ -913,11 +944,11 @@ content:
       - name: seoTitle
         label: Google title
         type: string
-        description: 60 characters at most.
+        description: 'Set for search: it carries the phrase this page is built to rank for. Please leave it as is, or check with Cole before changing it. 60 characters at most.'
       - name: seoDescription
         label: Google description
         type: text
-        description: 120 to 165 characters.
+        description: Set for search, like the Google title. Please leave it as is, or check with Cole before changing it. 120 to 165 characters.
       - { name: eyebrow, label: Small line above the headline, type: string }
       - { name: lead, label: Opening lines, type: text, description: About 30 words. }
       - name: image
@@ -1010,7 +1041,7 @@ content:
         label: Title
         type: string
         required: true
-        description: Sentence case and no period. The web address is made from the title when the post is first saved, and stays the same after that.
+        description: Sentence case and no period. On posts Cole wrote, the title starts with the search phrase the post targets, so check with him before changing it. The web address is set when the post is first saved and stays the same after that.
       - name: draft
         label: Draft
         type: boolean
@@ -1019,7 +1050,7 @@ content:
       - name: description
         label: Summary
         type: text
-        description: One or 2 sentences, 120 to 165 characters. Shows on the blog page and in Google.
+        description: One or 2 sentences, 120 to 165 characters. Shows on the blog page and in Google. On posts Cole wrote, it carries the search phrase, so check with him before changing it.
       - name: date
         label: Date
         type: date
@@ -1028,11 +1059,11 @@ content:
         label: Category
         type: select
         options:
-          values: [Seasonal guides, Activities, Cabin guides, Tips and tricks, Why book with us]
+          values: [Seasonal guides, Activities, Cabin guides, Tips and tricks, Why book with us, For owners]
       - name: cover
         label: Cover photo
         type: image
-        description: Resize to 2400 px wide before uploading.
+        description: Resize to 2400 px wide before uploading. Use a photo you took or one whose license allows use on a business website, and note where it came from. Never a photo copied from a news site or a search result.
         options: { media: photos, path: public/images/blog }
       - name: coverAlt
         label: Cover photo description
@@ -1040,7 +1071,7 @@ content:
       - name: seoTitle
         label: Google title (optional)
         type: string
-        description: Leave blank to use the post title. 60 characters at most.
+        description: Set for search on posts Cole wrote. Please leave it as is. On a new post, leave blank to use the post title. 60 characters at most.
       - name: updated
         label: Last updated (optional)
         type: date

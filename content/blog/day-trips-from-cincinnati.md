@@ -43,7 +43,7 @@ On the last stretch into the hills, near Laurelville, Tar Hollow is named for th
 
 ### The Hocking Hills trails
 
-Coming from the west, [Ash Cave](/blog/ash-cave) at the south end of the state park makes a good first stop. A paved, level quarter-mile trail leads to a sandstone horseshoe about 700 feet across. From there, Cedar Falls and [Old Man's Cave](/blog/old-mans-cave) are a short drive north, or a walk along the Grandma Gatewood Trail if you have the legs and a ride back.
+Coming from the west, [Ash Cave](/blog/ash-cave) at the south end of the state park makes a good first stop. A paved, level quarter-mile trail leads to a sandstone horseshoe about 700 feet across. From there, [Cedar Falls](/blog/cedar-falls-hocking-hills) and [Old Man's Cave](/blog/old-mans-cave) are a short drive north, or a walk along the Grandma Gatewood Trail if you have the legs and a ride back.
 
 ## A Hocking Hills day from Cincinnati, planned
 
@@ -56,7 +56,7 @@ This plan puts the long drive at the ends of the day and the trails in the middl
 - **Before dark:** the trails close a half hour after sunset, so head out then
 - **Evening:** the drive home, about 2.5 hours
 
-Want to break it up? Stop at Mound City on the way out and save the hills for the afternoon. Our guide to day trips from Columbus, Ohio has more trail plans that work from any direction.
+Want to break it up? Stop at Mound City on the way out and save the hills for the afternoon. Our guide to [day trips from Columbus, Ohio](/blog/day-trips-from-columbus-ohio) has more trail plans that work from any direction.
 
 ## Cincinnati day trips for couples and families
 
