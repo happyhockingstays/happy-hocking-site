@@ -65,7 +65,7 @@ People were using Rock House long before the trail existed. The state's history 
 
 In 1835, Colonel F. F. Remple opened the Rock House Hotel at the site. State geologists describe it as a 16-room hotel with a ballroom and a livery stable, and at one point it held a U.S. post office. It ran until 1925. The cave itself picked up a nickname along the way: "Robbers Roost," after the outlaws said to have hidden here.
 
-In the 1930s, young men from the Civilian Conservation Corps built many of the park's trails and bridges. The park credits Company 526, a camp of Black workers who lived on top of Cantwell Cliffs, with the work at Rock House.
+In the 1930s, young men from the Civilian Conservation Corps built many of the park's trails and bridges. The park credits Company 526, a camp of Black workers who lived on top of [Cantwell Cliffs](/blog/cantwell-cliffs), with the work at Rock House.
 
 ## When to go
 

@@ -45,7 +45,7 @@ Every season makes a different trip.
 
 The right weekend depends on the crowd.
 
-- **Friends:** a big house, a game room and a court. Our guide on how to plan a group trip keeps the group chat in line
+- **Friends:** a big house, a game room and a court. Our guide on [how to plan a group trip](/blog/how-to-plan-a-group-trip) keeps the group chat in line
 - **Family:** cabins that sleep 10 to 29, with room for every generation. See our [family reunion venues](/blog/family-reunion-venues) guide
 - **Big groups:** our [cabin rentals for large groups](/hocking-hills-large-group-cabins) list every cabin that sleeps 10 or more
 - **Players:** [Pickle Hill](/cabins/pickle-hill) has a regulation pickleball court in its own barn, and our guide to [pickleball getaways](/blog/pickleball-getaways) has the rest
@@ -70,7 +70,7 @@ A weekend away doesn't have to cost much. A few ways to keep it affordable:
 
 Already been to the big trails? These weekend vacation spots in Ohio are an easy add from a Hocking Hills cabin.
 
-- **[Lake Logan State Park](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/lake-logan-state-park):** a 400-acre lake just west of Logan, with boat rentals in spring, summer and fall and a free swimming beach
+- **[Lake Logan State Park](/blog/lake-logan-state-park):** a 400-acre lake just west of Logan, with boat rentals in spring, summer and fall and a free swimming beach
 - **Lake Hope State Park:** a 120-acre lake inside Zaleski State Forest, limited to paddling and electric motors. Its mountain bike trails run more than 25 miles
 - **Tar Hollow State Park:** named for the pine tar early settlers took from its ridges, with a 15-acre lake, a 500-foot beach and a 21-mile backpacking trail
 - **Conkle's Hollow State Nature Preserve:** a gorge only 100 feet wide in places, with cliffs nearly 200 feet high
