@@ -200,7 +200,7 @@ Done Nov 15 (pull request #3, merged): the 4 collection pages, the privacy page,
 
 1. **Hospitable widgets (pasted in Nov 15):** all 9 booking widgets, the search bar (homepage, Cabins page and the 4 collection pages) and the search results page at `/search` (noindex, out of the sitemap). On the preview, check how they sit in their cards on a phone and on a computer, and run one search from dates to booking. Never change the widget code itself.
    - Hospitable's optional "Step 3" script (pass search dates to the booking widget) is left out on purpose. Its booking loader already copies checkin, checkout and guest counts from the page address into the booking widget, and the pasted script would add them a second time.
-   - **Natalie, in Hospitable:** set each property's direct URL to its cabin page on happyhocking.com (for example `https://happyhocking.com/cabins/valhalla-hills`). Search results send guests there. Before launch they can point at the preview address instead.
+   - The property URLs in Hospitable are a launch-day step (section 6), not now.
 2. **Mailchimp.** 2 separate things:
    - **Footer signup:** wired up (Nov 15). The form address is in **Site settings**, **Mailchimp form address**. The signup keeps the site's own design and posts to Mailchimp, which opens its confirmation page in a new tab. Test it once on a preview with a real address.
    - **Pop-up form:** Cole duplicated the clients' pop-up for happyhocking.com, restyled it and set its page rules (Nov 15). A pop-up has no embed code: it shows through the "connected site" script that's already on every page, once happyhocking.com is live and Mailchimp verifies it. It won't show on a preview address.
@@ -226,7 +226,8 @@ The Cabins page filters can still be linked (`/cabins?group=large`), but copy sh
 6. Follow `docs/redirects.md` to add the old Wix domain, hockinghills-hosting.com and happyhockingstays.com, so every old address lands on its new page. The 2 old domains are in a GoDaddy account Natalie doesn't own yet (section 2), so sort out access well before this day.
 7. In Google Search Console, add happyhocking.com, submit `https://happyhocking.com/sitemap.xml`, and use **Change of address** on the old site's property.
 8. Natalie or Dave turn on the review request message in Hospitable (`docs/reviews.md`).
-9. Send one last test through each form on the real domain.
+9. **Hospitable property URLs:** in Hospitable, **Direct**, the live Direct site, then the property list. Paste each cabin's page into its **URL** field (for example `https://happyhocking.com/cabins/valhalla-hills`). Search results send guests to this address, and Google Vacation Rentals uses it. Hospitable checks that the page loads over https with the matching booking widget, so it only passes once the new site is live.
+10. Send one last test through each form on the real domain.
 
 ## Decided, so nobody re-asks
 
