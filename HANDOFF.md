@@ -1,6 +1,6 @@
 # Handoff
 
-Updated Nov 15, 2026 (seventh session: event dates and 12 more Wave 1 posts, in open pull requests #6 to #11). Pull requests #3, #4 and #5 are merged. Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
+Updated Nov 16, 2026 (eighth session: fixes and owner posts from Cole's Nov 16 call with Natalie, in pull request #12). Pull requests #3 to #11 are merged. Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
 
 The kickoff brief, brand guide, listing content, questionnaire and contract are in the "Happy Hocking" Claude project. The brief is `claude/website-build-handoff.md`.
 
@@ -19,6 +19,20 @@ The kickoff brief, brand guide, listing content, questionnaire and contract are 
 | 9 | 301 redirects from the old Wix site | Map drafted from the live Wix sitemap: `docs/redirects.csv`, explained in `docs/redirects.md` |
 
 Not done yet outside the repo: Netlify site (waiting on the clients), branch protection, DNS. Pages CMS is installed on the repo. Cole opened it after the new screens were added (the 4 "Page:" screens and Blog posts) and saw no errors. Saving from those screens hasn't been tried.
+
+## Eighth session (Nov 16): owner posts and fixes from the call with Natalie
+
+One pull request, #12, from Cole's Nov 16 call with Natalie (transcript in the Claude project chat).
+
+- **2 owner posts, written ahead of their waves:** `/blog/hocking-county-lodging-tax` (P116, seed "hocking county lodging tax") and `/blog/buy-a-cabin-in-ohio` (P117, seed "buy a cabin in ohio"). Natalie said owners matter more to the business than any single booking, so the IA's owner posts moved up. New category **For owners** (Pages CMS), and the Co-hosting page lists those posts under "Owner guides" beside its FAQs. Sources: the county's lodging tax page, the county Regional Planning page, the commissioners' Feb 19, 2026 minutes, Ohio Admin. Code 5703-9-64, ohiohouse.gov for House Bill 109, WOUB's Nov 21, 2025 report, IRS Topic 415 and Publication 925. Both posts say they aren't legal or tax advice.
+- **Co-hosting page:** new FAQ, "How is co-hosting different from a property management company?", from Natalie's own description (owners keep the listing, payments go straight to them, the company invoices for its work). No license claim: Natalie mentioned one, and it isn't verified.
+- **Card photos on hover:** `CabinCard` fades through up to 5 photos (`cardPhotos` on each cabin, 3 picked per cabin) every 2.5 seconds on hover, on computers only. They load on the first hover, so pages cost no extra bandwidth until then. Reduced motion shows the first photo without cycling. New optional `cardImage`/`cardAlt` override the card's cover (set on The Farm, whose hero is the indoor court). Both are in Pages CMS.
+- **Pages CMS help text:** Google titles, descriptions, About headings, post titles and summaries and the collection pages now say they're set for search and to check with Cole first. Cover photos say where photos may come from.
+- **Christmas getaway ideas** cover: The Johnny's stone fireplace instead of a summer hot tub view.
+- **New docs:** `docs/adding-a-cabin.md` (Natalie's question: everything a new cabin touches) and new sections in `docs/pages-cms-guide.md`: checking a change on the preview before it goes live, fields to leave alone, card photos and swapping a post cover.
+- **Checked, not changed:** the logo SVGs are true vectors (6 paths, no embedded picture), but the outlines were traced from an image and have small bumps, which is what Natalie sees on a big screen. Fix is a clean file from the designer (README section 2, question 19). The search bar fix she asked about is on `main` but wasn't live: it landed after Monday's 9:00 am publish.
+- **Netlify:** Natalie turned off the team login on Nov 16, so previews and the live address are open. Cole's Reviewer invite is dropped.
+- Checked: copy check, typecheck, build, link check (55 pages, no orphans), post check. Hover screenshots in a test browser: cover, then the court, then the next photo, back to the cover on leave; no hover layers on a phone.
 
 ## Seventh session (Nov 15): 12 Wave 1 posts, event dates, Netlify checked
 

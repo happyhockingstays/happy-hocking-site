@@ -79,6 +79,7 @@ The first two come straight from Natalie and are not up for debate.
 | Check-in, minimum stay, age, shared house rules, cancellation policies | `content/settings/policies.yml` |
 | Homepage, Co-hosting, About and FAQs words and photos | `content/pages/*.yml` |
 | Blog posts (markdown; the file name is the URL; `draft: true` shows only before launch) | `content/blog/*.md` |
+| Owner posts (category "For owners", listed on the Co-hosting page) | `content/blog/*.md` with `category: For owners` |
 | Cabin collection pages: words, cabin list and questions (the file name is the URL) | `content/collections/*.yml`, template `src/pages/CollectionPage.tsx`, route options `src/lib/collectionRoute.tsx` |
 | Privacy page | `content/pages/privacy.yml`, `src/pages/PrivacyPage.tsx` |
 | Share images, one per page | `public/images/share/`, made by `scripts/make-share-images.py` |
@@ -99,7 +100,9 @@ The first two come straight from Natalie and are not up for debate.
 
 **Content is the source of truth.** Facts go in `/content`, never hard-coded in pages, so the clients can change them in Pages CMS. A new editable field needs three things: the YAML, a default in `content/lib.mjs` and an entry in `.pages.yml`.
 
-**Adding or hiding a cabin** needs no code: create a cabin in Pages CMS (or copy a YAML file), or turn on "Hide this cabin from the site".
+**Adding or hiding a cabin** needs no code: create a cabin in Pages CMS (or copy a YAML file), or turn on "Hide this cabin from the site". A new cabin also has to be added to the collection pages, the "Which cabin is right for my group?" FAQ and the posts that list cabins: the full checklist is `docs/adding-a-cabin.md`.
+
+**Cabin cards** start on `cardImage` (falls back to the hero) and fade through `cardPhotos` on hover, on computers only (`src/components/CabinCard.tsx`). Lead the hover photos with what makes the cabin different.
 
 ## Design system
 

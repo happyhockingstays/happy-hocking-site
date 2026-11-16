@@ -200,6 +200,8 @@
 
   /* Photos in cards fill the top, with a 2px forest line underneath */
   .card-photo { border-bottom: var(--outline); border-radius: 16px 16px 0 0; overflow: hidden; }
+  /* Cabin card hover photos (CabinCard): a slow crossfade between the card photos */
+  .card-hover-photo, .card-hover-dots { transition: opacity 0.6s var(--ease-soft); }
   /* A framed photo on its own */
   .frame { border: var(--outline); border-radius: var(--radius-card); overflow: hidden; box-shadow: 5px 5px 0 var(--shadow-color); }
   .on-forest .frame { --shadow-color: var(--color-mustard); border-color: var(--color-cream); }
@@ -335,7 +337,7 @@
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .btn, .card-link { transition: none; }
+  .btn, .card-link, .card-hover-photo, .card-hover-dots { transition: none; }
 }
 
 /* ---------- Blog post body (markdown from Pages CMS) ---------- */

@@ -4,7 +4,7 @@ import { FaqList } from '@/components/Faq'
 import { Icon, Sparkle } from '@/components/Icon'
 import { Photo } from '@/components/Photo'
 import { SiteLink } from '@/components/SiteLink'
-import { cabins, pages, settings, telHref } from '@/lib/content'
+import { cabins, pages, posts, settings, telHref } from '@/lib/content'
 
 /**
  * Co-hosting page for homeowners. Words and photos come from content/pages/co-hosting.yml
@@ -12,6 +12,8 @@ import { cabins, pages, settings, telHref } from '@/lib/content'
  */
 export function CoHostingPage() {
   const p = pages.cohosting
+  // Blog posts with the category "For owners" (Pages CMS), newest first
+  const ownerPosts = posts.filter((x) => x.category === 'For owners')
   const stats: [string, string][] = [
     [settings.proof.rating, 'Airbnb rating at every home we host'],
     [settings.proof.reviewCount, 'Airbnb reviews across those homes'],
@@ -222,6 +224,20 @@ export function CoHostingPage() {
             <div className="lg:col-span-4" data-reveal>
               <p className="eyebrow">Owner FAQs</p>
               <h2 className="h-section mt-2">Good to know</h2>
+              {ownerPosts.length ? (
+                <div className="mt-8">
+                  <p className="eyebrow">Owner guides</p>
+                  <ul className="mt-3 grid gap-3">
+                    {ownerPosts.map((x) => (
+                      <li key={x.slug}>
+                        <SiteLink to={`/blog/${x.slug}`} className="text-link font-bold">
+                          {x.title}
+                        </SiteLink>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
             </div>
             <div className="lg:col-span-8" data-reveal>
               <FaqList items={p.faqs} />

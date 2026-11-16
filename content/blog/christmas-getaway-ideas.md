@@ -6,8 +6,8 @@ description: 10 Christmas getaway ideas you can pull off in a weekend, from a ho
 date: 2026-11-15
 updated: 2026-11-15
 category: Seasonal guides
-cover: /images/cabins/dunkle-creek/exterior/dunkle-creek-exterior-003.jpg
-coverAlt: Covered hot tub at Dunkle Creek with a view of the meadow, one of our Christmas getaway ideas for a winter weekend
+cover: /images/cabins/the-johnny/living-room-kitchen/the-johnny-living-room-kitchen-003.jpg
+coverAlt: Stone fireplace and leather sofa in the log cabin living room at The Johnny, one of our Christmas getaway cabins
 faqs:
   - q: Where should I go for a Christmas getaway in Ohio?
     a: For a Christmas getaway in Ohio, the Hocking Hills are hard to beat. They're about an hour from Columbus, 2.5 hours from Cincinnati and 3.5 from Cleveland, with frozen waterfalls, quiet trails and cabins that have hot tubs open all winter. You can leave after work on Friday and be in warm water by dinner.

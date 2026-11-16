@@ -13,6 +13,10 @@ interface Props {
   className?: string
   children: ReactNode
   onClick?: () => void
+  onMouseEnter?: () => void
+  onMouseLeave?: () => void
+  onFocus?: () => void
+  onBlur?: () => void
   'aria-label'?: string
   'data-reveal'?: boolean
 }
