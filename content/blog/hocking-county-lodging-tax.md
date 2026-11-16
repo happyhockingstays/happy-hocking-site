@@ -102,6 +102,6 @@ Inside the city of Logan, the rules are already in place. Logan adopted its own 
 
 Most of this is routine once it's set up: register once, file every month, keep the number on every listing. The harder part is the local part. Guests need fast answers, the home needs a clean after every stay and something always needs fixing on a Saturday. If the county's draft rules pass, a local contact who can get there quickly stops being a nice-to-have.
 
-That's what our [Hocking Hills property management](/co-hosting) covers. We work as co-hosts: your listing stays in your name, booking payments go straight to you and we bill you for our work. Tell us about your home on the co-hosting page and we'll set up an intro call.
+That's what our [Hocking Hills property management](/co-hosting) covers. We do [vacation rental co-hosting](/blog/vacation-rental-co-hosting): your listing stays in your name, booking payments go straight to you and we bill you for our work. Tell us about your home on the co-hosting page and we'll set up an intro call.
 
 Still shopping for a home? Start with what to check before you [buy a cabin in Ohio](/blog/buy-a-cabin-in-ohio).

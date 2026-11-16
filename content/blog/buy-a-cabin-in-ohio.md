@@ -81,8 +81,8 @@ None of this is tax advice. A CPA who works with short-term rentals can tell you
 
 ## Who runs it once it's yours
 
-Owning a cabin an hour or more from home means someone local has to answer guests fast, turn the home over between stays and fix things before the next check-in. That's what our [Hocking Hills property management](/co-hosting) covers, from the listing and the calendar to cleaning and the pool.
+Owning a cabin an hour or more from home means someone local has to answer guests fast, handle the [vacation rental cleaning](/blog/vacation-rental-cleaning) between stays and fix things before the next check-in. That's what our [Hocking Hills property management](/co-hosting) covers, from the listing and the calendar to cleaning and the pool.
 
-We work as co-hosts, which is different from a traditional property management company. Many traditional managers collect the booking money, hold it and send you what's left with a statement. With us, your listing stays in your name and its reviews stay yours. Booking payments go straight to you from the booking site, and we bill you for our work. You see every booking and every payout.
+We work as co-hosts, which is different from traditional [short-term rental property management](/blog/short-term-rental-property-management). Many traditional managers collect the booking money, hold it and send you what's left with a statement. With us, your listing stays in your name and its reviews stay yours. Booking payments go straight to you from the booking site, and we bill you for our work. You see every booking and every payout.
 
 Looking at a home now? Tell us about it on the co-hosting page and we'll set up an intro call.
