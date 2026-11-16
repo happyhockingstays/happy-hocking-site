@@ -39,7 +39,8 @@ export function HomePage() {
             A place for <span className="accent">everyone</span> in the Hocking Hills
           </h1>
           {p.hero.lead ? <p className="lead mx-auto mt-5 max-w-2xl">{p.hero.lead}</p> : null}
-          <div className="card mx-auto mt-9 max-w-3xl p-4 text-left md:p-5">
+          {/* No card: Hospitable's search bar sizes itself to the window (up to 1200px) and centers on this box, so the box spans the page width */}
+          <div className="mt-6 w-full text-left">
             <SearchWidget />
           </div>
         </div>

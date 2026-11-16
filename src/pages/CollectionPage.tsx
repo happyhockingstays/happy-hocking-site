@@ -38,15 +38,16 @@ export function CollectionPage({ page: p }: { page: Collection }) {
             {p.eyebrow ? <p className="eyebrow">{p.eyebrow}</p> : null}
             <h1 className="h-display mt-3 !text-[clamp(2.25rem,5.2vw,3.75rem)]">{p.title}</h1>
             {p.lead ? <p className="lead mt-4 max-w-2xl">{p.lead}</p> : null}
-            <div className="card mt-8 max-w-3xl p-4 md:p-5">
-              <SearchWidget />
-            </div>
           </div>
           {p.image ? (
             <div className="frame lg:col-span-5">
               <Photo src={p.image} alt={p.alt} ratio="4 / 3" priority sizes="(min-width: 1024px) 40vw, 100vw" tint="mustard" />
             </div>
           ) : null}
+        </div>
+        {/* No card: Hospitable's search bar sizes itself to the window (up to 1200px) and centers on this box, so the box spans the page width */}
+        <div className="container-x mt-4">
+          <SearchWidget />
         </div>
       </section>
 

@@ -46,7 +46,8 @@ export function CabinsPage() {
           <p className="eyebrow">Find your happy place</p>
           <h1 className="h-display mt-3">Hocking Hills cabin rentals</h1>
           <p className="lead mt-4 max-w-2xl">Every one of our Hocking Hills cabins has a hot tub and a private pool, with room for groups of 6 to 29. Pick your dates, then pick your place.</p>
-          <div className="card mt-8 max-w-3xl p-4 md:p-5">
+          {/* No card: Hospitable's search bar sizes itself to the window (up to 1200px) and centers on this box, so the box spans the page width */}
+          <div className="mt-4 w-full">
             <SearchWidget />
           </div>
         </div>
