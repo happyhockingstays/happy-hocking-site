@@ -125,13 +125,13 @@ Answered Nov 11:
 
 - **Photos:** no larger originals exist. The small ones are her AI-enhanced edits, so they stay. Summer photos are the default; skip the fall photos at Dunkle Creek and The Johnny for now. The Valhalla Hills dusk photos can't be found.
 - **Bedroom numbers:** they should match Airbnb, and she confirmed Dunkle Creek and Pickle Hill do. One thing to tell her: Pickle Hill's written Airbnb description calls Bedroom 4 the twins and Bedroom 5 the queen, the opposite of her photos and the site. The Airbnb text is the one to fix.
-- **Old domains:** both are registered at GoDaddy in an account she doesn't control yet, not her Hostinger. hockinghills-cabinrentals.com runs on Wix's nameservers. hockinghills-hosting.com points at Squarespace and expires Feb 16, 2027. She's working on access. See section 6.
+- **Old domains:** both were registered at GoDaddy in an account she didn't control. On Nov 17 she moved them to her Hostinger account (5 to 7 days to finish). hockinghills-cabinrentals.com runs on Wix's nameservers. hockinghills-hosting.com points at Squarespace and expires Feb 16, 2027. See section 6.
 - **Access given to Cole:** GitHub, the 2 new domains (plus 2 unused ones), Google Search Console and Mailchimp (admin).
 - **Google Business Profile:** Natalie is checking whether it can move to the new name, EIN and address. Nothing to do yet.
 
 Still to ask:
 
-1. **Old domains:** can she get into that GoDaddy account, or have both domains transferred to her Hostinger account? Either one has to happen before launch day.
+1. **Old domains: done (Nov 17).** Natalie moved both old domains from GoDaddy to her Hostinger account. Hostinger says the transfer takes 5 to 7 days to finish. Leave their current settings alone until launch day so the old sites stay up.
 2. **Pickle Hill fire pit photo** in Dropbox: worth adding, or skip since it's AI-enhanced?
 3. **Hero video.** The homepage plays a 25-second clip made from their photos. Do they have real footage (drone or walkthrough) to replace it? If yes: 10 to 20 seconds, a wide cut and a tall cut, no sound.
 4. **Who gets each email:** guest reviews, guest questions and co-hosting inquiries. One address or 3?
@@ -149,7 +149,7 @@ Still to ask:
 16. **Photos of the trails (new, Nov 15; agreed Nov 16).** The trail guides lead with cabin photos, because the clients' photo set has no park photos. On the Nov 16 call Natalie preferred real photos over drawn illustrations and said she'd find them over time: Old Man's Cave, Ash Cave, Cedar Falls, Rock House, Cantwell Cliffs and Lake Logan first, then the Christmas, winter and fall posts. Her own photos are best. A photo whose license allows business use (Unsplash's does) is fine too, with a note of where it came from. Never one copied from a news site or a search result. She can swap each cover herself (steps in `docs/pages-cms-guide.md`); Cole refreshes the share image after.
 17. **The 2 owner posts (new, Nov 16).** A few lines are in the hosts' voice and need their OK: "plenty of the owners we work with came to us while they were buying", "taxes are part of the reason a lot of the owners we work with bought" and the co-hosting description (booking payments go straight to the owner, "we bill you for our work", "you see every booking and every payout"). The same description is now an FAQ on the co-hosting page.
 18. **Lodging tax (new, Nov 16).** Do they file the monthly Hocking County lodging tax for the owners they co-host for, or does each owner file? If they file it, the lodging tax post and the co-hosting page should say so: it's a real selling point.
-19. **The logo on computers (new, Nov 16).** Natalie said the logo doesn't look smooth on her computer screen. The files are true vectors, but the shapes were traced from a picture, so the edges have small bumps that show at the size the header uses on a computer. A phone shows it too small to notice. Does she have the original logo file from whoever designed it (an .ai, .eps, .pdf or .svg from the designer, or a Canva export)? If not, a designer can redraw the outlines cleanly. The site only needs the new SVG files swapped in.
+19. **The logo on computers: done (Nov 17).** Natalie made the logo herself (a ChatGPT image she traced in Illustrator). Cole smoothed the small bumps where the curves meet, keeping her layout, and swapped in the new `wordmark.svg` and `wordmark-reversed.svg`. Natalie approved it. The share images still use the old logo; at that size the difference doesn't show, so they weren't remade.
 
 ## 3. For Natalie to read and correct
 
@@ -233,7 +233,7 @@ The Cabins page filters can still be linked (`/cabins?group=large`), but copy sh
 3. In Netlify, check that the live site is open to everyone. Natalie turned the team login off on Nov 16, so this should already be true: open the live address in a private browser window to be sure.
 4. In Netlify, **Domain management**: add `happyhocking.com` and make it the primary domain. Natalie (or Cole, who now has access) points DNS at Netlify from Hostinger, using the records Netlify shows.
 5. Natalie triggers one more deploy (**Deploys**, **Trigger deploy**). The site unblocks search engines by itself on the first live deploy after happyhocking.com becomes primary. The preview never does. Ask in a chat to confirm the "noindex" tag is gone. Then, in Mailchimp, finish connecting happyhocking.com (the site script is already on every page).
-6. Follow `docs/redirects.md` to add the old Wix domain, hockinghills-hosting.com and happyhockingstays.com, so every old address lands on its new page. The 2 old domains are in a GoDaddy account Natalie doesn't own yet (section 2), so sort out access well before this day.
+6. Follow `docs/redirects.md` to add the old Wix domain, hockinghills-hosting.com and happyhockingstays.com, so every old address lands on its new page. The 2 old domains moved to Natalie's Hostinger account on Nov 17 (section 2).
 7. In Google Search Console, add happyhocking.com, submit `https://happyhocking.com/sitemap.xml`, and use **Change of address** on the old site's property.
 8. Natalie or Dave turn on the review request message in Hospitable (`docs/reviews.md`).
 9. **Hospitable property URLs:** in Hospitable, **Direct**, the live Direct site, then the property list. Paste each cabin's page into its **URL** field (for example `https://happyhocking.com/cabins/valhalla-hills`). Search results send guests to this address, and Google Vacation Rentals uses it. Hospitable checks that the page loads over https with the matching booking widget, so it only passes once the new site is live.
