@@ -59,6 +59,24 @@ Full-size photos slow the site down, so shrink them to 2400 pixels wide first.
 5. Click **File**, then **Export**. Choose **JPEG**, set Quality about three-quarters of the way up and save.
 6. Name it in lowercase with hyphens, like `pickle-hill-pool-013.jpg`.
 
+### Resize a batch at once
+
+1. Copy the photos into a new folder first. Preview saves changes over the file, so keep the originals somewhere else.
+2. Select all the copies in Finder, right-click and choose **Open With**, then **Preview**.
+3. In Preview's sidebar, click one photo, then press **Command + A** to select them all.
+4. Click **Tools**, then **Adjust Size**, set **Width** to **2400** and click **OK**. Every selected photo resizes.
+5. Press **Command + S** to save, then close Preview.
+
+## Upload many photos at once
+
+The **Upload** button takes one photo at a time, but dragging works for many.
+
+1. In Pages CMS, click **Photos** in the menu and open the folder the photos belong in.
+2. Select the resized photos in Finder and drag them all onto the Pages CMS window.
+3. Let go when it says "Drop files here to upload". They upload one after another, so wait until the last one appears.
+
+Each photo saves as its own change, so the preview site rebuilds a few times. That's free and expected.
+
 ## Card photos on hover
 
 On a computer, pointing at a cabin's card (on the Cabins page, the homepage and the collection pages) fades through a few more photos of that cabin, a new one every 2.5 seconds. Phones show the card photo only.
