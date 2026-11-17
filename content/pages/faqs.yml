@@ -88,20 +88,32 @@ groups:
           pets. Service animals trained to perform a task for a person with a
           disability, as defined by the ADA, are always welcome.
         home: true
+      - q: What’s provided at the cabins?
+        a: We want you to have the happiest stay, so everything you need to be
+          comfortable is included. That means bed linens, bath towels and pool
+          towels, plus coffee, toilet paper, paper towels, shampoo, conditioner,
+          body wash, dish soap and laundry detergent. Firewood is provided for
+          the fire pit. Each cabin’s page has the full list.
+        home: false
   - title: Policies
     items:
       - q: What is your cancellation policy?
-        a: Most cabins offer a full refund up to 60 days before check-in and 50% up to
-          30 days before. Valhalla Hills and Loch Llyn use 90 and 60 days. Full
-          details are on each cabin's page.
+        a: Most cabins offer a full refund up to 60 days before check-in and a 50%
+          refund up to 30 days before. Valhalla Hills and Loch Llyn offer a full
+          refund up to 90 days before check-in and 50% up to 60 days before.
+          Bookings can also be cancelled for a full refund within 48 hours of
+          being accepted. Full details are on each cabin’s page and in your
+          booking confirmation.
         home: true
       - q: What are the house rules?
-        a: A few apply to every stay. No pets, no smoking and no parties or events. Each
-          cabin also has a maximum guest count. The full list is on each cabin's
-          page.
+        a: "A few rules apply to every stay: no pets (service animals are always
+          welcome), no smoking, and no unauthorized parties or events. Each
+          cabin also has a maximum guest count, and the full house rules are
+          listed on each cabin’s page."
         home: false
       - q: Are there quiet hours?
-        a: Yes, at most cabins. They usually start at 10:00 pm. At Valhalla Hills,
-          outdoor quiet hours run 9:00 pm to 9:00 am, with no outdoor speakers.
-          Each cabin's page has its own.
+        a: Quiet hours typically run from 10:00 pm to 8:00 am, though they vary by
+          cabin. Some have extra rules for outdoor areas and speakers, and a few
+          are secluded enough that they don’t apply. Each cabin’s page lists its
+          own hours.
         home: false
