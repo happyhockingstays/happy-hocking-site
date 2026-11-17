@@ -79,12 +79,15 @@ groups:
           land in your inbox approximately 7 days before your arrival. "
         home: false
       - q: How old do I need to be to book?
-        a: We kindly prefer the booking guest to be 25 or older. Discreet exceptions are
-          made for younger guests.
+        a: We kindly prefer the booking guest to be 25 years old or older. Discreet
+          exceptions can be made for younger guests, so feel free to reach out
+          if this applies to you.
         home: false
       - q: Are pets allowed?
-        a: No. Pets aren't allowed at any of our cabins.
-        home: false
+        a: We love furry friends, but for the comfort of all guests, we don’t allow
+          pets. Service animals trained to perform a task for a person with a
+          disability, as defined by the ADA, are always welcome.
+        home: true
   - title: Policies
     items:
       - q: What is your cancellation policy?
