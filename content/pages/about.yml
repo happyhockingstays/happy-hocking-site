@@ -1,33 +1,43 @@
 hero:
   eyebrow: About us
   heading: The crew behind Happy Hocking Stays
-  intro: Happy Hocking Stays is a locally run vacation rental company in Ohio's Hocking Hills. Guests book private cabins with pools, hot tubs and room for every kind of group, direct at happyhocking.com. Homeowners hand us the hosting, from guest messages and pricing to cleaning and upkeep, and get hands-off income.
+  intro: Happy Hocking Stays is a locally run vacation rental company in Ohio's
+    Hocking Hills. Guests book private cabins with pools, hot tubs and room for
+    every kind of group, direct at happyhocking.com. Homeowners hand us the
+    hosting, from guest messages and pricing to cleaning and upkeep, and get
+    hands-off income.
   image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-011.jpg
   alt: Fire pit with Adirondack chairs at Clouds Reach in the fall
 story:
   heading: Our story
-  text: ''
 team:
   eyebrow: The team
   heading: Meet your hosts
   members:
     - name: Natalie Chadwell
       role: Co-owner and host
-      bio: ''
+      bio: "Natalie brings a deep background in hospitality to every stay. When she’s
+        not hosting, she’s out hiking, probably alongside her husband, John, and
+        dog, Moose. "
       photo: /images/uploads/natalie-chadwell-headshot.jpg
     - name: Dave Hughes
       role: Co-owner and host
-      bio: ''
+      bio: "Dave loves building, designing and developing properties in the Hocking
+        Hills. On his days off, you’ll find him with his wife, Christina and
+        their 3 kids. "
       photo: /images/uploads/dave-hughes-headshot.jpg
 promises:
   heading: What you can count on
   items:
     - icon: message
       title: Fast answers
-      text: A real person replies, typically within an hour, before and during your stay.
+      text: Questions get a quick reply from a real person, before and during your
+        stay.
     - icon: sparkle
       title: Spotless homes
-      text: Every stay starts with a thorough clean. Guests bring it up in their reviews again and again.
+      text: Every stay starts with a thorough clean. Guests bring it up in their
+        reviews again and again.
     - icon: hot-tub
       title: Room to play
-      text: A private pool and hot tub at every cabin, plus courts, saunas, game rooms, a lake and a pond.
+      text: A hot tub at every cabin, plus pools, sport courts, saunas, game rooms, a
+        lake and a pond.
