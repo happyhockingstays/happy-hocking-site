@@ -8,8 +8,9 @@ groups:
           rental agreement are all handled online.
         home: true
       - q: Is it really cheaper to book direct?
-        a: You skip the booking-site service fees. Same cabins, same team. Your
-          reservation goes straight to us.
+        a: Yes! Booking direct skips the high booking-site service fees from Airbnb and
+          VRBO. Same cabins, same team, and your reservation goes straight to
+          us.
         home: true
       - q: How do payments work?
         a: Most major credit cards are accepted. You can pay in up to 3 installments
@@ -25,10 +26,10 @@ groups:
   - title: Choosing a cabin
     items:
       - q: Which cabin is right for my group?
-        a: Our cabins sleep 6 to 29. Dunkle Creek, Lazy Deer Retreat and Pickle Hill
-          suit couples and small groups. For bigger gatherings, look at
-          Rickenbacker Ridge, Clouds Reach, The Johnny, The Farm at Nickel
-          Plate, Loch Llyn and Valhalla Hills.
+        a: Our cabins sleep 6 to 29, from cozy A-frames for couples to big estates for
+          the whole crew. Tell us your group size and we’ll point you to the
+          right fit, or browse all cabins and check the sleeps count on each
+          one.
         home: true
       - q: Do all your Hocking Hills cabins have a pool and hot tub?
         a: Yes. Every cabin has a private pool and hot tub. Hot tubs are open all year.
