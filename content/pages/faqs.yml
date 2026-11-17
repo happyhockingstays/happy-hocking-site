@@ -67,14 +67,16 @@ groups:
     items:
       - q: What time are check-in and check-out?
         a: Check-in is 4:00 pm. Check-out is 11:00 am, or 10:00 am at Valhalla Hills and
-          Loch Llyn.
+          Loch Llyn. Your booking confirmation lists the times for your cabin.
         home: false
       - q: Is there a minimum stay?
-        a: 2 nights at every cabin. Holidays and peak season may need 3.
+        a: Most dates have a 2-night minimum at every cabin. Holidays and peak season
+          may need 3 nights or more. Pick your dates on a cabin’s page to see
+          the minimum for your stay.
         home: false
       - q: When do I get the address and check-in details?
-        a: The exact address comes with your booking confirmation, and check-in details
-          land in your inbox before you do.
+        a: "The exact address comes with your booking confirmation, and check-in details
+          land in your inbox approximately 7 days before your arrival. "
         home: false
       - q: How old do I need to be to book?
         a: We kindly prefer the booking guest to be 25 or older. Discreet exceptions are
