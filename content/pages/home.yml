@@ -1,17 +1,22 @@
 hero:
   eyebrow: Hocking Hills, Ohio
-  lead: Private cabins in Hocking Hills with pools, hot tubs and room for your whole crew
+  lead: Private cabins in Hocking Hills with pools, hot tubs and room for your
+    whole crew
   image: /images/cabins/the-farm-at-nickel-plate/exterior/the-farm-at-nickel-plate-exterior-013.jpg
   alt: Aerial view of The Farm at Nickel Plate, one of our cabins in Hocking Hills
   video: /video/hero-desktop.mp4
   videoPhone: /video/hero-phone.mp4
 cabins:
   eyebrow: Our cabins
-  intro: Our Hocking Hills cabins run from a cozy A-frame for 6 to a lake estate for 29, each with a private pool and hot tub. Pick the one that fits your crew.
+  intro: Our Hocking Hills cabins run from a cozy A-frame for 6 to a lake estate
+    for 29, each with a private pool and hot tub. Pick the one that fits your
+    crew.
 story:
-  eyebrow: Who we are
+  eyebrow: Meet your hosts
   heading: The crew behind your stay
-  text: We're a local team that looks after every cabin ourselves. Expect a spotless home, quick answers and a real person on the other end of every message.
+  text: We’re a small local team, and we look after every cabin ourselves. You’ll
+    arrive to a spotless home, get quick answers, and always reach a real
+    person.
   linkLabel: Meet the team
   image: /images/uploads/dave-and-natalie.jpg
   alt: Dave Hughes and Natalie Chadwell, the hosts of Happy Hocking Stays
@@ -20,7 +25,9 @@ reviews:
 cohost:
   eyebrow: Co-hosting for homeowners
   heading: Looking for a co-host?
-  text: We list, price, clean and care for your Hocking Hills vacation home, so it earns without taking over your life.
+  text: "We manage your vacation home from start to finish: listing, pricing,
+    guest messaging, cleaning and maintenance. You keep the listing and the
+    income."
   points:
     - Your listing stays in your name
     - Booking payments go straight to you
@@ -30,7 +37,8 @@ cohost:
 area:
   eyebrow: The Hocking Hills
   heading: Trails by day, hot tub by night
-  text: Most of our cabins are 20 to 30 minutes from Old Man's Cave, Ash Cave and Cedar Falls. Lazy Deer Retreat is about 5 minutes from Old Man's Cave.
+  text: Most of our cabins are 20 to 30 minutes from Old Man's Cave, Ash Cave and
+    Cedar Falls. Lazy Deer Retreat is about 5 minutes from Old Man's Cave.
   linkLabel: Read the area guides
   image: /images/cabins/loch-llyn/lake/loch-llyn-lake-004.jpg
   alt: Trees reflected in the private lake at Loch Llyn
@@ -39,4 +47,5 @@ faqs:
   heading: Good to know
 closing:
   heading: Find your happy place
-  text: Check dates, pick your cabin and book your Hocking Hills getaway direct with the crew that runs them.
+  text: Check dates, pick your cabin and book your Hocking Hills getaway direct
+    with the crew that runs them.
