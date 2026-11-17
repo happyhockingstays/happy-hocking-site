@@ -13,15 +13,22 @@ groups:
           us.
         home: true
       - q: How do payments work?
-        a: Most major credit cards are accepted. You can pay in up to 3 installments
-          that line up with the cancellation policy.
+        a: "Most major credit cards are accepted. You can pay in full when your booking
+          is accepted, or split it into 3 payments: the first at booking, the
+          second 60 days before check-in, and the final payment 30 days before
+          check-in. Some of our larger homes, like Valhalla Hills and Loch Llyn
+          use 90 and 60 days before check in. Your exact amounts and dates
+          appear at checkout."
         home: false
       - q: Do I sign a rental agreement?
         a: Yes. Every direct booking comes with a rental agreement, and you sign it
           online.
         home: false
       - q: How far ahead can I book?
-        a: Calendars are usually open about a year out. It can vary by cabin.
+        a: Most calendars are open about a year ahead, and it can vary by cabin. Pick
+          your dates on any cabin’s page to see what’s available. If your dates
+          aren’t open yet, join our insider list and we’ll let you know when
+          they are.
         home: false
   - title: Choosing a cabin
     items:
