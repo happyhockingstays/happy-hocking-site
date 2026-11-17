@@ -95,6 +95,20 @@ groups:
           body wash, dish soap and laundry detergent. Firewood is provided for
           the fire pit. Each cabin’s page has the full list.
         home: false
+      - q: "Can I check in early or stay late? "
+        a: Early check-in and late check-out depend on the cabin’s cleaning schedule and
+          the reservations on either side of your stay. Send us a message about
+          a week before your arrival and we’ll let you know what’s possible.
+        home: false
+      - q: "Can I host a celebration, reunion, or event? "
+        a: Family reunions, birthdays and celebrations are welcome within your cabin’s
+          guest limit. Weddings and ticketed or commercial events need approval
+          first, so please reach out before booking.
+        home: false
+      - q: "Is there WiFi and cell service? "
+        a: Every cabin has reliable Wi-Fi. Cell reception can be patchy in the hills, so
+          it’s worth downloading maps and directions before you arrive.
+        home: false
   - title: Policies
     items:
       - q: What is your cancellation policy?
