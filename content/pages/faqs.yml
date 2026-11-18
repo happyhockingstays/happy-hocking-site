@@ -63,6 +63,12 @@ groups:
         a: "The pools at Clouds Reach and Rickenbacker Ridge are heated, and the rest
           are not. Heated pools are marked on each cabin’s page. "
         home: false
+      - q: "Can we host a wedding or a large group event at a cabin? "
+        a: Yes. Weddings, parties and celebrations are welcome, as long as your total
+          group stays within the cabin’s maximum guest count, including day
+          guests. Our large cabins are made for family reunions, friend trips
+          and shared family vacations.
+        home: false
   - title: Your stay
     items:
       - q: What time are check-in and check-out?
@@ -121,9 +127,8 @@ groups:
         home: true
       - q: What are the house rules?
         a: "A few rules apply to every stay: no pets (service animals are always
-          welcome), no smoking, and no unauthorized parties or events. Each
-          cabin also has a maximum guest count, and the full house rules are
-          listed on each cabin’s page."
+          welcome), no smoking, and no more guests than the cabin’s maximum. The
+          full house rules are listed on each cabin’s page."
         home: false
       - q: Are there quiet hours?
         a: Quiet hours typically run from 10:00 pm to 8:00 am, though they vary by
