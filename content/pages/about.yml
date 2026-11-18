@@ -14,7 +14,7 @@ story:
     Hi! 👋 We’re Natalie and Dave, two people who love taking care of others.
 
 
-    Natalie spent years in the restaurant business, where she learned that
+    Natalie spent a decade in the restaurant business, where she learned that
     hospitality lives in the small things: remembering what someone likes,
     fixing a problem before they notice it, making a dining experience feel like
     home. Dave owned properties in Gatlinburg and builds and develops homes here
@@ -37,15 +37,21 @@ team:
   members:
     - name: Natalie Chadwell
       role: Co-owner and host
-      bio: "Natalie brings a deep background in hospitality to every stay. When she’s
-        not hosting, she’s out hiking, probably alongside her husband, John, and
-        dog, Moose. "
+      bio: Natalie brings a decade of restaurant and hospitality experience to every
+        stay. With a passion for taking care of people, she combines a keen eye
+        for detail with hands-on operations to make sure every guest arrives to
+        a spotless home and every owner feels looked after. When she's not
+        hosting, you’ll usually find her hiking with her husband, John, and
+        their dog, Moose.
       photo: /images/uploads/natalie-chadwell-headshot.jpg
     - name: Dave Hughes
       role: Co-owner and host
-      bio: "Dave loves building, designing and developing properties in the Hocking
-        Hills. On his days off, you’ll find him with his wife, Christina and
-        their 3 kids. "
+      bio: "Dave brings years of executive leadership, real estate investment, and
+        property development experience to Happy Hocking Stays. With a passion
+        for building, designing, and transforming properties, he combines
+        business strategy, financial insight, and hands-on experience to help
+        property owners maximize their investment potential. Outside of work,
+        Dave enjoys spending time with his wife and three children. "
       photo: /images/uploads/dave-hughes-headshot.jpg
 promises:
   heading: What you can count on
