@@ -57,7 +57,7 @@ Once you're settled, a few easy half-day trips round out the weekend. Lake Hope 
 
 ## Planning your summer stay
 
-**For families:** look for multiple bedrooms, game rooms and room to roam. Our larger cabins sleep 16 to 29, ideal for multi-generational trips. If you're bringing everyone, start with our guide to [large group cabin rentals in Ohio](/blog/large-group-cabin-rentals-ohio).
+**For families:** look for multiple bedrooms, game rooms and room to roam. Our larger cabins sleep 16 to 29, ideal for multi-generational trips. If you're bringing everyone, start with our guide to [large group cabin rentals in Ohio](/blog/large-group-cabin-rentals-ohio). For more trip ideas, see our [family weekend getaways](/blog/family-weekend-getaways).
 
 **For friend groups:** our mid-size cabins sleep 8 to 13 and give you the right mix of shared space and private bedrooms.
 

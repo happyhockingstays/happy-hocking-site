@@ -46,7 +46,7 @@ Every season makes a different trip.
 The right weekend depends on the crowd.
 
 - **Friends:** a big house, a game room and a court. Our guide on [how to plan a group trip](/blog/how-to-plan-a-group-trip) keeps the group chat in line
-- **Family:** cabins that sleep 10 to 29, with room for every generation. See our [family reunion venues](/blog/family-reunion-venues) guide
+- **Family:** cabins that sleep 10 to 29, with room for every generation. See our [family weekend getaways](/blog/family-weekend-getaways) ideas or the [family reunion venues](/blog/family-reunion-venues) guide
 - **Big groups:** our [cabin rentals for large groups](/hocking-hills-large-group-cabins) list every cabin that sleeps 10 or more
 - **Players:** [Pickle Hill](/cabins/pickle-hill) has a regulation pickleball court in its own barn, and our guide to [pickleball getaways](/blog/pickleball-getaways) has the rest
 - **A smaller crew:** [Dunkle Creek](/cabins/dunkle-creek) is a black A-frame for 6, and [Lazy Deer Retreat](/cabins/lazy-deer-retreat) sleeps 8, about 5 minutes from Old Man's Cave
