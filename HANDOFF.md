@@ -4,6 +4,17 @@ Updated Nov 16, 2026 (eighth session: fixes and owner posts from Cole's Nov 16 c
 
 The kickoff brief, brand guide, listing content, questionnaire and contract are in the "Happy Hocking" Claude project. The brief is `claude/website-build-handoff.md`.
 
+## Tenth session (Nov 18): Wave 1, week 7
+
+One pull request, branch `wave-1-week-7` (from `main` at ac7e88e), written with the same batch process as week 6. Merge it after week 6 (#14): the 2 branches touch some of the same files (`docs/blog-seeds.csv`, the hub posts) but never the same lines.
+
+- `/blog/directions-to-hocking-hills-ohio` (P108), `/blog/hocking-hills-welcome-center` (P070), `/blog/hocking-hills-map` (P081), `/blog/grocery-stores-in-logan-ohio` (P078), `/blog/family-weekend-getaways` (P118). One commit per page, each with its seed row, share image and 2 or 3 back links.
+- Also fixed in the P070 commit: the state park visitor center hours in `old-mans-cave` and `day-trips-from-columbus-ohio` now say 10:00 am to 5:00 pm, the state's current listing.
+- Sources: the ODNR park page and the park, trail and state forest map PDFs, the tourism association's welcome center, maps and shuttle pages, the Hocking County site, Walmart and Kroger store pages, the Scioto Post (the April 22, 2026 visitor center fire), the cabin files and policies. The pull request has a sources table per post.
+- Steps that couldn't run: OpenStreetMap routing and a few page fetches needed approvals nobody answered, so drive times reuse the site's Nov 15 figures and Kroger Logan's hours come from its map listing. Both are on the hosts' Confirm list in the pull request.
+- Owed once week 6 merges: link "John Glenn Astronomy Park" in `hocking-hills-map` and `family-weekend-getaways` to `/blog/john-glenn-astronomy-park`.
+- Next: Wave 1, week 8 (P058 Moonville Tunnel, P059 Tar Hollow State Park).
+
 ## Status: every first-pass step is built
 
 | Step | What | Status |
