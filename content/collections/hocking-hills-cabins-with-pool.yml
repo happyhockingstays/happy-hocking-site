@@ -1,15 +1,22 @@
+title: Hocking Hills cabins with pools and hot tubs
 order: 1
 navLabel: Cabins with pools
 linkText: Cabins with private pools
-title: Hocking Hills cabins with pool and hot tub
 seoTitle: Hocking Hills cabins with pool | Happy Hocking Stays
-seoDescription: Hocking Hills cabins with pool, hot tub and room for 6 to 29. Compare our cabins with private pools, see each pool's season dates and book direct.
+seoDescription: Hocking Hills cabins with pool, hot tub and room for 6 to 29.
+  Compare our cabins with private pools, see each pool's season dates and book
+  direct.
 eyebrow: A private pool at every cabin
-lead: Looking for Hocking Hills cabins with pool days built in? Every cabin we host has its own outdoor pool and a hot tub, and you share them with nobody. Most pools are open May 15 to October 15.
+lead: Looking for Hocking Hills cabins with pool days built in? All of these
+  cabins have their own outdoor pool and a hot tub, and you share them with
+  nobody. Most pools are open May 15 to October 15.
 image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-002.jpg
-alt: Heated pool at Rickenbacker Ridge seen from above the patio, one of our Hocking Hills cabins with pool and hot tub
+alt: Heated pool at Rickenbacker Ridge seen from above the patio, one of our
+  Hocking Hills cabins with pool and hot tub
 listHeading: Cabins with private pools, for groups of 6 to 29
-listIntro: Each card shows that cabin's pool season. Pick by group size, then check your dates.
+listIntro: From cozy getaways for 6 to estates for 29, each cabin has its own
+  pool. Each card shows its pool season, so pick your cabin and check your
+  dates.
 showPoolDates: true
 cabins:
   - cabin: content/cabins/clouds-reach.yml
@@ -27,25 +34,31 @@ know:
   items:
     - icon: calendar
       title: Open May 15 to October 15
-      text: Most of our pools follow these dates. Clouds Reach opens earlier and closes later, April 15 to November 30.
+      text: Most of our pools follow these dates. Clouds Reach opens earlier and
+        closes later, April 15 to November 30.
     - icon: heated-pool
       title: Warm water at Clouds Reach and Rickenbacker Ridge
-      text: Clouds Reach is heated to about 85°F and Rickenbacker Ridge to about 80°F. The rest run on sunshine.
+      text: Clouds Reach is heated to about 85°F and Rickenbacker Ridge to about 80°F.
+        The rest run on sunshine.
     - icon: pool
       title: All yours
       text: One pool, one group. No shared hours and no other guests, at any cabin.
     - icon: hot-tub
       title: Hot tubs all year
-      text: Every cabin has a hot tub, and it stays open in every season. A winter stay still ends in warm water.
+      text: Every cabin has a hot tub, and it stays open in every season. A winter
+        stay still ends in warm water.
     - icon: deck
       title: Outdoors, in the open air
-      text: Every pool is outside. Bring sunscreen in July and a towel you don't mind getting grass on.
+      text: Every pool is outside. Bring sunscreen in July and a towel you don't mind
+        getting grass on.
     - icon: sauna
       title: Saunas at 3 cabins
-      text: Valhalla Hills, Pickle Hill and Lazy Deer Retreat each add a sauna, open all year.
+      text: Valhalla Hills, Pickle Hill and Lazy Deer Retreat each add a sauna, open
+        all year.
 compare:
   heading: Compare Hocking Hills cabins with pool dates side by side
-  intro: Sleeps, bedrooms, town and pool season for each cabin. Tap a name for photos and open dates.
+  intro: Sleeps, bedrooms, town and pool season for each cabin. Tap a name for
+    photos and open dates.
 guide:
   text: Planning around pool season? Read our guide to
   linkLabel: summer weekend getaways
@@ -53,14 +66,34 @@ guide:
 faqHeading: Pool questions, answered
 faqs:
   - q: When are the pools open?
-    a: Most of our Hocking Hills cabins with pools are open for swimming May 15 to October 15. Clouds Reach has the longest season, April 15 to November 30, because its saltwater pool is heated to about 85°F. Outside those dates the pools are closed, and every cabin's hot tub stays open all year.
+    a: Most of our Hocking Hills cabins with pools are open for swimming May 15 to
+      October 15. Clouds Reach has the longest season, April 15 to November 30,
+      because its saltwater pool is heated to about 85°F. Outside those dates
+      the pools are closed, and every cabin's hot tub stays open all year.
   - q: Are any of the pools heated?
-    a: Yes, 2 of them. Clouds Reach has a saltwater pool heated to about 85°F, and Rickenbacker Ridge has a pool heated to about 80°F. The pools at our other cabins aren't heated, so plan on a refreshing swim early and late in the season. Every cabin with a pool also has a hot tub, open all year.
+    a: Yes, 2 of them. Clouds Reach has a saltwater pool heated to about 85°F, and
+      Rickenbacker Ridge has a pool heated to about 80°F. The pools at our other
+      cabins aren't heated, so plan on a refreshing swim early and late in the
+      season. Every cabin with a pool also has a hot tub, open all year.
   - q: Are the pools private?
-    a: Yes. Each of our cabins with private pools has one pool for one group, and that group is yours. There are no shared hours and no other guests. That's the difference between a pool cabin and a lodge or hotel with a shared swimming pool. You never have to hunt for a free lounge chair, and the only people in the water are yours.
+    a: Yes. Each of our cabins with private pools has one pool for one group, and
+      that group is yours. There are no shared hours and no other guests. That's
+      the difference between a pool cabin and a lodge or hotel with a shared
+      swimming pool. You never have to hunt for a free lounge chair, and the
+      only people in the water are yours.
   - q: Which Hocking Hills cabin with pool is best for a big group?
-    a: Valhalla Hills and Loch Llyn each sleep 29, and The Farm at Nickel Plate sleeps 22. Each one is a Hocking Hills cabin with pool, hot tub and fire pit in the same yard, so the whole group stays together. For 13 to 16 people, look at Clouds Reach, The Johnny or Rickenbacker Ridge.
+    a: Valhalla Hills and Loch Llyn each sleep 29, and The Farm at Nickel Plate
+      sleeps 22. Each one is a Hocking Hills cabin with pool, hot tub and fire
+      pit in the same yard, so the whole group stays together. For 13 to 16
+      people, look at Clouds Reach, The Johnny or Rickenbacker Ridge.
   - q: Do the cabins with swimming pools have hot tubs too?
-    a: Yes. Every one of our cabins with swimming pools also has a hot tub and a fire pit. The pool is for the afternoon and the hot tub is for after dark. Hot tubs seat 4 to 8 depending on the cabin, and they stay open in the months when the pools are closed.
+    a: Yes. Every one of our cabins with swimming pools also has a hot tub and a
+      fire pit. The pool is for the afternoon and the hot tub is for after dark.
+      Hot tubs seat 4 to 8 depending on the cabin, and they stay open in the
+      months when the pools are closed.
   - q: Which pools are saltwater?
-    a: Valhalla Hills, Clouds Reach and Pickle Hill have saltwater pools. Of those, Clouds Reach is the one that's heated, to about 85°F. If saltwater matters to your group, start with those cabin rentals with a pool, then choose by size. Pickle Hill sleeps 10, Clouds Reach sleeps 16 and Valhalla Hills sleeps 29.
+    a: Valhalla Hills, Clouds Reach and Pickle Hill have saltwater pools. Of those,
+      Clouds Reach is the one that's heated, to about 85°F. If saltwater matters
+      to your group, start with those cabin rentals with a pool, then choose by
+      size. Pickle Hill sleeps 10, Clouds Reach sleeps 16 and Valhalla Hills
+      sleeps 29.
