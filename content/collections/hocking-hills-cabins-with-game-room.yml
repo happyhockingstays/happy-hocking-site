@@ -32,8 +32,7 @@ cabins:
     note: Basement game room with shuffleboard and board games.
   - cabin: content/cabins/valhalla-hills.yml
     note: Pool table room and ping pong, with space for 29.
-  - cabin: content/cabins/loch-llyn.yml
-    note: Pool table, ping pong and an Xbox, plus kayaks on a private lake.
+  - note: Pool table, ping pong and an Xbox, plus kayaks on a private lake.
 know:
   eyebrow: Ways to play
   heading: Pickleball vacation rentals, sports barns and rainy day rooms
