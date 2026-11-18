@@ -12,7 +12,7 @@ faqs:
   - q: What should I pack for a weekend cabin trip?
     a: For a weekend cabin trip, pack layers, hiking shoes with grip, a swimsuit for the hot tub, a rain jacket and your groceries. Bring medications, chargers and a flashlight or headlamp. At our cabins, bed linens, bath basics, a full kitchen, a coffee maker and coffee are already there, so leave those at home.
   - q: Do your cabins provide towels and sheets?
-    a: Yes. Every one of our cabins has bed linens, towels, extra pillows and blankets, plus shampoo, conditioner and body soap. Every cabin also has a washer and dryer. Pool towels are worth bringing, since most cabins don't list them. Loch Llyn is the exception, with beach gear for its lake.
+    a: Yes. Every one of our cabins has bed linens, bath and pool towels, extra pillows and blankets, plus shampoo, conditioner and body soap, so you can leave those at home. Every cabin also has a washer and dryer. Loch Llyn adds beach gear for its lake.
   - q: What do I need for the Hocking Hills trails?
     a: Shoes with real grip matter most, because the trails have stone steps and wet sandstone. Bring water, a rain layer and a small first aid kit. In winter, the park recommends ice cleats. Trails open a half hour before sunrise and close a half hour after sunset, so a headlamp helps on short winter days.
   - q: What should I not bring to a cabin rental?
@@ -28,7 +28,7 @@ We host guests every weekend in the Hocking Hills. These are the things they're 
 Before you pack, cross these off. Every one of our cabins has:
 
 - **Bedroom:** bed linens, extra pillows and blankets, hangers
-- **Bathroom:** towels, a hair dryer, shampoo, conditioner and body soap
+- **Bathroom:** bath and pool towels, a hair dryer, shampoo, conditioner and body soap
 - **Laundry:** a washer and a dryer
 - **Kitchen:** a refrigerator, stove, oven, microwave, dishwasher, pots and pans, dishes and silverware, a toaster, wine glasses and baking sheets
 - **Coffee:** a coffee maker and coffee to get you started
@@ -75,7 +75,7 @@ The kitchen has the tools. You bring the food.
 
 - **Winter:** a warm coat, hat, gloves, ice cleats and a swimsuit for the hot tub
 - **Spring:** a rain jacket, waterproof boots and layers for chilly mornings
-- **Summer:** swimsuits, sunscreen, bug spray and pool towels. Pools are open May 15 to October 15, and Clouds Reach's heated pool runs April 15 to November 30
+- **Summer:** swimsuits, sunscreen and bug spray. We provide the pool towels. Pools are open May 15 to October 15, and Clouds Reach's heated pool runs April 15 to November 30
 - **Fall:** layers for warm afternoons and cold nights, and a camera for the color
 
 ## What to pack on a weekend trip with kids or a group

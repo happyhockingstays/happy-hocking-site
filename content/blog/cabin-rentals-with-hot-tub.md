@@ -16,7 +16,7 @@ faqs:
   - q: Can kids use a hot tub?
     a: The CDC says children under 5 shouldn't use hot tubs at all. The Consumer Product Safety Commission suggests special caution with young children. At our cabins, the pool is the better pick for kids in summer. Most of our pools are open May 15 to October 15. The one at Clouds Reach runs April 15 to November 30.
   - q: Which of your hot tubs are under a roof?
-    a: Dunkle Creek and Loch Llyn both have a hot tub under a roof. At Dunkle Creek, it sits under the covered deck, with curtains and a view of the meadow. Loch Llyn's 8-person hot tub is under the covered patio, looking out at the woods. Both are open all year, so a rainy or snowy night can still end with a soak.
+    a: Dunkle Creek and Loch Llyn. Dunkle Creek's sits under the covered deck, with curtains and a view of the meadow, and Loch Llyn's 8-person hot tub is under the covered patio. At Valhalla Hills, the deck above covers part of the hot tub, so you can still see the sky. The rest are open-air, and every one runs all year.
   - q: Which of your cabins has the biggest hot tub?
     a: Loch Llyn and Valhalla Hills each have an 8-person hot tub, the largest seat count we list. Both sleep 29, so the whole group can take turns. At Valhalla Hills, it's on the stone patio near the saltwater pool, which is open May 15 to October 15.
 ---
@@ -36,11 +36,11 @@ Before you book, ask about:
 
 ## Our cabins with hot tubs in Ohio
 
-Every one of our cabins has a private hot tub, open all year. For a winter weekend, we'd point you to Dunkle Creek or Loch Llyn, since their hot tubs sit under a roof. Tap a cabin name to see its photos and open dates.
+Every one of our cabins has a private hot tub, open all year. For a snowy weekend, we'd point you to Dunkle Creek or Loch Llyn, where the hot tub sits under a roof. At Valhalla Hills, the deck above covers part of it. Tap a cabin name to see its photos and open dates.
 
 | Cabin | Sleeps | Hot tub seats | Where it sits | Pool season |
 | --- | --- | --- | --- | --- |
-| [Dunkle Creek](/cabins/dunkle-creek) | 6 | [Ask us](/contact) | Under the covered deck | May 15 to October 15 |
+| [Dunkle Creek](/cabins/dunkle-creek) | 6 | 4 | Under the covered deck | May 15 to October 15 |
 | [Lazy Deer Retreat](/cabins/lazy-deer-retreat) | 8 | 5 to 6 | On the deck by the pool | May 15 to October 15 |
 | [Pickle Hill](/cabins/pickle-hill) | 10 | 5 to 6 | On the deck beside the house | May 15 to October 15 |
 | [Rickenbacker Ridge](/cabins/rickenbacker-ridge) | 13 | 6 | On the patio beside the house | May 15 to October 15, heated |
@@ -48,7 +48,7 @@ Every one of our cabins has a private hot tub, open all year. For a winter weeke
 | [The Johnny](/cabins/the-johnny) | 16 | 5 to 6 | On the lawn beside the cabin | May 15 to October 15 |
 | [The Farm at Nickel Plate](/cabins/the-farm-at-nickel-plate) | 22 | 6 | On the patio by the pool | May 15 to October 15 |
 | [Loch Llyn](/cabins/loch-llyn) | 29 | 8 | Under the covered patio | May 15 to October 15 |
-| [Valhalla Hills](/cabins/valhalla-hills) | 29 | 8 | On the stone patio below the deck | May 15 to October 15 |
+| [Valhalla Hills](/cabins/valhalla-hills) | 29 | 8 | On the stone patio, partly under the deck | May 15 to October 15 |
 
 Lazy Deer Retreat is about 5 minutes from Old Man's Cave, so you can hike in the morning and soak by lunch. It has a private sauna too.
 
