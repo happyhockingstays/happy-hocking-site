@@ -1,7 +1,7 @@
 name: Clouds Reach
 shortName: Clouds Reach
-order: 4
 hidden: false
+order: 4
 isNew: false
 tagline: A place to relax
 cardLine: Heated pool. Fire pit. Big stargazing skies.
@@ -9,25 +9,33 @@ town: Logan
 sleeps: 16
 bedrooms: 4
 beds: 12
-baths: '4'
+baths: "4"
 gamesAndSports: false
 chips:
   - Heated pool
   - Hot tub
   - Bocce court
   - Fire pit
-seoTitle: 'Clouds Reach: Hocking Hills cabin with a heated pool'
-seoDescription: Clouds Reach is a Hocking Hills cabin with a heated pool, open April 15 to November 30. Logan, Ohio. Sleeps 16, with a hot tub, bocce court and fire pit.
-blurb: A hillside home for 16 on 3.5 acres. The saltwater pool is heated to 85°F and open April 15 to November 30, and the stars come out big after dark.
+blurb: A hillside home for 16 on 3.5 acres. The saltwater pool is heated to 85°F
+  and open April 15 to November 30, and the stars come out big after dark.
 aboutHeading: A Hocking Hills cabin with a heated pool
-about: |-
-  Clouds Reach is a Hocking Hills cabin with a heated pool, on 3.5 hillside acres in Logan, Ohio. It sleeps 16 across 4 bedrooms and 4 full baths, 15 minutes from downtown Logan and 20 to 30 minutes from the trails.
+about: >-
+  Clouds Reach is a Hocking Hills cabin with a heated pool, on 3.5 hillside
+  acres in Logan, Ohio. It sleeps 16 across 4 bedrooms and 4 full baths, 15
+  minutes from downtown Logan and 20 to 30 minutes from the trails.
 
-  The pool is the headline: saltwater, heated to about 85°F and open April 15 to November 30, the longest season of any of our cabins.
-aboutMore: |-
-  Around it you'll find a hot tub, a bocce court, a covered gazebo and a fire pit with room for everyone. A three-seasons room and a deck with Adirondack chairs look out over the property.
 
-  Inside, the kitchen and living room share an open layout. The first-floor primary suite has a king bed, a soaking tub and a walk-in closet, and the basement bunk room sleeps 8.
+  The pool is the headline: saltwater, heated to about 85°F and open April 15 to
+  November 30, the longest season of any of our cabins.
+aboutMore: >-
+  Around it you'll find a hot tub, a bocce court, a covered gazebo and a fire
+  pit with room for everyone. A three-seasons room and a deck with Adirondack
+  chairs look out over the property.
+
+
+  Inside, the kitchen and living room share an open layout. The first-floor
+  primary suite has a king bed, a soaking tub and a walk-in closet, and the
+  basement bunk room sleeps 8.
 bookingWidget: |-
   <script
     src="https://cdn.hsptb.com/direct-booking-widget/widget-loader.prod.js"
@@ -39,7 +47,8 @@ heroImage: /images/cabins/clouds-reach/pool/clouds-reach-pool-010.jpg
 heroAlt: Clouds Reach house, pool and garden path in the fall
 keyShots:
   - image: /images/cabins/clouds-reach/sunroom/clouds-reach-sunroom-003.jpg
-    alt: Three-seasons room at Clouds Reach with a table, wicker chairs and a telescope
+    alt: Three-seasons room at Clouds Reach with a table, wicker chairs and a
+      telescope
   - image: /images/cabins/clouds-reach/pool/clouds-reach-pool-009.jpg
     alt: Hot tub at Clouds Reach with fall color in the distance
   - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-011.jpg
@@ -52,10 +61,11 @@ cardPhotos:
   - image: /images/cabins/clouds-reach/exterior/clouds-reach-exterior-012.jpg
     alt: Fire pit circle at Clouds Reach at sunset
   - image: /images/cabins/clouds-reach/sunroom/clouds-reach-sunroom-003.jpg
-    alt: Three-seasons room at Clouds Reach with a table, wicker chairs and a telescope
+    alt: Three-seasons room at Clouds Reach with a table, wicker chairs and a
+      telescope
 highlights:
   - title: Heated saltwater pool
-    text: About 85°F, open April 15 to November 30.
+    text: About 88°F, open April 15 to November 30.
     image: /images/cabins/clouds-reach/pool/clouds-reach-pool-004.jpg
     alt: Clouds Reach house and pool from the lawn
   - title: Hot tub
@@ -220,7 +230,7 @@ allAmenities:
       - Self check-in
       - Keypad entry
 poolSeason: April 15 to November 30
-poolNote: Saltwater, heated to about 85°F.
+poolNote: Saltwater, heated to about 88°F.
 driveTimes:
   - place: Downtown Logan
     time: 15 min
@@ -233,17 +243,18 @@ driveTimes:
   - place: Ash Cave
     time: 35 min
 areaNote: A quiet hillside, with downtown Logan's shops and restaurants 15 minutes away.
-checkOut: ''
 quietHours: 10:00 pm to 9:00 am
 cancellation: standard
 extraRules:
-  - The barn, pond and meadow next door belong to our neighbors. Please stay on our side of the driveway
-goodToKnow: []
+  - The barn, pond and meadow next door belong to our neighbors. Please stay on
+    our side of the driveway
 faqs:
   - q: Is the pool heated?
-    a: Yes. The saltwater pool is heated to about 85°F and open April 15 to November 30, the longest pool season of our cabins.
+    a: Yes. The saltwater pool is heated to about 88°F and open April 15 to November
+      30, the longest pool season of our cabins.
   - q: How many people does Clouds Reach sleep?
-    a: '16 guests across 4 bedrooms: 3 bedrooms with king beds and a basement bunk room that sleeps 8. There are 4 full baths.'
+    a: "16 guests across 4 bedrooms: 3 bedrooms with king beds and a basement bunk
+      room that sleeps 8. There are 4 full baths."
   - q: Is the hot tub open all year?
     a: Yes. It seats 4 to 5 and is open all year.
   - q: How far is Clouds Reach from the Hocking Hills trails?
@@ -253,13 +264,18 @@ faqs:
   - q: Is there a minimum stay?
     a: 2 nights. Holiday and peak-season stays may need 3.
   - q: What is the cancellation policy?
-    a: Full refund up to 60 days before check-in and 50% up to 30 days before. After that, stays are non-refundable.
+    a: Full refund up to 60 days before check-in and 50% up to 30 days before. After
+      that, stays are non-refundable.
 similar:
   - content/cabins/rickenbacker-ridge.yml
   - content/cabins/the-johnny.yml
-airbnbRating: '4.99'
+airbnbRating: "4.99"
 airbnbReviews: 107
 permit: Hocking County ID 00825
+seoTitle: "Clouds Reach: Hocking Hills cabin with a heated pool"
+seoDescription: Clouds Reach is a Hocking Hills cabin with a heated pool, open
+  April 15 to November 30. Logan, Ohio. Sleeps 16, with a hot tub, bocce court
+  and fire pit.
 gallery:
   - name: Pool
     images:
@@ -559,7 +575,8 @@ gallery:
         alt: Hanging daybed and sofa in the three-seasons room at Clouds Reach
       - image: /images/cabins/clouds-reach/sunroom/clouds-reach-sunroom-003.jpg
         caption: Sunroom
-        alt: Three-seasons room at Clouds Reach with a table, wicker chairs and a telescope
+        alt: Three-seasons room at Clouds Reach with a table, wicker chairs and a
+          telescope
       - image: /images/cabins/clouds-reach/sunroom/clouds-reach-sunroom-004.jpg
         caption: Sunroom
         alt: Table and wicker chairs in the three-seasons room at Clouds Reach
@@ -568,4 +585,5 @@ gallery:
         alt: Telescope and hanging daybed in the three-seasons room at Clouds Reach
       - image: /images/cabins/clouds-reach/sunroom/clouds-reach-sunroom-006.jpg
         caption: Sunroom
-        alt: Three-seasons room at Clouds Reach with a telescope and a view of the meadow
+        alt: Three-seasons room at Clouds Reach with a telescope and a view of the
+          meadow
