@@ -1,7 +1,7 @@
 name: Rickenbacker Ridge
 shortName: Rickenbacker Ridge
-order: 6
 hidden: false
+order: 6
 isNew: false
 tagline: A place to escape
 cardLine: 20 wooded acres. No neighbors in sight.
@@ -9,25 +9,33 @@ town: Sugar Grove
 sleeps: 13
 bedrooms: 4
 beds: 8
-baths: '2.5'
+baths: "2.5"
 gamesAndSports: false
 chips:
   - Heated pool
   - Hot tub
   - 20 acres
   - Game room
-seoTitle: 'Rickenbacker Ridge: Hocking Hills cabin in Sugar Grove, Ohio'
-seoDescription: Rickenbacker Ridge is a Hocking Hills cabin in Sugar Grove, Ohio on 20 private wooded acres. Sleeps 13, with a heated pool, hot tub and game room. Book direct.
-blurb: 20 wooded acres and no neighbors in sight. Rickenbacker Ridge sleeps 13, with a heated pool, a hot tub for 6 and a game room for rainy afternoons.
+blurb: 20 wooded acres and no neighbors in sight. Rickenbacker Ridge sleeps 13,
+  with a heated pool, a hot tub for 6 and a game room for rainy afternoons.
 aboutHeading: A cabin in Sugar Grove, Ohio with no neighbors in sight
-about: |-
-  Rickenbacker Ridge is a Hocking Hills cabin in Sugar Grove, Ohio, on 20 private acres. It sleeps 13 across 4 bedrooms, 15 minutes from Logan and Lancaster and about 40 minutes from Old Man's Cave.
+about: >-
+  Rickenbacker Ridge is a Hocking Hills cabin in Sugar Grove, Ohio, on 20
+  private acres. It sleeps 13 across 4 bedrooms, 15 minutes from Logan and
+  Lancaster and about 40 minutes from Old Man's Cave.
 
-  The woods wrap all the way around, so the only people you'll see are the ones you brought. The pool is heated to about 80°F and open May 15 to October 15.
-aboutMore: |-
-  Evenings belong to the hot tub, the fire pit (firewood provided) and the bench swing. Downstairs, the finished basement has a TV, foosball, air hockey and board games.
 
-  The kitchen is fully equipped, with coffee provided. Starlink Wi-Fi keeps up with streaming and video calls. Kids love the bunk room, with its secret loft for reading and naps.
+  The woods wrap all the way around, so the only people you'll see are the ones
+  you brought. The pool is heated to about 82°F and open May 15 to October 15.
+aboutMore: >-
+  Evenings belong to the hot tub, the fire pit (firewood provided) and the bench
+  swing. Downstairs, the finished basement has a TV, foosball, air hockey and
+  board games.
+
+
+  The kitchen is fully equipped, with coffee provided. Starlink Wi-Fi keeps up
+  with streaming and video calls. Kids love the bunk room, with its secret loft
+  for reading and naps.
 bookingWidget: |-
   <script
     src="https://cdn.hsptb.com/direct-booking-widget/widget-loader.prod.js"
@@ -224,7 +232,7 @@ allAmenities:
       - Self check-in
       - Keypad entry
 poolSeason: May 15 to October 15
-poolNote: Heated to about 80°F.
+poolNote: Heated to about 82°F.
 driveTimes:
   - place: Downtown Logan
     time: 15 min
@@ -239,44 +247,54 @@ driveTimes:
   - place: Ash Cave
     time: 45 min
 areaNote: Between Logan and Lancaster, with shops and restaurants 15 minutes either way.
-checkOut: ''
-quietHours: ''
 cancellation: standard
 extraRules:
-  - The loft in the bunk room is reached by ladder. No jumping or rough play up there
+  - The loft in the bunk room is reached by ladder. No jumping or rough play up
+    there
 goodToKnow:
-  - The driveway is gravel and steep in one spot. AWD or 4WD is recommended in snow
+  - The driveway is gravel and steep in one spot. AWD or 4WD is recommended in
+    snow
   - Message us before a snowy stay and we'll help you plan
   - There's plenty of flat parking at the bottom of the driveway
 faqs:
   - q: Is the pool heated?
-    a: Yes. The pool is heated to about 80°F and open May 15 to October 15.
+    a: Yes. The pool is heated to about 82°F and open May 15 to October 15.
   - q: How private is Rickenbacker Ridge?
     a: Very. The cabin sits on 20 wooded acres with no neighbors in sight.
   - q: How many people does Rickenbacker Ridge sleep?
-    a: '13 guests across 4 bedrooms: a king suite, a king and twin room, a bunk room with 2 twin-over-queen bunk beds and a sofa bed room. There are 2.5 baths.'
+    a: "13 guests across 4 bedrooms: a king suite, a king and twin room, a bunk room
+      with 2 twin-over-queen bunk beds and a sofa bed room. There are 2.5
+      baths."
   - q: Do I need 4WD to get there?
-    a: The gravel driveway is steep in one spot. AWD or 4WD is recommended in snow. Message us before a snowy stay and we'll help you plan.
+    a: The gravel driveway is steep in one spot. AWD or 4WD is recommended in snow.
+      Message us before a snowy stay and we'll help you plan.
   - q: How far is Rickenbacker Ridge from the Hocking Hills trails?
-    a: About 40 minutes to Old Man's Cave and Cedar Falls and 45 minutes to Ash Cave. Logan and Lancaster are each about 15 minutes away.
+    a: About 40 minutes to Old Man's Cave and Cedar Falls and 45 minutes to Ash
+      Cave. Logan and Lancaster are each about 15 minutes away.
   - q: What time are check-in and check-out?
     a: Check-in is 4:00 pm and check-out is 11:00 am.
   - q: Is there a minimum stay?
     a: 2 nights. Holiday and peak-season stays may need 3.
   - q: What is the cancellation policy?
-    a: Full refund up to 60 days before check-in and 50% up to 30 days before. After that, stays are non-refundable.
+    a: Full refund up to 60 days before check-in and 50% up to 30 days before. After
+      that, stays are non-refundable.
 similar:
   - content/cabins/clouds-reach.yml
   - content/cabins/the-johnny.yml
-airbnbRating: '4.99'
+airbnbRating: "4.99"
 airbnbReviews: 72
 permit: Hocking County ID 00809
+seoTitle: "Rickenbacker Ridge: Hocking Hills cabin in Sugar Grove, Ohio"
+seoDescription: Rickenbacker Ridge is a Hocking Hills cabin in Sugar Grove, Ohio
+  on 20 private wooded acres. Sleeps 13, with a heated pool, hot tub and game
+  room. Book direct.
 gallery:
   - name: Pool
     images:
       - image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-001.jpg
         caption: Pool
-        alt: Pool deck at Rickenbacker Ridge with loungers, a dining table and the woods beyond
+        alt: Pool deck at Rickenbacker Ridge with loungers, a dining table and the woods
+          beyond
       - image: /images/cabins/rickenbacker-ridge/pool/rickenbacker-ridge-pool-002.jpg
         caption: Pool
         alt: Rickenbacker Ridge and its heated pool seen from above the patio
@@ -319,7 +337,8 @@ gallery:
         alt: King bed in the first-floor primary suite at Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-1-002.jpg
         caption: Bedroom 1 · King
-        alt: Primary suite at Rickenbacker Ridge with a king bed and windows onto the woods
+        alt: Primary suite at Rickenbacker Ridge with a king bed and windows onto the
+          woods
       - image: /images/cabins/rickenbacker-ridge/bedrooms/rickenbacker-ridge-bedroom-1-003.jpg
         caption: Bedroom 1 · King
         alt: King bed and wall-mounted TV in the primary suite at Rickenbacker Ridge
@@ -366,7 +385,8 @@ gallery:
         alt: Bathroom 2 at Rickenbacker Ridge seen from the hall
       - image: /images/cabins/rickenbacker-ridge/bathrooms-laundry/rickenbacker-ridge-bathrooms-001.jpg
         caption: Bathroom
-        alt: Vanity and bathtub with a glass door in the upstairs bathroom at Rickenbacker Ridge
+        alt: Vanity and bathtub with a glass door in the upstairs bathroom at
+          Rickenbacker Ridge
       - image: /images/cabins/rickenbacker-ridge/bathrooms-laundry/rickenbacker-ridge-half-bath-001.jpg
         caption: Half bath
         alt: Hallway to the half bath at Rickenbacker Ridge
