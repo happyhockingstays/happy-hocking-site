@@ -1,6 +1,6 @@
 # Handoff
 
-Updated Nov 16, 2026 (eighth session: fixes and owner posts from Cole's Nov 16 call with Natalie, in pull request #12). Pull requests #3 to #11 are merged. Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
+Updated Nov 18, 2026 (ninth session: Wave 1, week 6). Before that: Nov 16, eighth session, fixes and owner posts from Cole's Nov 16 call with Natalie, in pull request #12. Pull requests #3 to #11 are merged. Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
 
 The kickoff brief, brand guide, listing content, questionnaire and contract are in the "Happy Hocking" Claude project. The brief is `claude/website-build-handoff.md`.
 
@@ -19,6 +19,18 @@ The kickoff brief, brand guide, listing content, questionnaire and contract are 
 | 9 | 301 redirects from the old Wix site | Map drafted from the live Wix sitemap: `docs/redirects.csv`, explained in `docs/redirects.md` |
 
 Not done yet outside the repo: Netlify site (waiting on the clients), branch protection, DNS. Pages CMS is installed on the repo. Cole opened it after the new screens were added (the 4 "Page:" screens and Blog posts) and saw no errors. Saving from those screens hasn't been tried.
+
+## Ninth session (Nov 18): Wave 1, week 6
+
+One pull request, branch `wave-1-week-6`, written with Cole's batch content instructions (5 pages a chat, every page through research, brief, draft, checks, a humanizer pass and a cold review by a separate reviewer).
+
+- `/blog/cabins-in-ohio` (P045), `/blog/cabin-rentals-with-hot-tub` (P036), `/blog/cabins-with-pools-in-ohio` (P013), `/blog/lake-hope-state-park` (P056), `/blog/john-glenn-astronomy-park` (P057).
+- P036 and P013 split the ground: the hot tub post covers privacy, seats, where each hot tub sits and hot tub safety; the pool post covers open dates, heated and saltwater pools and pool safety. Neither repeats the pools collection page.
+- Back links: Lake Hope State Park from summer-weekend-getaways, fall-weekend-getaways and weekend-getaways-in-ohio; John Glenn Astronomy Park from things-to-do-in-hocking-hills-for-adults, day-trips-from-columbus-ohio, day-trips-from-cincinnati and weekend-getaways-in-ohio (the links owed since #10).
+- Sources: ODNR park pages (Lake Hope's page refuses automated fetches and was read in a browser), the park's own JGAP FAQ, CDC and CPSC hot tub and pool guidance, NPS, Ohio Magazine, and OpenStreetMap routing for drive times. The pull request has a sources table per post.
+- For the hosts to confirm (also in the pull request): Dunkle Creek's hot tub seat count; whether the hot tubs other than Dunkle Creek's and Loch Llyn's are open-air; pool towels (faqs.yml and the pools page say provided, the packing-list post says bring your own); Clouds Reach's pool temperature (85°F or 88°F in different fields) and Rickenbacker Ridge's (80°F or 82°F).
+- `npm run check` fails on `main` before this branch: the Pages CMS edits of Nov 17 and 18 brought in 21 copy flags (serial commas, a spelled-out number, an emoji, a heading period, "WiFi", a short FAQ answer). None are in this branch's files.
+- Next: Wave 1, week 7 (P108, P070, P081, P078, P118), then week 8 (P058, P059).
 
 ## Eighth session, part 2 (Nov 16): 3 more owner posts
 
