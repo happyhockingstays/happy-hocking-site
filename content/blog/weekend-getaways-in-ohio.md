@@ -46,7 +46,7 @@ Every season makes a different trip.
 The right weekend depends on the crowd.
 
 - **Friends:** a big house, a game room and a court. Our guide on [how to plan a group trip](/blog/how-to-plan-a-group-trip) keeps the group chat in line
-- **Family:** cabins that sleep 10 to 29, with room for every generation. See our [family reunion venues](/blog/family-reunion-venues) guide
+- **Family:** cabins that sleep 10 to 29, with room for every generation. See our [family weekend getaways](/blog/family-weekend-getaways) ideas or the [family reunion venues](/blog/family-reunion-venues) guide
 - **Big groups:** our [cabin rentals for large groups](/hocking-hills-large-group-cabins) list every cabin that sleeps 10 or more
 - **Players:** [Pickle Hill](/cabins/pickle-hill) has a regulation pickleball court in its own barn, and our guide to [pickleball getaways](/blog/pickleball-getaways) has the rest
 - **A smaller crew:** [Dunkle Creek](/cabins/dunkle-creek) is a black A-frame for 6, and [Lazy Deer Retreat](/cabins/lazy-deer-retreat) sleeps 8, about 5 minutes from Old Man's Cave
@@ -82,7 +82,7 @@ Already been to the big trails? These weekend vacation spots in Ohio are an easy
 - **Saturday:** an early hike, a long lunch, the pool or a game in the afternoon and a big dinner in
 - **Sunday:** a slow breakfast, 1 more short walk and check-out at 11:00 am
 
-Coming from the southwest? Our [day trips from Cincinnati](/blog/day-trips-from-cincinnati) guide has the stops along the way. Coming from the capital? Our guide to [weekend getaways from Columbus, Ohio](/blog/weekend-getaways-from-columbus-ohio) has the drive and an hour-by-hour plan. From Columbus, it's US-33 southeast through Lancaster to Logan. The trailheads are a short drive past town.
+Coming from the southwest? Our [day trips from Cincinnati](/blog/day-trips-from-cincinnati) guide has the stops along the way. Coming from the capital? Our guide to [weekend getaways from Columbus, Ohio](/blog/weekend-getaways-from-columbus-ohio) has the drive and an hour-by-hour plan. From Columbus, it's US-33 southeast through Lancaster to Logan. The trailheads are a short drive past town. Our [directions to Hocking Hills, Ohio](/blog/directions-to-hocking-hills-ohio) show which road leads to which.
 
 Packing for it? Our [weekend trip packing list](/blog/weekend-trip-packing-list) covers what the cabin already has, what to bring for the trails and what to leave at home.
 

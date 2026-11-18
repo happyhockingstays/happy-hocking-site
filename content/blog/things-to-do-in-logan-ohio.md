@@ -44,7 +44,7 @@ Tours run at 11:00 am, 1:00 pm and 3:00 pm, last about 35 minutes and need a gro
 
 Yes, really. When Rev. Paul A. Johnson retired in 1988, his wife gave him a few car-shaped pencil sharpeners to start a collection. By 2010 he had 3,450. Today the Paul A. Johnson Pencil Sharpener Museum holds an estimated 5,000, in a new building that reopened in January 2024.
 
-It's at the [Hocking Hills Regional Welcome Center](https://www.explorehockinghills.com/contact-us/welcome-centers/), where US-33 meets State Route 664. The center is open 9:00 am to 5:00 pm Monday through Saturday and 11:00 am to 5:00 pm on Sunday. Pick up a trail map while you're there.
+It's at the [Hocking Hills Regional Welcome Center](https://www.explorehockinghills.com/contact-us/welcome-centers/), where US-33 meets State Route 664. The center is open 9:00 am to 5:00 pm Monday through Saturday and 11:00 am to 5:00 pm on Sunday. Pick up a trail map while you're there. Our [Hocking Hills welcome center](/blog/hocking-hills-welcome-center) guide compares it with the state park's visitor center.
 
 ### Museums and rainy-day fun downtown
 
@@ -61,7 +61,7 @@ Logan, Ohio shopping is mostly small and local. Park once downtown and walk.
 
 **Antiques.** The Logan Antique Mall, on State Route 664 South, is the big one in town: vintage furniture, retro collectibles, jewelry and home decor. Just up US-33 in Rockbridge, Spring Street Antique Mall has about 120 dealers in a 12,000-square-foot building, and the Hocking Hills Market runs an outdoor flea market from April through October.
 
-**The practical stores in Logan, Ohio.** Logan is where you'll find the supermarkets and gas stations for a cabin stay. Every trip to the trails passes through town, so plan your big grocery run here.
+**The practical stores in Logan, Ohio.** Logan is where you'll find the supermarkets and gas stations for a cabin stay. Every trip to the trails passes through town, so plan your big run at the [grocery stores in Logan, Ohio](/blog/grocery-stores-in-logan-ohio).
 
 ## Lake Logan and the parks in town
 

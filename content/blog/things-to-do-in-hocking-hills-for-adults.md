@@ -31,6 +31,8 @@ Before we get into specific trails, here's the best advice we can give you: chec
 
 Weather is a big factor here. Summers get hot, so bring water. Winters can get icy, so wear the right shoes for slippery trails, dress in layers and bring gloves and a hat. One thing that surprises most visitors is the balance on the trails. You'll see other people out there, which feels good, but it never feels like you're on top of each other.
 
+Grab a free map at the [Hocking Hills welcome center](/blog/hocking-hills-welcome-center) on the way in. Our [Hocking Hills map](/blog/hocking-hills-map) guide shows where every trailhead is.
+
 ### [Ash Cave](https://www.explorehockinghills.com/parks-trails/parks/ash-cave/)
 
 This is the one we recommend to everyone, whatever your fitness level. The trail from the parking lot is paved, short and easy enough for strollers and young kids. Don't let "easy" fool you, though. The cave is massive and beautiful in any weather. Depending on the day, you might see water, ice or fog, and each one makes it a completely different experience. Photographers love it for good reason.
@@ -107,7 +109,7 @@ Or don't leave at all. [Pickle Hill](/cabins/pickle-hill) has a regulation pickl
 
 Honestly? The first thing we recommend is enjoying where you're staying.
 
-Every one of our cabins has a pool and a hot tub. The pools are open May 15 to October 15 (Clouds Reach's heated pool runs April 15 to November 30), and the hot tubs are ready all year. Spend the morning by the pool. Soak in the hot tub in the afternoon. Play games, put your phone away, sit on the deck and listen to the woods. When the sun goes down, stargaze from the hot tub or the fire pit. You don't need a plan. You don't need to be anywhere.
+Every one of our cabins has a pool and a hot tub. The pools are open May 15 to October 15 (Clouds Reach's heated pool runs April 15 to November 30), and the hot tubs are ready all year. Spend the morning by the pool. Soak in the hot tub in the afternoon. Play games, put your phone away, sit on the deck and listen to the woods. When the sun goes down, stargaze from the hot tub or the fire pit. You don't need a plan. You don't need to be anywhere. Stock the fridge on the way in: our guide to [grocery stores in Logan, Ohio](/blog/grocery-stores-in-logan-ohio) has the hours.
 
 The best Hocking Hills trips start with slowing down at the cabin before you ever get in the car.
 

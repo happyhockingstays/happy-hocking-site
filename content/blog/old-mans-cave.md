@@ -12,7 +12,7 @@ faqs:
   - q: How long does it take to hike Old Man's Cave?
     a: Plan on about an hour. The park lists the main trail at 1 mile and rates it moderate, and most of that hour goes to stopping at the waterfalls and the cave itself. Add time if you have kids or a camera with you, or if you keep going toward Broken Rock Falls or Cedar Falls.
   - q: Is Old Man's Cave free to visit?
-    a: Yes. It's part of Hocking Hills State Park, and Ohio's state parks are free to enter. There's no charge to park or to walk through the visitor center either. The visitor center is open daily from 10:00 am to 4:00 pm, and those hours can change with the season.
+    a: Yes. It's part of Hocking Hills State Park, and Ohio's state parks are free to enter. There's no charge to park or to walk through the visitor center either. The visitor center is open daily from 10:00 am to 5:00 pm, and those hours can change with the season.
   - q: What are the hours at Old Man's Cave?
     a: The trail follows the park's hours, which run from a half hour before sunrise to a half hour after sunset, every day of the year. The trails close outside those hours. In winter that makes for a short hiking day, so start by early afternoon and be back at the car before dark.
   - q: Where is Old Man's Cave?
@@ -31,7 +31,7 @@ It's the first place we point our guests to, with the same advice every time: go
 - **Trail:** 1 mile, rated moderate by the park
 - **Hours:** a half hour before sunrise to a half hour after sunset, all year
 - **Cost:** free, parking included
-- **Visitor center:** open daily, 10:00 am to 4:00 pm (hours can change with the season)
+- **Visitor center:** open daily, 10:00 am to 5:00 pm (hours can change with the season)
 - **Good to know:** stone steps, bridges and tunnels, so no strollers or wheelchairs on the gorge trail
 
 Those details come from the Ohio Department of Natural Resources, which runs the park. Check the [Hocking Hills State Park page](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/hocking-hills-state-park) before you go, because trails close now and then for repairs or weather.

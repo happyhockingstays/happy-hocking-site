@@ -71,7 +71,7 @@ Want to break it up? Stop at Mound City on the way out and save the hills for th
 - **Check the hours.** Hocking Hills State Park's trails open a half hour before sunrise and close a half hour after sunset. The Mound City visitor center closes at 4:00 pm
 - **Wear real shoes.** Most Hocking Hills trails have stone steps and wet rock. In winter, the park suggests ice cleats
 - **Pack lunch.** Every trailhead parking area in the state park has picnic tables and grills
-- **Download your maps.** Cell service comes and goes in the hills, so save directions before you lose signal
+- **Download your maps.** Cell service comes and goes in the hills, so save our [directions to Hocking Hills, Ohio](/blog/directions-to-hocking-hills-ohio) before you lose signal
 
 ## When a day trip from Cincinnati should be a weekend
 
