@@ -82,7 +82,7 @@ Already been to the big trails? These weekend vacation spots in Ohio are an easy
 - **Saturday:** an early hike, a long lunch, the pool or a game in the afternoon and a big dinner in
 - **Sunday:** a slow breakfast, 1 more short walk and check-out at 11:00 am
 
-Coming from the southwest? Our [day trips from Cincinnati](/blog/day-trips-from-cincinnati) guide has the stops along the way. Coming from the capital? Our guide to [weekend getaways from Columbus, Ohio](/blog/weekend-getaways-from-columbus-ohio) has the drive and an hour-by-hour plan. From Columbus, it's US-33 southeast through Lancaster to Logan. The trailheads are a short drive past town.
+Coming from the southwest? Our [day trips from Cincinnati](/blog/day-trips-from-cincinnati) guide has the stops along the way. Coming from the capital? Our guide to [weekend getaways from Columbus, Ohio](/blog/weekend-getaways-from-columbus-ohio) has the drive and an hour-by-hour plan. From Columbus, it's US-33 southeast through Lancaster to Logan. The trailheads are a short drive past town. Our [directions to Hocking Hills, Ohio](/blog/directions-to-hocking-hills-ohio) show which road leads to which.
 
 Packing for it? Our [weekend trip packing list](/blog/weekend-trip-packing-list) covers what the cabin already has, what to bring for the trails and what to leave at home.
 
