@@ -61,7 +61,7 @@ Nothing starts a trip worse than 12 people racing for the best bedroom. Make the
 
 ### 7. Plan meals by household
 
-Give each household or couple 1 meal to cover, from shopping to dishes. Keep breakfasts simple and make 1 dinner the big one. Do the main grocery run on the way in. If you're coming to the Hocking Hills, Logan has the supermarkets.
+Give each household or couple 1 meal to cover, from shopping to dishes. Keep breakfasts simple and make 1 dinner the big one. Do the main grocery run on the way in. If you're coming to the Hocking Hills, see our guide to [grocery stores in Logan, Ohio](/blog/grocery-stores-in-logan-ohio).
 
 ### 8. Plan 1 shared thing a day
 

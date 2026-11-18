@@ -109,7 +109,7 @@ Or don't leave at all. [Pickle Hill](/cabins/pickle-hill) has a regulation pickl
 
 Honestly? The first thing we recommend is enjoying where you're staying.
 
-Every one of our cabins has a pool and a hot tub. The pools are open May 15 to October 15 (Clouds Reach's heated pool runs April 15 to November 30), and the hot tubs are ready all year. Spend the morning by the pool. Soak in the hot tub in the afternoon. Play games, put your phone away, sit on the deck and listen to the woods. When the sun goes down, stargaze from the hot tub or the fire pit. You don't need a plan. You don't need to be anywhere.
+Every one of our cabins has a pool and a hot tub. The pools are open May 15 to October 15 (Clouds Reach's heated pool runs April 15 to November 30), and the hot tubs are ready all year. Spend the morning by the pool. Soak in the hot tub in the afternoon. Play games, put your phone away, sit on the deck and listen to the woods. When the sun goes down, stargaze from the hot tub or the fire pit. You don't need a plan. You don't need to be anywhere. Stock the fridge on the way in: our guide to [grocery stores in Logan, Ohio](/blog/grocery-stores-in-logan-ohio) has the hours.
 
 The best Hocking Hills trips start with slowing down at the cabin before you ever get in the car.
 

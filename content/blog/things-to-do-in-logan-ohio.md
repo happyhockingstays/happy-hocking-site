@@ -61,7 +61,7 @@ Logan, Ohio shopping is mostly small and local. Park once downtown and walk.
 
 **Antiques.** The Logan Antique Mall, on State Route 664 South, is the big one in town: vintage furniture, retro collectibles, jewelry and home decor. Just up US-33 in Rockbridge, Spring Street Antique Mall has about 120 dealers in a 12,000-square-foot building, and the Hocking Hills Market runs an outdoor flea market from April through October.
 
-**The practical stores in Logan, Ohio.** Logan is where you'll find the supermarkets and gas stations for a cabin stay. Every trip to the trails passes through town, so plan your big grocery run here.
+**The practical stores in Logan, Ohio.** Logan is where you'll find the supermarkets and gas stations for a cabin stay. Every trip to the trails passes through town, so plan your big run at the [grocery stores in Logan, Ohio](/blog/grocery-stores-in-logan-ohio).
 
 ## Lake Logan and the parks in town
 
