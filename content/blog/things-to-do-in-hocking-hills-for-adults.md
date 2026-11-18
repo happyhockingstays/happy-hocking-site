@@ -31,6 +31,8 @@ Before we get into specific trails, here's the best advice we can give you: chec
 
 Weather is a big factor here. Summers get hot, so bring water. Winters can get icy, so wear the right shoes for slippery trails, dress in layers and bring gloves and a hat. One thing that surprises most visitors is the balance on the trails. You'll see other people out there, which feels good, but it never feels like you're on top of each other.
 
+Grab a free map at the [Hocking Hills welcome center](/blog/hocking-hills-welcome-center) on the way in.
+
 ### [Ash Cave](https://www.explorehockinghills.com/parks-trails/parks/ash-cave/)
 
 This is the one we recommend to everyone, whatever your fitness level. The trail from the parking lot is paved, short and easy enough for strollers and young kids. Don't let "easy" fool you, though. The cave is massive and beautiful in any weather. Depending on the day, you might see water, ice or fog, and each one makes it a completely different experience. Photographers love it for good reason.

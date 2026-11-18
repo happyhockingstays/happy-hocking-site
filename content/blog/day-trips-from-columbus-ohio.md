@@ -31,7 +31,7 @@ A few things to know before you go:
 
 - **It's free.** [Hocking Hills State Park](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/hocking-hills-state-park) costs nothing to enter or to park in, like every Ohio state park.
 - **Mind the hours.** Trails open a half hour before sunrise and close a half hour after sunset, every day of the year.
-- **Start at the visitor center.** It's at the Old Man's Cave parking lot on State Route 664, with restrooms, exhibits and the park's raptors out back. It's open daily from 10:00 am to 4:00 pm, though hours can change by season.
+- **Start at the visitor center.** It's at the Old Man's Cave parking lot on State Route 664, with restrooms, exhibits and the park's raptors out back. It's open daily from 10:00 am to 5:00 pm, though hours can change by season. Our [Hocking Hills welcome center](/blog/hocking-hills-welcome-center) guide covers it and the regional center off US-33.
 - **Follow the arrows.** Many of the park's trails run one way, so follow the signs and stay on the marked path.
 - **Wear real shoes.** Most trails have stone steps and wet rock. In winter they can be icy, and the park suggests ice cleats.
 
