@@ -57,7 +57,7 @@ The Hocking Hills trails are short, but they aren't paved, except the walk to [A
 - **A small backpack** with water, snacks and a light rain jacket
 - **A headlamp or flashlight.** Trails close a half hour after sunset, and winter days are short
 - **Bug spray and sunscreen** in the warm months
-- **Downloaded maps.** Save the park map and your cabin's directions before you lose signal
+- **Downloaded maps.** Save the [Hocking Hills map](/blog/hocking-hills-map) and your cabin's directions before you lose signal
 
 [Old Man's Cave](/blog/old-mans-cave) is the trail most people start with. It's 1 mile with stone steps, so it's worth having the right shoes.
 

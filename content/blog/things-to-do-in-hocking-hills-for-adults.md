@@ -31,7 +31,7 @@ Before we get into specific trails, here's the best advice we can give you: chec
 
 Weather is a big factor here. Summers get hot, so bring water. Winters can get icy, so wear the right shoes for slippery trails, dress in layers and bring gloves and a hat. One thing that surprises most visitors is the balance on the trails. You'll see other people out there, which feels good, but it never feels like you're on top of each other.
 
-Grab a free map at the [Hocking Hills welcome center](/blog/hocking-hills-welcome-center) on the way in.
+Grab a free map at the [Hocking Hills welcome center](/blog/hocking-hills-welcome-center) on the way in. Our [Hocking Hills map](/blog/hocking-hills-map) guide shows where every trailhead is.
 
 ### [Ash Cave](https://www.explorehockinghills.com/parks-trails/parks/ash-cave/)
 
