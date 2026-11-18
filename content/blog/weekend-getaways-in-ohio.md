@@ -55,7 +55,7 @@ The right weekend depends on the crowd.
 
 Our cabins aren't adults-only, but every stay is private. You get the whole house, the pool and the hot tub to yourselves, with no lobby, no shared deck and no other guests.
 
-For a grown-up weekend, start early on a quiet trail, spend the afternoon at a winery or in the sauna and finish with the stars. The John Glenn Astronomy Park is the only part of the state park open at night, with programs on clear Friday and Saturday nights from March to late November. Our list of [things to do in Hocking Hills for adults](/blog/things-to-do-in-hocking-hills-for-adults) has more.
+For a grown-up weekend, start early on a quiet trail, spend the afternoon at a winery or in the sauna and finish with the stars. The [John Glenn Astronomy Park](/blog/john-glenn-astronomy-park) is the only part of the state park open at night, with programs on clear Friday and Saturday nights from March to late November. Our list of [things to do in Hocking Hills for adults](/blog/things-to-do-in-hocking-hills-for-adults) has more.
 
 ## Affordable Ohio getaways
 
@@ -71,7 +71,7 @@ A weekend away doesn't have to cost much. A few ways to keep it affordable:
 Already been to the big trails? These weekend vacation spots in Ohio are an easy add from a Hocking Hills cabin.
 
 - **[Lake Logan State Park](/blog/lake-logan-state-park):** a 400-acre lake just west of Logan, with boat rentals in spring, summer and fall and a free swimming beach
-- **Lake Hope State Park:** a 120-acre lake inside Zaleski State Forest, limited to paddling and electric motors. Its mountain bike trails run more than 25 miles
+- **[Lake Hope State Park](/blog/lake-hope-state-park):** a 120-acre lake inside Zaleski State Forest, limited to paddling and electric motors. Its mountain bike trails run more than 25 miles
 - **Tar Hollow State Park:** named for the pine tar early settlers took from its ridges, with a 15-acre lake, a 500-foot beach and a 21-mile backpacking trail
 - **Conkle's Hollow State Nature Preserve:** a gorge only 100 feet wide in places, with cliffs nearly 200 feet high
 - **Chillicothe:** the [Hopewell Culture National Historical Park](https://www.nps.gov/hocu/index.htm) protects earthworks built by the Hopewell people, and it's part of a World Heritage Site

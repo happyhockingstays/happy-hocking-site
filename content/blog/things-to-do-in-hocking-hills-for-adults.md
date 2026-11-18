@@ -61,7 +61,7 @@ Once you've done the classic trails, these are the stops that make a trip feel l
 
 ### Stargazing at John Glenn Astronomy Park
 
-Don't miss one of the most underrated things to do in the Hocking Hills: stargazing at John Glenn Astronomy Park. With very little light pollution, it's an amazing place to see the night sky.
+Don't miss one of the most underrated things to do in the Hocking Hills: stargazing at [John Glenn Astronomy Park](/blog/john-glenn-astronomy-park). With very little light pollution, it's an amazing place to see the night sky.
 
 ### Quieter waterfalls
 

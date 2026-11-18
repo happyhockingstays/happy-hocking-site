@@ -76,7 +76,7 @@ There's no wrong time to go. Each season just changes the plan.
 - **Fall:** the color peaks in October, and so do the crowds. Get to the first trailhead early
 - **Winter:** the quietest season, with ice on the cliffs when it's cold enough. This season the park's Winter Hike is Saturday, January 16, 2027, with starts from 9:00 to 11:00 am
 
-One more idea: stay late for the stars. The John Glenn Astronomy Park is the only part of the state park that's open at night. It hosts programs on clear Friday and Saturday nights from March to late November, and you need to register for parking to attend.
+One more idea: stay late for the stars. The [John Glenn Astronomy Park](/blog/john-glenn-astronomy-park) is the only part of the state park that's open at night. It hosts programs on clear Friday and Saturday nights from March to late November, and you need to register for parking to attend.
 
 ## When a day trip turns into a weekend
 

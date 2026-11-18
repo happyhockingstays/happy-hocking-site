@@ -60,7 +60,7 @@ Want to break it up? Stop at Mound City on the way out and save the hills for th
 
 ## Cincinnati day trips for couples and families
 
-**For couples:** a slow morning at the earthworks, the short trail to Ash Cave and a sunset before the drive. On clear Friday and Saturday nights from March to late November, the John Glenn Astronomy Park, the only part of the state park open at night, holds stargazing programs. You need to register for parking.
+**For couples:** a slow morning at the earthworks, the short trail to Ash Cave and a sunset before the drive. On clear Friday and Saturday nights from March to late November, the [John Glenn Astronomy Park](/blog/john-glenn-astronomy-park), the only part of the state park open at night, holds stargazing programs. You need to register for parking.
 
 **For families:** keep the trails short and the stops frequent. Ash Cave's paved trail works for strollers, and Tar Hollow's beach and the general store's mini golf, open seasonally, give kids a break from the car.
 

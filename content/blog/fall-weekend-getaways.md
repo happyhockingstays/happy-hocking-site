@@ -64,7 +64,7 @@ Back to the cabin for a good meal. [Millstone BBQ](https://www.themillstonebbq.c
 
 ### Sunday
 
-Take one more easy walk or a scenic drive through the hills. If you have time, Lake Hope is about 30 minutes east and worth the little adventure. Then a slow morning on the deck before you go, promising yourselves you'll be back.
+Take one more easy walk or a scenic drive through the hills. If you have time, [Lake Hope State Park](/blog/lake-hope-state-park) is about 30 minutes east and worth the little adventure. Then a slow morning on the deck before you go, promising yourselves you'll be back.
 
 ## Fall things to do in Ohio, beyond the trails
 

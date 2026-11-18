@@ -53,7 +53,7 @@ Skip the hotel. A cabin gives you space to spread out, private amenities and the
 
 ## Places to visit in Ohio in summer, a short drive away
 
-Once you're settled, a few easy half-day trips round out the weekend. Lake Hope is about 30 minutes east of the main trails, with a shaded lake and forest all around. Downtown Logan is 5 to 25 minutes from most of our cabins, and Lake Logan is close by. On a clear night, the dark skies around the Hocking Hills make for great stargazing, right from the hot tub.
+Once you're settled, a few easy half-day trips round out the weekend. [Lake Hope State Park](/blog/lake-hope-state-park) is about 30 minutes east of the main trails, with a shaded lake and forest all around. Downtown Logan is 5 to 25 minutes from most of our cabins, and Lake Logan is close by. On a clear night, the dark skies around the Hocking Hills make for great stargazing, right from the hot tub.
 
 ## Planning your summer stay
 
