@@ -60,8 +60,9 @@ groups:
           Exact dates are on each cabin’s page.
         home: false
       - q: Are the pools heated?
-        a: "The pools at Clouds Reach and Rickenbacker Ridge are heated, and the rest
-          are not. Heated pools are marked on each cabin’s page. "
+        a: Two of our pools are heated. Clouds Reach is kept at about 88°F and
+          Rickenbacker Ridge at about 82°F. The other pools aren’t heated, and
+          each cabin’s page lists its pool season.
         home: false
       - q: "Can we host a wedding or a large group event at a cabin? "
         a: Yes. Weddings, parties and celebrations are welcome, as long as your total
