@@ -1,8 +1,19 @@
 # Handoff
 
-Updated Nov 18, 2026 (ninth session: Wave 1, week 6). Before that: Nov 16, eighth session, fixes and owner posts from Cole's Nov 16 call with Natalie, in pull request #12. Pull requests #3 to #11 are merged. Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
+Updated Nov 19, 2026 (eleventh session: Wave 1, week 8). Before that: Nov 16, eighth session, fixes and owner posts from Cole's Nov 16 call with Natalie, in pull request #12. Pull requests #3 to #11 are merged. Read this first in a new session, then `AGENTS.md`. **Everything that's left is in the punch list in `README.md`:** Netlify setup, questions for the clients, what Natalie should review, what they still owe, remaining build work and launch day.
 
 The kickoff brief, brand guide, listing content, questionnaire and contract are in the "Happy Hocking" Claude project. The brief is `claude/website-build-handoff.md`.
+
+## Eleventh session (Nov 19): Wave 1, week 8
+
+One branch, `wave-1-week-8`, from `main` after #14 and #15 merged (d3829cb). The last 2 new Wave 1 posts, written with the batch process.
+
+- `/blog/moonville-tunnel` (P058) and `/blog/tar-hollow-state-park` (P059). One commit per page, each with its seed row and share image.
+- Links: the 2 John Glenn Astronomy Park mentions owed since week 6 (`hocking-hills-map`, `family-weekend-getaways`) are linked in their own commit. Tar Hollow State Park is now linked from `weekend-getaways-in-ohio` and `day-trips-from-cincinnati`. No older post mentions Moonville, so it has no back links yet.
+- Sources: ODNR's Moonville Tunnel, Zaleski State Forest, Tar Hollow State Park and Tar Hollow State Forest pages and map PDFs (read in a browser: ODNR refuses automated fetches), Vinton County's trail page and visitors bureau, ODNR's fire tower sign via the Historical Marker Database, the Buckeye Trail Association, and OpenStreetMap routing for drive times.
+- No Confirm list for the hosts: Cole said these details are too small to ask about (Nov 19). The posts go with the sources: the county for bikes on the rail trail and Hope Schoolhouse's season, ODNR for the fire tower (enjoy it from the ground) and the General Store (call the park office first), and OpenStreetMap routing from Dunkle Creek Road for Dunkle Creek's drive time (its address doesn't geocode).
+- Checked: post check, copy check (no new flags), typecheck, build, link check (70 pages), phone and desktop widths.
+- Wave 1 is done. Next is Wave 2 (Page priority tab, from P104).
 
 ## Tenth session (Nov 18): Wave 1, week 7
 
