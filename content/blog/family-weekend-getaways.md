@@ -55,7 +55,7 @@ Some cabins have their own water. Loch Llyn has a private 2-acre lake with kayak
 
 ### A night under the stars
 
-John Glenn Astronomy Park, less than a mile west of Old Man's Cave, is free. From early March through Thanksgiving, volunteers run programs on Friday and Saturday nights around sunset, weather permitting. Program nights need a free parking pass.
+[John Glenn Astronomy Park](/blog/john-glenn-astronomy-park), less than a mile west of Old Man's Cave, is free. From early March through Thanksgiving, volunteers run programs on Friday and Saturday nights around sunset, weather permitting. Program nights need a free parking pass.
 
 ### A rainy-day game weekend
 
