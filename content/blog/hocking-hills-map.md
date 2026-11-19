@@ -39,7 +39,7 @@ For a hike, use the state park map. For finding your way between towns and attra
 
 The state's [Hocking Hills State Park map](https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/parks/parkmaps/hockinghillsparkmap.pdf) is the one to download. It opens with a regional overview of the park and Hocking State Forest, then zooms in on the main trail areas. Smaller inset maps cover Conkle's Hollow, Rock House and Cantwell Cliffs.
 
-The trail table lists every trail by name, length and blaze color, with a difficulty rating of easy, moderate or difficult. It also marks which sections are one way and which are wheelchair accessible. The map shows parking lots, restrooms, picnic areas, shelter houses, the visitor center, the fire tower and the John Glenn Astronomy Park.
+The trail table lists every trail by name, length and blaze color, with a difficulty rating of easy, moderate or difficult. It also marks which sections are one way and which are wheelchair accessible. The map shows parking lots, restrooms, picnic areas, shelter houses, the visitor center, the fire tower and the [John Glenn Astronomy Park](/blog/john-glenn-astronomy-park).
 
 The safety notes printed on it are worth a read too. Stay on the trail and take extra care when it's muddy or icy. There's no swimming or wading in any of the water, and every waterfall the map names can be seen from the trail, so there's no reason to step off it.
 
