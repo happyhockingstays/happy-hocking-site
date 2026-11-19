@@ -39,7 +39,7 @@ The hills at [Great Seal State Park](https://ohiodnr.gov/go-and-do/plan-a-visit/
 
 ### Tar Hollow State Park
 
-On the last stretch into the hills, near Laurelville, Tar Hollow is named for the pine tar early settlers took from the pines on its ridges. It has a 15-acre lake for paddling, a 500-foot swimming beach with no lifeguard and the Homestead Trail, a 2.5-mile loop the park calls family friendly.
+On the last stretch into the hills, near Laurelville, [Tar Hollow State Park](/blog/tar-hollow-state-park) is named for the pine tar early settlers took from the pines on its ridges. It has a 15-acre lake for paddling, a 500-foot swimming beach with no lifeguard and the Homestead Trail, a 2.5-mile loop the park calls family friendly.
 
 ### The Hocking Hills trails
 

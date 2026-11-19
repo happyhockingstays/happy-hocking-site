@@ -72,7 +72,7 @@ Already been to the big trails? These weekend vacation spots in Ohio are an easy
 
 - **[Lake Logan State Park](/blog/lake-logan-state-park):** a 400-acre lake just west of Logan, with boat rentals in spring, summer and fall and a free swimming beach
 - **[Lake Hope State Park](/blog/lake-hope-state-park):** a 120-acre lake inside Zaleski State Forest, limited to paddling and electric motors. Its mountain bike trails run more than 25 miles
-- **Tar Hollow State Park:** named for the pine tar early settlers took from its ridges, with a 15-acre lake, a 500-foot beach and a 21-mile backpacking trail
+- **[Tar Hollow State Park](/blog/tar-hollow-state-park):** named for the pine tar early settlers took from its ridges, with a 15-acre lake, a 500-foot beach and a 21-mile backpacking trail
 - **Conkle's Hollow State Nature Preserve:** a gorge only 100 feet wide in places, with cliffs nearly 200 feet high
 - **Chillicothe:** the [Hopewell Culture National Historical Park](https://www.nps.gov/hocu/index.htm) protects earthworks built by the Hopewell people, and it's part of a World Heritage Site
 
