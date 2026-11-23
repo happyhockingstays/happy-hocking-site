@@ -17,8 +17,16 @@ const consentDefaults = `window.dataLayer=window.dataLayer||[];function gtag(){d
 (function(){var off=navigator.globalPrivacyControl===true||/(?:^|;\\s*)hh_ads_optout=1/.test(document.cookie);
 var ads=off?'denied':'granted';
 gtag('consent','default',{ad_storage:ads,ad_user_data:ads,ad_personalization:ads,analytics_storage:'granted'});
-if(off)gtag('set','ads_data_redaction',true);})();
-gtag('js',new Date());`
+if(off)gtag('set','ads_data_redaction',true);})();`
+
+// Google's install code, as the GTM container gives it: gtm.js loaded async, then gtag('js', new Date()).
+// The gtm.js tag is created here rather than written as <script async src>, because React moves async script
+// tags to the top of <head>, ahead of the consent defaults, and GTM has to start after them.
+const gtmInstall = (id: string) => `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+(function(d){var s=d.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtm.js?id=${id}';
+var f=d.getElementsByTagName('script')[0];f.parentNode.insertBefore(s,f);})(document);`
 
 export const Route = createRootRoute({
   head: () => ({
@@ -59,7 +67,9 @@ function RootDocument({ children }: { children: ReactNode }) {
         {gtm ? (
           <>
             <script dangerouslySetInnerHTML={{ __html: consentDefaults }} />
-            <script async src={`https://www.googletagmanager.com/gtm.js?id=${gtm}`} />
+            {/* Google Tag Manager */}
+            <script dangerouslySetInnerHTML={{ __html: gtmInstall(gtm) }} />
+            {/* End Google Tag Manager */}
           </>
         ) : null}
         <HeadContent />

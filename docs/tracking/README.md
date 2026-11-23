@@ -3,8 +3,12 @@
 Set up 2026-11-23, the same way as WentDirect (`cole-stark/wentdirect`, `docs/tracking/README.md`) and section 8.6 of Cole's website playbook.
 
 - Cole created the GTM container and the GA4 property in his own Google account on 2026-11-23. Natalie becomes an Administrator on both when the site moves to the clients (step 5 below). The clients own them from then on, with Cole kept as an admin.
-- The GTM container ID lives in Site settings (`gtmId` in `content/settings/site.yml`). The GA4 measurement ID lives only in GTM and in the import file below.
+- GTM container `GTM-MNB9PCPW`. Its ID lives in Site settings (`gtmId` in `content/settings/site.yml`). The GA4 measurement ID lives only in GTM and in the import file below.
 - GA4 is linked to the GTM container, so the container's own Google tag loads GA4 and sends page views. Never add a separate Google Tag for the same ID (GTM flags it as "Conflicting Google tag"), and never add gtag.js to the site, or every visit counts twice.
+
+## How GTM is installed
+
+`src/routes/__root.tsx` adds 2 inline scripts at the top of `<head>`: the consent defaults, then Google's install code from the container (the new style: `gtm.js` loaded async, then `gtag('js', new Date())`, with no noscript iframe). The install code creates the `gtm.js` script tag itself instead of writing `<script async src>`, because React moves async script tags to the top of `<head>`, ahead of the consent defaults. Tested: GTM starts with the consent defaults already in the dataLayer.
 
 ## When GTM loads
 
