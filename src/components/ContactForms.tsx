@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { cabins, site } from '@/lib/content'
+import { track } from '@/lib/track'
 import { Honeypot, useNetlifyForm } from './Forms'
 import { Icon } from './Icon'
 
@@ -65,7 +66,14 @@ export function FormError() {
 
 /** Guest questions about a stay. */
 export function StayForm() {
-  const { state, onSubmit } = useNetlifyForm()
+  const { state, onSubmit } = useNetlifyForm((form) =>
+    track('generate_lead', {
+      form_name: 'contact',
+      lead_type: 'guest',
+      // The cabin picked, if any. A cabin name only: nothing the guest typed.
+      cabin: (form.elements.namedItem('cabin') as HTMLSelectElement | null)?.value || undefined,
+    }),
+  )
   if (state === 'sent') return <Sent title="Got it. Thanks for reaching out" text="We typically reply within an hour." />
   return (
     <form name="contact" method="POST" onSubmit={onSubmit} className="grid gap-5">
@@ -105,7 +113,7 @@ export function StayForm() {
 
 /** Homeowners asking about co-hosting. Its own form, on the co-hosting page and behind the Contact topic picker. */
 export function OwnerForm() {
-  const { state, onSubmit } = useNetlifyForm()
+  const { state, onSubmit } = useNetlifyForm(() => track('generate_lead', { form_name: 'owner_inquiry', lead_type: 'owner' }))
   if (state === 'sent') return <Sent title="Got it. Talk soon" text="We'll be in touch to set up your intro call." />
   return (
     <form name="owner-inquiry" method="POST" onSubmit={onSubmit} className="grid gap-5">

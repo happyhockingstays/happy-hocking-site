@@ -1,5 +1,6 @@
 import { useState, type FormEvent } from 'react'
 import { settings } from '@/lib/content'
+import { track } from '@/lib/track'
 import { Icon } from './Icon'
 
 /**
@@ -18,13 +19,19 @@ async function submitNetlify(form: HTMLFormElement) {
   if (!res.ok) throw new Error(`Form error ${res.status}`)
 }
 
-export function useNetlifyForm() {
+/**
+ * Sends a form to Netlify. `onSent` runs only once Netlify has accepted it, which is where
+ * the GA4 lead events are pushed (src/lib/track.ts), so a failed send is never counted.
+ */
+export function useNetlifyForm(onSent?: (form: HTMLFormElement) => void) {
   const [state, setState] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
   const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+    const form = e.currentTarget
     setState('sending')
     try {
-      await submitNetlify(e.currentTarget)
+      await submitNetlify(form)
+      onSent?.(form)
       setState('sent')
     } catch {
       setState('error')
@@ -50,7 +57,7 @@ export function Honeypot() {
  * Until then it saves signups to Netlify Forms ("insider-list") so none are lost.
  */
 export function InsiderSignup({ id = 'insider' }: { id?: string }) {
-  const { state, onSubmit } = useNetlifyForm()
+  const { state, onSubmit } = useNetlifyForm(() => track('newsletter_signup', { form_name: 'insider_list' }))
   const mailchimp = settings.mailchimpAction
   if (state === 'sent')
     return (
@@ -80,7 +87,16 @@ export function InsiderSignup({ id = 'insider' }: { id?: string }) {
     const q = new URLSearchParams(mailchimp.split('?')[1] || '')
     const trap = q.get('u') && q.get('id') ? `b_${q.get('u')}_${q.get('id')}` : ''
     return (
-      <form action={mailchimp} method="post" target="_blank" rel="noopener">
+      // Mailchimp answers in a new tab, so the site can't see whether the signup went through.
+      // The event counts a sent form (the browser has already checked the email address).
+      <form
+        action={mailchimp}
+        method="post"
+        target="_blank"
+        rel="noopener"
+        data-form="insider-list"
+        onSubmit={() => track('newsletter_signup', { form_name: 'insider_list' })}
+      >
         {trap ? (
           <div aria-hidden="true" className="absolute -left-[5000px]">
             <input type="text" name={trap} tabIndex={-1} defaultValue="" autoComplete="off" />

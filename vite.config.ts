@@ -15,12 +15,20 @@ const cabins = loadCabins()
 // Only the production build counts: the free preview of the main branch always stays out of search.
 const live = (process.env.URL || '').includes('happyhocking.com') && (process.env.CONTEXT || 'production') === 'production'
 
+// Google Tag Manager loads on the real site only, the same day search engines are let in, so the free
+// preview, the netlify.app address and local builds never send visits to GA4.
+// TRACKING=true forces it on for a test build (docs/tracking/README.md).
+const tracking = live || process.env.TRACKING === 'true'
+
 // Blog posts, and the private review form, which nothing links to. Drafts are built only before launch.
 const posts = loadPosts({ includeDrafts: !live })
 
 export default defineConfig({
   server: { port: 3000 },
-  define: { 'import.meta.env.VITE_NOINDEX': JSON.stringify(live ? '' : 'true') },
+  define: {
+    'import.meta.env.VITE_NOINDEX': JSON.stringify(live ? '' : 'true'),
+    'import.meta.env.VITE_TRACKING': JSON.stringify(tracking ? 'true' : ''),
+  },
   plugins: [
     content(),
     tsConfigPaths(),

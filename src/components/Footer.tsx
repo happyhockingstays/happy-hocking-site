@@ -8,7 +8,7 @@ import { SiteLink } from './SiteLink'
 export function Footer() {
   const year = new Date().getFullYear()
   return (
-    <footer className="on-forest sec-forest pb-24 lg:pb-0">
+    <footer className="on-forest sec-forest pb-24 lg:pb-0" data-track="footer">
       {/* Insider list */}
       <div id="insider-list" className="scroll-mt-28 border-b-2 border-cream/15">
         <div className="container-x grid items-center gap-8 py-12 md:py-16 lg:grid-cols-2">

@@ -56,7 +56,7 @@ function WidgetPlaceholder({ title, text }: { title: string; text: string }) {
 /** The booking card on every cabin page: fixed in place and centered, not following the scroll. */
 export function BookingCard({ cabin, code }: { cabin: string; code: string }) {
   return (
-    <div id="book" className="card shadow-mustard mx-auto w-full max-w-xl scroll-mt-28 p-5 md:p-7">
+    <div id="book" data-track="booking_card" className="card shadow-mustard mx-auto w-full max-w-xl scroll-mt-28 p-5 md:p-7">
       <p className="eyebrow text-center">Check availability</p>
       <div className="mt-4">
         {code.trim() ? (

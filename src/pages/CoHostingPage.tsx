@@ -22,7 +22,7 @@ export function CoHostingPage() {
   return (
     <>
       {/* Hero over a real cabin photo */}
-      <section className="on-forest relative -mt-[var(--header-h)] flex min-h-[78svh] items-end overflow-hidden bg-forest text-cream">
+      <section data-track="hero" className="on-forest relative -mt-[var(--header-h)] flex min-h-[78svh] items-end overflow-hidden bg-forest text-cream">
         <Photo src={p.hero.image} alt={p.hero.alt} className="absolute inset-0 h-full w-full" priority sizes="100vw" emptyText="Photo: a home we host" />
         <div className="absolute inset-0 bg-gradient-to-t from-forest/95 via-forest/55 to-forest/55" aria-hidden="true" />
         <div className="container-x relative z-10 pb-12 pt-[calc(var(--header-h)+3rem)] md:pb-16">
