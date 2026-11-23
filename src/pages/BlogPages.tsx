@@ -51,7 +51,7 @@ export function BlogIndexPage() {
               <h2 className="h-card">The first guides are on the way</h2>
               <p className="mt-3">Join the insider list and we'll send new guides, open weekends and deals as they land.</p>
               <div className="mt-6">
-                <InsiderSignup id="blog-insider" />
+                <InsiderSignup id="blog-insider" location="blog" />
               </div>
             </div>
           )}

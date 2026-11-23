@@ -6,9 +6,12 @@
 
 type Params = Record<string, string | number | boolean | undefined>
 
+// One event per kind of conversion (Cole, Nov 23): guest_inquiry, cohost_inquiry and newsletter_signup each
+// have their own GTM trigger and GA4 tag. form_start is the one shared event, told apart by form_name.
+//
 // Every parameter any site event uses. Each push resets the others, so a value from one event
 // never carries over into the next one in GTM's data model.
-const KEYS = ['form_name', 'lead_type', 'cabin'] as const
+const KEYS = ['form_name', 'cabin', 'signup_location'] as const
 
 declare global {
   interface Window {

@@ -56,8 +56,10 @@ export function Honeypot() {
  * With a Mailchimp form address in Site settings, it posts straight to Mailchimp in a new tab.
  * Until then it saves signups to Netlify Forms ("insider-list") so none are lost.
  */
-export function InsiderSignup({ id = 'insider' }: { id?: string }) {
-  const { state, onSubmit } = useNetlifyForm(() => track('newsletter_signup', { form_name: 'insider_list' }))
+export function InsiderSignup({ id = 'insider', location = 'footer' }: { id?: string; location?: string }) {
+  // One newsletter event wherever the form sits. signup_location says where (footer, blog).
+  const signedUp = () => track('newsletter_signup', { form_name: 'insider_list', signup_location: location })
+  const { state, onSubmit } = useNetlifyForm(signedUp)
   const mailchimp = settings.mailchimpAction
   if (state === 'sent')
     return (
@@ -95,7 +97,7 @@ export function InsiderSignup({ id = 'insider' }: { id?: string }) {
         target="_blank"
         rel="noopener"
         data-form="insider-list"
-        onSubmit={() => track('newsletter_signup', { form_name: 'insider_list' })}
+        onSubmit={signedUp}
       >
         {trap ? (
           <div aria-hidden="true" className="absolute -left-[5000px]">
