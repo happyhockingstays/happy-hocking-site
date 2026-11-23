@@ -1,29 +1,39 @@
 #!/usr/bin/env python3
 """Writes the Google Tag Manager container for happyhocking.com as an import file: docs/tracking/happyhocking-gtm.json.
 
-    python3 scripts/gtm-container.py GTM-XXXXXXX G-XXXXXXXXXX              # container ID and GA4 measurement ID
-    python3 scripts/gtm-container.py GTM-XXXXXXX G-XXXXXXXXXX AW-123/abc   # plus a Google Ads conversion (ID/label), optional
-    add --linked if GA4 is ever linked to the container in GA4's own settings: the file then leaves out its Google Tag
+    python3 scripts/gtm-container.py GTM-MNB9PCPW G-P9ZPMEE9TJ
 
-Import it in GTM: Admin > Import Container > choose the file > Existing workspace > Merge >
-"Rename conflicting tags, triggers, and variables". Then Preview, test, Submit.
-Ported from WentDirect's scripts/gtm-container.py (cole-stark/wentdirect). What every tag does is in docs/tracking/README.md.
+Options, once a Google Ads account exists (each conversion action has its own label):
+    --ads AW-1234567890 --label-purchase abc --label-begin-checkout def --label-guest ghi --label-cohost jkl
+    --linked   leave out the Google Tag, if GA4 is ever linked to the container in GA4's own settings
+
+Import it in GTM: Admin > Import Container > choose the file > Existing workspace > Overwrite, which replaces the
+earlier import. Then Preview, test, Submit. Steps and what every tag does: docs/tracking/README.md.
+Ported from WentDirect's scripts/gtm-container.py (cole-stark/wentdirect).
+
+One event per kind of conversion (Cole, Nov 23): each has its own trigger and its own GA4 tag.
 """
+import argparse
 import json
 import re
-import sys
 from pathlib import Path
 
-LINKED = '--linked' in sys.argv
-sys.argv = [a for a in sys.argv if a != '--linked']
-if len(sys.argv) < 3 or not re.fullmatch(r'GTM-[A-Z0-9]+', sys.argv[1]) or not re.fullmatch(r'G-[A-Z0-9]+', sys.argv[2]):
-    sys.exit('Usage: python3 scripts/gtm-container.py GTM-XXXXXXX G-XXXXXXXXXX [AW-1234567890/label]')
-GTM_ID, GA4 = sys.argv[1], sys.argv[2]
-ADS = sys.argv[3] if len(sys.argv) > 3 else ''
-OUT = Path(__file__).resolve().parent.parent / 'docs' / 'tracking' / 'happyhocking-gtm.json'
+ap = argparse.ArgumentParser()
+ap.add_argument('gtm_id')
+ap.add_argument('ga4_id')
+ap.add_argument('--linked', action='store_true')
+ap.add_argument('--ads', default='')
+for name in ('purchase', 'begin-checkout', 'guest', 'cohost'):
+    ap.add_argument(f'--label-{name}', default='')
+args = ap.parse_args()
+if not re.fullmatch(r'GTM-[A-Z0-9]+', args.gtm_id) or not re.fullmatch(r'G-[A-Z0-9]+', args.ga4_id):
+    ap.error('expected GTM-XXXXXXX G-XXXXXXXXXX')
+if args.ads and not re.fullmatch(r'AW-\d+', args.ads):
+    ap.error('--ads expects AW-1234567890')
 
+OUT = Path(__file__).resolve().parent.parent / 'docs' / 'tracking' / 'happyhocking-gtm.json'
 INIT_ALL_PAGES = '2147479573'  # GTM's built-in "Initialization - All Pages"
-ALL_PAGES = '2147479553'  # GTM's built-in "All Pages"
+ALL_PAGES = '2147479553'       # GTM's built-in "All Pages"
 BASE = {'accountId': '0', 'containerId': '0'}
 SITE = r'^https?://(www\.)?happyhocking\.com'
 
@@ -32,9 +42,8 @@ def t(key, value, kind='TEMPLATE'):
     return {'type': kind, 'key': key, 'value': value}
 
 
-def rows(pairs):
-    return {'type': 'LIST', 'key': 'eventSettingsTable',
-            'list': [{'type': 'MAP', 'map': [t('parameter', a), t('parameterValue', b)]} for a, b in pairs]}
+def table(key, pairs, a='parameter', b='parameterValue'):
+    return {'type': 'LIST', 'key': key, 'list': [{'type': 'MAP', 'map': [t(a, x), t(b, y)]} for x, y in pairs]}
 
 
 variables, triggers, tags = [], [], []
@@ -55,16 +64,20 @@ def dlv(key):
     return variable(f'DLV - {key}', 'v', [t('dataLayerVersion', '2', 'INTEGER'), t('setDefaultValue', 'false', 'BOOLEAN'), t('name', key)])
 
 
-def custom_event(name, event):
+def jsm(name, code):
+    return variable(name, 'jsm', [t('javascript', code)])
+
+
+def custom_event(event):
     tid = nid('tr')
-    triggers.append({**BASE, 'triggerId': tid, 'name': name, 'type': 'CUSTOM_EVENT', 'fingerprint': '0',
+    triggers.append({**BASE, 'triggerId': tid, 'name': f'CE - {event}', 'type': 'CUSTOM_EVENT', 'fingerprint': '0',
                      'customEventFilter': [{'type': 'EQUALS', 'parameter': [t('arg0', '{{_event}}'), t('arg1', event)]}]})
     return tid
 
 
 def link_click(name, regex):
     tid = nid('tr')
-    triggers.append({**BASE, 'triggerId': tid, 'name': name, 'type': 'LINK_CLICK', 'fingerprint': '0',
+    triggers.append({**BASE, 'triggerId': tid, 'name': f'LC - {name}', 'type': 'LINK_CLICK', 'fingerprint': '0',
                      'filter': [{'type': 'MATCH_REGEX', 'parameter': [t('arg0', '{{Click URL}}'), t('arg1', regex)]}],
                      'waitForTags': {'type': 'BOOLEAN', 'value': 'false'},
                      'checkValidation': {'type': 'BOOLEAN', 'value': 'false'},
@@ -84,101 +97,130 @@ def tag(name, kind, params, trigger_ids, paused=False, needs_ads_consent=False):
     tags.append(item)
 
 
-def ga4_event(event, trigger_ids, pairs):
-    tag(f'GA4 - {event}', 'gaawe', [t('sendEcommerceData', 'false', 'BOOLEAN'), t('eventName', event),
-                                    t('measurementIdOverride', ga4_id), rows(pairs + [('page_type', page_type)])], trigger_ids)
+def ga4_event(event, trigger_id, pairs=(), ecommerce=False):
+    params = [t('eventName', event), t('measurementIdOverride', ga4_id),
+              table('eventSettingsTable', list(pairs) + [('page_type', page_type)])]
+    if ecommerce:
+        # Hospitable sends value, currency and the booking details in the standard GA4 ecommerce object
+        params += [t('sendEcommerceData', 'true', 'BOOLEAN'), t('getEcommerceDataFrom', 'dataLayer')]
+    else:
+        params += [t('sendEcommerceData', 'false', 'BOOLEAN')]
+    tag(f'GA4 - {event}', 'gaawe', params, [trigger_id])
+
+
+def ads_conversion(name, trigger_id, label, value=False):
+    params = [t('enableNewCustomerReporting', 'false', 'BOOLEAN'), t('enableConversionLinker', 'true', 'BOOLEAN'),
+              t('enableProductReporting', 'false', 'BOOLEAN'), t('conversionId', args.ads.replace('AW-', '') or '0000000000'),
+              t('conversionLabel', label or 'REPLACE_ME'), t('rdp', 'false', 'BOOLEAN'), t('enableShippingData', 'false', 'BOOLEAN')]
+    if value:
+        params += [t('conversionValue', ecom_value), t('currencyCode', ecom_currency), t('orderId', ecom_order)]
+    tag(f'Google Ads - {name}', 'awct', params, [trigger_id], paused=not (args.ads and label), needs_ads_consent=True)
 
 
 # ---- Variables
-ga4_id = variable('Const - GA4 measurement ID', 'c', [t('value', GA4)])
-form_name, lead_type, cabin = dlv('form_name'), dlv('lead_type'), dlv('cabin')
+ga4_id = variable('Const - GA4 measurement ID', 'c', [t('value', args.ga4_id)])
+form_name, cabin, signup_location = dlv('form_name'), dlv('cabin'), dlv('signup_location')
+ecom_value, ecom_currency, ecom_order = dlv('ecommerce.value'), dlv('ecommerce.currency'), dlv('ecommerce.transaction_id')
 
 # Where a click happened: the nearest wrapper with data-track (header, footer, closing band, booking card...).
-cta_location = variable('CJS - cta_location', 'jsm', [t('javascript', """function() {
+cta_location = jsm('CJS - cta_location', """function() {
   var el = {{Click Element}};
   if (!el || !el.closest) return 'other';
   var t = el.closest('[data-track]');
   return t ? t.getAttribute('data-track') : 'page_body';
-}""")])
+}""")
 
 # The cabin a link points at, from its address: /cabins/pickle-hill gives pickle-hill.
-cabin_from_url = variable('CJS - cabin from link', 'jsm', [t('javascript', """function() {
+cabin_from_url = jsm('CJS - cabin from link', """function() {
   var m = ({{Click URL}} || '').match(/\\/cabins\\/([^\\/?#]+)/);
   return m ? m[1] : undefined;
-}""")])
+}""")
 
-contact_method = variable('CJS - contact method', 'jsm', [t('javascript', """function() {
-  return /^tel:/i.test({{Click URL}} || '') ? 'phone' : 'email';
-}""")])
+# Hospitable may load this container inside its booking widget, which is a frame on each cabin page.
+# A page view from inside that frame would count the cabin page twice, so the Google tag skips it there.
+send_page_view = jsm('CJS - send page view', """function() {
+  try { return window.self === window.top; } catch (e) { return false; }
+}""")
 
-# First match wins, so specific addresses come before the catch-all patterns.
+# Hostname plus path, first match wins. Hospitable's booking pages come first, then this site's pages.
 PAGE_TYPES = [
-    ('^/$', 'home'),
-    ('^/cabins$', 'cabins_index'),
-    ('^/cabins/.+', 'cabin'),
-    ('^/hocking-hills-.+', 'collection'),
-    ('^/search$', 'search'),
-    ('^/co-hosting$', 'cohosting'),
-    ('^/contact$', 'contact'),
-    ('^/blog$', 'blog_index'),
-    ('^/blog/.+', 'post'),
-    ('^/(about|faqs|privacy)$', 'company'),
-    ('^/review$', 'review'),
+    (r'^[^/]*hospitable\.com/.*', 'booking'),
+    (r'^[^/]+/$', 'home'),
+    (r'^[^/]+/cabins$', 'cabins_index'),
+    (r'^[^/]+/cabins/.+', 'cabin'),
+    (r'^[^/]+/hocking-hills-.+', 'collection'),
+    (r'^[^/]+/search$', 'search'),
+    (r'^[^/]+/co-hosting$', 'cohosting'),
+    (r'^[^/]+/contact$', 'contact'),
+    (r'^[^/]+/blog$', 'blog_index'),
+    (r'^[^/]+/blog/.+', 'post'),
+    (r'^[^/]+/(about|faqs|privacy)$', 'company'),
+    (r'^[^/]+/review$', 'review'),
 ]
 page_type = variable('RT - page_type', 'remm', [
-    t('input', '{{Page Path}}'), t('fullMatch', 'true', 'BOOLEAN'), t('replaceAllOccurrences', 'false', 'BOOLEAN'),
+    t('input', '{{Page Hostname}}{{Page Path}}'), t('fullMatch', 'true', 'BOOLEAN'), t('replaceAllOccurrences', 'false', 'BOOLEAN'),
     t('setDefaultValue', 'true', 'BOOLEAN'), t('defaultValue', 'other'), t('ignoreCase', 'true', 'BOOLEAN'),
     t('enableCaptureGroups', 'false', 'BOOLEAN'),
-    {'type': 'LIST', 'key': 'map', 'list': [{'type': 'MAP', 'map': [t('key', k), t('value', v)]} for k, v in PAGE_TYPES]},
+    table('map', PAGE_TYPES, 'key', 'value'),
 ])
 
-# ---- Triggers
-ce_lead = custom_event('CE - generate_lead', 'generate_lead')
-ce_signup = custom_event('CE - newsletter_signup', 'newsletter_signup')
-ce_form_start = custom_event('CE - form_start', 'form_start')
-# "Check availability" and "Book now": the cabin search, or the booking card on a cabin page
-lc_book = link_click('LC - Check availability', SITE + r'/cabins/?([?#].*)?$|#book$')
-# A cabin page itself, not its #book jump (that one counts as book_click)
-lc_cabin = link_click('LC - Cabin page', SITE + r'/cabins/[^/?#]+/?(\?[^#]*)?$')
-lc_cohost = link_click('LC - Co-host with us', SITE + r'/co-hosting([?#].*)?$')
-lc_contact = link_click('LC - Call or email', r'^(tel|mailto):')
+# ---- Google Tag: loads GA4 and sends page views, with content_group = page type.
+# GA4 was not linked to the container when the property was made (Nov 23), so the container needs this tag.
+# If GA4 is ever linked to the container, GTM flags it as a "Conflicting Google tag": rerun with --linked.
+if not args.linked:
+    tag('Google Tag - GA4', 'googtag', [t('tagId', ga4_id), table('configSettingsTable', [
+        ('content_group', page_type), ('send_page_view', send_page_view)])], [INIT_ALL_PAGES])
 
-# ---- Tags
-# The Google Tag loads GA4 and sends page views, with content_group = page type. GA4 was not linked to the container
-# when the property was made (Nov 23), so the container needs this tag. If GA4 is ever linked to the container,
-# GTM flags this tag as a "Conflicting Google tag": rerun with --linked, or consolidate in GTM (docs/tracking/README.md).
-if not LINKED:
-    tag('Google Tag - GA4', 'googtag', [t('tagId', ga4_id), {'type': 'LIST', 'key': 'configSettingsTable', 'list': [
-        {'type': 'MAP', 'map': [t('parameter', 'content_group'), t('parameterValue', page_type)]}]}], [INIT_ALL_PAGES])
-ga4_event('generate_lead', [ce_lead], [('form_name', form_name), ('lead_type', lead_type), ('cabin', cabin)])
-ga4_event('newsletter_signup', [ce_signup], [('form_name', form_name)])
-ga4_event('form_start', [ce_form_start], [('form_name', form_name)])
-ga4_event('book_click', [lc_book], [('cta_location', cta_location), ('link_text', '{{Click Text}}'), ('link_url', '{{Click URL}}')])
-ga4_event('cabin_click', [lc_cabin], [('cabin', cabin_from_url), ('cta_location', cta_location), ('link_url', '{{Click URL}}')])
-ga4_event('cohost_click', [lc_cohost], [('cta_location', cta_location), ('link_text', '{{Click Text}}'), ('link_url', '{{Click URL}}')])
-ga4_event('contact_click', [lc_contact], [('contact_method', contact_method), ('cta_location', cta_location)])
+# ---- Conversions from this site's forms: one event, one trigger and one tag each
+ce_guest = custom_event('guest_inquiry')
+ga4_event('guest_inquiry', ce_guest, [('form_name', form_name), ('cabin', cabin)])
+ce_cohost = custom_event('cohost_inquiry')
+ga4_event('cohost_inquiry', ce_cohost, [('form_name', form_name)])
+ga4_event('newsletter_signup', custom_event('newsletter_signup'), [('form_name', form_name), ('signup_location', signup_location)])
+ga4_event('form_start', custom_event('form_start'), [('form_name', form_name)])
+
+# ---- Booking, sent by Hospitable once the GTM ID is in Hospitable (Direct > the site > Marketing).
+# Standard GA4 ecommerce event names. begin_checkout is the Reserve click, purchase a finished booking.
+ce_booking = {}
+for event in ['view_item', 'add_to_cart', 'begin_checkout', 'add_payment_info', 'purchase']:
+    ce_booking[event] = custom_event(event)
+    ga4_event(event, ce_booking[event], ecommerce=True)
+
+# ---- Clicks on this site, tracked by GTM from data-track wrappers
+# "Check availability" and "Book now": the cabin search, or the booking card on a cabin page
+ga4_event('book_click', link_click('Check availability', SITE + r'/cabins/?([?#].*)?$|#book$'),
+          [('cta_location', cta_location), ('link_text', '{{Click Text}}'), ('link_url', '{{Click URL}}')])
+# A cabin page itself, not its #book jump (that one counts as book_click)
+ga4_event('cabin_click', link_click('Cabin page', SITE + r'/cabins/[^/?#]+/?(\?[^#]*)?$'),
+          [('cabin', cabin_from_url), ('cta_location', cta_location), ('link_url', '{{Click URL}}')])
+ga4_event('cohost_click', link_click('Co-host with us', SITE + r'/co-hosting([?#].*)?$'),
+          [('cta_location', cta_location), ('link_text', '{{Click Text}}'), ('link_url', '{{Click URL}}')])
+ga4_event('phone_click', link_click('Phone', r'^tel:'), [('cta_location', cta_location)])
+ga4_event('email_click', link_click('Email', r'^mailto:'), [('cta_location', cta_location)])
+
 tag('Conversion Linker', 'gclidw', [t('enableCrossDomain', 'false', 'BOOLEAN'), t('enableUrlPassthrough', 'false', 'BOOLEAN'),
                                      t('enableCookieOverrides', 'false', 'BOOLEAN')], [ALL_PAGES])
 
-# Google Ads conversion tag. Paused, with placeholders, until an Ads account and its conversion action exist.
-ads_id, ads_label = (ADS.replace('AW-', '').split('/') + [''])[:2] if ADS else ('0000000000', 'REPLACE_ME')
-tag('Google Ads - Lead', 'awct', [t('enableNewCustomerReporting', 'false', 'BOOLEAN'), t('enableConversionLinker', 'true', 'BOOLEAN'),
-                                  t('enableProductReporting', 'false', 'BOOLEAN'), t('conversionId', ads_id),
-                                  t('conversionLabel', ads_label), t('rdp', 'false', 'BOOLEAN'), t('enableShippingData', 'false', 'BOOLEAN')],
-    [ce_lead], paused=not ADS, needs_ads_consent=True)
+# ---- Google Ads: one conversion tag per conversion action. Paused, with placeholders, until the Ads account
+# and its conversion actions exist, then filled in by rerunning with --ads and the labels.
+ads_conversion('Booking', ce_booking['purchase'], args.label_purchase, value=True)
+ads_conversion('Reserve click', ce_booking['begin_checkout'], args.label_begin_checkout)
+ads_conversion('Guest inquiry', ce_guest, args.label_guest)
+ads_conversion('Co-host inquiry', ce_cohost, args.label_cohost)
 
 container = {
     'exportFormatVersion': 2,
-    'exportTime': '2026-11-23 12:00:00',
+    'exportTime': '2026-11-23 13:00:00',
     'containerVersion': {
         'path': 'accounts/0/containers/0/versions/0', **BASE, 'containerVersionId': '0',
-        'container': {'path': 'accounts/0/containers/0', **BASE, 'name': 'happyhocking.com', 'publicId': GTM_ID, 'usageContext': ['WEB']},
+        'container': {'path': 'accounts/0/containers/0', **BASE, 'name': 'happyhocking.com', 'publicId': args.gtm_id, 'usageContext': ['WEB']},
         'tag': tags, 'trigger': triggers, 'variable': variables,
         'builtInVariable': [{**BASE, 'type': kind, 'name': name} for kind, name in [
             ('CLICK_ELEMENT', 'Click Element'), ('CLICK_URL', 'Click URL'), ('CLICK_TEXT', 'Click Text'),
-            ('PAGE_PATH', 'Page Path'), ('EVENT', 'Event')]],
+            ('PAGE_PATH', 'Page Path'), ('PAGE_HOSTNAME', 'Page Hostname'), ('EVENT', 'Event')]],
     },
 }
 OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text(json.dumps(container, indent=2) + '\n')
-print(f'{OUT.relative_to(OUT.parent.parent.parent)}: {len(tags)} tags, {len(triggers)} triggers, {len(variables)} variables, {GTM_ID}, GA4 {GA4}')
+print(f'{OUT.relative_to(OUT.parent.parent.parent)}: {len(tags)} tags, {len(triggers)} triggers, {len(variables)} variables, '
+      f'{args.gtm_id}, GA4 {args.ga4_id}')

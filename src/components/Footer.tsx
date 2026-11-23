@@ -19,7 +19,7 @@ export function Footer() {
             </h2>
           </div>
           <div>
-            <InsiderSignup id="footer-insider" />
+            <InsiderSignup id="footer-insider" location="footer" />
             <p className="meta soft mt-3">No spam. Unsubscribe any time.</p>
           </div>
         </div>

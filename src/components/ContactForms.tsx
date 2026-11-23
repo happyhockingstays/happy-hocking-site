@@ -67,9 +67,8 @@ export function FormError() {
 /** Guest questions about a stay. */
 export function StayForm() {
   const { state, onSubmit } = useNetlifyForm((form) =>
-    track('generate_lead', {
+    track('guest_inquiry', {
       form_name: 'contact',
-      lead_type: 'guest',
       // The cabin picked, if any. A cabin name only: nothing the guest typed.
       cabin: (form.elements.namedItem('cabin') as HTMLSelectElement | null)?.value || undefined,
     }),
@@ -113,7 +112,7 @@ export function StayForm() {
 
 /** Homeowners asking about co-hosting. Its own form, on the co-hosting page and behind the Contact topic picker. */
 export function OwnerForm() {
-  const { state, onSubmit } = useNetlifyForm(() => track('generate_lead', { form_name: 'owner_inquiry', lead_type: 'owner' }))
+  const { state, onSubmit } = useNetlifyForm(() => track('cohost_inquiry', { form_name: 'owner_inquiry' }))
   if (state === 'sent') return <Sent title="Got it. Talk soon" text="We'll be in touch to set up your intro call." />
   return (
     <form name="owner-inquiry" method="POST" onSubmit={onSubmit} className="grid gap-5">
