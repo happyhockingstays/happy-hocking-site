@@ -3,8 +3,8 @@
 Set up 2026-11-23, the same way as WentDirect (`cole-stark/wentdirect`, `docs/tracking/README.md`) and section 8.6 of Cole's website playbook.
 
 - Cole created the GTM container and the GA4 property in his own Google account on 2026-11-23. Natalie becomes an Administrator on both when the site moves to the clients (step 5 below). The clients own them from then on, with Cole kept as an admin.
-- GTM container `GTM-MNB9PCPW`. Its ID lives in Site settings (`gtmId` in `content/settings/site.yml`). The GA4 measurement ID lives only in GTM and in the import file below.
-- GA4 is linked to the GTM container, so the container's own Google tag loads GA4 and sends page views. Never add a separate Google Tag for the same ID (GTM flags it as "Conflicting Google tag"), and never add gtag.js to the site, or every visit counts twice.
+- GTM container `GTM-MNB9PCPW`. Its ID lives in Site settings (`gtmId` in `content/settings/site.yml`). The GA4 measurement ID, `G-P9ZPMEE9TJ`, lives only in GTM and in the import file below.
+- GA4 was not linked to the GTM container when the property was made (GA4 didn't offer it), so the container has its own Google Tag, "Google Tag - GA4", which loads GA4 and sends page views. Never link GA4 to the container later as well: GTM would flag a "Conflicting Google tag" and page views would count twice (if it happens, see the gotcha at the end). Never add gtag.js to the site either.
 
 ## How GTM is installed
 
@@ -62,9 +62,9 @@ Before adding any non-Google tag (Meta, Microsoft, Pinterest) to the container, 
 
 ## The GTM import file
 
-`docs/tracking/happyhocking-gtm.json`, written by `python3 scripts/gtm-container.py GTM-XXXXXXX G-XXXXXXXXXX`: 9 tags, 7 triggers, 8 variables.
+`docs/tracking/happyhocking-gtm.json`, written by `python3 scripts/gtm-container.py GTM-MNB9PCPW G-P9ZPMEE9TJ`: 10 tags, 7 triggers, 8 variables.
 
-- No Google Tag (see above). `content_group` is added to the container's own Google tag by hand, in step 2.
+- Google Tag - GA4, on Initialization - All Pages, with `content_group` = `{{RT - page_type}}`.
 - GA4 event tags for the 7 events GA4 receives.
 - Conversion Linker, on All Pages.
 - Google Ads - Lead: paused, with placeholder IDs, until the clients run ads. To fill it in, edit the tag in GTM, or run the script again with `AW-<id>/<label>` at the end and import again.
@@ -78,7 +78,7 @@ After any change made in GTM's own screens, export the container and replace the
 1. Download `docs/tracking/happyhocking-gtm.json` from GitHub (open the file, then the download button).
 2. In GTM, open the happyhocking.com container, then Admin > Import Container.
 3. Choose the file. Workspace: Existing, Default Workspace. Option: Merge, "Rename conflicting tags, triggers, and variables". Confirm.
-4. Open the container's Google tag settings and add the configuration parameter `content_group` with the value `{{RT - page_type}}`.
+4. Check the Tags list shows 10 tags, with Google Ads - Lead paused.
 5. Don't publish yet. Publishing waits for launch (step 4).
 
 ### 2. GA4 settings (about 10 minutes, any time)
@@ -114,6 +114,10 @@ Menu names change. Copy labels from the screen, not from here.
 ## Google Ads, later
 
 Only when the clients run ads (they plan to). Link Google Ads to GA4, create a "Submit lead form" conversion action, put its ID and label into the paused Google Ads - Lead tag, and add a line to `/privacy` saying ads may be shown to past visitors before turning on remarketing. Use either the Google Ads tag or GA4 key events imported into Ads as the primary conversion, never both, or every lead counts twice. Full steps: playbook section 8.6.
+
+## Gotcha: "Conflicting Google tag"
+
+GTM shows this if GA4 also gets linked to the container in GA4's own settings, so 2 things load GA4 and page views count twice. Fix: click Consolidate, then delete one of the 2 Google tags left on Initialization, keeping the one that sends `content_group`. Next time the import file is made, add `--linked` so it leaves its Google Tag out.
 
 ## Email and hand-posted links
 

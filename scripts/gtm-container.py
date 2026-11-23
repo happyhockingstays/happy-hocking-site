@@ -3,6 +3,7 @@
 
     python3 scripts/gtm-container.py GTM-XXXXXXX G-XXXXXXXXXX              # container ID and GA4 measurement ID
     python3 scripts/gtm-container.py GTM-XXXXXXX G-XXXXXXXXXX AW-123/abc   # plus a Google Ads conversion (ID/label), optional
+    add --linked if GA4 is ever linked to the container in GA4's own settings: the file then leaves out its Google Tag
 
 Import it in GTM: Admin > Import Container > choose the file > Existing workspace > Merge >
 "Rename conflicting tags, triggers, and variables". Then Preview, test, Submit.
@@ -13,12 +14,15 @@ import re
 import sys
 from pathlib import Path
 
+LINKED = '--linked' in sys.argv
+sys.argv = [a for a in sys.argv if a != '--linked']
 if len(sys.argv) < 3 or not re.fullmatch(r'GTM-[A-Z0-9]+', sys.argv[1]) or not re.fullmatch(r'G-[A-Z0-9]+', sys.argv[2]):
     sys.exit('Usage: python3 scripts/gtm-container.py GTM-XXXXXXX G-XXXXXXXXXX [AW-1234567890/label]')
 GTM_ID, GA4 = sys.argv[1], sys.argv[2]
 ADS = sys.argv[3] if len(sys.argv) > 3 else ''
 OUT = Path(__file__).resolve().parent.parent / 'docs' / 'tracking' / 'happyhocking-gtm.json'
 
+INIT_ALL_PAGES = '2147479573'  # GTM's built-in "Initialization - All Pages"
 ALL_PAGES = '2147479553'  # GTM's built-in "All Pages"
 BASE = {'accountId': '0', 'containerId': '0'}
 SITE = r'^https?://(www\.)?happyhocking\.com'
@@ -140,9 +144,12 @@ lc_cohost = link_click('LC - Co-host with us', SITE + r'/co-hosting([?#].*)?$')
 lc_contact = link_click('LC - Call or email', r'^(tel|mailto):')
 
 # ---- Tags
-# No Google Tag here: GA4 is linked to the container itself, so the container's own Google tag loads it and sends
-# page views. A separate Google Tag for the same ID is flagged by GTM as a "Conflicting Google tag".
-# content_group = {{RT - page_type}} is set in the container's Google tag settings instead (docs/tracking/README.md).
+# The Google Tag loads GA4 and sends page views, with content_group = page type. GA4 was not linked to the container
+# when the property was made (Nov 23), so the container needs this tag. If GA4 is ever linked to the container,
+# GTM flags this tag as a "Conflicting Google tag": rerun with --linked, or consolidate in GTM (docs/tracking/README.md).
+if not LINKED:
+    tag('Google Tag - GA4', 'googtag', [t('tagId', ga4_id), {'type': 'LIST', 'key': 'configSettingsTable', 'list': [
+        {'type': 'MAP', 'map': [t('parameter', 'content_group'), t('parameterValue', page_type)]}]}], [INIT_ALL_PAGES])
 ga4_event('generate_lead', [ce_lead], [('form_name', form_name), ('lead_type', lead_type), ('cabin', cabin)])
 ga4_event('newsletter_signup', [ce_signup], [('form_name', form_name)])
 ga4_event('form_start', [ce_form_start], [('form_name', form_name)])

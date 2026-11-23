@@ -222,7 +222,7 @@ GTM and GA4, set up to section 8.6 of Cole's website playbook, ported from WentD
 - `src/lib/track.ts` pushes `generate_lead` (guest contact form, co-hosting form), `newsletter_signup` and `form_start`. Lead events fire only after Netlify accepts the form. Nothing personal goes into the dataLayer.
 - `data-track` on the header, mobile menu, mobile bar, homepage and co-hosting heroes, the booking card, the closing band and the footer, for GTM's click tracking.
 - `/privacy#choices`: an advertising cookie switch (cookie `hh_ads_optout`), fixed in `src/pages/PrivacyPage.tsx`.
-- `scripts/gtm-container.py GTM-XXXX G-XXXX` writes the import file `docs/tracking/happyhocking-gtm.json`.
+- GA4 property `G-P9ZPMEE9TJ`, not linked to the container, so the import file carries its own Google Tag. `python3 scripts/gtm-container.py GTM-MNB9PCPW G-P9ZPMEE9TJ` writes the import file `docs/tracking/happyhocking-gtm.json` (10 tags).
 - Tested in a headless browser with tracking forced on: each form pushes its event once, a failed send pushes none, no name or email reaches the dataLayer, the switch sets and clears the cookie and the next page load starts with ad consent denied. A normal build has no GTM at all.
 
 ## Photos
