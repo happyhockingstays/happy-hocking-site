@@ -86,6 +86,7 @@ export function Header() {
       {/* The sticky box keeps one height so the page never jumps. Only the bar inside it shrinks on scroll. */}
       <div className={`pointer-events-none sticky top-0 z-50 h-[var(--header-h)] ${clear ? 'on-forest' : ''}`}>
         <header
+          data-track="navbar"
           className={`pointer-events-auto transition-[background-color,box-shadow,border-color] duration-300 ${
             clear ? 'border-b-2 border-transparent' : 'border-b-2 border-forest bg-cream'
           }`}
@@ -155,6 +156,7 @@ export function Header() {
         }`}
         role="dialog"
         aria-modal="true"
+        data-track="mobile_menu"
         aria-label="Menu"
       >
         <div className="container-x flex items-center justify-between py-3">

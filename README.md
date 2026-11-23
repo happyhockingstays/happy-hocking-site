@@ -140,7 +140,7 @@ Still to ask:
 7. **Airbnb soundbites:** use short Airbnb review quotes or not? Nothing from Airbnb is on the site. If yes, they add each one under Reviews with Source set to Airbnb.
 8. **Old co-hosting site.** Confirm hockinghills-hosting.com is being retired. The redirect to `/co-hosting` is built and does nothing until the domain points at Netlify.
 9. **Valhalla Hills tagline.** "A place to celebrate" is on the site as the proposed line. Final?
-10. **Privacy policy.** Built on Nov 15 at `/privacy` and linked in the footer (Cole's OK). It's a plain-language draft, not legal advice: it names Hospitable, Netlify, Mailchimp and Google, and says information isn't sold. Natalie and Dave should read it, and have their attorney look if they want one to. Editable in Pages CMS under **Page: Privacy**.
+10. **Privacy policy.** Built on Nov 15 at `/privacy` and linked in the footer (Cole's OK). It's a plain-language draft, not legal advice: it names Hospitable, Netlify, Mailchimp and Google, and says information isn't sold. Natalie and Dave should read it, and have their attorney look if they want one to. Editable in Pages CMS under **Page: Privacy**. Added Nov 23: a "Your privacy choices" section with a switch to turn off advertising cookies (fixed in the page code), and a line in "Cookies and similar tools" saying Google Analytics keeps visit statistics for 14 months.
 11. **Accounts.** GitHub and Netlify should end up in accounts they own. The repo is in Cole's GitHub for now. When do they want the handover?
 12. **Answered Nov 12 (Cole): direct is cheaper than Airbnb, no numbers yet. The book-direct post now says booking direct costs less. If they share actual rates, add a worked example.** Background: Since Sept 15, 2026, Airbnb charges US hosts a single fee (about 15.5%) and shows guests no separate service fee at checkout. Vrbo still adds a traveler fee. "Book direct and skip the booking-site service fees" is still true, but is the direct nightly rate actually lower than Airbnb's? The posts were written so they're true either way. If direct is cheaper, the book-direct post can say so with numbers.
 13. **Christmas at the cabins (new, Nov 15).** Are any cabins decorated for Christmas, and can guests bring a tree or their own decorations? The Christmas cabin rentals post says nothing either way. If the answer is yes, it's worth a line in the post and a question under it.
@@ -150,6 +150,7 @@ Still to ask:
 17. **The 2 owner posts (new, Nov 16).** A few lines are in the hosts' voice and need their OK: "plenty of the owners we work with came to us while they were buying", "taxes are part of the reason a lot of the owners we work with bought" and the co-hosting description (booking payments go straight to the owner, "we bill you for our work", "you see every booking and every payout"). The same description is now an FAQ on the co-hosting page.
 18. **Lodging tax (new, Nov 16).** Do they file the monthly Hocking County lodging tax for the owners they co-host for, or does each owner file? If they file it, the lodging tax post and the co-hosting page should say so: it's a real selling point.
 19. **The logo on computers: done (Nov 17).** Natalie made the logo herself (a ChatGPT image she traced in Illustrator). Cole smoothed the small bumps where the curves meet, keeping her layout, and swapped in the new `wordmark.svg` and `wordmark-reversed.svg`. Natalie approved it. The share images still use the old logo; at that size the difference doesn't show, so they weren't remade.
+20. **Internal traffic (new, Nov 23).** The IP addresses of the clients' home and office internet, so their own visits are left out of Google Analytics. Searching "what is my IP" on each connection shows it. Goes into GA4, step 2.4 of `docs/tracking/README.md`.
 
 ## 3. For Natalie to read and correct
 
@@ -189,7 +190,6 @@ These were drafted from her questionnaire, the mockup and the Airbnb listings. N
 
 | What | Where it goes when it arrives |
 |---|---|
-| Google Tag Manager ID (Natalie is creating the new Google accounts) | **Site settings**, **Google Tag Manager ID** |
 | Natalie's About story | **Page: About**, **Our story** |
 | Short bios for Natalie and Dave, and larger versions of the 2 team photos (the ones sent are under 600 px) | **Page: About**, **Team**, and **Page: Homepage**, story band. Both headshots and the team photo are in (Nov 11) |
 | Owner testimonials | **Page: Co-hosting**, **Owner testimonials**. The section appears once one is added |
@@ -212,9 +212,13 @@ Done Nov 15 (pull request #3, merged): the 4 collection pages, the privacy page,
 2. **Mailchimp.** 2 separate things:
    - **Footer signup:** wired up (Nov 15). The form address is in **Site settings**, **Mailchimp form address**. The signup keeps the site's own design and posts to Mailchimp, which opens its confirmation page in a new tab. Test it once on a preview with a real address.
    - **Pop-up form:** Cole duplicated the clients' pop-up for happyhocking.com, restyled it in the brand colors with the logo and set its page rules (Nov 15). It now shows after 30 seconds instead of 2. On a phone, one element of the pop-up covered its buttons, and Mailchimp wouldn't remove it for phones only, so Cole deleted it on both (Natalie OK'd, Nov 16). A pop-up has no embed code: it shows through the "connected site" script that's already on every page, once happyhocking.com is live and Mailchimp verifies it. It won't show on a preview address.
-3. **Pickle Hill fire pit photo**, if Natalie wants it.
-4. **Share images** are files, not part of the build. After adding a page or a post, or changing a cabin's main photo or a post's cover, run `python3 scripts/make-share-images.py` (in a chat with the repo attached). A page without one falls back to its own photo.
-5. **SEO package** (separate from the build). Keyword research and the IA are done (Lookout, client slug `hh-5cbs23`). The on-page pass for every page already in the repo is done (Nov 12), and the 4 collection pages are built (Nov 15). Left:
+3. **Tracking (Nov 23, pull request "GTM and GA4 tracking").** Cole created the GTM container and the GA4 property in his own Google account (Natalie's new Google accounts weren't ready), and hands both to the clients at the transfer. The site sends lead events for the guest and co-hosting forms, insider list signups and form starts, and marks where each button sits so GTM can track clicks. GTM loads only on happyhocking.com, never on a preview. Everything, including Cole's steps, is in `docs/tracking/README.md`. Left:
+   - Cole: import the container file and do the GA4 settings (steps 1 and 2 in that doc). Any time before launch
+   - Launch day: test in GTM Preview, publish the container, mark the key events (step 4)
+   - Bookings happen inside Hospitable's widget and aren't tracked yet. On the live site, check whether GA4's outbound clicks catch the step to Hospitable's checkout, and whether Hospitable has its own Google Analytics setting for the Direct site
+4. **Pickle Hill fire pit photo**, if Natalie wants it.
+5. **Share images** are files, not part of the build. After adding a page or a post, or changing a cabin's main photo or a post's cover, run `python3 scripts/make-share-images.py` (in a chat with the repo attached). A page without one falls back to its own photo.
+6. **SEO package** (separate from the build). Keyword research and the IA are done (Lookout, client slug `hh-5cbs23`). The on-page pass for every page already in the repo is done (Nov 12), and the 4 collection pages are built (Nov 15). Left:
    - The new Wave 1 posts, in the IA's publish order. 24 of 31 are written. Weeks 1 to 5 are merged (#4, #5, #7 to #11). Week 6 is in its own pull request (Nov 18): cabins in Ohio, cabin rentals with hot tub, cabins with pools in Ohio, Lake Hope State Park and John Glenn Astronomy Park. Next: week 7 (P108, P070, P081, P078, P118), then week 8 (P058, P059). Launch goes out with everything that's written (Cole, Nov 15)
    - Pull requests #6 to #11 merged Nov 15. The links between them were switched on in pull request #12 (Nov 16): 13 mentions in 8 posts. Still unlinked until their pages exist: Lake Hope State Park (P056), Tar Hollow State Park (P059) and John Glenn Astronomy Park (P057)
    - **Event dates:** pull request #6 adds this season's dates (Holidays in Ash Cave, Saturday, December 12, 2026, 3:00 to 5:00 pm; the Winter Hike, Saturday, January 16, 2027). After January, swap in next season's dates once the park posts them on its events calendar
@@ -240,6 +244,7 @@ The Cabins page filters can still be linked (`/cabins?group=large`), but copy sh
 8. Natalie or Dave turn on the review request message in Hospitable (`docs/reviews.md`).
 9. **Hospitable property URLs:** in Hospitable, **Direct**, the live Direct site, then the property list. Paste each cabin's page into its **URL** field (for example `https://happyhocking.com/cabins/valhalla-hills`). Search results send guests to this address, and Google Vacation Rentals uses it. Hospitable checks that the page loads over https with the matching booking widget, so it only passes once the new site is live.
 10. Send one last test through each form on the real domain.
+11. **Tracking:** GTM turns itself on with the first live deploy on happyhocking.com. Then Cole follows step 4 of `docs/tracking/README.md`: GTM Preview, test each form and button, publish the container, mark the key events in GA4 and link Search Console.
 
 ## Decided, so nobody re-asks
 
@@ -258,3 +263,4 @@ The Cabins page filters can still be linked (`/cabins?group=large`), but copy sh
 - Blog covers stay real photos, not drawn illustrations. Natalie finds park photos over time and swaps them in (Nov 16).
 - Cabin cards start on an outside photo and fade through 3 to 5 more on hover, about every 2.5 seconds. Phones keep the one photo (Nov 16).
 - No Netlify invite for Cole. Netlify-only steps happen on a screen share (Nov 16).
+- GTM and GA4 sit in Cole's Google account until the transfer, then the clients become Administrators on both and Cole stays on as an admin (Cole, Nov 23).

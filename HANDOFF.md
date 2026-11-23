@@ -212,7 +212,18 @@ Other choices made while building, all easy to change: the homepage cabin row sh
 
 ## Placeholders still in the site
 
-Natalie's story, bios, owner testimonials (hidden until one is added), guest reviews (hidden until one is published), a real Hocking Hills photo, the Mailchimp address and GTM ID.
+Natalie's story, bios, owner testimonials (hidden until one is added), guest reviews (hidden until one is published), a real Hocking Hills photo and the Mailchimp address.
+
+## Tracking (Nov 23)
+
+GTM and GA4, set up to section 8.6 of Cole's website playbook, ported from WentDirect. The full setup, the events and Cole's steps are in `docs/tracking/README.md`.
+
+- GTM loads only on a production build on happyhocking.com (`VITE_TRACKING` in `vite.config.ts`, the same check as the noindex switch), and only once `gtmId` is set in Site settings. Consent defaults run first. The old snippet's noscript iframe is gone.
+- `src/lib/track.ts` pushes `generate_lead` (guest contact form, co-hosting form), `newsletter_signup` and `form_start`. Lead events fire only after Netlify accepts the form. Nothing personal goes into the dataLayer.
+- `data-track` on the header, mobile menu, mobile bar, homepage and co-hosting heroes, the booking card, the closing band and the footer, for GTM's click tracking.
+- `/privacy#choices`: an advertising cookie switch (cookie `hh_ads_optout`), fixed in `src/pages/PrivacyPage.tsx`.
+- `scripts/gtm-container.py GTM-XXXX G-XXXX` writes the import file `docs/tracking/happyhocking-gtm.json`.
+- Tested in a headless browser with tracking forced on: each form pushes its event once, a failed send pushes none, no name or email reaches the dataLayer, the switch sets and clears the cookie and the next page load starts with ad consent denied. A normal build has no GTM at all.
 
 ## Photos
 

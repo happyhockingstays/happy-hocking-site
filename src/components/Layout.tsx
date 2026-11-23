@@ -3,6 +3,7 @@ import { Footer } from './Footer'
 import { Header } from './Header'
 import { MobileBar } from './MobileBar'
 import { useCurrentPath } from './SiteLink'
+import { startTracking } from '@/lib/track'
 
 /**
  * Fades and lifts elements marked data-reveal as they scroll into view.
@@ -52,6 +53,8 @@ function useReveal(path: string) {
 export function Layout({ children }: { children: ReactNode }) {
   const path = useCurrentPath()
   useReveal(path)
+  // form_start events for GA4 (src/lib/track.ts). Safe to call on every page: it only starts once.
+  useEffect(() => startTracking(), [])
   return (
     <>
       <Header />

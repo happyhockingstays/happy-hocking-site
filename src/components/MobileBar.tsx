@@ -12,7 +12,7 @@ export function MobileBar() {
   // The review form is a single-purpose page: nothing should sit on top of it.
   if (path === '/review') return null
   return (
-    <div className="on-forest fixed inset-x-0 bottom-0 z-40 border-t-2 border-mustard bg-forest px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3 lg:hidden">
+    <div data-track="mobile_bar" className="on-forest fixed inset-x-0 bottom-0 z-40 border-t-2 border-mustard bg-forest px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3 lg:hidden">
       <div className="flex items-center gap-3">
         <SiteLink to="/contact" className="btn btn-light !px-4" aria-label="Contact us">
           <Icon name="mail" className="h-5 w-5" />
