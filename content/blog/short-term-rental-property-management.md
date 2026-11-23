@@ -1,24 +1,40 @@
 ---
 title: "Short-term rental property management: how to choose a manager"
-seoTitle: Short-term rental property management | Happy Hocking Stays
 draft: false
-description: Short-term rental property management, explained for owners. What a manager does, the questions to ask and how to tell a good fit before you sign.
+description: Short-term rental property management, explained for owners. What a
+  manager does, the questions to ask and how to tell a good fit before you sign.
 date: 2026-11-16
-updated: 2026-11-16
 category: For owners
 cover: /images/cabins/the-johnny/pool/the-johnny-pool-001.jpg
-coverAlt: Pool in front of the log cabin at The Johnny, a Hocking Hills vacation home we manage as co-hosts
+coverAlt: Pool in front of the log cabin at The Johnny, a Hocking Hills vacation
+  home we manage as co-hosts
+seoTitle: Short-term rental property management | Happy Hocking Stays
+updated: 2026-11-16
 faqs:
   - q: What does a vacation rental property manager do?
-    a: A vacation rental property manager runs the daily work of a short-term rental. That covers guest messages, the calendar and pricing, cleaning between stays, maintenance and repairs, and the listing itself. Some also hold the listing and collect the booking money. Others, like co-hosts, leave the listing and the payouts with the owner.
+    a: A vacation rental property manager runs the daily work of a short-term
+      rental. That covers guest messages, the calendar and pricing, cleaning
+      between stays, maintenance and repairs, and the listing itself. Some also
+      hold the listing and collect the booking money. Others, like co-hosts,
+      leave the listing and the payouts with the owner.
   - q: How do I choose a vacation rental manager?
-    a: Start with how they'd run your home, not their sales pitch. Ask who cleans, who answers guests at night, how fast repairs happen, who holds the listing and the money and how you'll see results each month. Then ask to talk with an owner they work for now. A good vacation rental manager is glad to set that up.
+    a: Start with how they'd run your home, not their sales pitch. Ask who cleans,
+      who answers guests at night, how fast repairs happen, who holds the
+      listing and the money and how you'll see results each month. Then ask to
+      talk with an owner they work for now. A good vacation rental manager is
+      glad to set that up.
   - q: Can I switch property managers in the middle of the year?
-    a: Usually, yes, but read your contract first. Most agreements spell out how much notice you owe and what happens to bookings already on the calendar. Switching is simpler when the listing is in your name, because the reviews and future bookings stay with you. Plan the handoff for a quiet week if you can.
+    a: Usually, yes, but read your contract first. Most agreements spell out how
+      much notice you owe and what happens to bookings already on the calendar.
+      Switching is simpler when the listing is in your name, because the reviews
+      and future bookings stay with you. Plan the handoff for a quiet week if
+      you can.
   - q: Does my manager need to be local?
-    a: For a cabin, local matters. Someone has to meet the cleaners, check the hot tub, deal with a power outage and get to the home fast when a guest needs help. In Hocking County, the draft short-term rental rules would also require a local contact who can reach the home quickly, so plan for one.
+    a: For a cabin, local matters. Someone has to meet the cleaners, check the hot
+      tub, deal with a power outage and get to the home fast when a guest needs
+      help. In Hocking County, the drafted short-term rental rules would also
+      require a local contact who can reach the home quickly, so plan for one.
 ---
-
 Short-term rental property management is the work of running a vacation home for its owner: answering guests, keeping the calendar and prices right, cleaning between stays and fixing what breaks. Choosing a manager comes down to 3 things: who does that work, who holds your listing and your money and how you'll know it's going well.
 
 We manage vacation homes in the Hocking Hills as co-hosts. Here's what we'd want any owner to know before they sign with anyone, us included.
